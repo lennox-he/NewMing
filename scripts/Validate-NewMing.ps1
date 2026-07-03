@@ -215,6 +215,28 @@ function Test-NoAddClaimInsideCreateState {
     }
 }
 
+function Test-RequiredBuildingGroups {
+    $path = Join-Path $ModRoot "common\building_groups\00_building_groups.txt"
+    if (-not (Test-Path -LiteralPath $path)) {
+        return
+    }
+
+    $text = Get-Content -Raw -LiteralPath $path
+    $requiredGroups = @(
+        "bg_ship_construction",
+        "bg_naval_fortification",
+        "bg_naval_administration",
+        "bg_naval_logistics_center",
+        "bg_army_logistics_center"
+    )
+
+    foreach ($group in $requiredGroups) {
+        if ($text -notmatch "(?m)^\s*$([regex]::Escape($group))\s*=\s*\{") {
+            Add-Failure "Missing Victoria 3 1.13 building group required by map/building history: common\building_groups\00_building_groups.txt ($group)"
+        }
+    }
+}
+
 function Get-GitTrackedFiles {
     $gitOutput = & git -C $ModRoot ls-files 2>&1
     if ($LASTEXITCODE -ne 0) {
@@ -313,6 +335,7 @@ Test-AccessoryVariationTopLevelBlocks
 Test-PortraitPatternMaskPaths
 Test-NoDirectCommanderUsageTrigger
 Test-NoAddClaimInsideCreateState
+Test-RequiredBuildingGroups
 
 Test-NoPatternInFiles `
     -RelativePath "common\interest_groups" `
