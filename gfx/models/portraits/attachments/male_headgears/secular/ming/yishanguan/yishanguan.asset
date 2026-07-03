@@ -1,0 +1,92 @@
+pdxmesh = {
+	name = "yishanguan_mesh"
+	file = "yishanguan.mesh"
+
+	meshsettings = {
+		name = "yishanguan_zhuangshi"
+		index = 0
+		texture_diffuse = "yishanguan_diffuse.dds"
+		texture_normal = "yishanguan_normal.dds"
+		texture_specular = "yishanguan_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "yishanguan_benti"
+		index = 0
+		texture_diffuse = "yishanguan_benti_d.dds"
+		texture_normal = "yishanguan_benti_n.dds"
+		texture_specular = "yishanguan_benti_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "yishanguan_entity"
+	pdxmesh = "yishanguan_mesh"
+}
+
+pdxmesh = {
+	name = "yishanguan_nv_mesh"
+	file = "yishanguan_nv.mesh"
+
+	meshsettings = {
+		name = "yishanguan_zhuangshi"
+		index = 0
+		texture_diffuse = "yishanguan_diffuse.dds"
+		texture_normal = "yishanguan_normal.dds"
+		texture_specular = "yishanguan_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "yishanguan_benti"
+		index = 0
+		texture_diffuse = "yishanguan_benti_d.dds"
+		texture_normal = "yishanguan_benti_n.dds"
+		texture_specular = "yishanguan_benti_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "yishanguan_nv_entity"
+	pdxmesh = "yishanguan_nv_mesh"
+}
+
+pdxmesh = {
+	name = "wushayishanguan_mesh"
+	file = "wushayishanguan.mesh"
+
+	meshsettings = {
+		name = "wushayishanguan_zhuangshi"
+		index = 0
+		texture_diffuse = "yishanguan_diffuse.dds"
+		texture_normal = "yishanguan_normal.dds"
+		texture_specular = "yishanguan_properties.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+	meshsettings = {
+		name = "wushayishanguan_benti"
+		index = 0
+		texture_diffuse = "yishanguan_benti_d.dds"
+		texture_normal = "yishanguan_benti_n.dds"
+		texture_specular = "yishanguan_benti_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+
+}
+
+entity = {
+	name = "wushayishanguan_entity"
+	pdxmesh = "wushayishanguan_mesh"
+}

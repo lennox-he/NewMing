@@ -1,0 +1,34 @@
+pdxmesh = {
+	name = "xinjun_haijun_mesh"
+	file = "xinjun_haijun.mesh"
+
+    blend_shape = { id = "xinjun_haijun_bs_fat"                type = "xinjun_haijun_bs_fat.mesh" }
+    blend_shape = { id = "xinjun_haijun_bs_gaunt"              type = "xinjun_haijun_bs_gaunt.mesh" }
+    blend_shape = { id = "xinjun_haijun_bs_infant"             type = "xinjun_haijun_bs_infant.mesh" }
+    blend_shape = { id = "xinjun_haijun_bs_old"                type = "xinjun_haijun_bs_old.mesh" }
+    blend_shape = { id = "xinjun_haijun_bs_thick"              type = "xinjun_haijun_bs_thick.mesh" }
+    blend_shape = { id = "xinjun_haijun_bs_thin"               type = "xinjun_haijun_bs_thin.mesh" }
+	
+	meshsettings = {
+		name = "xinjun_haijun"
+		index = 0
+		texture_diffuse = "xinjun_haijun.dds"
+		texture_normal = "xinjun_haijun_n.dds"
+		texture_specular = "xinjun_haijun_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "haijunfu_entity"
+	pdxmesh = "xinjun_haijun_mesh"
+
+    attribute = { name = "body_bs_fat"                                 blend_shape = "xinjun_haijun_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "xinjun_haijun_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "xinjun_haijun_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "xinjun_haijun_bs_old" }
+    attribute = { name = "body_bs_thick"                               blend_shape = "xinjun_haijun_bs_thick" }
+    attribute = { name = "body_bs_thin"                                blend_shape = "xinjun_haijun_bs_thin" }
+	
+}

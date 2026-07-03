@@ -1,0 +1,69 @@
+
+
+special_genes = {
+accessory_genes = {
+ming_xie = {
+junku_legwear = {
+index = 0
+male = { 1 = junku 1 = junxueku 1 = junku_haijun }
+female = { 1 = junku_nv }
+boy = male
+girl = female
+}
+
+junku_xinjun_legwear = {
+index = 1
+male = { 1 = junku_xinjun }
+female = { 1 = junku_xinjun_nv }
+boy = male
+girl = female
+}
+
+junku_beiyang_legwear = {
+index = 2
+male = { 1 = junku }
+female = { 1 = junku_nv }
+boy = male
+girl = female
+}
+
+junku_guojun_legwear = {
+index = 3
+male = { 1 = junku_guojun }
+female = { 1 = junku_guojun_nv }
+boy = male
+girl = female
+}
+
+junku_jiefangjun_legwear = {
+index = 4
+male = { 1 = junku_jiefangjun 1 = junku_pla_micai }
+female = { 1 = junku_jiefangjun_nv 1 = junku_pla_micai_nv }
+boy = male
+girl = female
+}
+
+
+
+
+
+
+SRC_zhonggaochanjieji_legwear = {
+index = 5
+male = { 1 = zhongshanku 1 = junxueku }
+female = {  }
+boy = male
+girl = female
+}
+
+
+
+
+
+
+
+
+				
+		}	
+	}
+}

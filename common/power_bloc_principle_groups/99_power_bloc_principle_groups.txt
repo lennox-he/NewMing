@@ -1,0 +1,21 @@
+principle_group_tianchao_neisheng = { #内圣之道 
+	primary_for_identity = identity_tianchao
+	unlocking_identity = identity_tianchao
+
+	levels = {
+		principle_tianchao_neisheng_1 #
+		principle_tianchao_neisheng_2
+		principle_tianchao_neisheng_3
+	}
+}
+
+principle_group_tianchao_waiwang = { #外王之道
+	primary_for_identity = identity_tianchao
+	unlocking_identity = identity_tianchao
+
+	levels = {
+		principle_tianchao_waiwang_1
+		principle_tianchao_waiwang_2
+		principle_tianchao_waiwang_3
+	}
+}

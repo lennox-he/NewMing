@@ -1,0 +1,17 @@
+INJECT:law_per_capita_based_taxation = {
+	can_enact = {
+		NOT = { has_modifier = ming_tax_head }
+	}
+}
+
+INJECT:law_proportional_taxation = {
+	can_enact = {
+		NOT = { has_modifier = ming_tax_head }
+	}
+}
+
+INJECT:law_graduated_taxation = {
+	can_enact = {
+		NOT = { has_modifier = ming_tax_head }
+	}
+}

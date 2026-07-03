@@ -1,0 +1,96 @@
+DIPLOMACY ={
+	c:DZU = {
+		create_diplomatic_pact = {
+			country = c:MGL
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:KOK
+			type = vassal
+		}		
+		create_diplomatic_pact = {
+			country = c:OZH
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:UZH
+			type = vassal
+		}
+	}
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = puppet
+		}			
+	}
+	c:SIA = {
+		create_diplomatic_pact = {
+			country = c:SGG
+			type = tributary
+		}
+	}
+	c:CNM = {
+		create_diplomatic_pact = {
+			country = c:MMK
+			type = tusi_china
+		}
+		create_diplomatic_pact = {
+			country = c:HMI
+			type = xuanweisi_china
+		}
+		create_diplomatic_pact = {
+			country = c:ZHY
+			type = tusi_china
+		}
+		create_diplomatic_pact = {
+			country = c:CEL
+			type = tusi_china
+		}
+		create_diplomatic_pact = {
+			country = c:CHS
+			type = tusi_china
+		}
+		create_diplomatic_pact = {
+			country = c:TIB
+			type = jimi_china
+		}
+		create_diplomatic_pact = {
+			country = c:LAN
+			type = chaogong_china
+		}
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = chaogong_china
+		}
+		create_diplomatic_pact = {
+			country = c:SUL
+			type = chaogong_china
+		}
+		create_diplomatic_pact = {
+			country = c:CNY
+			type = xuanweisi_china
+		}
+		create_diplomatic_pact = {
+			country = c:CNN
+			type = fanwang_china
+		}
+		create_diplomatic_pact = {
+			country = c:CNP
+			type = fanwang_china
+		}
+	}
+	c:TIB = {
+		create_diplomatic_pact = {
+			country = c:SIK
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:LAD
+			type = tributary
+		}
+		create_diplomatic_pact = {
+			country = c:BHU
+			type = tributary
+		}
+	}
+}

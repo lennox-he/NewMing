@@ -1,0 +1,41 @@
+pdxmesh = {
+	name = "shandimao_mesh"
+	file = "shandimao.mesh"
+
+	meshsettings = {
+		name = "shandimao"
+		index = 0
+		texture_diffuse = "shandimao.dds"
+		texture_normal = "shandimao_n.dds"
+		texture_specular = "shandimao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "shandimao_entity"
+	pdxmesh = "shandimao_mesh"
+
+}
+
+pdxmesh = {
+	name = "shandimao_nv_mesh"
+	file = "shandimao_nv.mesh"
+
+	meshsettings = {
+		name = "shandimao"
+		index = 0
+		texture_diffuse = "shandimao.dds"
+		texture_normal = "shandimao_n.dds"
+		texture_specular = "shandimao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "shandimao_nv_entity"
+	pdxmesh = "shandimao_nv_mesh"
+
+}

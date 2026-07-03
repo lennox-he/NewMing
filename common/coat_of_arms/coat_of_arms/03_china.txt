@@ -1,0 +1,595 @@
+MING_EMPIRE = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ming.dds"
+		color1 = "black"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}
+
+}
+
+MING_EMPIRE_2 = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	textured_emblem = {
+		texture = "ming_empire.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}	
+}
+
+MING = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	textured_emblem = {
+		texture = "te_coa_ming_no.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+
+}
+
+MING_REPUBLIC = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"	
+	textured_emblem = {
+		texture = "ming_sol.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+
+}
+
+MING_JUNTA = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	textured_emblem = {
+		texture = "te_coa_ming_junta.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+
+}
+
+MING_FAS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	textured_emblem = {
+		texture = "te_coa_ming_fxs.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+MNG_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "red"
+	
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+        		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } }				
+	}	
+	colored_emblem = {
+		texture = "ming.dds"
+		color1 = "black"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } }		
+	}		
+}
+
+DZU1 = { 
+	
+	pattern = "pattern_border_venice.dds"
+	color2 = "yellow"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_cross_wheel.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.85 0.85 } position = { 0.5 0.5 } }	
+	}
+}
+
+CNL1 = { #  黎洲
+	
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}	
+	textured_emblem = {
+		texture = "te_coa_li.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+CNL2 = { #  黎洲
+
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_wreath.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.5 } }		
+	}	
+}
+
+CNN1 = { #  安南
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "yellow_light"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "te_coa_annan.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+CNP1 = { #  吕宋
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "te_coa_lvsong.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+CNY1 = { #  远南
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "te_coa_yuannan.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+RYU1 = { #  琉球
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_stripes_02_bottom_lithuania.dds"
+		color1 = "red"
+		color2 = "black"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.55 } }
+	}
+	colored_emblem = {
+		texture = "ce_stripe_bottom_raised.dds"
+		color1 = "black"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.7 } }
+	}
+	textured_emblem = {
+		texture = "liuqiu.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+HMI1 = { #  哈密
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	textured_emblem = {
+		texture = "te_coa_hami.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+HMI1_subject = { #  哈密
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	textured_emblem = {
+		texture = "te_coa_hami.dds"
+		instance = { scale = { 0.8 0.8 } position = { 0.75 0.5 } }		
+	}	
+}
+
+CHELI = { #  车里
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	textured_emblem = {
+		texture = "te_coa_cheli.dds"
+		instance = { scale = { 1.5 1.5 } position = { 0.5 0.5 } }		
+	}	
+}
+
+ZHENGYUAN = { #  镇元
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	textured_emblem = {
+		texture = "te_coa_zhengyuan.dds"
+		instance = { scale = { 1.5 1.5 } position = { 0.5 0.5 } }		
+	}	
+}
+
+CHASHAN = { #  茶山
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	textured_emblem = {
+		texture = "te_coa_chashan.dds"
+		instance = { scale = { 1.5 1.5 } position = { 0.5 0.5 } }		
+	}	
+}
+
+MENGMOU = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	textured_emblem = {
+		texture = "te_coa_mengmou.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+
+SHUNCHAO = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "light_blue"
+	textured_emblem = {
+		texture = "te_coa_shun.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+DAXI = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	textured_emblem = {
+		texture = "te_coa_xi.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+YUYUAN = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	textured_emblem = {
+		texture = "te_coa_yuyuan.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+XUANDA = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	textured_emblem = {
+		texture = "te_coa_xuanda.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+DONGNING = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	textured_emblem = {
+		texture = "te_coa_zheng.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+LAN = { # Lanfang
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	textured_emblem = {
+		texture = "te_coa_lanfang.dds"
+        		instance = { position = { 0.5 0.5 } scale = { 1.2 1.2 } }		
+	}
+}
+LAN_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+		
+	textured_emblem = {
+		texture = "te_coa_lanfang.dds"
+        		instance = { position = { 0.75 0.5 } scale = { 0.6 0.6 } }		
+	}
+}
+
+XJB_XWS = { #  北辰
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue_light"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "te_coa_beichen.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XJB_1 = { #  极北
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue_light"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "te_coa_jibei.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XXF = { #  爔枫
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red_light"
+	color2 = "black"
+	textured_emblem = {
+		texture = "te_coa_xifeng.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XYA = { #  殷安
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "pink"
+	color2 = "black"
+	textured_emblem = {
+		texture = "te_coa_yingan.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XYS = { #  阳山
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"
+	textured_emblem = {
+		texture = "te_coa_yangshan.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XHY = { #  煌原
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "yellow"
+	color2 = "black"
+	textured_emblem = {
+		texture = "te_coa_huangyuan.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XHZ = { #  河中
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue_light"
+	color2 = "black"
+	textured_emblem = {
+		texture = "ming_xiyu.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XHZ = { #  河中
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue_light"
+	color2 = "black"
+	textured_emblem = {
+		texture = "ming_xiyu.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XmHL = { #  和林
+	
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue_light"
+	color2 = "black"
+	textured_emblem = {
+		texture = "ming_helin.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+QING_MING_SUB = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "yellow"
+	color2 = "black"
+	textured_emblem = {
+		texture = "ming_qing.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+XMD = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "yellow"
+	color2 = "black"
+	textured_emblem = {
+		texture = "ming_miandian.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+TIB_MING_SUB = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue"
+	color2 = "black"
+	textured_emblem = {
+		texture = "ming_wusizang.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+YUA = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "blue"
+	textured_emblem = {
+		texture = "te_yuan.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+MGE = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue"
+	color2 = "black"
+	textured_emblem = {
+		texture = "te_mge.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}	
+}
+
+CNW = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "white"
+	color2 = "black"
+	textured_emblem = {
+		texture = "cny_yingzhou_coa.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+SGG = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	colored_emblem = {
+		texture = "song.png"
+		color1 = "black"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }
+	}
+}
+
+CNA = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "CNA.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+CNB = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "CNB.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+CNF = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "CNF.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+CNX = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "CNG.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+CNI = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "CNI.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+CNR = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "CNR.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+CNS = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "CNS.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+CNT = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "CNT.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+CNJ = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "cny_yingzhou_coa.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+HUAXIA = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "tuanlong.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}
+
+HUAXIA_com = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "black"	
+	textured_emblem = {
+		texture = "tianchao.png"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 } }		
+	}
+}

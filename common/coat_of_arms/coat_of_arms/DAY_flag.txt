@@ -1,0 +1,302 @@
+DAY_blue = {
+	pattern = "pattern_border_double.dds"
+	color1 = "blue_light"##blue_light
+	color2 = "blue_light"
+	color3 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+        instance = { scale = { 0.66 0.66 } position = { 0.25 0.35 } }				
+	}
+	colored_emblem = {
+		texture = "ce_morning_star.dds"##ce_morning_star
+		color1 = "white"
+		# color2 = "red_light"
+        instance = { scale = { 0.5 0.5 } position = { 0.25 0.35 } }				
+	}
+}
+DAY_red = {
+	pattern = "pattern_border_double.dds"
+	color1 = "red_light"
+	color2 = "red_light"
+	color3 = "red_light"
+
+	colored_emblem = {
+		texture = "ce_hammer_sickle_star_wreath.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+        instance = { scale = { 0.6 0.6 } position = { 0.20 0.30 } }				
+	}
+}		
+DAY_yellow = {
+	# New South Wales Ensign
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}
+	colored_emblem = {
+		texture = "ce_dragon_china_circle.dds"
+		color1 = "blue"
+		color2 = "white"
+		color3 = "blue_light"
+		instance = { scale = { 0.68 0.68 } position = { 0.50 0.51 } }			
+	}	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { scale = { 0.12 0.12 } position = { 0.5 0.525 } }		
+	}	
+}
+DAY_anarchy_black = {
+	# New South Wales Ensign
+	pattern = "pattern_solid.tga"
+	color1 = "brown"
+	color2 = "brown"
+	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}
+	colored_emblem = {
+		texture = "ce_dragon_china_circle.dds"
+		color1 = "blue"
+		color2 = "white"
+		color3 = "blue_light"
+		instance = { scale = { 0.68 0.68 } position = { 0.50 0.51 } }			
+	}	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { scale = { 0.12 0.12 } position = { 0.5 0.525 } }		
+	}	
+}
+DAY_theocracy = {
+	pattern = "pattern_border_double.dds"
+	color1 = "blue_light"
+	color2 = "blue_light"
+	color3 = "blue_light"
+
+	colored_emblem = {
+		texture = "ce_buddha.dds"##佛像
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "yellow"
+        instance = { scale = { 0.5 0.5 } position = { 0.25 0.35 } }				
+	}
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+        instance = { scale = { 0.66 0.66 } position = { 0.25 0.35 } }				
+	}
+}
+
+DAY_ming = {# 大明
+	# Combination of traditionnal Crow designs
+	
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "white"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ming.dds"
+		color1 = "black"
+		instance = { scale = { 1.2 1.2 } position = { 0.5 0.5 } }
+	}
+}
+
+XJS = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "red"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_morning_star.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+	}
+}
+
+XJB = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue"
+	color2 = "blue"
+
+	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_morning_star.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+	}
+}
+
+XJA = {
+	pattern = "pattern_border_of_4.dds"
+	color1 =  "yellow"
+	color2 =  "yellow"
+
+	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_morning_star.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+	}
+}
+
+XJC = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = purple
+	color2 = purple
+
+		
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 =  { 218 165 32 }
+		color2 =  { 218 165 32 }
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_morning_star.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+	}
+}
+
+XJD = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "green_light"
+	color2 = "green_light"
+
+		
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 =  { 218 165 32 }
+		color2 =  { 218 165 32 }
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }	
+	}	
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_morning_star.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+	}
+}
+
+XJE = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "orange"
+	color2 = "orange"
+
+		
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
+	}	
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_morning_star.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+	}
+}
+
+XJF = {
+	pattern = "pattern_border_of_4.dds"
+	color1 = "blue_light"
+	color2 = "blue_light"
+
+	
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "orange"
+		color2 = "orange"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }		
+	}	
+	colored_emblem = {
+		texture = "ce_wreath.dds"
+		color1 = "white"
+		color2 = "white"
+        instance = { scale = { 0.66 0.66 } position = { 0.5 0.5 } }				
+	}	
+	colored_emblem = {
+		texture = "ce_morning_star.dds"
+		color1 = "white"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 }  }
+	}
+}

@@ -1,0 +1,64 @@
+DIPLOMACY = {
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = dominion
+		}
+	}
+	c:SIA = {
+		create_diplomatic_pact = {
+			country = c:SGG
+			type = tributary
+		}
+	}
+	c:CNM = {
+		create_diplomatic_pact = {
+			country = c:MMK
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:HMI
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:ZHY
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:CEL
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:CHS
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:TIB
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:LAN
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SUL
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:CNY
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:CNN
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:CNP
+			type = dominion
+		}
+	}
+}

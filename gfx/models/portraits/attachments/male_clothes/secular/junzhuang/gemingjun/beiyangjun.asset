@@ -1,0 +1,205 @@
+﻿
+pdxmesh = {
+name = "beiyang_jiangjun_mesh"
+file = "beiyangjun.mesh"
+	
+blend_shape = { id = "beiyang_bs_fat"			type = "beiyangjun_fat.mesh" }
+blend_shape = { id = "beiyang_bs_old"			type = "beiyangjun_old.mesh" }
+blend_shape = { id = "beiyang_bs_infant"		type = "beiyangjun_infant.mesh" }
+blend_shape = { id = "beiyang_bs_thick"		type = "beiyangjun_thick.mesh" }
+
+
+meshsettings = {
+name = "beiyangjunfu"
+index = 0
+texture_diffuse = "beiyang_jiangjun.dds"
+texture_normal = "beiyang_n.dds"
+texture_specular = "beiyang_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "beiyang_jiangjun_entity"
+pdxmesh = "beiyang_jiangjun_mesh"
+		
+attribute = { name = "body_bs_fat"		blend_shape = "beiyang_bs_fat" }
+attribute = { name = "body_bs_old"		blend_shape = "beiyang_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "beiyang_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "beiyang_bs_thick" }
+
+
+}
+
+pdxmesh = {
+name = "beiyang_junguan_mesh"
+file = "beiyangjun.mesh"
+	
+blend_shape = { id = "beiyang_bs_fat"			type = "beiyangjun_fat.mesh" }
+blend_shape = { id = "beiyang_bs_old"			type = "beiyangjun_old.mesh" }
+blend_shape = { id = "beiyang_bs_infant"		type = "beiyangjun_infant.mesh" }
+blend_shape = { id = "beiyang_bs_thick"		type = "beiyangjun_thick.mesh" }
+
+
+meshsettings = {
+name = "beiyangjunfu"
+index = 0
+texture_diffuse = "beiyang_junguan.dds"
+texture_normal = "beiyang_n.dds"
+texture_specular = "beiyang_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "beiyang_junguan_entity"
+pdxmesh = "beiyang_junguan_mesh"
+		
+attribute = { name = "body_bs_fat"		blend_shape = "beiyang_bs_fat" }
+attribute = { name = "body_bs_old"		blend_shape = "beiyang_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "beiyang_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "beiyang_bs_thick" }
+
+
+}
+
+
+pdxmesh = {
+name = "beiyang_shibing_mesh"
+file = "beiyangjun.mesh"
+	
+blend_shape = { id = "beiyang_bs_fat"			type = "beiyangjun_fat.mesh" }
+blend_shape = { id = "beiyang_bs_old"			type = "beiyangjun_old.mesh" }
+blend_shape = { id = "beiyang_bs_infant"		type = "beiyangjun_infant.mesh" }
+blend_shape = { id = "beiyang_bs_thick"		type = "beiyangjun_thick.mesh" }
+
+meshsettings = {
+name = "beiyangjunfu"
+index = 0
+texture_diffuse = "beiyang_shibing.dds"
+texture_normal = "beiyang_n.dds"
+texture_specular = "beiyang_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "beiyang_shibing_entity"
+pdxmesh = "beiyang_shibing_mesh"
+		
+attribute = { name = "body_bs_fat"		blend_shape = "beiyang_bs_fat" }
+attribute = { name = "body_bs_old"		blend_shape = "beiyang_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "beiyang_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "beiyang_bs_thick" }
+
+}
+
+
+
+
+
+
+
+
+pdxmesh = {
+name = "beiyang_jiangjun_nv_mesh"
+file = "beiyangjun_nv.mesh"
+	
+#blend_shape = { id = "beiyang_nv_bs_fat"			type = "beiyangjun_fat_nv.mesh" }
+#blend_shape = { id = "beiyang_nv_bs_old"			type = "beiyangjun_old_nv.mesh" }
+#blend_shape = { id = "beiyang_nv_bs_infant"		type = "beiyangjun_infant_nv.mesh" }
+blend_shape = { id = "beiyang_nv_bs_thick"		type = "beiyangjun_nv_thick.mesh" }
+
+
+meshsettings = {
+name = "beiyangjunfu_nv"
+index = 0
+texture_diffuse = "beiyang_jiangjun.dds"
+texture_normal = "beiyang_n.dds"
+texture_specular = "beiyang_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "beiyang_jiangjun_nv_entity"
+pdxmesh = "beiyang_jiangjun_nv_mesh"
+		
+#attribute = { name = "body_bs_fat"		blend_shape = "beiyang_nv_bs_fat" }
+#attribute = { name = "body_bs_old"		blend_shape = "beiyang_nv_bs_old" }
+#attribute = { name = "body_bs_infant"		blend_shape = "beiyang_nv_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "beiyang_nv_bs_thick" }
+
+
+}
+
+pdxmesh = {
+name = "beiyang_junguan_nv_mesh"
+file = "beiyangjun_nv.mesh"
+	
+#blend_shape = { id = "beiyang_nv_bs_fat"			type = "beiyangjun_fat_nv.mesh" }
+#blend_shape = { id = "beiyang_nv_bs_old"			type = "beiyangjun_old_nv.mesh" }
+#blend_shape = { id = "beiyang_nv_bs_infant"		type = "beiyangjun_infant_nv.mesh" }
+blend_shape = { id = "beiyang_nv_bs_thick"		type = "beiyangjun_nv_thick.mesh" }
+
+
+meshsettings = {
+name = "beiyangjunfu_nv"
+index = 0
+texture_diffuse = "beiyang_junguan.dds"
+texture_normal = "beiyang_n.dds"
+texture_specular = "beiyang_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "beiyang_junguan_nv_entity"
+pdxmesh = "beiyang_junguan_nv_mesh"
+		
+#attribute = { name = "body_bs_fat"		blend_shape = "beiyang_nv_bs_fat" }
+#attribute = { name = "body_bs_old"		blend_shape = "beiyang_nv_bs_old" }
+#attribute = { name = "body_bs_infant"		blend_shape = "beiyang_nv_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "beiyang_nv_bs_thick" }
+
+
+}
+
+
+pdxmesh = {
+name = "beiyang_shibing_nv_mesh"
+file = "beiyangjun_nv.mesh"
+	
+#blend_shape = { id = "beiyang_nv_bs_fat"			type = "beiyangjun_nv_fat.mesh" }
+#blend_shape = { id = "beiyang_nv_bs_old"			type = "beiyangjun_nv_old.mesh" }
+#blend_shape = { id = "beiyang_nv_bs_infant"		type = "beiyangjun_nv_infant.mesh" }
+blend_shape = { id = "beiyang_nv_bs_thick"		type = "beiyangjun_nv_thick.mesh" }
+
+meshsettings = {
+name = "beiyangjunfu_nv"
+index = 0
+texture_diffuse = "beiyang_shibing.dds"
+texture_normal = "beiyang_n.dds"
+texture_specular = "beiyang_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "beiyang_shibing_nv_entity"
+pdxmesh = "beiyang_shibing_nv_mesh"
+		
+#attribute = { name = "body_bs_fat"		blend_shape = "beiyang_nv_bs_fat" }
+#attribute = { name = "body_bs_old"		blend_shape = "beiyang_nv_bs_old" }
+#attribute = { name = "body_bs_infant"		blend_shape = "beiyang_nv_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "beiyang_nv_bs_thick" }
+
+}
+
+

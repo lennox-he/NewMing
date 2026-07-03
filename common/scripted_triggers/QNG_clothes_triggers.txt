@@ -1,0 +1,163 @@
+REPLACE_OR_CREATE:chinese_imperial_clothes_trigger = { #清皇帝
+	exists = scope:character
+	scope:character = {
+		is_ruler = yes
+		owner = {
+			has_variable = is_qng_state
+			has_law = law_type:law_monarchy
+			country_has_primary_culture = cu:manchu
+			NOT = { has_variable = jianbian }
+		}
+		exists = c:CHI
+		owner = c:CHI
+	}
+}
+
+REPLACE_OR_CREATE:chinese_manchu_queue_hairstyle_character_trigger = { #满清辫角色
+	exists = scope:character
+	scope:character = {
+		exists = c:CHI
+		owner = c:CHI 
+		OR = {
+			culture = cu:manchu
+			owner = {
+				has_variable = is_qng_state
+				has_law = law_type:law_monarchy
+				country_has_primary_culture = cu:manchu
+				NOT = { has_variable = jianbian }
+			}
+		}
+	}
+}
+
+REPLACE_OR_CREATE:chinese_manchu_queue_hairstyle_pops_trigger = { #满清辫人群
+	exists = scope:pop
+	scope:pop = {
+		exists = c:CHI
+		owner = c:CHI
+		OR = {
+			culture = cu:manchu
+			owner = {
+				has_variable = is_qng_state
+				has_law = law_type:law_monarchy
+				country_has_primary_culture = cu:manchu
+				NOT = { has_variable = jianbian }
+			}
+		}
+	}
+}
+
+REPLACE_OR_CREATE:chinese_court_clothes_trigger = { #清官员角色
+	exists = scope:character
+	scope:character = {
+	is_ruler = no
+	owner = {
+		has_variable = is_qng_state
+		has_law = law_type:law_monarchy
+		country_has_primary_culture = cu:manchu
+	}
+	exists = c:CHI
+	owner = c:CHI
+	}	
+}
+
+REPLACE_OR_CREATE:chinese_court_clothes_pop_trigger = { #清官员人群
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			culture = cu:manchu
+			AND = {
+				is_pop_type = officers
+				owner = {
+					has_variable = is_qng_state
+					has_law = law_type:law_monarchy
+					owner = c:CHI
+					country_has_primary_culture = cu:manch
+				}
+			}
+		}
+	}	
+}
+
+qing_general_clothes_trigger = { #清陆军将领通用
+exists = scope:character
+scope:character = { 
+OR = {
+owner = {
+	has_law = law_type:law_monarchy owner = c:CHI country_has_primary_culture = cu:manchu has_variable = kaihua has_variable = is_qng_state }
+}
+has_role = general
+commander_rank >= 0
+} 
+}
+
+qing_admiral_clothes_trigger = { #清海军将领通用
+exists = scope:character
+scope:character = { 
+OR = {
+owner = { has_law = law_type:law_monarchy owner = c:CHI country_has_primary_culture = cu:manchu has_variable = kaihua has_variable = is_qng_state }
+owner = { country_has_primary_culture = cu:han NOT = { has_law = law_type:law_monarchy has_variable = is_qng_state } }
+}
+has_role = admiral
+commander_rank >= 0
+} 
+}
+
+junfa_officers_clothes_pop_trigger = { #军阀
+exists = scope:character
+scope:character = {
+	OR = {
+		AND = {
+			owner = {
+				NOT = { has_law = law_type:law_monarchy }
+				country_has_primary_culture = cu:han
+				NOT = { has_variable = is_qng_state }
+			}
+			OR = { has_role = admiral has_role = general interest_group = { is_interest_group_type = ig_armed_forces } }
+			commander_rank >= 0
+		}
+		AND = {
+			owner = { has_government_type = gov_warlord_state }
+			is_ruler = yes
+		}
+	}
+}
+}
+
+qing_officers_clothes_pop_trigger = { #清军官通用
+	exists = scope:pop
+	scope:pop = { 
+	owner = {
+		has_law = law_type:law_monarchy
+		or = {
+			AND = {
+				owner = c:CHI
+				country_has_primary_culture = cu:manchu
+				has_variable = kaihua
+			}
+			owner = c:CNM
+		}
+	}
+	is_pop_type = officers 
+	}
+}
+
+qing_soldier_clothes_pop_trigger = { #清士兵通用
+exists = scope:pop
+scope:pop = { 
+owner = { has_law = law_type:law_monarchy or = { AND = {owner = c:CHI country_has_primary_culture = cu:manchu has_variable = kaihua } owner = c:CNM } }
+is_pop_type = soldiers
+}
+}
+
+qing_ig_army_clothes_trigger = { #清军队集团
+exists = scope:character
+scope:character = {
+is_ruler = no
+owner = { has_law = law_type:law_monarchy owner = c:CHI country_has_primary_culture = cu:manchu has_variable = kaihua }
+interest_group = { is_interest_group_type = ig_armed_forces }
+}
+}
+
+
+

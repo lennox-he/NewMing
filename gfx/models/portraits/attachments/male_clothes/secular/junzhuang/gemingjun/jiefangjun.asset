@@ -1,0 +1,322 @@
+﻿
+pdxmesh = {
+name = "jiefangjun_jiangjun_mesh"
+file = "guojun.mesh"
+	
+blend_shape = { id = "guojun_bs_fat"		type = "guojun_fat.mesh" }
+blend_shape = { id = "guojun_bs_old"		type = "guojun_old.mesh" }
+blend_shape = { id = "guojun_bs_infant"		type = "guojun_infant.mesh" }
+blend_shape = { id = "guojun_bs_thick"		type = "guojun_thick.mesh" }
+
+meshsettings = {
+name = "guojunfu"
+index = 0
+texture_diffuse = "jiefangjun_jiangjun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "guojunlingkou"
+index = 0
+texture_diffuse = "jiefangjun_jiangjun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "jiefangjun_jiangjun_entity"
+pdxmesh = "jiefangjun_jiangjun_mesh"
+		
+attribute = { name = "body_bs_fat"			blend_shape = "guojun_bs_fat" }
+attribute = { name = "body_bs_old"			blend_shape = "guojun_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "guojun_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "guojun_bs_thick" }
+
+}
+
+
+
+pdxmesh = {
+name = "jiefangjun_junguan_mesh"
+file = "guojun.mesh"
+	
+blend_shape = { id = "guojun_bs_fat"		type = "guojun_fat.mesh" }
+blend_shape = { id = "guojun_bs_old"		type = "guojun_old.mesh" }
+blend_shape = { id = "guojun_bs_infant"		type = "guojun_infant.mesh" }
+blend_shape = { id = "guojun_bs_thick"		type = "guojun_thick.mesh" }
+
+meshsettings = {
+name = "guojunfu"
+index = 0
+texture_diffuse = "jiefangjun_jiangjun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "guojunlingkou"
+index = 0
+texture_diffuse = "jiefangjun_jiangjun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "jiefangjun_junguan_entity"
+pdxmesh = "jiefangjun_junguan_mesh"
+		
+attribute = { name = "body_bs_fat"			blend_shape = "guojun_bs_fat" }
+attribute = { name = "body_bs_old"			blend_shape = "guojun_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "guojun_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "guojun_bs_thick" }
+
+}
+
+
+
+pdxmesh = {
+name = "jiefangjun_shibing_mesh"
+file = "guojun.mesh"
+	
+blend_shape = { id = "guojun_bs_fat"		type = "guojun_fat.mesh" }
+blend_shape = { id = "guojun_bs_old"		type = "guojun_old.mesh" }
+blend_shape = { id = "guojun_bs_infant"		type = "guojun_infant.mesh" }
+blend_shape = { id = "guojun_bs_thick"		type = "guojun_thick.mesh" }
+
+meshsettings = {
+name = "guojunfu"
+index = 0
+texture_diffuse = "jiefangjun_shibing.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "guojunlingkou"
+index = 0
+texture_diffuse = "jiefangjun_shibing.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "jiefangjun_shibing_entity"
+pdxmesh = "jiefangjun_shibing_mesh"
+		
+attribute = { name = "body_bs_fat"			blend_shape = "guojun_bs_fat" }
+attribute = { name = "body_bs_old"			blend_shape = "guojun_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "guojun_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "guojun_bs_thick" }
+
+}
+
+
+pdxmesh = {
+name = "jiefangjun_haijun_mesh"
+file = "guojun.mesh"
+	
+blend_shape = { id = "guojun_bs_fat"		type = "guojun_fat.mesh" }
+blend_shape = { id = "guojun_bs_old"		type = "guojun_old.mesh" }
+blend_shape = { id = "guojun_bs_infant"		type = "guojun_infant.mesh" }
+blend_shape = { id = "guojun_bs_thick"		type = "guojun_thick.mesh" }
+
+meshsettings = {
+name = "guojunfu"
+index = 0
+texture_diffuse = "jiefangjun_haijun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "guojunlingkou"
+index = 0
+texture_diffuse = "jiefangjun_haijun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "jiefangjun_haijun_entity"
+pdxmesh = "jiefangjun_haijun_mesh"
+		
+attribute = { name = "body_bs_fat"			blend_shape = "guojun_bs_fat" }
+attribute = { name = "body_bs_old"			blend_shape = "guojun_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "guojun_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "guojun_bs_thick" }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pdxmesh = {
+name = "jiefangjun_jiangjun_nv_mesh"
+file = "guojun_nv.mesh"
+	
+blend_shape = { id = "guojun_nv_bs_thick"		type = "guojun_nv_thick.mesh" }
+
+meshsettings = {
+name = "guojunfu"
+index = 0
+texture_diffuse = "jiefangjun_jiangjun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "guojunlingkou"
+index = 0
+texture_diffuse = "jiefangjun_jiangjun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "jiefangjun_jiangjun_nv_entity"
+pdxmesh = "jiefangjun_jiangjun_nv_mesh"
+		
+attribute = { name = "body_bs_thick"		blend_shape = "guojun_nv_bs_thick" }
+
+}
+
+
+
+pdxmesh = {
+name = "jiefangjun_junguan_nv_mesh"
+file = "guojun_nv.mesh"
+	
+blend_shape = { id = "guojun_nv_bs_thick"		type = "guojun_nv_thick.mesh" }
+
+meshsettings = {
+name = "guojunfu"
+index = 0
+texture_diffuse = "jiefangjun_jiangjun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "guojunlingkou"
+index = 0
+texture_diffuse = "jiefangjun_jiangjun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "jiefangjun_junguan_nv_entity"
+pdxmesh = "jiefangjun_junguan_nv_mesh"
+		
+attribute = { name = "body_bs_thick"		blend_shape = "guojun_nv_bs_thick" }
+
+}
+
+
+
+pdxmesh = {
+name = "jiefangjun_shibing_nv_mesh"
+file = "guojun_nv.mesh"
+	
+blend_shape = { id = "guojun_nv_bs_thick"		type = "guojun_nv_thick.mesh" }
+
+meshsettings = {
+name = "guojunfu"
+index = 0
+texture_diffuse = "jiefangjun_shibing.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "guojunlingkou"
+index = 0
+texture_diffuse = "jiefangjun_shibing.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "jiefangjun_shibing_nv_entity"
+pdxmesh = "jiefangjun_shibing_nv_mesh"
+		
+attribute = { name = "body_bs_thick"		blend_shape = "guojun_nv_bs_thick" }
+
+}
+
+
+pdxmesh = {
+name = "jiefangjun_haijun_nv_mesh"
+file = "guojun_nv.mesh"
+	
+blend_shape = { id = "guojun_nv_bs_thick"		type = "guojun_nv_thick.mesh" }
+
+meshsettings = {
+name = "guojunfu"
+index = 0
+texture_diffuse = "jiefangjun_haijun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "guojunlingkou"
+index = 0
+texture_diffuse = "jiefangjun_haijun.dds"
+texture_normal = "guojun_n.dds"
+texture_specular = "guojun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "jiefangjun_haijun_nv_entity"
+pdxmesh = "jiefangjun_haijun_nv_mesh"
+		
+attribute = { name = "body_bs_thick"		blend_shape = "guojun_nv_bs_thick" }
+
+}

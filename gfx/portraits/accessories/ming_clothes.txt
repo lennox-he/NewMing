@@ -1,0 +1,439 @@
+﻿## these assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+
+
+ming_longpao = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_longpao_entity }
+}
+
+ming_longpao_red = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_longpao_entity }
+}
+
+ming_1pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_1pinwen_entity }
+}
+ming_2pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_2pinwen_entity }
+}
+ming_3pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_3pinwen_entity }
+}
+ming_4pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_4pinwen_entity }
+}
+ming_5pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_5pinwen_entity }
+}
+ming_6pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_6pinwen_entity }
+}
+ming_7pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_7pinwen_entity }
+}
+ming_8pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_8pinwen_entity }
+}
+ming_9pinwen = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_9pinwen_entity }
+}
+ming_12pinwu = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_12pinwu_entity }
+}
+ming_34pinwu = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_34pinwu_entity }
+}
+ming_5pinwu = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_5pinwu_entity }
+}
+ming_67pinwu = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_67pinwu_entity }
+}
+ming_8pinwu = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_8pinwu_entity }
+}
+ming_9pinwu = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_9pinwu_entity }
+}
+
+ming_jichengren = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_taizi_entity }
+}
+
+ming_qinwang = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_qinwang_entity }
+}
+
+ming_cifu_feiyupao = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_cifu_feiyupao_entity }
+}
+
+ming_cifu_feiyupao2 = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_cifu_feiyupao_entity }
+}
+
+jiaoling = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiaoling_entity }
+}
+
+qing_guanyuan = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = qing_guanyuan_entity }
+}
+
+gemingjun_shibing = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gemingjun_shibing_entity }
+}
+
+gemingjun_junguan = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gemingjun_junguan_entity }
+}
+
+gemingjun_jiangjun = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gemingjun_jiangjun_entity }
+}
+
+xinjun_jiangjun = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = xinjun_jiangjun_entity }
+}
+
+xinjun_junguan = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = xinjun_junguan_entity }
+}
+
+xinjun_shibing = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = xinjun_shibing_entity }
+}
+
+beiyang_jiangjun = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = beiyang_jiangjun_entity }
+}
+
+beiyang_junguan = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = beiyang_junguan_entity }
+}
+
+beiyang_shibing = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = beiyang_shibing_entity }
+}
+
+beiyang_haijun = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = beiyang_haijun_entity }
+}
+
+haijunfu = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = haijunfu_entity }
+}
+
+guojun_jiangjun = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = guojun_jiangjun_entity }
+}
+
+guojun_junguan = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = guojun_junguan_entity }
+}
+
+guojun_shibing = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = guojun_shibing_entity }
+}
+
+
+
+jiefangjun_jiangjun = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiefangjun_jiangjun_entity }
+}
+
+jiefangjun_junguan = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiefangjun_junguan_entity }
+}
+
+jiefangjun_shibing = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiefangjun_shibing_entity }
+}
+
+jiefangjun_haijun = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiefangjun_haijun_entity }
+}
+
+
+zhongshan_junlv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = zhongshan_junlv_entity }
+}
+
+zhongshan_heilan = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = zhongshan_heilan_entity }
+}
+
+zhongshan_heihui = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = zhongshan_heihui_entity }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######################################################################                       nv                       #####################################################################
+
+ming_longpao_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_longpao_nv_entity }
+}
+ming_1pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_1pinwen_nv_entity }
+}
+ming_2pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_2pinwen_nv_entity }
+}
+ming_3pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_3pinwen_nv_entity }
+}
+ming_4pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_4pinwen_nv_entity }
+}
+ming_5pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_5pinwen_nv_entity }
+}
+ming_6pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_6pinwen_nv_entity }
+}
+ming_7pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_7pinwen_nv_entity }
+}
+ming_8pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_8pinwen_nv_entity }
+}
+ming_9pinwen_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_9pinwen_nv_entity }
+}
+ming_12pinwu_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_12pinwu_nv_entity }
+}
+ming_34pinwu_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_34pinwu_nv_entity }
+}
+ming_5pinwu_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_5pinwu_nv_entity }
+}
+ming_67pinwu_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_67pinwu_nv_entity }
+}
+ming_8pinwu_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_8pinwu_nv_entity }
+}
+ming_9pinwu_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = ming_9pinwu_nv_entity }
+}
+
+ming_aoqun_nv1 = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = aoqun_entity }
+}
+ming_aoqun_nv2 = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = aoqun2_entity }
+}
+ming_aoqun_nv3 = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = aoqun_pingmin_entity }
+}
+ming_aoqun_nv4 = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = aoqun_pingmin2_entity }
+}
+
+ming_aoqun_nv5 = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = aoqun_pingmin3_entity }
+}
+
+jiaoling_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiaoling_nv_entity }
+}
+
+qipao_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = qipao_entity }
+}
+
+qipao_nv2 = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = qipao2_entity }
+}
+
+gemingjun_shibing_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gemingjun_shibing_nv_entity }
+}
+
+gemingjun_junguan_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gemingjun_junguan_nv_entity }
+}
+
+gemingjun_jiangjun_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = gemingjun_jiangjun_nv_entity }
+}
+
+xinjun_jiangjun_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = xinjun_jiangjun_nv_entity }
+}
+
+xinjun_junguan_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = xinjun_junguan_nv_entity }
+}
+
+xinjun_shibing_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = xinjun_shibing_nv_entity }
+}
+
+beiyang_jiangjun_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = beiyang_jiangjun_nv_entity }
+}
+
+beiyang_junguan_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = beiyang_junguan_nv_entity }
+}
+
+beiyang_shibing_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = beiyang_shibing_nv_entity }
+}
+
+guojun_jiangjun_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = guojun_jiangjun_nv_entity }
+}
+
+guojun_junguan_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = guojun_junguan_nv_entity }
+}
+
+guojun_shibing_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = guojun_shibing_nv_entity }
+}
+
+jiefangjun_jiangjun_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiefangjun_jiangjun_nv_entity }
+}
+
+jiefangjun_junguan_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiefangjun_junguan_nv_entity }
+}
+
+jiefangjun_shibing_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiefangjun_shibing_nv_entity }
+}
+
+jiefangjun_haijun_nv = {
+set_tags = "ming_yi"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = jiefangjun_haijun_nv_entity }
+}
+
+female_outfit_id_han_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_outfit_central_asian_01_low_entity" }	
+}
+
+female_outfit_id_han_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_outfit_central_asian_01_high_entity" }	
+}
+
+male_outfit_id_han_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_low_entity" }	
+}
+
+male_outfit_id_han_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_high_entity" }	
+}
+
+male_outfit_id_han_01_imperial = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_imperial_entity" }	
+}
+
+male_outfit_mongol_imperial = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "f_clothes_sec_mpo_mongol_imp_01_entity" }	
+}

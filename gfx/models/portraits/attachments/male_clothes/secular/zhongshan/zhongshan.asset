@@ -1,0 +1,122 @@
+﻿
+pdxmesh = {
+name = "zhongshan_junlv_mesh"
+file = "zhongshan.mesh"
+	
+#blend_shape = { id = "zhongshan_bs_fat"		type = "zhongshan_fat.mesh" }
+blend_shape = { id = "zhongshan_bs_old"		type = "zhongshan_old.mesh" }
+#blend_shape = { id = "zhongshan_bs_infant"		type = "zhongshan_infant.mesh" }
+blend_shape = { id = "zhongshan_bs_thick"		type = "zhongshan_thick.mesh" }
+
+meshsettings = {
+name = "zhongshanzhuang"
+index = 0
+texture_diffuse = "zhongshan_junlv.dds"
+texture_normal = "zhongshan_n.dds"
+texture_specular = "zhongshan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "zhongshanlingkou"
+index = 0
+texture_diffuse = "zhongshan_junlv.dds"
+texture_normal = "zhongshan_n.dds"
+texture_specular = "zhongshan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "zhongshan_junlv_entity"
+pdxmesh = "zhongshan_junlv_mesh"
+		
+#attribute = { name = "body_bs_fat"			blend_shape = "zhongshan_bs_fat" }
+attribute = { name = "body_bs_old"			blend_shape = "zhongshan_bs_old" }
+#attribute = { name = "body_bs_infant"		blend_shape = "zhongshan_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "zhongshan_bs_thick" }
+
+}
+
+
+pdxmesh = {
+name = "zhongshan_heilan_mesh"
+file = "zhongshan.mesh"
+	
+#blend_shape = { id = "zhongshan_bs_fat"		type = "zhongshan_fat.mesh" }
+blend_shape = { id = "zhongshan_bs_old"		type = "zhongshan_old.mesh" }
+#blend_shape = { id = "zhongshan_bs_infant"		type = "zhongshan_infant.mesh" }
+blend_shape = { id = "zhongshan_bs_thick"		type = "zhongshan_thick.mesh" }
+
+meshsettings = {
+name = "zhongshanzhuang"
+index = 0
+texture_diffuse = "zhongshan_heilan.dds"
+texture_normal = "zhongshan_n.dds"
+texture_specular = "zhongshan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "zhongshanlingkou"
+index = 0
+texture_diffuse = "zhongshan_heilan.dds"
+texture_normal = "zhongshan_n.dds"
+texture_specular = "zhongshan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "zhongshan_heilan_entity"
+pdxmesh = "zhongshan_heilan_mesh"
+		
+#attribute = { name = "body_bs_fat"			blend_shape = "zhongshan_bs_fat" }
+attribute = { name = "body_bs_old"			blend_shape = "zhongshan_bs_old" }
+#attribute = { name = "body_bs_infant"		blend_shape = "zhongshan_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "zhongshan_bs_thick" }
+
+}
+
+
+pdxmesh = {
+name = "zhongshan_heihui_mesh"
+file = "zhongshan.mesh"
+	
+#blend_shape = { id = "zhongshan_bs_fat"		type = "zhongshan_fat.mesh" }
+blend_shape = { id = "zhongshan_bs_old"		type = "zhongshan_old.mesh" }
+#blend_shape = { id = "zhongshan_bs_infant"		type = "zhongshan_infant.mesh" }
+blend_shape = { id = "zhongshan_bs_thick"		type = "zhongshan_thick.mesh" }
+
+meshsettings = {
+name = "zhongshanzhuang"
+index = 0
+texture_diffuse = "zhongshan_heihui.dds"
+texture_normal = "zhongshan_n.dds"
+texture_specular = "zhongshan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "zhongshanlingkou"
+index = 0
+texture_diffuse = "zhongshan_heihui.dds"
+texture_normal = "zhongshan_n.dds"
+texture_specular = "zhongshan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "zhongshan_heihui_entity"
+pdxmesh = "zhongshan_heihui_mesh"
+		
+#attribute = { name = "body_bs_fat"			blend_shape = "zhongshan_bs_fat" }
+attribute = { name = "body_bs_old"			blend_shape = "zhongshan_bs_old" }
+#attribute = { name = "body_bs_infant"		blend_shape = "zhongshan_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "zhongshan_bs_thick" }
+
+}

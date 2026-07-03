@@ -1,0 +1,7 @@
+﻿# These assets are then used in the genes (game/common/genes/..) at the bottom of the file. 
+
+ak47 = {	
+	set_tags = "ming_daoju"
+ 	entity = { required_tags = ""			node = "bn_r_prop"		entity = ak47_entity  }		
+}
+

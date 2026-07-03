@@ -1,0 +1,794 @@
+MILITARY_FORMATIONS = {
+	c:CHI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = Han_Banners
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BEIJING
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_BEIJING
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_BEIJING
+				count = 10
+			}
+			
+			save_scope_as = Han_Banners
+		}
+		
+		create_character = { # CHI, general
+			is_general = yes
+			first_name = Bingzhang
+			last_name = Luo
+			historical = yes
+			culture = cu:han
+			interest_group = ig_landowners
+			ideology = ideology_reformer
+			birth_date = 1793.1.9
+			traits = {
+				stalwart_defender
+				wrathful
+			}
+			save_scope_as = bordered_white_gen
+		}
+		
+		scope:bordered_white_gen = {
+			transfer_to_formation = scope:Han_Banners
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Fang
+			last_name = Yang
+			historical = yes
+			age = 66
+			culture = cu:han
+			traits = {
+				persistent
+				cautious
+			}
+			save_scope_as = plain_blue_gen
+		}
+		
+		scope:plain_blue_gen = {
+			transfer_to_formation = scope:Han_Banners
+		}
+		
+		create_character = { # CHI, general
+			is_general = yes
+			first_name = Yunfei
+			last_name = Ge_2
+			historical = yes
+			culture = cu:han
+			interest_group = ig_armed_forces
+			ideology = ideology_royalist
+			birth_date = 1789.6.6 # exact date unknown
+			traits = {
+				brave
+				stalwart_defender
+			}
+			save_scope_as = plain_yellow_gen
+		}
+
+		scope:plain_yellow_gen = {
+			transfer_to_formation = scope:Han_Banners
+		}
+
+		create_character = { # CHI, general
+			is_general = yes
+			first_name = Delu
+			last_name = Wang
+			historical = yes
+			culture = cu:han
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			birth_date = 1772.6.1 # exact date unknown
+			traits = {
+				experienced_offensive_planner
+				experienced_colonial_administrator
+				meticulous
+			}
+			save_scope_as = bordered_blue_gen
+		}
+		
+		scope:bordered_blue_gen = {
+			transfer_to_formation = scope:Han_Banners
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_manchuria
+			name = Manchu_Banners
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SHENGJING
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_TONGLIAO
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SOUTHERN_MANCHURIA
+				count = 5
+			}
+			
+			save_scope_as = Manchu_Banners
+		}
+		
+		create_character = { # CHI, general
+			is_general = yes
+			first_name = Guanwen
+			last_name = Wanggiya
+			historical = yes
+			culture = cu:manchu
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			birth_date = 1798.12.24 # exact date unknown
+			traits = {
+				traditionalist_commander
+				meticulous
+			}
+			save_scope_as = bordered_red_gen
+		}
+		
+		scope:bordered_red_gen = {
+			transfer_to_formation = scope:Manchu_Banners
+		}
+		
+		create_character = { # CHI, general
+			is_general = yes
+			first_name = Buyantai
+			last_name = Yanzha
+			historical = yes
+			culture = cu:manchu
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			birth_date = 1791.6.10 # exact date unknown
+			traits = {
+				basic_colonial_administrator
+				wrathful
+			}
+			save_scope_as = bordered_yellow_gen
+		}
+		scope:bordered_yellow_gen = {
+			transfer_to_formation = scope:Manchu_Banners
+		}
+		
+		create_character = { # CHI, general
+			is_general = yes
+			first_name = Yishan
+			last_name = Aisin_Gioro
+			historical = yes
+			culture = cu:manchu
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			birth_date = 1790.6.13
+			traits = {
+				reckless
+				alcoholic
+			}
+			save_scope_as = plain_red_gen
+		}
+		
+		scope:plain_red_gen = {
+			transfer_to_formation = scope:Manchu_Banners
+		}
+		
+		create_character = { # CHI, general
+			is_general = yes
+			first_name = Qishan
+			last_name = Borjigin
+			historical = yes
+			culture = cu:mongol
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			birth_date = 1786.1.18
+			traits = {
+				cautious
+				basic_political_operator
+			}
+			save_scope_as = plain_white_gen
+		}
+		
+		scope:plain_white_gen = {
+			transfer_to_formation = scope:Manchu_Banners
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_manchuria
+			name = EASTERN_FLEET
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate # War junks, but no modern ships
+				state_region = s:STATE_OUTER_MANCHURIA
+				count = 7
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_manchuria
+			name = SHENG_FLEET
+		
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate # War junks, but no modern ships
+				state_region = s:STATE_SHENGJING
+				count = 8
+			}
+		}
+	}
+
+	c:CNM = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = Imperial_guard #京营
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_NANJING
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_NANJING
+				count = 5
+			}
+			
+			save_scope_as = Imperial_guard
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = Zheng_Army #郑家军
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FUJIAN
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_SHAOZHOU
+				count = 5
+			}
+			
+			save_scope_as = Zheng_Army
+		}
+		
+		create_character = { # CHI, general
+			is_general = yes
+			first_name = Tiande
+			last_name = dynn_Zheng
+			culture = cu:han
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_reformer
+			birth_date = 1781.6.6
+			hq = region_south_china
+			commander_rank = commander_rank_4
+			traits = {
+				brave
+				stalwart_defender
+			}
+			on_created = {
+				set_variable = {
+					name = is_zheng_navy
+				}
+			}
+			
+			save_scope_as = zhengtiande
+		}
+		
+		scope:zhengtiande = {
+			transfer_to_formation = scope:Zheng_Army
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = Yuyuan_Army #榆园营
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ZHILI
+				count = 15
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SHANDONG
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SHANDONG
+				count = 5
+			}
+			
+			save_scope_as = Yuyuan_Amry
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = Xuanda_Army #宣大营
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SHANXI
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SHANXI
+				count = 5
+			}
+			
+			save_scope_as = Xuanda_Amry
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = Xi_Army #大西营
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SICHUAN
+				count = 15
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_YUNNAN
+				count = 15
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_YUNNAN
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_SICHUAN
+				count = 10
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHONGQING
+				count = 5
+			}
+			
+			save_scope_as = Xi_Amry
+		}
+		
+		create_character = {
+			is_general = yes
+			first_name = Jiqian
+			last_name = dynn_Sun
+			culture = cu:han
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_meritocratic
+			birth_date = 1788.6.10
+			hq = region_south_china
+			commander_rank = commander_rank_3
+			traits = {
+				basic_colonial_administrator
+				wrathful
+			}
+			on_created = {
+				set_variable = {
+					name = is_xi_army
+				}
+			}
+			save_scope_as = sunjiqian
+		}
+		
+		scope:sunjiqian = {
+			transfer_to_formation = scope:Xi_Amry
+		}
+		
+		create_character = { 
+			is_general = yes
+			first_name = Hongdu
+			last_name = dynn_Li
+			culture = cu:han
+			interest_group = ig_armed_forces
+			ideology = ideology_radical
+			birth_date = 1801.6.2
+			hq = region_south_china
+			commander_rank = commander_rank_3
+			traits = {
+				brave
+			}
+			on_created = {
+				set_variable = {
+					name = is_xi_army
+				}
+			}
+			
+			save_scope_as = lihongdu
+		}
+		
+		scope:lihongdu = {
+			transfer_to_formation = scope:Xi_Amry
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = Shun_Army #大顺营
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_XIAN
+				count = 15
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GANSU
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_NINGXIA
+				count = 20
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_XIAN
+				count = 5
+			}
+			
+			save_scope_as = Shun_Amry
+		}
+		
+		create_character = { 
+			is_general = yes
+			first_name = Xianshou
+			last_name = dynn_Li
+			culture = cu:han
+			interest_group = ig_armed_forces
+			ideology = ideology_radical
+			birth_date = 1797.6.6
+			hq = region_north_china
+			commander_rank = commander_rank_5
+			traits = {
+				brave
+				stalwart_defender
+				basic_offensive_planner
+			}
+			on_created = {
+				set_variable = {
+					name = is_shun_army
+				}				
+			}
+			
+			save_scope_as = lixianshou
+		}
+		
+		scope:lixianshou = {
+			transfer_to_formation = scope:Shun_Amry
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = Jiangbei_Army #江北营
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NORTHERN_ANHUI
+				count = 15
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_HENAN
+				count = 15
+			}
+			
+			save_scope_as = Jiangbei_Amry
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = Wolf_Army #狼军
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GUANGXI
+				count = 20
+			}
+			
+			save_scope_as = Wolf_Amry
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = Chu_Army #江汉营
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EASTERN_HUBEI
+				count = 20
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WESTERN_HUBEI
+				count = 15
+			}
+			
+			save_scope_as = Chu_Army
+		}
+		
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_south_china
+			name = Zheng_Fleet #郑氏海军
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate # War junks, but no modern ships
+				state_region = s:STATE_FORMOSA
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_ZHEJIANG
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate # War junks, but no modern ships
+				state_region = s:STATE_FUJIAN
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate # War junks, but no modern ships
+				state_region = s:STATE_GUANGDONG
+				count = 15
+			}
+			
+			save_scope_as = Zheng_Fleet
+		}
+
+	}
+
+	c:DEI = {
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_indonesia
+			name = "Koloniale Marine"
+
+			combat_unit = { # Nothing the size of a frigate
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_EAST_JAVA
+				count = 1
+			}
+		}
+	}
+	
+	c:ZHY = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = "镇元土司"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_YUNNAN
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_MENGYANG
+				count = 2
+			}
+		}
+	}
+	
+	c:CHS = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = "茶山土司"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MENGYANG
+				count = 5
+			}
+		}
+	}
+	
+	c:MMK = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_south_china
+			name = "勐卯土司"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_YUNNAN
+				count = 5
+			}
+		}
+	}
+	
+	c:CEL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_indochina
+			name = "车里土司"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_CHELI
+				count = 5
+			}
+		}
+	}
+	
+	c:HMI = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = "哈密军队"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_HAMI
+				count = 10
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_GANSU
+				count = 5
+			}
+		}
+	}
+	
+	c:DZU = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_central_asia
+			name = "准噶尔军"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_DZUNGARIA
+				count = 20
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_TIANSHAN
+				count = 15
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_TIANSHAN
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_DZUNGARIA
+				count = 5
+			}
+		}
+	}
+	
+	c:MGL = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_north_china
+			name = "蒙古军"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ULIASTAI
+				count = 15
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ULIASTAI
+				count = 15
+			}
+		}
+	}
+	
+	c:CNY = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_oceania
+			name = "镇南军"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_QUEENSLAND
+				count = 10
+			}
+			
+		}
+	}
+
+	c:TIB = {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_himalayas
+			name = "乌斯藏军"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LHASA
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_LHASA
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_NGARI
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_QINGHAI
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_XIKANG
+				count = 5
+			}
+			save_scope_as = tib_army
+		}
+		create_character = {
+			is_general = yes
+			culture = cu:tibetan
+			save_scope_as = zangren
+		}
+		scope:zangren = {
+			transfer_to_formation = scope:tib_army
+		}
+	}
+}
+
+

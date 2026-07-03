@@ -1,0 +1,116 @@
+CHARACTERS = {
+	c:CNL = {
+		create_character = {
+			first_name = "Dacheng"
+			last_name = "Sun"
+			historical = yes
+			ruler = yes
+			birth_date = 1813.4.20
+			dna = dna_sun_yat_sen
+			culture = cu:yue
+			interest_group = ig_rural_folk
+			ig_leader = yes
+			ideology = ideology_radical
+			traits = {
+				charismatic
+				expert_colonial_administrator
+			}
+		}
+		create_character = {
+			first_name = "Pinliao"
+			last_name = "He"
+			birth_date = 1802.4.16
+			culture = cu:han
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			traits = {
+				expensive_tastes
+				cautious
+			}
+		}
+		create_character = {
+			first_name = "Haolong"
+			last_name = "dynn_Ye"
+			birth_date = 1800.1.1
+			culture = cu:hakka
+			ig_leader = yes
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			traits = {
+				tactful
+				experienced_political_operator
+			}
+		}
+		create_character = {
+			is_general = yes
+			first_name = Zicheng
+			last_name = Dongxiang
+			age = 34
+			culture = cu:japanese
+			ideology = ideology_feminist
+			hq = region_pacific_coast
+			traits = {
+				meticulous
+				expert_defensive_strategist
+				explorer
+				pillager
+			}
+		}
+		create_character = {
+			is_general = yes
+			ig_leader = yes
+			first_name = Demin
+			last_name = dynn_Zeng
+			hq = region_pacific_coast
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_social_democrat
+			age = 35
+			culture = cu:han
+			traits = {
+				expert_offensive_planner
+				ambitious
+				surveyor
+			}
+		}
+		create_character = {
+			ig_leader = yes
+			first_name = Yangyang
+			last_name = dynn_Zhao
+			female = yes
+			interest_group = ig_trade_unions
+			ideology = ideology_anarchist
+			birth_date = 1804.4.7
+			culture = cu:han
+			traits = {
+				bigoted reckless ambitious 
+			}
+		}
+		create_character = {
+			ig_leader = yes
+			first_name = Jimin
+			last_name = dynn_Guo
+			female = no
+			interest_group = ig_industrialists
+			ideology = ideology_pacifist
+			birth_date = 1801.10.1
+			culture = cu:han
+			traits = {
+				ambitious romantic
+			}
+		}
+		create_character = {
+			ig_leader = yes
+			first_name = Kai
+			last_name = dynn_Huang
+			female = no
+			interest_group = ig_landowners
+			ideology = ideology_jingoist
+			birth_date = 1800.10.7
+			culture = cu:han
+			traits = {
+				hedonist cautious expert_defensive_strategist
+			}
+		}
+	}
+}

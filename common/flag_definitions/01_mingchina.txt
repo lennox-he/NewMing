@@ -1,0 +1,1023 @@
+CNM = {
+	flag_definition = {
+		coa = MING_EMPIRE
+		subject_canton = MING_EMPIRE
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = MNG_subject
+		priority = 5001
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	
+	flag_definition = {
+		coa = HUAXIA
+		coa_with_overlord_canton = HUAXIA
+		priority = 5003
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+				has_variable = no_zhu_dynasty
+			}
+		}
+	}
+	
+	flag_definition = {
+		coa = HUAXIA_com
+		coa_with_overlord_canton = HUAXIA_com
+		priority = 5002
+		trigger = { 
+			scope:actor = {
+				coa_def_communist_flag_trigger = yes
+				has_variable = no_zhu_dynasty
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = MING_EMPIRE_2
+		subject_canton = MING_EMPIRE_2
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = MNG_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = MING_JUNTA
+		subject_canton = MING_JUNTA
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = MNG_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = MING_FAS
+		subject_canton = MING_FAS
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = MNG_subject
+		priority = 5001
+		trigger = { 
+			OR = {
+				coa_def_fascist_flag_trigger = yes
+				scope:actor = {
+					has_modifier = huanghan
+				}
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = MING_REPUBLIC
+		subject_canton = MING_REPUBLIC
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = MNG_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = MING
+		subject_canton = MING
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = MING_subject
+		priority = 3000
+	}
+
+	flag_definition = {
+		coa = CHI_han_empire
+		coa_with_overlord_canton = CHI_han_empire
+		priority = 5005
+		trigger = { 
+			scope:actor = {
+				has_variable = called_china
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	flag_definition = {
+		coa = CHI
+		subject_canton = CHI
+		coa_with_overlord_canton = CHI_subject
+		allow_overlord_canton = yes		
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_variable = called_china
+			}
+		}
+	}
+	flag_definition = {
+		coa = CHI_republic
+		subject_canton = CHI_republic
+		allow_overlord_canton = yes
+		priority = 5010
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+			scope:actor = {
+				has_variable = called_china
+			}
+		}
+	}	
+	flag_definition = {
+		coa = CHI_dictatorship
+		subject_canton = CHI_dictatorship
+		priority = 5020
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+			scope:actor = {
+				has_variable = called_china
+			}
+		}
+	}	
+	flag_definition = {
+		coa = CHI_theocracy
+		subject_canton = CHI_theocracy
+		subject_canton = CHI_absolute_monarchy
+		priority = 5020
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+			scope:actor = {
+				has_variable = called_china
+			}
+		}
+	}	
+	flag_definition = {
+		coa = CHI_communist
+		priority = 5500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+			scope:actor = {
+				has_variable = called_china
+			}
+		}
+	}	
+}
+
+CNL = {
+	flag_definition = {
+		coa = CNL1
+		subject_canton = CNL1
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = CNL1
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CNL1
+		subject_canton = CNL1
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = CNL1
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CNL2
+		subject_canton = CNL2
+		coa_with_overlord_canton = CNL2
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CNL1
+		subject_canton = CNL1
+		coa_with_overlord_canton = CNL1
+		priority = 3000
+	}
+}
+
+DZU = {
+	flag_definition = {
+		coa = DZU1
+		subject_canton = DZU1
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = DZU1
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = DZU1
+		subject_canton = DZU1
+		coa_with_overlord_canton = DZU1
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = DZU1
+		subject_canton = DZU1
+		coa_with_overlord_canton = DZU1
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = DZU1
+		subject_canton = DZU1
+		coa_with_overlord_canton = DZU1
+		priority = 3000
+	}
+}
+
+CNN = {
+	flag_definition = {
+		coa = CNN1
+		subject_canton = CNN1
+		coa_with_overlord_canton = CNN1
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CNN1
+		subject_canton = CNN1
+		coa_with_overlord_canton = CNN1
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CNN1
+		subject_canton = CNN1
+		coa_with_overlord_canton = CNN1
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CNN1
+		subject_canton = CNN1
+		coa_with_overlord_canton = CNN1
+		priority = 3000
+	}
+}
+
+CNP = {
+	flag_definition = {
+		coa = CNP1
+		subject_canton = CNP1
+		coa_with_overlord_canton = CNP1
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CNP1
+		subject_canton = CNP1
+		coa_with_overlord_canton = CNP1
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CNP1
+		subject_canton = CNP1
+		coa_with_overlord_canton = CNP1
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CNP1
+		subject_canton = CNP1
+		coa_with_overlord_canton = CNP1
+		priority = 3000
+	}
+}
+
+CNY = {
+	flag_definition = {
+		coa = CNY1
+		subject_canton = CNY1
+		coa_with_overlord_canton = CNY1
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CNY1
+		subject_canton = CNY1
+		coa_with_overlord_canton = CNY1
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CNY1
+		subject_canton = CNY1
+		coa_with_overlord_canton = CNY1
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CNY1
+		subject_canton = CNY1
+		coa_with_overlord_canton = CNY1
+		priority = 3000
+	}
+}
+
+RYU = {
+	flag_definition = {
+		coa = RYU1
+		subject_canton = RYU1
+		coa_with_overlord_canton = RYU1
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = RYU1
+		subject_canton = RYU1
+		coa_with_overlord_canton = RYU1
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = RYU1
+		subject_canton = RYU1
+		coa_with_overlord_canton = RYU1
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = RYU1
+		subject_canton = RYU1
+		coa_with_overlord_canton = RYU1
+		priority = 3000
+	}
+}
+
+HMI = {
+	flag_definition = {
+		coa = HMI1
+		subject_canton = HMI1
+		coa_with_overlord_canton = HMI1_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = HMI1
+		subject_canton = HMI1
+		coa_with_overlord_canton = HMI1_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = HMI1
+		subject_canton = HMI1
+		coa_with_overlord_canton = HMI1_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = HMI1
+		subject_canton = HMI1
+		coa_with_overlord_canton = HMI1_subject
+		priority = 3000
+	}
+}
+
+CEL = {
+	flag_definition = {
+		coa = CHELI
+		subject_canton = CHELI
+		coa_with_overlord_canton = CHELI_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CHELI
+		subject_canton = CHELI
+		coa_with_overlord_canton = CHELI_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CHELI
+		subject_canton = CHELI
+		coa_with_overlord_canton = CHELI_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CHELI
+		subject_canton = CHELI
+		coa_with_overlord_canton = CHELI_subject
+		priority = 3000
+	}
+}
+
+ZHY = {
+	flag_definition = {
+		coa = ZHENGYUAN
+		subject_canton = ZHENGYUAN
+		coa_with_overlord_canton = ZHENGYUAN_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = ZHENGYUAN
+		subject_canton = ZHENGYUAN
+		coa_with_overlord_canton = ZHENGYUAN_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = ZHENGYUAN
+		subject_canton = ZHENGYUAN
+		coa_with_overlord_canton = ZHENGYUAN_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = ZHENGYUAN
+		subject_canton = ZHENGYUAN
+		coa_with_overlord_canton = ZHENGYUAN_subject
+		priority = 3000
+	}
+}
+
+CHS = {
+	flag_definition = {
+		coa = CHASHAN
+		subject_canton = CHASHAN
+		coa_with_overlord_canton = CHASHAN_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = CHASHAN
+		subject_canton = CHASHAN
+		coa_with_overlord_canton = CHASHAN_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CHASHAN
+		subject_canton = CHASHAN
+		coa_with_overlord_canton = CHASHAN_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = CHASHAN
+		subject_canton = CHASHAN
+		coa_with_overlord_canton = CHASHAN_subject
+		priority = 3000
+	}
+}
+
+MMK = {
+	flag_definition = {
+		coa = MENGMOU
+		subject_canton = MENGMOU
+		coa_with_overlord_canton = MENGMOU_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = MENGMOU
+		subject_canton = MENGMOU
+		coa_with_overlord_canton = MENGMOU_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = MENGMOU
+		subject_canton = MENGMOU
+		coa_with_overlord_canton = MENGMOU_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = MENGMOU
+		subject_canton = MENGMOU
+		coa_with_overlord_canton = MENGMOU_subject
+		priority = 3000
+	}
+}
+
+GSD = {
+	flag_definition = {
+		coa = SHUNCHAO
+		subject_canton = SHUNCHAO
+		coa_with_overlord_canton = SHUNCHAO_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = SHUNCHAO
+		subject_canton = SHUNCHAO
+		coa_with_overlord_canton = SHUNCHAO_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = SHUNCHAO
+		subject_canton = SHUNCHAO
+		coa_with_overlord_canton = SHUNCHAO_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = SHUNCHAO
+		subject_canton = SHUNCHAO
+		coa_with_overlord_canton = SHUNCHAO_subject
+		priority = 3000
+	}
+}
+
+GXD = {
+	flag_definition = {
+		coa = DAXI
+		subject_canton = DAXI
+		coa_with_overlord_canton = DAXI_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = DAXI
+		subject_canton = DAXI
+		coa_with_overlord_canton = DAXI_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = DAXI
+		subject_canton = DAXI
+		coa_with_overlord_canton = DAXI_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = DAXI
+		subject_canton = DAXI
+		coa_with_overlord_canton = DAXI_subject
+		priority = 3000
+	}
+}
+
+ZHD = {
+	flag_definition = {
+		coa = DONGNING
+		subject_canton = DONGNING
+		coa_with_overlord_canton = DONGNING_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = DONGNING
+		subject_canton = DONGNING
+		coa_with_overlord_canton = DONGNING_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = DONGNING
+		subject_canton = DONGNING
+		coa_with_overlord_canton = DONGNING_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = DONGNING
+		subject_canton = DONGNING
+		coa_with_overlord_canton = DONGNING_subject
+		priority = 3000
+	}
+}
+
+XDY = {
+	flag_definition = {
+		coa = XUANDA
+		subject_canton = XUANDA
+		coa_with_overlord_canton = XUANDA_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = XUANDA
+		subject_canton = XUANDA
+		coa_with_overlord_canton = XUANDA_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = XUANDA
+		subject_canton = XUANDA
+		coa_with_overlord_canton = XUANDA_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = XUANDA
+		subject_canton = XUANDA
+		coa_with_overlord_canton = XUANDA_subject
+		priority = 3000
+	}
+}
+
+YYY = {
+	flag_definition = {
+		coa = YUYUAN
+		subject_canton = YUYUAN
+		coa_with_overlord_canton = YUYUAN_subject
+		priority = 5000
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+
+	flag_definition = {
+		coa = YUYUAN
+		subject_canton = YUYUAN
+		coa_with_overlord_canton = YUYUAN_subject
+		priority = 5000
+		trigger = { 
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = YUYUAN
+		subject_canton = YUYUAN
+		coa_with_overlord_canton = YUYUAN_subject
+		priority = 5000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+
+	flag_definition = {
+		coa = YUYUAN
+		subject_canton = YUYUAN
+		coa_with_overlord_canton = YUYUAN_subject
+		priority = 3000
+	}
+}
+
+XJB = {
+	flag_definition = {
+		coa = XJB_1
+		subject_canton = XJB_1
+		coa_with_overlord_canton = XJB_1
+		priority = 3000
+	}
+	flag_definition = {
+		coa = XJB_XWS
+		subject_canton = XJB_XWS
+		coa_with_overlord_canton = XJB_XWS
+		priority = 3000
+		trigger = { 
+			scope:actor = {
+				is_subject_of = c:CNM
+			}
+		}
+	}
+}
+
+SGG = {
+	flag_definition = {
+		coa = SGG
+		subject_canton = SGG
+		coa_with_overlord_canton = SGG
+		priority = 3000
+	}
+	flag_definition = {
+		coa = SGG_XWS
+		subject_canton = SGG_XWS
+		coa_with_overlord_canton = SGG_XWS
+		priority = 3000
+		trigger = { 
+			scope:actor = {
+				is_subject_of = c:CNM
+			}
+		}
+	}
+}
+
+REPLACE_OR_CREATE:MGL = { # Mongolia
+	flag_definition = {
+		coa = MGL
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = MGL_subject			
+		subject_canton = MGL
+		priority = 1
+	}	
+	flag_definition = {
+		coa = MGL_republic
+		subject_canton = MGL_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}		
+	flag_definition = {
+		coa = MGL_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = XmHL
+		coa_with_overlord_canton = XmHL
+		subject_canton = XmHL
+		priority = 1000
+		trigger = { 
+				scope:actor = {
+					is_subject_of = c:CNM
+				}
+			}
+		}	
+}
+
+REPLACE_OR_CREATE:CHI = { # China
+	flag_definition = {
+		coa = CHI_han_empire
+		coa_with_overlord_canton = CHI_han_empire
+		priority = 5
+		trigger = { 
+			scope:actor = {
+				NOT = { country_has_primary_culture = cu:manchu }
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	flag_definition = {
+		coa = CHI
+		subject_canton = CHI
+		coa_with_overlord_canton = CHI_subject
+		allow_overlord_canton = yes		
+		priority = 1
+	}
+	flag_definition = {
+		coa = CHI_absolute_monarchy
+		subject_canton = CHI_absolute_monarchy
+		coa_with_overlord_canton = CHI_subject
+		allow_overlord_canton = yes				
+		priority = 20
+		trigger = { 
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = CHI_republic
+		subject_canton = CHI_republic
+		allow_overlord_canton = yes
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = CHI_dictatorship
+		subject_canton = CHI_dictatorship
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = CHI_theocracy
+		subject_canton = CHI_theocracy
+		subject_canton = CHI_absolute_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = CHI_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = QING_MING_SUB
+		coa_with_overlord_canton = QING_MING_SUB
+		subject_canton = QING_MING_SUB
+		priority = 1000
+		trigger = { 
+				scope:actor = {
+					is_subject_of = c:CNM
+				}
+			}
+		}	
+}
+
+REPLACE_OR_CREATE:TIB = { # Tibet
+	flag_definition = {
+		coa = TIB
+		subject_canton = TIB
+		allow_overlord_canton = yes			
+		coa_with_overlord_canton = TIB_subject			
+		priority = 1
+	}
+	flag_definition = {
+		coa = TIB
+		subject_canton = TIB
+		allow_overlord_canton = no				
+		priority = 2
+		trigger = { 
+			coa_def_independent_trigger = no
+			coa_def_chinese_ensign_trigger = yes
+		}		
+	}	
+	flag_definition = {
+		coa = TIB_monarchy
+		subject_canton = TIB_monarchy
+		allow_overlord_canton = yes			
+		coa_with_overlord_canton = TIB_subject			
+		priority = 5
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = TIB_republic
+		subject_canton = TIB_republic
+		priority = 10
+		trigger = { 
+			coa_def_republic_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = TIB_MING_SUB
+		coa_with_overlord_canton = TIB_MING_SUB
+		subject_canton = TIB_MING_SUB
+		priority = 1000
+		trigger = { 
+			scope:actor = {
+				is_subject_of = c:CNM
+			}
+		}
+	}
+}

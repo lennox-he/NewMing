@@ -1,0 +1,80 @@
+pdxmesh = {
+	name = "gangkui_mesh"
+	file = "gangkui.mesh"
+
+	meshsettings = {
+		name = "gangkui"
+		index = 0
+		texture_diffuse = "gangkui.dds"
+		texture_normal = "gangkui_n.dds"
+		texture_specular = "gangkui_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "gangkui_entity"
+	pdxmesh = "gangkui_mesh"
+}
+
+pdxmesh = {
+	name = "gangkui_nv_mesh"
+	file = "gangkui_nv.mesh"
+
+	meshsettings = {
+		name = "gangkui_nv"
+		index = 0
+		texture_diffuse = "gangkui.dds"
+		texture_normal = "gangkui_n.dds"
+		texture_specular = "gangkui_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "gangkui_nv_entity"
+	pdxmesh = "gangkui_nv_mesh"
+}
+
+
+pdxmesh = {
+	name = "gangkui_pla_micai_mesh"
+	file = "gangkui.mesh"
+
+	meshsettings = {
+		name = "gangkui"
+		index = 0
+		texture_diffuse = "gangkui_pla_micai.dds"
+		texture_normal = "gangkui_n.dds"
+		texture_specular = "gangkui_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "gangkui_pla_micai_entity"
+	pdxmesh = "gangkui_pla_micai_mesh"
+}
+
+pdxmesh = {
+	name = "gangkui_pla_micai_nv_mesh"
+	file = "gangkui_nv.mesh"
+
+	meshsettings = {
+		name = "gangkui_nv"
+		index = 0
+		texture_diffuse = "gangkui_pla_micai.dds"
+		texture_normal = "gangkui_n.dds"
+		texture_specular = "gangkui_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "gangkui_pla_micai_nv_entity"
+	pdxmesh = "gangkui_pla_micai_nv_mesh"
+}

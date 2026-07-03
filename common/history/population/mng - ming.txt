@@ -1,0 +1,103 @@
+POPULATION = {
+	c:CNM = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:CNP = {
+		effect_starting_pop_wealth_medium = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:CNN = {
+		effect_starting_pop_wealth_medium = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:CNY = {
+		effect_starting_pop_wealth_medium = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:CNL = {
+		effect_starting_pop_wealth_medium = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:HMI = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:DZU = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:MGL = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:RYU = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:ZHY = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:CEL = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:MMK = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+
+	c:CHS = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:TIB = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:DAI = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:TIB = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:TIB = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:TIB = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:TIB = {
+		effect_starting_pop_wealth_low = yes	
+		effect_starting_pop_literacy_low = yes
+	}
+	
+	c:SIA = {
+		
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_baseline = yes
+	}
+}

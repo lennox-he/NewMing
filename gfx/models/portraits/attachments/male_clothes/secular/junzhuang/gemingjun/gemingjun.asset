@@ -1,0 +1,107 @@
+pdxmesh = {
+name = "gemingjun_shibing_mesh"
+file = "gemingjun.mesh"
+	
+blend_shape = { id = "male_coat_european_01_bs_fat"			type = "gemingjun_fat.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_gaunt"		type = "gemingjun_gaunt.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_old"			type = "gemingjun_old.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_infant"		type = "gemingjun_infant.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_thick"		type = "gemingjun_thick.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_thin"		type = "gemingjun_thin.mesh" }
+
+meshsettings = {
+name = "gemingjun"
+index = 0
+texture_diffuse = "gemingjun_shibing.dds"
+texture_normal = "gemingjun_shibing_n.dds"
+texture_specular = "gemingjun_shibing_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "gemingjun_shibing_entity"
+pdxmesh = "gemingjun_shibing_mesh"
+		
+attribute = { name = "body_bs_fat"		blend_shape = "male_coat_european_01_bs_fat" }
+attribute = { name = "body_bs_gaunt"		blend_shape = "male_coat_european_01_bs_gaunt" }
+attribute = { name = "body_bs_old"		blend_shape = "male_coat_european_01_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "male_coat_european_01_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "male_coat_european_01_bs_thick" }
+attribute = { name = "body_bs_thin"		blend_shape = "male_coat_european_01_bs_thin" }
+
+}
+
+
+pdxmesh = {
+name = "gemingjun_junguan_mesh"
+file = "gemingjun.mesh"
+	
+blend_shape = { id = "male_coat_european_01_bs_fat"			type = "gemingjun_fat.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_gaunt"		type = "gemingjun_gaunt.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_old"			type = "gemingjun_old.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_infant"		type = "gemingjun_infant.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_thick"		type = "gemingjun_thick.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_thin"		type = "gemingjun_thin.mesh" }
+
+meshsettings = {
+name = "gemingjun"
+index = 0
+texture_diffuse = "gemingjun_junguan.dds"
+texture_normal = "gemingjun_shibing_n.dds"
+texture_specular = "gemingjun_shibing_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "gemingjun_junguan_entity"
+pdxmesh = "gemingjun_junguan_mesh"
+		
+attribute = { name = "body_bs_fat"		blend_shape = "male_coat_european_01_bs_fat" }
+attribute = { name = "body_bs_gaunt"		blend_shape = "male_coat_european_01_bs_gaunt" }
+attribute = { name = "body_bs_old"		blend_shape = "male_coat_european_01_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "male_coat_european_01_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "male_coat_european_01_bs_thick" }
+attribute = { name = "body_bs_thin"		blend_shape = "male_coat_european_01_bs_thin" }
+
+}
+
+
+pdxmesh = {
+name = "gemingjun_jiangjun_mesh"
+file = "gemingjun.mesh"
+	
+blend_shape = { id = "male_coat_european_01_bs_fat"			type = "gemingjun_fat.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_gaunt"		type = "gemingjun_gaunt.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_old"			type = "gemingjun_old.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_infant"		type = "gemingjun_infant.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_thick"		type = "gemingjun_thick.mesh" }
+blend_shape = { id = "male_coat_european_01_bs_thin"		type = "gemingjun_thin.mesh" }
+
+meshsettings = {
+name = "gemingjun"
+index = 0
+texture_diffuse = "gemingjun_jiangjun.dds"
+texture_normal = "gemingjun_shibing_n.dds"
+texture_specular = "gemingjun_shibing_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "gemingjun_jiangjun_entity"
+pdxmesh = "gemingjun_jiangjun_mesh"
+		
+attribute = { name = "body_bs_fat"		blend_shape = "male_coat_european_01_bs_fat" }
+attribute = { name = "body_bs_gaunt"		blend_shape = "male_coat_european_01_bs_gaunt" }
+attribute = { name = "body_bs_old"		blend_shape = "male_coat_european_01_bs_old" }
+attribute = { name = "body_bs_infant"		blend_shape = "male_coat_european_01_bs_infant" }
+attribute = { name = "body_bs_thick"		blend_shape = "male_coat_european_01_bs_thick" }
+attribute = { name = "body_bs_thin"		blend_shape = "male_coat_european_01_bs_thin" }
+
+}
+

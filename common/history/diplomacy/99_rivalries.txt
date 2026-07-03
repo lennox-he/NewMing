@@ -1,0 +1,30 @@
+DIPLOMACY = {
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:CNM
+			type = rivalry
+		}
+	}
+	c:CNM = {
+		create_diplomatic_pact = {
+			country = c:CHI
+			type = rivalry
+		}
+	}
+	c:CNN = {
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = rivalry
+		}
+	}
+	c:DAI = {
+		create_diplomatic_pact = {
+			country = c:CNN
+			type = rivalry
+		}
+	}
+}	
+
+
+
+

@@ -1,0 +1,205 @@
+qunxiong_tianming_1 = { #天命所归
+	icon = gfx/interface/icons/event_icons/imperial_mandate.dds
+	state_loyalism_increases_second_rate_citizen_mult = 0.1
+	state_loyalism_increases_full_acceptance_mult = 0.1
+	state_loyalists_from_political_movements_mult = 0.25
+	state_tax_waste_add = -0.1
+	country_authority_mult = 0.1
+	country_legitimacy_base_add = 10
+}
+
+qunxiong_tianming_2 = { #发展商贸
+	icon = gfx/interface/icons/event_icons/event_trade.dds
+	state_market_access_price_impact = 0.05
+	country_authority_mult = -0.05
+	state_trade_quantity_mult = 0.2
+}
+
+qunxiong_tianming_3 = { #应天讨贼
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_conscription_rate_add = 0.5
+	state_conscription_rate_mult = 0.5
+	battle_defense_owned_province_mult = 0.1
+	battle_offense_owned_province_mult = 0.1
+	unit_defense_mult = 0.2
+	battle_casualties_mult = -0.5
+	building_training_rate_add = 1000
+	country_infamy_generation_mult = 0.2
+}
+
+qunxiong_up_1 = { #群雄争霸
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_infamy_generation_mult = -0.8
+	battle_defense_owned_province_mult = 0.5
+	battle_offense_owned_province_mult = 0.5
+	building_training_rate_add = 1000
+	battle_casualties_mult = -0.5
+	country_legitimacy_base_add = 10
+	state_turmoil_effects_mult = -0.2
+	country_radicals_from_conquest_mult = -0.1
+}
+
+fazhan = { #城市发展
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_market_access_price_impact = 0.1
+	state_construction_mult = 0.2
+	state_migration_pull_mult = 0.2
+}
+
+qunxiong_tianming_4 = { #旭日之朝
+	icon = gfx/interface/icons/event_icons/china_eunuch.dds
+	state_loyalists_from_political_movements_mult = 0.25
+	country_legitimacy_base_add = 10
+	state_tax_waste_add = -0.1
+	interest_group_ig_landowners_approval_add = 2
+	interest_group_ig_devout_approval_add = 2
+	interest_group_ig_armed_forces_approval_add = 2
+	interest_group_ig_industrialists_approval_add = 2
+	interest_group_ig_intelligentsia_approval_add = 2
+	interest_group_ig_petty_bourgeoisie_approval_add = 2
+	interest_group_ig_rural_folk_approval_add = 2
+	interest_group_ig_trade_unions_approval_add = 2
+	country_tech_spread_add = 10
+}
+
+qunxiong_age_of_loong = { #巨龙觉醒
+	icon = gfx/interface/icons/event_icons/china_eunuch.dds
+	state_loyalists_from_political_movements_mult = 0.1
+	state_assimilation_mult = 0.1
+	state_colony_growth_speed_mult = 0.2
+	country_infamy_generation_mult = -0.2
+	country_tech_research_speed_mult = 0.1
+	country_authority_mult = 0.25
+	state_education_access_add = 0.05
+}
+
+qunxiong_xianren = { #贤人宫廷
+	icon = gfx/interface/icons/event_icons/china_eunuch.dds
+	state_tax_waste_add = -0.1
+	country_legitimacy_base_add = 5
+	country_bureaucracy_investment_cost_factor_mult = -0.1
+	state_decree_cost_mult = -0.50
+	country_law_enactment_success_add = 0.1
+	country_law_enactment_time_mult = -0.25
+}
+
+qunxiong_trade = { #开放贸易
+	icon = gfx/interface/icons/event_icons/event_trade.dds
+	country_legitimacy_base_add = -10
+	country_trade_route_competitiveness_mult = 0.25
+	country_tech_spread_add = 10
+	state_trade_quantity_mult = 0.2
+	state_market_access_price_impact = 0.05
+}
+
+qunxiong_no_trade = { #闭关锁国
+	icon = gfx/interface/icons/event_icons/event_trade.dds
+	country_legitimacy_base_add = 10
+	country_tech_spread_mult = -0.5
+	state_decree_cost_mult = -0.25
+	state_tax_waste_add = -0.1
+	state_construction_mult = 0.1
+	country_authority_mult = 0.1
+	state_trade_capacity_mult = 1.0
+	country_trade_route_competitiveness_mult = -1
+}
+
+qunxiong_miss_trade = { #混乱的贸易
+	icon = gfx/interface/icons/event_icons/event_trade.dds
+	country_legitimacy_base_add = -10
+	tariff_export_add = -0.10
+	tariff_import_add = -0.10
+	state_tax_waste_add = 0.05
+	country_tech_spread_mult = 0.1
+	country_trade_route_competitiveness_mult = -0.05
+}
+
+qunxiong_tax = { #户籍制度改革
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	state_bureaucracy_population_base_cost_factor_mult = -0.25
+	state_tax_capacity_mult = 0.25
+}
+
+qunxiong_edu = { #科举改革
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	country_tech_research_speed_mult = 0.1
+	state_pop_qualifications_mult = 0.25
+	state_education_access_add = 0.1
+}
+
+qunxiong_zhubi = { #税务改革
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	state_tax_capacity_mult = 0.2
+	state_tax_waste_add = -0.05
+	country_loan_interest_rate_add = -0.1
+	country_minting_add = 1000
+}
+
+huanghe_shigong = { #黄河施工
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	country_expenses_add = 20000
+	country_bureaucracy_add = -200
+	country_bureaucracy_mult = -0.05
+}
+
+huanghe_shutong = { #黄河施工
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	state_infrastructure_add = -15
+	state_market_access_price_impact = -0.1
+	building_group_bg_agriculture_throughput_add = -0.2
+	building_group_bg_plantations_throughput_add = -0.2
+}
+
+huanghe_fanlan = { #水灾
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_infrastructure_add = -20
+	state_market_access_price_impact = -0.1
+	state_tax_waste_add = 0.1
+	state_mortality_mult = 0.2
+	building_group_bg_agriculture_throughput_add = -0.1
+	building_group_bg_plantations_throughput_add = -0.1
+}
+
+huanghe_plain = { #冲击平原
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	building_group_bg_agriculture_throughput_add = 0.2
+	building_group_bg_plantations_throughput_add = 0.2
+}
+
+
+qunxiong_huanghe = { #治河伟绩
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	state_radicals_and_loyalists_from_sol_change_mult = 0.25
+	state_loyalists_from_political_movements_mult = 0.1
+	building_group_bg_agriculture_throughput_add = 0.05
+	country_legitimacy_base_add = 10
+}
+
+shun_mianshui = { #民众拥护
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	country_legitimacy_base_add = 20
+	state_loyalists_from_political_movements_mult = 0.2
+}
+
+shun_mianshui_2 = { #背信弃义
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	country_legitimacy_base_add = -50
+}
+
+shun_mianshui_1 = { #免税政策
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	state_loyalists_from_political_movements_mult = 0.5
+	state_farmers_investment_pool_contribution_add = 0.2
+	state_shopkeepers_investment_pool_contribution_add = 0.1
+	country_legitimacy_base_add = 10
+	tax_land_add = -0.5
+	state_birth_rate_mult = 0.2
+	state_poor_standard_of_living_add = 4
+}
+
+shun_shishen = { #改革无阻
+	icon = gfx/interface/icons/event_icons/china_bureaucrat.dds
+	state_tax_waste_add = -0.05
+	country_law_enactment_time_mult = -0.5
+	state_construction_mult = 0.25
+}

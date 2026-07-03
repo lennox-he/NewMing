@@ -1,0 +1,522 @@
+﻿###########################################################   明 ↓↓↓↓↓↓   ######################################################
+ming_mao = {
+usage = game
+selection_behavior = weighted_random
+
+
+ming_imperial_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = ming_yishanguan_headgear range = { 0 1 } }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 chinese_han_imperial_clothes_trigger = yes  }
+}
+}
+
+ming_jichengren_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = ming_wushayishanguan_headgear range = { 0 1 } }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2600 OR = { AND = { chinese_heir_clothes_trigger = yes  chinese_manchu_queue_hairstyle_pops_trigger = no chinese_manchu_queue_hairstyle_character_trigger = no } AND = {
+                    exists = scope:character
+                    scope:character = {
+	OR = {
+                        has_culture = cu:korean
+		has_culture = cu:ryukyuan
+	}
+                        is_ruler = yes
+                    }
+                } } }
+}
+}
+
+ming_guanyuan_headgear = {
+	dna_modifiers = {
+		accessory = { mode = add gene = ming_mao template = ming_wushamao_headgear range = { 0 1 } }
+		accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+	}
+	weight = {
+		base = 0
+		modifier = {
+			add = 2500
+			chinese_han_court_clothes_trigger = yes 
+			chinese_manchu_queue_hairstyle_pops_trigger = no
+			chinese_manchu_queue_hairstyle_character_trigger = no
+		}
+		modifier = {
+			add = 2600
+			OR = {
+				chinese_han_army_1_clothes_trigger = yes
+				chinese_han_army_2_clothes_trigger = yes
+				chinese_han_army_3_clothes_trigger = yes
+				chinese_han_army_4_clothes_trigger = yes
+				chinese_han_army_5_clothes_trigger = yes
+			} 
+			chinese_manchu_queue_hairstyle_character_trigger = no
+		}
+	}
+}
+
+ming_general_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = dayanmao_headgear value = 0.15 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1 chinese_han_general_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+ming_admiral_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = dayanmao_headgear value = 0.05 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1 chinese_han_admiral_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+ming_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = dayanmao_headgear value = 0.25 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1 han_officers_clothes_pop_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+ming_soldier_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = gemingjunmao_headgear value = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1 han_soldier_clothes_pop_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+ming_ig_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = gemingjunmao_headgear value = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1 chinese_han_ig_army_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+
+ming_pingmin_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = ming_chunyangjin_headgear range = { 0 1 } }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2500 han_upper_clothes_pop_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+
+###########################################################   清 ↓↓↓↓↓↓   ######################################################
+qing_guanyuan_headgear = {
+	dna_modifiers = {
+		accessory = { mode = add gene = ming_mao template = qing_guanmao_headgear range = 0 }
+		accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+	}
+	weight = {
+		base = 0
+		modifier = {
+			add = 1000
+			OR = {
+				chinese_court_clothes_trigger = yes
+				qing_general_clothes_trigger = yes 
+			}
+		}
+	}
+}
+
+qing_admiral_headgear = {
+	dna_modifiers = {
+	accessory = { mode = add gene = ming_mao template = haijunmao_headgear value = 0 }
+	accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+	}
+	weight = {
+	base = 0
+	modifier = { add = 2001 qing_admiral_clothes_trigger = yes }
+	}
+}
+
+qing_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = xinjunmao_headgear range = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1000 qing_soldier_clothes_pop_trigger = yes  }
+modifier = { add = 3000 junfa_officers_clothes_pop_trigger = yes  }
+}
+}
+
+qing_officers_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = xinjunmao_headgear range = 0.5 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1000 qing_officers_clothes_pop_trigger = yes }
+modifier = { add = 3003 junfa_officers_clothes_pop_trigger = yes }
+}
+}
+
+qing_ig_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = xinjunmao_headgear value = 1 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1001 qing_ig_army_clothes_trigger = yes }
+}
+}
+
+
+
+###########################################################   苏维埃 ↓↓↓↓↓↓   ######################################################
+SRC_chairman_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = gemingjunmao_headgear value = 0.7 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3002 SRC_chairman_clothes_trigger = yes }
+}
+}
+
+SRC_general_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = gemingjunmao_headgear value = 0.7 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3001 SRC_general_clothes_trigger = yes }
+}
+}
+
+SRC_admiral_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = dayanmao_headgear value = 0.05 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3001 SRC_admiral_clothes_trigger = yes }
+}
+}
+
+SRC_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = gemingjunmao_headgear value = 0.7 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 SRC_officers_clothes_pop_trigger = yes }
+}
+}
+
+SRC_soldier_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = gemingjunmao_headgear value = 0.7 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 SRC_soldier_clothes_pop_trigger = yes }
+}
+}
+
+SRC_ig_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = gemingjunmao_headgear value = 0.7 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 SRC_ig_army_clothes_trigger = yes }
+}
+}
+
+###########################################################   党国 ↓↓↓↓↓↓   ######################################################
+KMT_chairman_headgear = {
+dna_modifiers = {
+#accessory = { mode = add gene = ming_mao template = dayanmao_headgear value = 0.55 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3002 KMT_chairman_clothes_trigger = yes }
+}
+}
+
+KMT_general_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = guojunmao_headgear value = 1 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3001 KMT_general_clothes_trigger = yes }
+}
+}
+
+KMT_admiral_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = haijunmao_headgear value = 0.6 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3001 KMT_admiral_clothes_trigger = yes }
+}
+}
+
+KMT_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = guojunmao_headgear value = 0.5 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 KMT_officers_clothes_pop_trigger = yes }
+}
+}
+
+KMT_soldier_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = guojunmao_headgear value = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 KMT_soldier_clothes_pop_trigger = yes }
+}
+}
+
+KMT_bureaucrats_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = minguo_fuyujieji_headgear value = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 KMT_bureaucrats_clothes_pop_trigger = yes }
+}
+}
+
+KMT_ig_intelligentsia_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = minguo_fuyujieji_headgear value = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 KMT_ig_intelligentsia_clothes_trigger = yes }
+}
+}
+
+
+
+
+###########################################################  民国 ↓↓↓↓↓↓   ######################################################
+
+BYN_general_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = beiyangjunmao_headgear value = 1 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2001 BYN_general_clothes_trigger = yes }
+}
+}
+
+BYN_admiral_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = haijunmao_headgear value = 0.4 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2001 BYN_admiral_clothes_trigger = yes }
+}
+}
+
+BYN_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = beiyangjunmao_headgear value = 0.5 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2000 BYN_officers_clothes_pop_trigger = yes }
+}
+}
+
+BYN_soldier_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = beiyangjunmao_headgear value = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2000 BYN_soldier_clothes_pop_trigger = yes }
+}
+}
+
+BYN_ig_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = beiyangjunmao_headgear value = 1 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2000 BYN_ig_army_clothes_trigger = yes }
+}
+}
+
+
+
+BYN_poor_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = headgear template = chinese_common_headgear value = 1 }
+#accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { add = 2000 BYN_poor_clothes_pop_trigger = yes }
+}
+}
+
+BYN_middle_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = minguo_zhongchanjieji_headgear value = 1 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { add = 2000 OR = { BYN_middle_clothes_pop_trigger = yes BYN_ig_gonghui_clothes_trigger = yes } }
+}
+}
+
+BYN_upper_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = minguo_fuyujieji_headgear value = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { add = 2000 OR = { BYN_upper_clothes_pop_trigger = yes BYN_ig_industry_clothes_trigger = yes BYN_ig_landowners_clothes_trigger = yes } }
+}
+}
+
+
+
+###########################################################   共和国 ↓↓↓↓↓↓   ######################################################
+
+PRC_general_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = jiefangjunmao_headgear value = 1 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3001 PRC_general_clothes_trigger = yes }
+}
+}
+
+PRC_admiral_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = haijunmao_headgear value = 1 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3001 PRC_admiral_clothes_trigger = yes }
+}
+}
+
+PRC_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = jiefangjunmao_headgear value = 0.5 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_officers_clothes_pop_trigger = yes }
+}
+}
+
+PRC_soldier_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = jiefangjunmao_headgear value = 0 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_soldier_clothes_pop_trigger = yes }
+}
+}
+
+PRC_ig_army_headgear = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_mao template = jiefangjunmao_headgear value = 1 }
+accessory = { mode = add gene = headgear  template = no_headgear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_ig_army_clothes_trigger = yes }
+}
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+CHARACTERS = {
+	c:SGG = {
+		create_character = {
+			first_name = "Zhisheng"
+			last_name = "Wu"
+			ruler = yes
+			birth_date = 1796.4.20
+			culture = cu:min
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+				
+			}
+		}
+	}
+}

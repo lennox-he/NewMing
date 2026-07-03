@@ -1,0 +1,25 @@
+POWER_BLOCS = {
+	c:CNM = {
+		create_power_bloc = {
+			name = MING_CHINA
+			map_color = { 254 231 28 }
+
+			founding_date = 1704.3.14 # 复国后第一次朝贡协议
+			identity = identity_tianchao
+			principle = principle_tianchao_neisheng_1
+
+			# subjects are automatically part of the bloc
+			
+			member = c:RYU
+			member = c:LAD
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_construction_1
+			}
+		}
+	}	
+}

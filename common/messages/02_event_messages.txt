@@ -1,0 +1,29 @@
+qng_sell_land_notification = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+
+	notification_type = popup
+	popup_name = war_started
+
+	on_created_soundeffect = "event:/SFX/UI/Military/to_war_popup_notification"
+}
+
+ming_junfa_notification = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+
+	notification_type = popup
+	popup_name = war_started
+
+	on_created_soundeffect = "event:/SFX/UI/Military/to_war_popup_notification"
+}
+
+ming_nongmin_notification = {
+	type = country
+	texture = "gfx/interface/icons/notification_icons/diplomatic_play.dds"
+
+	notification_type = popup
+	popup_name = war_started
+
+	on_created_soundeffect = "event:/SFX/UI/Military/to_war_popup_notification"
+}

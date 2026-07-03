@@ -1,0 +1,2217 @@
+POPS = {
+	s:STATE_DZUNGARIA = {
+		region_state:DZU = {
+			# Based off estimates by James Millward and Wang Xilong
+			# Northern Xinjiang excluding Turfan and the Khumul Khanate
+			create_pop = {
+				culture = mongol
+				size = 1268000
+			}
+			create_pop = {
+				culture = han # includes administrators and military personel
+				size = 120000
+			}
+			create_pop = {
+				culture = han # includes administrators and military personel
+				religion = taolism
+				size = 463589
+			}
+			create_pop = {
+				culture = han # hui
+				religion = sunni
+				size = 145000
+			}
+			create_pop = {
+				culture = uighur
+				size = 4000
+			}
+			create_pop = {
+				culture = kazak
+				size = 10000
+			}
+			# Khumul Khanate
+			create_pop = {
+				culture = uighur
+				size = 12000
+			}
+			create_pop = {
+				culture = han
+				size = 200
+			}
+			create_pop = {
+				culture = han # hui
+				religion = sunni
+				size = 500
+			}
+			create_pop = {
+				culture = mongol
+				size = 1000
+			}
+			create_pop = {
+				culture = kazak
+				size = 500
+			}
+			create_pop = {
+				culture = mongol
+				religion = sunni
+				size = 134900
+			}
+			# Turfan
+			create_pop = {
+				culture = uighur
+				size = 10000
+			}
+		}
+	}
+	s:STATE_TIANSHAN = {
+		region_state:DZU = {
+			# Based off estimates by James Millward and Wang Xilong
+			# Only some 'hundreds' Chinese merchants were settled in the Tarim Basis
+			create_pop = {
+				culture = han # includes administrators and military personel
+				size = 138600
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 57830
+			}
+			create_pop = {
+				culture = han # includes administrators and military personel
+				religion = mahayana
+				size = 10000
+			}
+			create_pop = {
+				culture = uighur
+				size = 340000
+			}
+			create_pop = {
+				culture = mongol
+				size = 501002
+			}
+			create_pop = {
+				culture = uzbek
+				size = 3996
+			}
+			create_pop = {
+				culture = kirgiz
+				size = 16000
+			}
+			create_pop = {
+				culture = tajik
+				size = 9000
+			}
+		}
+		region_state:TIB = {
+			create_pop = {
+				culture = tibetan
+				size = 12504
+			}
+		}
+	}
+	s:STATE_SICHUAN = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 4479900
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = mahayana
+				size = 5000000
+			}
+			create_pop = {
+				culture = han
+				religion = taolism
+				size = 4211060
+			}
+			create_pop = {
+				culture = tibetan
+				size = 903796
+			}
+			create_pop = {
+				culture = yi
+				size = 480000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = animist
+				size = 1336004
+			}
+		}
+	}
+	s:STATE_YUNNAN = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 678092
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = mahayana
+				size = 511060
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = taolism
+				size = 423060
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = animist
+				size = 616000
+			}
+			create_pop = {
+				culture = zhuang
+				size = 85796
+			}
+			create_pop = {
+				culture = yi
+				size = 508596
+			}
+			create_pop = {
+				culture = yue
+				size = 88000
+			}
+			create_pop = {
+				culture = miao
+				size = 80000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 40000
+			}
+		}
+		region_state:ZHY = {
+			create_pop = {
+				culture = han
+				size = 8092
+			}
+			create_pop = {
+				culture = han
+				religion = animist
+				size = 9000
+			}
+			create_pop = {
+				culture = zhuang
+				size = 1796
+			}
+			create_pop = {
+				culture = yi
+				size = 596
+			}
+			create_pop = {
+				culture = yue
+				size = 200
+			}
+			create_pop = {
+				culture = miao
+				size = 1000
+			}
+		}
+		region_state:MMK = {
+			create_pop = {
+				culture = han
+				size = 12090
+			}
+			create_pop = {
+				culture = han
+				religion = animist
+				size = 19000
+			}
+			create_pop = {
+				culture = zhuang
+				size = 8796
+			}
+			create_pop = {
+				culture = yi
+				size = 12596
+			}
+			create_pop = {
+				culture = yue
+				size = 2200
+			}
+			create_pop = {
+				culture = miao
+				size = 1500
+			}
+		}
+	}
+	s:STATE_GUIZHOU = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han
+				size = 668452
+			}
+			create_pop = {
+				culture = han
+				religion = mahayana
+				size = 521060
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = taolism
+				size = 481452
+			}
+			create_pop = {
+				culture = manchu
+				size = 1248
+			}
+			create_pop = {
+				culture = zhuang
+				size = 492020
+			}
+			create_pop = {
+				culture = yue
+				size = 104000
+			}
+			create_pop = {
+				culture = miao
+				size = 136408
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 6000
+			}
+		}
+	}
+	s:STATE_SHAOZHOU = {
+		region_state:CNM = {
+			create_pop = {
+				culture = yue
+				size = 1171992
+			}
+			create_pop = {
+				culture = yue
+				size = 811060
+				religion = mahayana
+			}
+			create_pop = {
+				culture = yue
+				size = 611060
+				religion = taolism
+			}
+			create_pop = {
+				culture = hakka
+				size = 1000000
+			}
+			create_pop = {
+				culture = hakka
+				size = 564000
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 368000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 200000
+				religion = taolism
+			}
+		}
+	}
+	s:STATE_ALXA = {
+		region_state:CHI = {
+			# Alasha Ööled and Ejine Torghuud banner. Could not find accurate population data, but should be relatively low
+			create_pop = {
+				culture = mongol
+				size = 226392
+			}
+			create_pop = {
+				culture = manchu
+				size = 23196
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = taolism
+				size = 11600
+			}
+		}
+	}
+	# Renamed Monan
+	s:STATE_HINGGAN = {
+		region_state:CHI = {
+			create_pop = {
+				culture = mongol
+				size = 136940
+			}
+			create_pop = {
+				culture = manchu
+				size = 224412
+			}
+			create_pop = {
+				culture = han
+				size = 197003
+			}
+			create_pop = {
+				culture = han
+				religion = mahayana
+				size = 20000
+			}
+			create_pop = {
+				culture = han # hui
+				size = 11000
+				religion = sunni
+			}
+		}
+	}
+	s:STATE_GUANGXI = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 1486504
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 321060
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 581060
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhuang
+				size = 1212000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhuang
+				size = 1002000
+			}
+			create_pop = {
+				culture = yue
+				size = 251996
+			}
+			create_pop = {
+				culture = yue
+				size = 2051996
+				religion = mahayana
+			}
+			create_pop = {
+				culture = miao
+				size = 53200
+			}
+			create_pop = {
+				culture = miao
+				size = 253200
+				religion = mahayana
+			}
+		}
+	}
+	s:STATE_BEIJING = {
+		region_state:CHI = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 6877600
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 2001021
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 2001021
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 348400
+			}
+			create_pop = {
+				culture = manchu
+				size = 819942
+			}
+		}
+	}
+	s:STATE_SHENGJING = {
+		region_state:CHI = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 4791006
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 201006
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 80000
+			}
+			create_pop = {
+				culture = manchu
+				size = 1201994
+			}
+		}
+	}
+	s:STATE_SOUTHERN_MANCHURIA = {
+		region_state:CHI = {
+			create_pop = {
+				culture = manchu
+				size = 5210800
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1311992
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1111992
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 511992
+				religion = mahayana
+			}			
+			create_pop = {
+				culture = korean
+				size = 3000
+			}
+			create_pop = {
+				culture = mongol
+				size = 90412
+			}
+		}
+	}
+	s:STATE_NORTHERN_MANCHURIA = {
+		region_state:CHI = {
+			create_pop = {
+				culture = manchu
+				size = 2821200
+			}
+			create_pop = {
+				culture = siberian
+				size = 32000
+			}
+			create_pop = {
+				culture = mongol
+				size = 236404
+			}
+		}
+	}
+	s:STATE_SHANXI = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 6277592
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1600000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 500000
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 160000
+			}
+			create_pop = {
+				culture = manchu
+				size = 126451
+			}
+		}
+	}
+	s:STATE_NINGXIA = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 4637392
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1688000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han
+				size = 1237392
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 492200
+			}
+		}
+	}
+	s:STATE_GANSU = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 1633588
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = mahayana
+				size = 606085
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = taolism
+				size = 226085
+			}
+			create_pop = {
+				culture = mongol
+				size = 451800
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 121660
+			}
+		}
+		region_state:HMI = {
+			create_pop = {
+				culture = han
+				religion = mahayana
+				size = 33588
+			}
+			create_pop = {
+				culture = mongol
+				size = 821800
+			}
+			create_pop = {
+				culture = han
+				religion = sunni
+				size = 351660
+			}
+			create_pop = {
+				culture = kazak
+				size = 56000
+			}
+		}
+	}
+	s:STATE_XIAN = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 5351000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = mahayana
+				size = 2000000
+			}
+			create_pop = {
+				culture = han
+				religion = taolism
+				size = 1650000
+			}
+			create_pop = {
+				culture = mongol
+				size = 722488
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 216304
+			}
+		}
+	}
+	s:STATE_QINGHAI = {
+		region_state:TIB = {
+			create_pop = {
+				culture = tibetan
+				size = 619404
+			}
+			create_pop = {
+				culture = mongol
+				size = 184000
+			}
+			create_pop = {
+				culture = han
+				religion = sunni
+				size = 58004
+			}
+		}
+		region_state:HMI = {
+			create_pop = {
+				culture = tibetan
+				size = 99404
+			}
+			create_pop = {
+				culture = mongol
+				size = 184000
+			}
+			create_pop = {
+				culture = kazak
+				religion = animist
+				size = 80000
+			}
+			create_pop = {
+				culture = kazak
+				size = 16000
+			}
+			create_pop = {
+				culture = han
+				religion = sunni
+				size = 8004
+			}
+			create_pop = {
+				culture = han
+				size = 18056
+			}
+		}
+	}
+	s:STATE_CHONGQING = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han
+				size = 3246404
+			}
+			create_pop = {
+				culture = han
+				religion = taolism
+				size = 1126404
+			}
+			create_pop = {
+				culture = han
+				religion = mahayana
+				size = 1252694
+			}
+		}
+	}
+	s:STATE_GUANGDONG = {
+		region_state:CNM = {
+			create_pop = {
+				culture = yue
+				size = 4008000
+			}
+			create_pop = {
+				culture = yue
+				size = 2748000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = yue
+				religion = taolism
+				size = 2550394
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 774792
+			}
+			create_pop = {
+				culture = min
+				size = 483996
+			}
+			create_pop = {
+				culture = min
+				size = 403996
+				religion = mahayana
+			}
+			create_pop = {
+				culture = miao
+				size = 356004
+			}
+			create_pop = {
+				culture = miao
+				size = 306004
+				religion = mahayana
+			}
+			create_pop = {
+				culture = zhuang
+				size = 107000
+			}
+			create_pop = {
+				culture = zhuang
+				size = 117000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = animist
+				size = 204400
+			}
+			create_pop = {
+				culture = hakka
+				size = 78000
+			}
+			create_pop = {
+				culture = hakka
+				size = 70000
+				religion = mahayana
+			}
+		}
+		region_state:POR = {
+			create_pop = {
+				culture = yue
+				size = 186000
+			}
+			create_pop = {
+				culture = yue
+				size = 86000
+				religion = mahayana
+			}
+			create_pop = {
+				culture = yue
+				size = 76000
+				religion = taolism
+			}
+			create_pop = {
+				culture = portuguese
+				size = 996
+			}
+			create_pop = {
+				culture = yue
+				religion = catholic
+				size = 5000
+			}
+		}
+	}
+	s:STATE_FUJIAN = {
+		region_state:CNM = {
+			create_pop = {
+				culture = min
+				size = 2210004
+			}
+			create_pop = {
+				culture = min
+				size = 2010004
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1140204
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = taolism
+				size = 1090204
+			}
+			create_pop = {
+				culture = hakka
+				size = 826000
+			}
+			create_pop = {
+				culture = hakka
+				religion = mahayana
+				size = 206000
+			}
+			create_pop = {
+				culture = miao
+				size = 120004
+			}
+			create_pop = {
+				culture = miao
+				religion = mahayana
+				size = 30004
+			}
+		}
+	}
+	s:STATE_ZHEJIANG = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 4664400
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 2004400
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 2293708
+			}
+			create_pop = {
+				culture = min
+				religion = animist
+				size = 352000
+			}
+			create_pop = {
+				culture = miao
+				size = 156000
+			}
+		}
+	}
+	s:STATE_JIANGSU = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 3321904
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1261300
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1061300
+				religion = taolism
+			}
+		}
+	}
+	s:STATE_NANJING = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 3180192
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 961300
+				religion = taolism
+			}
+		}
+	}
+	s:STATE_HENAN = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 6438400
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 2215300
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1115300
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 589596
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = jewish
+				size = 1996
+			}
+		}
+	}
+	s:STATE_ZHILI = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 5446940
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1446940
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 54528
+			}
+		}
+	}
+	s:STATE_JIANGXI = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 3859900
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 4319300
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 2319300
+				religion = taolism
+			}
+			create_pop = {
+				culture = hakka
+				size = 1254600
+			}
+			create_pop = {
+				culture = hakka
+				size = 954600
+				religion = taolism
+			}
+			create_pop = {
+				culture = miao
+				size = 256000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 236000
+			}
+		}
+	}
+	s:STATE_SOUTHERN_ANHUI = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 2673408
+			}
+			create_pop = {
+				culture = han
+				size = 961300
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han
+				size = 1861300
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1051996
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 304004
+			}
+		}
+	}
+	s:STATE_NORTHERN_ANHUI = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 3612000
+			}
+			create_pop = {
+				culture = han
+				size = 754100
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han
+				size = 1254100
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 348000
+			}
+		}
+	}
+	s:STATE_WESTERN_HUBEI = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 2056000
+			}
+			create_pop = {
+				culture = han
+				size = 4006000
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 144000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = animist
+				size = 884000
+			}
+		}
+	}
+	s:STATE_EASTERN_HUBEI = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 5122096
+			}
+			create_pop = {
+				culture = han
+				size = 1092700
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han
+				religion = animist
+				size = 160400
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 135996
+			}
+		}
+	}
+	s:STATE_HUNAN = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 6913400
+			}
+			create_pop = {
+				culture = han
+				size = 2313400
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han
+				size = 1695300
+				religion = taolism
+			}
+			create_pop = {
+				culture = yue
+				size = 291996
+			}
+			create_pop = {
+				culture = yue
+				religion = mahayana
+				size = 201996
+			}
+			create_pop = {
+				culture = miao
+				size = 184000
+			}
+			create_pop = {
+				culture = miao
+				religion = mahayana
+				size = 204000
+			}
+		}
+	}
+	s:STATE_FORMOSA = {
+		region_state:CNM = {
+			create_pop = {
+				culture = min
+				size = 1000000
+			}
+			create_pop = {
+				culture = min
+				religion = mahayana
+				size = 240000
+			}
+			create_pop = {
+				culture = min
+				religion = taolism
+				size = 240000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 605504
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = mahayana
+				size = 215504
+			}
+			create_pop = {
+				culture = yuanzhumin
+				size = 600000
+			}
+		}
+	}
+	s:STATE_SHANDONG = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 5968000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1245300
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 845300
+				religion = mahayana
+			}
+		}
+	}
+	s:STATE_SUZHOU = {
+		region_state:CNM = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 5196004
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 1620400
+				religion = taolism
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 3836004
+				religion = mahayana
+			}
+			create_pop = {
+				culture = han
+				religion = catholic
+				size = 36004
+			}
+		}
+	}
+	# Population of Outer Mongolia should be somewhat over 600,000, but I could not find data for a more granular distribution in regards to West vs East. Due to the existence of more banners in the East, I have assumed this also means a somewhat higher population.
+	s:STATE_ULIASTAI = {
+		region_state:MGL = {
+			create_pop = {
+				culture = mongol
+				size = 540608
+			}
+			create_pop = {
+				culture = han
+				size = 3623
+			}
+			create_pop = {
+				culture = kazak
+				size = 48000
+			}
+		}
+	}
+	s:STATE_URGA = {
+		region_state:CHI = {
+			create_pop = {
+				culture = mongol
+				size = 751104
+			}
+			create_pop = {
+				culture = han
+				size = 35996
+			}
+			create_pop = {
+				culture = manchu
+				size = 18000
+			}
+		}
+	}
+	s:STATE_CAMBODIA = {
+		region_state:SIA = {
+			create_pop = {
+				culture = khmer
+				size = 176400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = khmer
+				size = 5000
+			}
+			create_pop = {
+				culture = yue
+				size = 11996
+			}
+			create_pop = {
+				culture = thai
+				size = 3992
+			}
+			create_pop = {
+				culture = champa
+				religion = sunni
+				size = 3947
+			}
+		}
+		region_state:CAM = {
+			create_pop = {
+				culture = khmer
+				size = 623202
+			}
+			create_pop = {
+				culture = yue
+				size = 23996
+			}
+			create_pop = {
+				culture = vietnamese
+				size = 13002
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = khmer
+				size = 40204
+			}
+			create_pop = {
+				culture = champa
+				religion = sunni
+				size = 14008
+			}
+		}
+		region_state:KLO = {
+			create_pop = {
+				culture = khmer
+				religion = animist
+				size = 33000
+			}
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 7000
+			}
+			create_pop = {
+				culture = champa
+				religion = animist
+				size = 5000
+			}
+		}
+	}
+	s:STATE_BANGKOK = {
+		region_state:SIA = {
+			create_pop = {
+				culture = thai
+				size = 1534004
+			}
+			create_pop = {
+				culture = yue
+				size = 154400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = yue
+				size = 30000
+			}
+		}
+	}
+	s:STATE_TONKIN = {
+		region_state:CNN = {
+			create_pop = {
+				culture = vietnamese
+				size = 1241220
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = taolism
+				size = 641220
+			}
+			create_pop = {
+				culture = miao
+				size = 96004
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = catholic
+				size = 228000
+			}
+			create_pop = {
+				culture = yue
+				religion = taolism
+				size = 728000
+			}
+			create_pop = {
+				culture = min
+				size = 16000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = vietnamese
+				size = 20100
+			}
+			create_pop = {
+				culture = zhuang
+				size = 33000
+			}
+			create_pop = {
+				culture = zhuang
+				religion = mahayana
+				size = 11000
+			}
+		}
+		region_state:SCT = {
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 29000
+			}
+		}
+	}
+	s:STATE_ANNAM = {
+		region_state:CNN = {
+			create_pop = {
+				culture = vietnamese
+				religion = confucian
+				size = 820333
+			}
+			create_pop = {
+				culture = yue
+				size = 171996
+			}
+			create_pop = {
+				culture = miao
+				size = 87900
+			}
+		}
+		region_state:DAI = {
+			create_pop = {
+				culture = vietnamese
+				size = 640333
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = confucian
+				size = 200333
+			}
+			create_pop = {
+				culture = yue
+				size = 31996
+			}
+			create_pop = {
+				culture = miao
+				size = 4900
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = catholic
+				size = 126000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = vietnamese
+				size = 30063
+			}
+		}
+	}
+	s:STATE_MEKONG = {
+		region_state:DAI = {
+			create_pop = {
+				culture = vietnamese
+				size = 1002396
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = confucian
+				size = 152396
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = animist
+				size = 118000
+			}
+			create_pop = {
+				culture = khmer
+				size = 180000
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = catholic
+				size = 116400
+			}
+			create_pop = {
+				culture = yue
+				size = 16000
+			}
+			create_pop = {
+				culture = min
+				size = 11996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = vietnamese
+				size = 60000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = vietnamese
+				religion = animist
+				size = 10000
+			}
+			create_pop = {
+				culture = champa
+				religion = sunni
+				size = 82000
+			}
+			create_pop = {
+				culture = champa
+				religion = hindu
+				size = 8000
+			}
+		}
+		region_state:DGR = {
+			create_pop = {
+				culture = champa
+				religion = animist
+				size = 50000
+			}
+			create_pop = {
+				culture = khmer
+				religion = animist
+				size = 5000
+			}
+		}
+	}
+	s:STATE_LAOS = {
+		region_state:LUA = {
+			create_pop = {
+				culture = lao
+				size = 216021
+			}
+			create_pop = {
+				culture = miao
+				size = 22348
+			}
+			create_pop = {
+				culture = khmu
+				size = 62100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lao
+				size = 11004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = khmu
+				size = 4000
+			}
+		}
+		region_state:SIA = {
+			create_pop = {
+				culture = lao
+				size = 81837
+			}
+			create_pop = {
+				culture = shan
+				size = 17248
+			}
+			create_pop = {
+				culture = thai
+				size = 36009
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lao
+				size = 16000
+			}
+		}
+		region_state:CHP = {
+			create_pop = {
+				culture = lao
+				size = 86720
+			}
+			create_pop = {
+				culture = shan
+				size = 14752
+			}
+			create_pop = {
+				culture = miao
+				size = 35744
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lao
+				size = 5000
+			}
+		}
+		region_state:CNN = {
+			create_pop = {
+				culture = lao
+				size = 64918
+			}
+			create_pop = {
+				culture = khmu
+				size = 6900
+			}
+			create_pop = {
+				culture = thai
+				size = 18334
+			}
+			create_pop = {
+				culture = miao
+				size = 2400
+			}
+		}
+		region_state:SCT = {
+			create_pop = {
+				culture = lao
+				religion = animist
+				size = 11000
+			}
+		}
+	}
+	s:STATE_CHIANG_MAI = {
+		region_state:CMI = {
+			create_pop = {
+				culture = thai
+				size = 526096
+			}
+			create_pop = {
+				culture = yue
+				size = 12004
+			}
+			create_pop = {
+				culture = shan
+				size = 267500
+			}
+			create_pop = {
+				culture = lao
+				size = 88400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = shan
+				size = 30200
+			}
+		}
+	}
+	s:STATE_NAKHON_RATCHASIMA = {
+		region_state:SIA = {
+			create_pop = {
+				culture = lao
+				size = 588000
+			}
+			create_pop = {
+				culture = yue
+				size = 33000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = yue
+				size = 15000
+			}
+			create_pop = {
+				culture = thai
+				size = 494312
+			}
+			create_pop = {
+				culture = khmer
+				size = 39000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = khmer
+				size = 13000
+			}
+		}
+	}
+	s:STATE_TENASSERIM = {
+		region_state:BIC = {
+			create_pop = {
+				culture = karen
+				size = 180800
+			}
+			create_pop = {
+				culture = british
+				size = 96
+			}
+			create_pop = {
+				culture = burmese
+				size = 112000
+			}
+			create_pop = {
+				culture = mon
+				size = 8796
+			}
+			create_pop = {
+				culture = thai
+				size = 36004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = karen
+				size = 20000
+			}
+		}
+		region_state:SIA = {
+			create_pop = {
+				culture = burmese
+				size = 36000
+			}
+			create_pop = {
+				culture = mon
+				size = 3480
+			}
+			create_pop = {
+				culture = karen
+				size = 60800
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = karen
+				size = 20000
+			}
+			create_pop = {
+				culture = thai
+				size = 44020
+			}
+		}
+		region_state:SGG = {
+			create_pop = {
+				culture = min
+				size = 43480
+			}
+			create_pop = {
+				culture = yue
+				religion = taolism
+				size = 12180
+			}
+			create_pop = {
+				culture = karen
+				size = 10800
+			}
+			create_pop = {
+				culture = thai
+				size = 14020
+			}
+		}
+	}
+	s:STATE_KACHIN = {
+		region_state:BUR = {
+			create_pop = {
+				culture = kachin
+				size = 408000
+			}
+			create_pop = {
+				culture = shan
+				size = 92004
+			}
+			create_pop = {
+				culture = thai
+				religion = animist
+				size = 18000
+			}
+			create_pop = {
+				culture = burmese
+				size = 128400
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kachin
+				size = 40000
+			}
+		}
+	}
+	s:STATE_SHAN_STATES = {
+		region_state:BUR = {
+			create_pop = {
+				culture = shan
+				size = 330123
+			}
+			create_pop = {
+				culture = shan
+				size = 60102
+				religion = animist
+			}
+			create_pop = {
+				culture = kachin
+				size = 48300
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = shan
+				size = 30200
+			}
+		}
+		region_state:SHS = {
+			create_pop = {
+				culture = shan
+				size = 490100
+			}
+			create_pop = {
+				culture = shan
+				size = 40300
+				religion = animist
+			}
+			create_pop = {
+				culture = karen
+				size = 18900
+			}
+			create_pop = {
+				culture = karen
+				religion = animist
+				size = 48300
+			}
+			create_pop = {
+			#	pop_type = slaves
+				culture = shan
+				size = 30200
+			}
+		}
+	}
+
+	s:STATE_MANDALAY = {
+		region_state:BUR = {
+			create_pop = {
+				culture = burmese
+				size = 840200
+			}
+			create_pop = {
+				culture = shan
+				size = 105012
+			}
+			create_pop = {
+				culture = karen
+				religion = animist
+				size = 31501
+			}
+			create_pop = {
+				culture = karen
+				religion = theravada
+				size = 21021
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 50200
+			}
+		}
+		region_state:KKI = {
+			create_pop = {
+				culture = lushai
+				size = 37012
+			}
+		}
+	}
+	s:STATE_PEGU = {
+		region_state:BUR = {
+			create_pop = {
+				culture = burmese
+				size = 945030
+			}
+			create_pop = {
+				culture = mon
+				size = 135500
+			}
+			create_pop = {
+				culture = karen
+				size = 135010
+				religion = animist
+			}
+			create_pop = {
+				culture = karen
+				size = 67192
+				religion = theravada
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 35912
+			}
+		}
+		region_state:DEN = {
+			create_pop = {
+				culture = mon
+				religion = animist
+				size = 9102
+			}
+		}
+		region_state:BIC = {
+			create_pop = {
+				culture = mon
+				religion = animist
+				size = 1923
+			}
+
+		}
+	}
+	s:STATE_ARAKAN = {
+		region_state:BIC = {
+			create_pop = {
+				culture = burmese
+				size = 100888
+			}
+			create_pop = {
+				culture = british
+				size = 432
+			}
+			create_pop = {
+				culture = burmese
+				religion = sunni
+				size = 60000
+			}
+			create_pop = {
+				culture = bengali
+				size = 7996
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 19000
+			}
+		}
+		region_state:KKI = {
+			create_pop = {
+				culture = lushai
+				size = 25888
+			}
+		}
+	}
+	s:STATE_SAKHALIN = {
+		region_state:SKH = {
+			create_pop = {
+				culture = ainu
+				size = 24004
+			}
+			create_pop = {
+				culture = siberian
+				size = 16000
+			}
+		}
+	}
+	s:STATE_HOKKAIDO = {
+		region_state:AIN = {
+			create_pop = {
+				culture = ainu
+				size = 29500
+			}
+			create_pop = { # traders and fishermen associated with contract fisheries
+				culture = japanese
+				size = 831
+			}
+		}
+		region_state:JAP = {
+			create_pop = {
+				culture = ainu
+				size = 102
+			}
+			create_pop = {
+				culture = japanese
+				size = 9862
+			}
+		}
+	}
+	s:STATE_TOHOKU = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 2374632
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 917280
+			}
+		}
+	}
+	s:STATE_KANTO = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 4050072
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 1123204
+			}
+		}
+	}
+	s:STATE_CHUBU = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 4127776
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 1745764
+			}
+		}
+	}
+	s:STATE_KANSAI = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 6178176
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 1686204
+			}
+		}
+	}
+	s:STATE_KYUSHU = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 3170167
+			}
+			create_pop = {
+				culture = micronesian
+				size = 132
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 1067036
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 18712
+			}
+		}
+	}
+
+	s:STATE_RYUKYU_ISLANDS = {
+		region_state:RYU = {
+			create_pop = {
+				culture = ryukyuan
+				size = 259181
+			}
+			create_pop = {
+				culture = min
+				size = 39181
+			}
+			create_pop = {
+				culture = han
+				size = 25183
+			}
+		}	
+	}
+	
+	s:STATE_CHUGOKU = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 2024340
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 744588
+			}
+		}
+	}
+	s:STATE_SHIKOKU = {
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 1161416
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 352420
+			}
+		}
+	}
+	s:STATE_SEOUL = {
+		region_state:KOR = {
+			create_pop = {
+				culture = korean
+				size = 1832336
+			}
+			create_pop = {
+				culture = korean
+				religion = mahayana
+				size = 986642
+			}
+		}
+	}
+	s:STATE_BUSAN = {
+		region_state:KOR = {
+			create_pop = {
+				culture = korean
+				size = 2409741
+			}
+			create_pop = {
+				culture = korean
+				religion = mahayana
+				size = 1186886
+			}
+		}
+	}
+	s:STATE_YANGHO = {
+		region_state:KOR = {
+			create_pop = {
+				culture = korean
+				size = 2685968
+			}
+			create_pop = {
+				culture = korean
+				religion = mahayana
+				size = 1866519
+			}
+		}
+	}
+	s:STATE_SARIWON = {
+		region_state:KOR = {
+			create_pop = {
+				culture = korean
+				size = 1053067
+			}
+			create_pop = {
+				culture = korean
+				religion = mahayana
+				size = 567035
+			}
+		}
+	}
+	s:STATE_PYONGYANG = {
+		region_state:KOR = {
+			create_pop = {
+				culture = korean
+				size = 2528980
+			}
+			create_pop = {
+				culture = korean
+				religion = mahayana
+				size = 1083848
+			}
+		}
+	}
+	
+	s:STATE_MENGYANG = {
+		region_state:CHS = {
+			create_pop = {
+				culture = kachin
+				size = 100000
+			}
+			create_pop = {
+				culture = shan
+				size = 41000
+			}
+			create_pop = {
+				culture = thai
+				religion = animist
+				size = 1000
+			}
+			create_pop = {
+				culture = burmese
+				size = 10400
+			}
+		}
+		region_state:ZHY = {
+			create_pop = {
+				culture = kachin
+				size = 8000
+			}
+			create_pop = {
+				culture = shan
+				size = 1004
+			}
+			create_pop = {
+				culture = thai
+				religion = animist
+				size = 8000
+			}
+			create_pop = {
+				culture = burmese
+				size = 8400
+			}
+		}
+	}
+	s:STATE_CHELI = {
+		region_state:CEL = {
+			create_pop = {
+				culture = shan
+				size = 243996
+			}
+			create_pop = {
+				culture = kachin
+				size = 21000
+			}
+		}
+	}
+	s:STATE_HAMI = {
+		region_state:HMI = {
+			create_pop = {
+				culture = mongol
+				size = 68000
+			}
+			create_pop = {
+				culture = kirgiz
+				religion = animist
+				size = 5996
+			}
+			create_pop = {
+				culture = han
+				size = 8000
+			}
+		}
+		region_state:MGL = {
+			create_pop = {
+				culture = mongol
+				size = 28000
+			}
+			create_pop = {
+				culture = uighur
+				religion = gelugpa
+				size = 1288
+			}
+		}
+	}
+	s:STATE_CHENGDE = {
+		region_state:CHI = {
+			create_pop = {
+				culture = han
+				religion = mahayana
+				size = 927600
+			}
+			create_pop = {
+				culture = manchu
+				size = 159942
+			}
+			create_pop = {
+				culture = mongol
+				size = 42786
+			}
+		}
+	}
+	s:STATE_HETAO = {
+		region_state:CHI = {
+			create_pop = {
+				culture = mongol
+				size = 186240
+			}
+			create_pop = {
+				culture = manchu
+				size = 4231
+			}
+			create_pop = {
+				culture = han
+				size = 157000
+			}
+		}
+	}
+	s:STATE_TONGLIAO = {
+		region_state:CHI = {
+			create_pop = {
+				culture = mongol
+				size = 135910
+			}
+			create_pop = {
+				culture = manchu
+				size = 224412
+			}
+			create_pop = {
+				culture = han
+				size = 84000
+			}
+		}
+	}
+	s:STATE_OUTER_MANCHURIA = {
+		region_state:CHI = {
+			create_pop = {
+				culture = manchu
+				size = 123996
+			}
+			create_pop = {
+				culture = han
+				size = 1233
+			}
+			create_pop = {
+				culture = siberian
+				size = 52800
+			}
+		}
+	}
+	s:STATE_XIKANG = {
+		region_state:TIB = {
+			create_pop = {
+				culture = tibetan
+				size = 170000
+			}
+			create_pop = {
+				culture = han
+				religion = animist
+				size = 20000
+			}
+			create_pop = {
+				culture = kachin
+				size = 54000
+			}
+		}
+	}
+}

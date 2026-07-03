@@ -1,0 +1,86 @@
+REPLACE_OR_CREATE:chi_wei_yuan_character_template = {
+    first_name = Yuan
+	last_name = Wei
+	historical = yes
+	culture = cu:han
+	religion = rel:confucian
+	female = no
+   	is_agitator = yes
+	interest_group = ig_intelligentsia
+	ideology = ideology_republican_leader
+	birth_date = 1794.1.1
+	traits = {
+		erudite
+       	experienced_diplomat
+       	reserved
+	}
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:CHI ?= this
+				c:CNM ?= this
+				c:GSD ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }   
+		earliest_usage_date = 1840.1.1
+		latest_usage_date = 1850.1.1
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_chen_duxiu_template = {
+    first_name = Duxiu
+    last_name = dynn_Chen
+    historical = yes
+    culture = cu:han
+    female = no
+    religion = rel:confucian
+    is_agitator = yes
+    ideology = ideology_communist
+    interest_group = ig_intelligentsia
+    birth_date = 1879.10.9
+    traits = {
+        bigoted
+        experienced_diplomat
+        erudite
+		literary
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CNM
+            this = c:CNM
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_petty_bourgeoisie
+            }
+        }
+        earliest_usage_date = 1998.1.1
+        latest_usage_date = 1950.9.9
+        chance = 50
+    }
+	agitator_usage = {
+		country_trigger = {
+			has_dlc_feature = voice_of_the_people_content
+			OR = {
+				c:CHI ?= this
+				c:CNM ?= this
+				c:GSD ?= this
+			}
+		}
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_trade_unions
+        }   
+		earliest_usage_date = 1919.5.4
+		latest_usage_date = 1950.1.1
+		chance = 25
+	}
+}

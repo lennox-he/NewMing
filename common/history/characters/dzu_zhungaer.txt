@@ -1,0 +1,11 @@
+CHARACTERS = {
+	c:DZU = {
+		create_character = {
+			template = zhungaer_khan_template
+			ruler = yes
+			on_created = {
+				set_variable = great_khan
+			}
+		}
+	}
+}

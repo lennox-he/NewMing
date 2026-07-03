@@ -1,0 +1,146 @@
+# fushu_oneline = {
+# 	type = country
+# 	random_valid = no
+	
+# 	log_loc_errors = no
+# 	text = {
+# 		trigger = {
+# 			exists = this
+# 			NOR = {
+# 				ROOT = { is_subject_of = c:CNM }
+# 				c:CNM = {
+# 					has_diplomatic_pact = {
+# 						who = ROOT
+# 						type = customs_union
+# 					}
+# 				} 
+# 			}
+# 		}
+# 		localization_key = lizhou_duli
+# 	}
+
+# 	text = {
+# 		trigger = {
+# 			exists = this
+# 			OR = {
+# 			ROOT = { is_subject_of = c:CNM }
+# 			c:CNM = {
+# 				has_diplomatic_pact = {
+# 					who = ROOT
+# 					type = customs_union
+# 				}
+# 			}
+# 			}
+# 		}
+# 		localization_key = lizhou_zhengchang
+# 	}
+
+# 	text = {
+# 		trigger = {
+# 			always = yes
+# 			NOT = { exists = this }
+# 		}
+# 		localization_key = lizhou_buzai
+# 		fallback = yes
+# 	}
+# }
+
+great_game_china_victory_tibtean = {
+	type = country
+	text = { #中国胜利
+		trigger = {
+			has_global_variable = gg_tib_china_won
+		}
+		localization_key = gg_tib_china_won
+	}
+	text = { #英国胜利
+		trigger = {
+			has_global_variable = gg_tib_gbr_won
+		}
+		localization_key = gg_tib_gbr_won
+	}
+	text = { # Inconclusive
+		trigger = {
+			NOR = { 
+				has_global_variable = gg_tib_gbr_won
+				has_global_variable = gg_tib_china_won
+			}
+		}
+		localization_key = gg_tib_inconclusive
+	}
+}
+
+great_game_china_victory_mlj = {
+	type = country
+	text = { #中国胜利
+		trigger = {
+			has_global_variable = gg_mly_china_won
+		}
+		localization_key = gg_mly_china_won
+	}
+	text = { #英国胜利
+		trigger = {
+			has_global_variable = gg_mly_gbr_won
+		}
+		localization_key = gg_mly_gbr_won
+	}
+	text = { # Inconclusive
+		trigger = {
+			NOR = { 
+				has_global_variable = gg_mly_china_won
+				has_global_variable = gg_mly_gbr_won
+			}
+		}
+		localization_key = gg_mly_inconclusive
+	}
+}
+
+great_game_china_victory_ind = {
+	type = country
+	text = { #中国胜利
+		trigger = {
+			has_global_variable = gg_ind_china_won
+		}
+		localization_key = gg_ind_china_won
+	}
+	text = { #英国胜利
+		trigger = {
+			has_global_variable = gg_ind_gbr_won
+		}
+		localization_key = gg_ind_gbr_won
+	}
+	text = { # Inconclusive
+		trigger = {
+			NOR = { 
+				has_global_variable = gg_ind_china_won
+				has_global_variable = gg_ind_gbr_won
+			}
+		}
+		localization_key = gg_ind_inconclusive
+	}
+}
+
+great_game_china_victory_qng = {
+	type = country
+	text = { #中国胜利
+		trigger = {
+			has_global_variable = gg_qng_china_won
+		}
+		localization_key = gg_qng_china_won
+	}
+	text = { #英国胜利
+		trigger = {
+			has_global_variable = gg_qng_gbr_won
+		}
+		localization_key = gg_qng_gbr_won
+	}
+	text = { # Inconclusive
+		trigger = {
+			NOR = { 
+				has_global_variable = gg_qng_china_won
+				has_global_variable = gg_ind_gbr_won
+			}
+		}
+		localization_key = gg_qng_inconclusive
+	}
+}

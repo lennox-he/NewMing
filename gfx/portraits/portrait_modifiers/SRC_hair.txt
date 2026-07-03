@@ -1,0 +1,61 @@
+﻿ming_fa = {
+usage = game
+selection_behavior = weighted_random
+
+
+ming_hair = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_fa  template = faji_hair range = { 0 1 } }
+accessory = { mode = replace gene = hairstyles  template = no_hairstyles range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2000 OR = { chinese_han_clothes_trigger = yes chinese_han_clothes_pop_trigger = yes } AND = { chinese_manchu_queue_hairstyle_pops_trigger = no
+								chinese_manchu_queue_hairstyle_character_trigger = no } }
+}
+}
+
+SRC_hair = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_fa  template = SRC_hair range = { 0 1 } }
+#accessory = { mode = replace gene = hairstyles  template = european_peasant_hair value = 0.9 }
+accessory = { mode = replace gene = hairstyles  template = no_hairstyles range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 SRC_clothes_pop_trigger = yes }
+}
+}
+
+army_nohair = {
+dna_modifiers = {
+accessory = { mode = replace gene = hairstyles  template = no_hairstyles range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 4000 army_nohair_trigger = yes }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

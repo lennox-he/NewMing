@@ -1,0 +1,67 @@
+KMT_chairman_clothes_trigger = { #党国委员长
+exists = scope:character
+scope:character = {
+is_ruler = yes
+owner = { OR = { has_law = law_type:law_parliamentary_republic has_law = law_type:law_presidential_republic } has_law = law_type:law_autocracy AND = { exists = c:CHI owner = c:CHI } }
+}
+}
+
+KMT_general_clothes_trigger = { #党国陆军将领通用
+exists = scope:character
+scope:character = { 
+owner = { OR = { has_law = law_type:law_parliamentary_republic has_law = law_type:law_presidential_republic } has_law = law_type:law_autocracy AND = { exists = c:CHI owner = c:CHI } }
+has_role = general
+commander_rank >= 0
+} 
+}
+
+KMT_admiral_clothes_trigger = { #党国海军将领通用
+exists = scope:character
+scope:character = { 
+owner = { OR = { has_law = law_type:law_parliamentary_republic has_law = law_type:law_presidential_republic } has_law = law_type:law_autocracy AND = { exists = c:CHI owner = c:CHI } }
+has_role = admiral
+commander_rank >= 0
+} 
+}
+
+KMT_officers_clothes_pop_trigger = { #党国军官通用
+exists = scope:pop
+scope:pop = { 
+owner = { OR = { has_law = law_type:law_parliamentary_republic has_law = law_type:law_presidential_republic } has_law = law_type:law_autocracy AND = { exists = c:CHI owner = c:CHI } }
+is_pop_type = officers 
+} 
+}
+
+KMT_soldier_clothes_pop_trigger = { #党国士兵通用
+exists = scope:pop
+scope:pop = { 
+owner = { OR = { has_law = law_type:law_parliamentary_republic has_law = law_type:law_presidential_republic } has_law = law_type:law_autocracy AND = { exists = c:CHI owner = c:CHI } }
+is_pop_type = soldiers
+}
+}
+
+KMT_bureaucrats_clothes_pop_trigger = { #党国官僚通用
+exists = scope:pop
+scope:pop = { 
+owner = { OR = { has_law = law_type:law_parliamentary_republic has_law = law_type:law_presidential_republic } has_law = law_type:law_autocracy AND = { exists = c:CHI owner = c:CHI } }
+is_pop_type = bureaucrats
+}
+}
+
+KMT_ig_army_clothes_trigger = { #党国军队集团
+exists = scope:character
+scope:character = {
+is_ruler = no
+owner = { OR = { has_law = law_type:law_parliamentary_republic has_law = law_type:law_presidential_republic } has_law = law_type:law_autocracy AND = { exists = c:CHI owner = c:CHI } }
+interest_group = { is_interest_group_type = ig_armed_forces }
+}	
+}
+
+KMT_ig_intelligentsia_clothes_trigger = { #党国知识分子集团
+exists = scope:character
+scope:character = {
+is_ruler = no
+owner = { OR = { has_law = law_type:law_parliamentary_republic has_law = law_type:law_presidential_republic } has_law = law_type:law_autocracy AND = { exists = c:CHI owner = c:CHI } }
+interest_group = { is_interest_group_type = ig_intelligentsia }
+}	
+}

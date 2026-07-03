@@ -1,0 +1,122 @@
+pm_default_building_kong_temple = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_prestige_add = 100
+		}
+	}
+
+	building_modifiers = {
+
+		level_scaled = {
+			building_employment_clergymen_add = 1000
+		}
+	}
+}
+
+pm_default_building_kong_temple_jiaohua = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			state_education_access_wealth_add = 0.0025
+			country_prestige_add = 25
+			interest_group_ig_devout_pol_str_mult = 0.25
+			state_assimilation_mult = 0.2
+			state_conversion_mult = 0.15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 150
+			goods_input_glass_add = 50
+			goods_input_silk_add = 50
+			goods_input_literature_add = 5
+		}
+
+		level_scaled = {
+			building_employment_aristocrats_add = 100
+			building_employment_clergymen_add = 4000
+			building_employment_academics_add = 6000
+		}
+	}
+}
+
+pm_default_building_kong_temple_xinxue = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+	
+	is_default = yes
+
+	country_modifiers = {
+		workforce_scaled = {
+			interest_group_ig_intelligentsia_pol_str_mult = 0.25
+			state_education_access_add = 0.2
+			country_prestige_add = 10
+			country_tech_spread_add = 25
+			country_legitimacy_base_add = -10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 150
+			goods_input_glass_add = 50
+			goods_input_silk_add = 50
+			goods_input_literature_add = 5
+		}
+
+		level_scaled = {
+			building_employment_aristocrats_add = 100
+			building_employment_clergymen_add = 1000
+			building_employment_academics_add = 9000
+		}
+	}
+}
+
+pm_default_building_kong_temple_tianming = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	country_modifiers = {
+		workforce_scaled = {
+			state_education_access_wealth_add = 0.001
+			country_authority_add = 50
+			country_prestige_add = 50
+			interest_group_ig_landowners_pol_str_mult = 0.25
+			country_legitimacy_headofstate_add = 15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 150
+			goods_input_glass_add = 50
+			goods_input_silk_add = 50
+			goods_input_literature_add = 5
+		}
+
+		level_scaled = {
+			building_employment_aristocrats_add = 100
+			building_employment_clergymen_add = 5000
+			building_employment_academics_add = 5000
+		}
+	}
+}
+
+pm_default_building_lama_temple = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	country_modifiers = {
+		workforce_scaled = { 
+			country_prestige_add = 10
+		}
+	}
+
+	building_modifiers = {
+
+		level_scaled = {
+			building_employment_clergymen_add = 1000
+		}
+	}
+}

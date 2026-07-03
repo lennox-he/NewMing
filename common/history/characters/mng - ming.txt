@@ -1,0 +1,107 @@
+CHARACTERS = {
+	c:CNM = {
+		create_character = {
+			first_name = "Boqin"
+			last_name = "Zhu"
+			ruler = yes
+			birth_date = 1782.3.14
+			dna = dna_emper_boqin
+			culture = cu:han
+			interest_group = ig_landowners
+			ideology = ideology_reformer
+			traits = {
+				reserved
+				basic_diplomat
+			}
+		}
+		create_character = {
+				first_name = "Fanhao"
+				last_name = "Kong"
+				historical = yes
+				culture = cu:han
+				ig_leader = yes
+				birth_date = 1806.3.21
+				interest_group = ig_devout
+				traits = {
+					reserved
+				}
+		}
+		create_character = {
+				first_name = "Jianxing"
+				last_name = "dynn_Zhang"
+				
+				culture = cu:han
+				ig_leader = yes
+				birth_date = 1801.8.11
+				interest_group = ig_petty_bourgeoisie
+				traits = {
+					imperious
+					demagogue
+				}
+		}
+		create_character = {
+			first_name = "Chushan"
+			last_name = "Zhu"
+			heir = yes
+			birth_date = 1814.6.18
+			culture = cu:han
+			interest_group = ig_intelligentsia
+			ideology = ideology_radical
+			traits = {
+				cautious
+			}
+		}
+		create_character = {
+			first_name = "Boxin"
+			last_name = "Zhu"
+			birth_date = 1802.10.4
+			culture = cu:han
+			ig_leader = yes
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				expensive_tastes
+			}
+			on_created = {
+				set_variable = {
+					name = is_emperor_family
+				}				
+			}
+		}
+		create_character = {
+			is_admiral = yes
+			first_name = Tianpei
+			last_name = dynn_Zheng
+			age = 48
+			culture = cu:han
+			commander_rank = commander_rank_5
+			interest_group = ig_armed_forces
+			traits = {
+				expert_naval_commander
+				brave
+			}
+			on_created = {
+				set_variable = {
+					name = is_zheng_navy
+				}				
+			}
+		}
+		create_character = {
+			is_admiral = yes
+			first_name = Tianxiang
+			last_name = dynn_Zheng
+			age = 45
+			culture = cu:han
+			commander_rank = commander_rank_2
+			interest_group = ig_armed_forces
+			traits = {
+				basic_naval_commander
+			}
+			on_created = {
+				set_variable = {
+					name = is_zheng_navy
+				}				
+			}
+		}
+	}
+}

@@ -1,0 +1,123 @@
+REPLACE_OR_CREATE:state_trait_himalayas_mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+
+	modifier = {
+		state_construction_mult = -0.25
+		state_infrastructure_mult = -0.25
+		battle_defense_owned_province_mult = 4.5
+		battle_offense_owned_province_mult = 1.0
+		battle_total_combat_width_mult = -0.5
+		unit_supply_consumption_mult = 0.5
+		unit_occupation_mult = -0.99
+	}
+}
+
+state_trait_qingzang_mountains = {
+	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+
+	modifier = {
+		state_construction_mult = -0.20
+		state_infrastructure_mult = -0.15
+		battle_defense_owned_province_mult = 4.5
+		battle_offense_owned_province_mult = 1.0
+		battle_total_combat_width_mult = -0.5
+		unit_supply_consumption_mult = 0.5
+		unit_occupation_mult = -0.99
+	}
+}
+
+state_trait_yunnan_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+
+	modifier = {
+		state_construction_mult = -0.15
+		state_infrastructure_mult = -0.10
+		battle_defense_owned_province_mult = 5.0
+		battle_offense_owned_province_mult = 1.0
+		battle_total_combat_width_mult = -0.35
+		unit_supply_consumption_mult = 0.25
+		unit_occupation_mult = -0.99
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_yangtze_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 20
+		state_market_access_price_impact = 0.1
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+	}
+}
+
+REPLACE_OR_CREATE:state_trait_yellow_river = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 10
+		state_construction_mult = -0.1
+		building_group_bg_agriculture_throughput_add = -0.1
+	}
+}
+
+state_trait_yellow_river_1 = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	
+	modifier = {
+		state_infrastructure_add = 15
+		state_market_access_price_impact = 0.05
+		building_group_bg_agriculture_throughput_add = 0.05
+		building_group_bg_plantations_throughput_add = 0.05
+	}
+}
+
+state_trait_north_plain = {
+	icon = "gfx/interface/icons/state_trait_icons/great_plains.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+	}
+}
+
+state_trait_KUNYU_lin = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.2
+		state_construction_mult = 0.05
+		state_market_access_price_impact = 0.05
+		state_infrastructure_mult = 0.1
+	}
+}
+
+state_trait_reb_anticolo = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds"
+	
+	modifier = {
+		state_non_homeland_colony_growth_speed_mult = -0.9
+	}
+}
+
+state_trait_dongbei = {
+	icon = "gfx/interface/icons/timed_modifier_icons/great_plains.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.2
+		building_group_bg_plantations_throughput_add = 0.2
+		building_group_bg_logging_throughput_add = 0.2
+		state_market_access_price_impact = 0.05
+		state_migration_pull_mult = 0.2
+	}
+}
+
+state_trait_nanyang = {
+	icon = "gfx/interface/icons/timed_modifier_icons/great_plains.dds"
+	
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.25
+		state_migration_pull_mult = 0.2
+	}
+}

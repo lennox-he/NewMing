@@ -1,0 +1,30 @@
+pdxmesh = {
+	name = "beiyang_haijun_mesh"
+	file = "beiyang_haijun.mesh"
+
+    blend_shape = { id = "beiyang_haijun_bs_fat"                type = "beiyang_haijun_bs_fat.mesh" }
+    blend_shape = { id = "beiyang_haijun_bs_gaunt"              type = "beiyang_haijun_bs_gaunt.mesh" }
+    blend_shape = { id = "beiyang_haijun_bs_infant"             type = "beiyang_haijun_bs_infant.mesh" }
+    blend_shape = { id = "beiyang_haijun_bs_old"                type = "beiyang_haijun_bs_old.mesh" }
+	
+	meshsettings = {
+		name = "male_coat_european_08Shape"
+		index = 0
+		texture_diffuse = "beiyang_haijun.dds"
+		texture_normal = "beiyang_haijun_n.dds"
+		texture_specular = "beiyang_haijun_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyang_haijun_entity"
+	pdxmesh = "beiyang_haijun_mesh"
+
+    attribute = { name = "body_bs_fat"                                 blend_shape = "beiyang_haijun_bs_fat" }
+    attribute = { name = "body_bs_gaunt"                               blend_shape = "beiyang_haijun_bs_gaunt" }
+    attribute = { name = "body_bs_infant"                              blend_shape = "beiyang_haijun_bs_infant" }
+    attribute = { name = "body_bs_old"                                 blend_shape = "beiyang_haijun_bs_old" }
+	
+}

@@ -1,0 +1,35 @@
+INJECT_OR_CREATE:law_commercialized_agriculture = {
+	can_enact = {
+		trigger_if = {
+			limit = {
+				c:CNM ?= ROOT
+				NOT = { has_law = scope:law }
+			}
+		}
+		NOT = { has_modifier = ming_landlord }
+	}
+}
+
+INJECT_OR_CREATE:law_homesteading = {
+	can_enact = {
+		trigger_if = {
+			limit = {
+				c:CNM ?= ROOT
+				NOT = { has_law = scope:law }
+			}
+		}
+		NOT = { has_modifier = ming_landlord }
+	}
+}
+
+INJECT_OR_CREATE:law_collectivized_agriculture = {
+	can_enact = {
+		trigger_if = {
+			limit = {
+				c:CNM ?= ROOT
+				NOT = { has_law = scope:law }
+			}
+		}
+		NOT = { has_modifier = ming_landlord }
+	}
+}

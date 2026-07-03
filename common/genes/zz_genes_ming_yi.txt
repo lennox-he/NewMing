@@ -1,0 +1,329 @@
+
+
+special_genes = {
+	accessory_genes = {
+		aom_mongol_outfits = {
+			index = 103
+			male = {
+				1 = male_outfit_mongol_imperial									
+			}
+
+			female = {
+				1 = male_outfit_mongol_imperial
+			}
+			boy = male
+			girl = female
+		}
+
+		ming_yi = {
+			ming_longpao_clothes = {
+				index = 0
+				male = { 3 = ming_longpao 2 = ming_longpao_red }
+				female = { 1 = ming_longpao_nv }
+				boy = male
+				girl = female
+			}
+
+			ming_guanyuan_clothes = {
+					index = 1
+					male = { 
+						1 = ming_1pinwen
+						1 = ming_2pinwen
+						1 = ming_3pinwen
+						1 = ming_4pinwen
+						1 = ming_5pinwen
+						1 = ming_6pinwen
+						1 = ming_7pinwen
+						1 = ming_8pinwen
+						1 = ming_9pinwen
+						1 = ming_12pinwu
+						1 = ming_34pinwu
+						1 = ming_5pinwu
+						1 = ming_67pinwu
+						1 = ming_8pinwu
+						1 = ming_9pinwu
+					}
+					female = {  
+						1 = ming_1pinwen_nv
+						1 = ming_2pinwen_nv
+						1 = ming_3pinwen_nv
+						1 = ming_4pinwen_nv
+						1 = ming_5pinwen_nv
+						1 = ming_6pinwen_nv
+						1 = ming_7pinwen_nv
+						1 = ming_8pinwen_nv
+						1 = ming_9pinwen_nv
+						1 = ming_12pinwu_nv
+						1 = ming_34pinwu_nv
+						1 = ming_5pinwu_nv
+						1 = ming_67pinwu_nv
+						1 = ming_8pinwu_nv
+						1 = ming_9pinwu_nv
+					}
+				boy = male
+				girl = female
+			}
+
+			ming_jichengren_clothes = {
+				index = 2
+				male = { 5 = ming_jichengren 1 = ming_qinwang  }
+				female = { 1 = ming_aoqun_nv1 }
+				boy = male
+				girl = female
+			}
+
+			ming_fuyujieji_clothes = {
+				index = 3
+				male = { 1 = jiaoling  }
+				female = { 1 = ming_aoqun_nv2 }
+				boy = male
+				girl = female
+			}
+
+			ming_zhongchanjieji_clothes = {
+				index = 4
+				male = { 1 = jiaoling  }
+				female = { 1 = ming_aoqun_nv3 1 = ming_aoqun_nv4 1 = ming_aoqun_nv5 }
+				boy = male
+				girl = female
+			}
+
+			ming_wuchanjieji_clothes = {
+				index = 5
+				male = { 1 = jiaoling  }
+				female = { 1 = jiaoling_nv }
+				boy = male
+				girl = female
+			}
+
+			qing_guanyuan_clothes = {
+				index = 6
+				male = { 1 = qing_guanyuan  }
+				female = { 1 = female_outfit_chinese_01_high }
+				boy = male
+				girl = female
+			}
+
+			minguo_fuyujieji_clothes = {
+				index = 7
+				male = { 1 = male_outfit_polynesian_01_high  }
+				female = { 1 = qipao_nv }
+				boy = male
+				girl = female
+			}
+
+			minguo_zhongchanjieji_clothes = {
+				index = 8
+				male = { 1 = male_waistcoat_european_03 }
+				female = { 1 = qipao_nv2 }
+				boy = male
+				girl = female
+			}
+
+			minguo_wuchanjieji_clothes = {
+				index = 9
+				male = { 1 = male_shirt_working_class_01  }
+				female = { 1 = jiaoling_nv }
+				boy = male
+				girl = female
+			}
+
+			xinjun_clothes = {
+				index = 10
+				male = { 1 = xinjun_shibing 1 = xinjun_junguan 1 = xinjun_jiangjun }
+				female = { 1 = xinjun_shibing_nv 1 = xinjun_junguan_nv 1 = xinjun_jiangjun_nv }
+				boy = male
+				girl = female
+			}
+
+			beiyang_clothes = {
+				index = 11
+				male = { 1 = beiyang_shibing 1 = beiyang_junguan 1 = beiyang_jiangjun }
+				female = { 1 = beiyang_shibing_nv 1 = beiyang_junguan_nv 1 = beiyang_jiangjun_nv }
+				boy = male
+				girl = female
+			}
+
+			guojun_clothes = {
+				index = 12
+				male = { 1 = guojun_shibing 1 = guojun_junguan 1 = guojun_jiangjun }
+				female = { 1 = guojun_shibing_nv 1 = guojun_junguan_nv 1 = guojun_jiangjun_nv }
+				boy = male
+				girl = female
+			}
+
+			gemingjun_clothes = {
+				index = 13
+				male = { 1 = gemingjun_shibing 1 = gemingjun_junguan 1 = gemingjun_jiangjun }
+				female = { 1 = gemingjun_shibing_nv 1 = gemingjun_junguan_nv 1 = gemingjun_jiangjun_nv }
+				boy = male
+				girl = female
+			}
+
+			jiefangjun_clothes = {
+				index = 14
+				male = { 1 = jiefangjun_shibing 1 = jiefangjun_junguan 1 = jiefangjun_jiangjun }
+				female = { 1 = jiefangjun_shibing_nv 1 = jiefangjun_junguan_nv 1 = jiefangjun_jiangjun_nv }
+				boy = male
+				girl = female
+			}
+
+			haijunfu_clothes = {
+				index = 15
+				male = { 1 = haijunfu 1 = beiyang_haijun 1 = haijunfu 1 = jiefangjun_haijun }
+				female = { 1 = gemingjun_jiangjun_nv 1 = gemingjun_jiangjun_nv 1 = gemingjun_jiangjun_nv 1 = jiefangjun_haijun_nv}
+				boy = male
+				girl = female
+			}
+
+			zhongshan_clothes = {
+				index = 16
+				male = { 1 = zhongshan_heihui 1 = zhongshan_heilan 1 = zhongshan_junlv }
+				female = { 1 = qipao_nv2 1 = qipao_nv }
+				boy = male
+				girl = female
+			}
+
+			ming_wujiang_1_clothes = {
+				index = 17
+					male = { 
+						1 = ming_12pinwu
+					}
+					female = {  
+						1 = ming_12pinwu_nv
+					}
+				boy = male
+				girl = female
+			}
+
+			ming_wujiang_2_clothes = {
+				index = 18
+					male = { 
+						1 = ming_34pinwu
+					}
+					female = {  
+						1 = ming_34pinwu_nv
+					}
+				boy = male
+				girl = female
+			}
+
+			ming_wujiang_3_clothes = {
+				index = 19
+					male = { 
+						1 = ming_5pinwu
+					}
+					female = {  
+						1 = ming_5pinwu_nv
+					}
+				boy = male
+				girl = female
+			}
+
+			ming_wujiang_4_clothes = {
+				index = 20
+					male = { 
+						1 = ming_67pinwu
+					}
+					female = {  
+						1 = ming_67pinwu_nv
+					}
+				boy = male
+				girl = female
+			}
+
+			ming_wujiang_5_clothes = {
+				index = 21
+					male = { 
+						1 = ming_8pinwu
+						1 = ming_9pinwu
+					}
+					female = {  
+						1 = ming_8pinwu_nv
+						1 = ming_9pinwu_nv
+					}
+				boy = male
+				girl = female
+			}
+
+			ming_feiyu_clothes = {
+				index = 22
+					male = { 
+						1 = ming_cifu_feiyupao
+						1 = ming_cifu_feiyupao2
+					}
+					female = { 
+						1 = ming_8pinwu_nv
+						1 = ming_9pinwu_nv
+					}
+				boy = male
+				girl = female
+			}
+					
+		}	
+	}
+}
+
+
+special_genes = {
+	accessory_genes = {
+		ming_waitao = {
+			minguo_zhongchanjieji_coats = {
+			index = 0
+			male = { 1 = male_civilian_coat_european_01 }
+			female = {  }
+			boy = male
+			girl = female
+			}
+			## CHINESE ##
+			idmod_han_low_outfits = { #mod
+                index = 99
+                male = {
+                        1 = male_outfit_id_han_01_low                                    
+                }
+
+                female = {
+                        1 = female_outfit_id_han_01_low
+                }
+                boy = male
+                girl = female
+			}
+			idmod_han_common_outfits = {
+					index = 100
+					male = {
+							1 = male_outfit_id_han_01_high                                        
+					}
+
+					female = {
+							1 = female_outfit_id_han_01_high
+					}
+					boy = male
+					girl = female
+			}
+			idmod_han_court_outfits = {
+					index = 101
+					male = {
+							1 = male_outfit_id_han_01_high                                        
+					}
+
+					female = {
+							1 = female_outfit_id_han_01_high
+					}
+					boy = male
+					girl = female
+			}
+			idmod_han_imperial_outfits = {
+					index = 102
+					male = {
+							1 = male_outfit_id_han_01_imperial                                        
+					}
+
+					female = {
+							1 = female_outfit_id_han_01_high
+					}
+					boy = male
+					girl = female
+			}
+		}
+	}
+}

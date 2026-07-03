@@ -1,0 +1,6 @@
+ming_beijing_de_note = {
+	type = country
+	texture = "gfx/interface/iconstification_icons/influence.dds"
+	notification_type = feed
+	days = 28
+}

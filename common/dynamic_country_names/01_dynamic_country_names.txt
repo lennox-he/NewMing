@@ -1,0 +1,943 @@
+CNM = { # China
+	dynamic_country_name = {
+		name = dyn_mng_republic
+		adjective = dyn_mng_republic_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				NOT = { has_law = law_type:law_monarchy }
+				NOT = { has_variable = called_china }
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_junta
+		adjective = dyn_ming_junta_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			coa_def_military_junta_flag_trigger = yes
+			scope:actor = {
+				NOR = {
+					has_variable = called_china
+					has_variable = no_zhu_dynasty
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_empire
+		adjective = dyn_ming_empire_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+			scope:actor = {
+				has_variable = no_zhu_dynasty
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_mng_soviet
+		adjective = dyn_mng_soviet_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_mng_1
+		adjective = dyn_mng_1_adj
+		
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			scope:actor = {
+				has_variable = no_zhu_dynasty
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_mng_republic_1
+		adjective = dyn_mng_republic_1_adj
+		
+		is_main_tag_only = yes
+		priority = 6
+		
+		trigger = {
+			scope:actor = {
+				NOT = { has_law = law_type:law_monarchy }
+				has_variable = no_zhu_dynasty
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_mng_dir_1
+		adjective = dyn_mng_dir_1_adj
+		
+		is_main_tag_only = yes
+		priority = 6
+		
+		trigger = {
+			OR = {
+				coa_def_military_junta_flag_trigger = yes
+				coa_def_fascist_flag_trigger = yes
+			}
+			scope:actor = {
+				NOT = { has_law = law_type:law_monarchy }
+				has_variable = no_zhu_dynasty
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_mng_soviet_1
+		adjective = dyn_mng_soviet_1_adj
+		
+		is_main_tag_only = yes
+		priority = 7
+		
+		trigger = {
+			scope:actor = {
+				has_variable = no_zhu_dynasty
+			}
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	
+	dynamic_country_name = {
+		name = CHI
+		adjective = CHI_ADJ
+		
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			scope:actor = {
+				has_variable = called_china
+			}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_empire_of_china
+		adjective = dyn_c_empire_of_china_adj
+		
+		is_main_tag_only = yes
+		priority = 6
+		
+		trigger = {
+			scope:actor = {
+				has_variable = called_china
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_peoples_republic_of_china
+		adjective = CHI_ADJ
+		
+		is_main_tag_only = yes
+		priority = 7
+		
+		trigger = {
+			scope:actor = {
+				has_variable = called_china
+			}
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}
+
+TIB = { # 西藏
+	dynamic_country_name = {
+		name = dyn_ming_tib
+		adjective = dyn_ming_tib_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+			scope:actor = {
+				is_subject_of = c:CNM
+			}
+		}
+	}
+}
+
+CNY = { # 远南
+	dynamic_country_name = {
+		name = dyn_ming_cny
+		adjective = dyn_ming_cny_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+			scope:actor = {
+				OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+				is_subject_of = c:CNM
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_cny_fuyong
+		adjective = dyn_ming_cny_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+			scope:actor = {
+				is_subject_type = subject_type_buzhengsi_china
+				is_subject_of = c:CNM
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_cny_fuyong1
+		adjective = dyn_ming_cny_adj_fuyong1
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+			scope:actor = {
+				is_subject_type = subject_type_fanwang_china
+				is_subject_of = c:CNM
+			}
+		}
+	}
+}
+
+CNP = { # 吕宋
+	dynamic_country_name = {
+		name = dyn_ming_cnp
+		adjective = dyn_ming_cnp_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_cnp_fuyong
+		adjective = dyn_ming_cnp_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+CNN = { # 安南
+	dynamic_country_name = {
+		name = dyn_ming_cnn
+		adjective = dyn_ming_cnn_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_cnn_fuyong
+		adjective = dyn_ming_cnn_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+HMI = { # 哈密
+	dynamic_country_name = {
+		name = dyn_ming_hmi
+		adjective = dyn_ming_hmi_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+CNL = { # 黎州
+	dynamic_country_name = {
+		name = dyn_ming_cnl
+		adjective = dyn_ming_cnl_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_cnl_fuyong
+		adjective = dyn_ming_cnl_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+ZHY = { # 镇元
+	dynamic_country_name = {
+		name = dyn_ming_zhy
+		adjective = dyn_ming_zhy_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+CEL = { # 车里
+	dynamic_country_name = {
+		name = dyn_ming_cel
+		adjective = dyn_ming_cel_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_of = c:CNM
+					}
+		}
+	}
+}
+
+MMK = { # 勐卯
+	dynamic_country_name = {
+		name = dyn_ming_mmk
+		adjective = dyn_ming_mmk_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_luchuan_mmk
+		adjective = dyn_luchuan_mmk_adj
+		
+		is_main_tag_only = yes
+		priority = 20
+		
+		trigger = {
+			scope:actor = {
+				has_variable = luchuan_war
+			}
+		}
+	}
+}
+
+CHS = { # 茶山
+	dynamic_country_name = {
+		name = dyn_ming_chs
+		adjective = dyn_ming_chs_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+LAN = { # 兰芳
+	dynamic_country_name = {
+		name = dyn_ming_lan
+		adjective = dyn_ming_lan_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_lan_fuyong
+		adjective = dyn_ming_lan_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XJB = { # 北辰
+	dynamic_country_name = {
+		name = dyn_ming_xjb
+		adjective = dyn_ming_xjb_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xjb_fuyong
+		adjective = dyn_ming_xjb_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XXF = { # 爔枫
+	dynamic_country_name = {
+		name = dyn_ming_xxf
+		adjective = dyn_ming_xxf_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xxf_fuyong
+		adjective = dyn_ming_xxf_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XYA = { # 殷安
+	dynamic_country_name = {
+		name = dyn_ming_xya
+		adjective = dyn_ming_xya_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xya_fuyong
+		adjective = dyn_ming_xya_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XYS = { # 阳山
+	dynamic_country_name = {
+		name = dyn_ming_xys
+		adjective = dyn_ming_xys_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xys_fuyong
+		adjective = dyn_ming_xys_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XHY = { # 煌原
+	dynamic_country_name = {
+		name = dyn_ming_xhy
+		adjective = dyn_ming_xhy_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xhy_fuyong
+		adjective = dyn_ming_xhy_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XTZ = { # 天竺
+	dynamic_country_name = {
+		name = dyn_ming_xtz
+		adjective = dyn_ming_xtz_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xtz_fuyong
+		adjective = dyn_ming_xtz_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XHZ = { # 河中
+	dynamic_country_name = {
+		name = dyn_ming_xhz
+		adjective = dyn_ming_xhz_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xhz_fuyong
+		adjective = dyn_ming_xhz_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XHL = { # 红林
+	dynamic_country_name = {
+		name = dyn_ming_xhl
+		adjective = dyn_ming_xhl_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xhl_fuyong
+		adjective = dyn_ming_xhl_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XMD = { # 缅甸
+	dynamic_country_name = {
+		name = dyn_ming_xmd
+		adjective = dyn_ming_xmd_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xmd_fuyong
+		adjective = dyn_ming_xmd_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						is_subject_type = subject_type_buzhengsi_china	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+XXL = { # 暹罗
+	dynamic_country_name = {
+		name = dyn_ming_xxl
+		adjective = dyn_ming_xxl_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+						is_subject_type = subject_type_xuanweisi_china
+						is_subject_type = subject_type_fanwang_china
+						}
+						is_subject_of = c:CNM
+						}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_xxl_fuyong
+		adjective = dyn_ming_xxl_adj_fuyong
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+					 scope:actor = {
+						OR = {
+							is_subject_type = subject_type_buzhengsi_china
+						}	
+						is_subject_of = c:CNM
+						}
+		}
+	}
+}
+
+REPLACE_OR_CREATE:MGL = {
+	dynamic_country_name = {
+		name = dyn_c_great_mongolian_state
+		adjective = dyn_c_great_mongolian_state_adj
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+
+	dynamic_country_name = {
+		name = dyn_c_mongolian_peoples_republic
+		adjective = dyn_c_mongolian_peoples_republic_adj
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_ming_mgl
+		adjective = dyn_ming_mgl_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			exists = c:CNM
+			scope:actor = {
+				is_subject_of = c:CNM
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_dzu_mgl
+		adjective = dyn_dzu_mgl_adj
+		
+		is_main_tag_only = yes
+		priority = 1
+		
+		trigger = {
+			exists = c:DZU
+			scope:actor = {
+				is_subject_of = c:DZU
+			}
+		}
+	}
+}
+
+REPLACE_OR_CREATE:CHI = { # China
+	dynamic_country_name = {
+		name = dyn_ming_chi
+		adjective = dyn_ming_chi_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			exists = c:CNM
+			scope:actor = {
+				is_subject_of = c:CNM
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_great_qing
+		adjective = dyn_c_great_qing_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor = {
+				country_has_primary_culture = cu:manchu
+				has_variable = is_qng_state
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_empire_of_china
+		adjective = dyn_c_empire_of_china_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				NOT = { has_variable = is_qng_state }
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_peoples_republic_of_china
+		adjective = CHI_ADJ
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+}

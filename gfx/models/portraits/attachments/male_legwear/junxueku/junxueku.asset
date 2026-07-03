@@ -1,0 +1,36 @@
+pdxmesh = {
+	name = "junxueku_mesh"
+	file = "junxueku.mesh"
+
+	blend_shape = { id = "junxueku_bs_fat"					type = "junxueku_bs_fat.mesh" }
+	blend_shape = { id = "junxueku_bs_gaunt"				type = "junxueku_bs_gaunt.mesh" }
+	blend_shape = { id = "junxueku_bs_old"					type = "junxueku_bs_old.mesh" }
+	blend_shape = { id = "junxueku_bs_infant"				type = "junxueku_bs_infant.mesh" }
+	blend_shape = { id = "junxueku_bs_thick"				type = "junxueku_bs_thick.mesh" }
+	blend_shape = { id = "junxueku_bs_thin"				type = "junxueku_bs_thin.mesh" }
+
+	meshsettings = {
+		name = "junxueku"
+		index = 0
+		texture_diffuse = "junxueku.dds"
+		texture_normal = "junxueku_n.dds"
+		texture_specular = "junxueku_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "junxueku_entity"
+	pdxmesh = "junxueku_mesh"
+
+	
+		attribute = { name = "body_bs_fat"					blend_shape = "junxueku_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "junxueku_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "junxueku_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "junxueku_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "junxueku_bs_thick" }
+		attribute = { name = "body_bs_thin"					blend_shape = "junxueku_bs_thin" }
+
+}
+

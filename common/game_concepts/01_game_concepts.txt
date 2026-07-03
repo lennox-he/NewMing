@@ -1,0 +1,47 @@
+concept_concept = {}
+
+concept_silkwar = {}
+
+concept_wending = {}
+
+concept_fanrong = {}
+
+concept_jimi_china = { texture = "gfx/interface/icons/lens_toolbar_icons/jimi_china.dds" }
+
+concept_tusi_china = { texture = "gfx/interface/icons/lens_toolbar_icons/puppet.dds" }
+
+concept_chaogong_china = { texture = "gfx/interface/icons/lens_toolbar_icons/chaogong_china.dds" }
+
+concept_xuanweisi_china = { texture = "gfx/interface/icons/lens_toolbar_icons/xuanweisi_china.dds" }
+
+concept_fanwang_china = { texture = "gfx/interface/icons/lens_toolbar_icons/fanwang_china.dds" }
+
+concept_buzhengsi_china = { texture = "gfx/interface/icons/lens_toolbar_icons/buzhengsi_china.dds" }
+
+concept_duhufu_china = { texture = "gfx/interface/icons/lens_toolbar_icons/duhufu_china.dds" }
+
+concept_duhufu_2_china = { texture = "gfx/interface/icons/lens_toolbar_icons/duhufu_2_china.dds" }
+
+concept_duhufu_3_china = { texture = "gfx/interface/icons/lens_toolbar_icons/duhufu_3_china.dds" }
+
+concept_zhongwuwang = {} #忠武王：朱成功
+
+concept_zhongwuwang_story = {} #忠武王：朱成功
+
+concept_zhaowu = {} #昭武帝 朱慈炤
+
+concept_wenzhen = {} #文祯帝 朱和垣
+
+concept_jingsu = {} #靖溯帝 朱怡钺
+
+concept_chengan = {} #承安帝 朱伯溱
+
+concept_annan_war = {} #安南战争
+
+concept_zhaowu_story = {} #昭武帝 朱慈炤
+
+concept_wenzhen_story = {} #文祯帝 朱和垣
+
+concept_jingsu_story = {} #靖溯帝 朱怡钺
+
+concept_chengan_story = {} #承安帝 朱伯溱

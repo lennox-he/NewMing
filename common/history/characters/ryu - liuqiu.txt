@@ -1,0 +1,15 @@
+CHARACTERS = {
+	c:RYU = {
+		create_character = {
+			first_name = "Yu1"
+			last_name = "dynn_Shang"
+			ruler = yes
+			birth_date = 1792.10.4
+			culture = cu:ryukyuan
+			interest_group = ig_landowners
+			traits = {
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+tibet_court_clothes_trigger = { #藏区满洲蒙古官员角色
+	exists = scope:character
+	scope:character = {
+		OR = {
+			AND = {
+				culture = cu:manchu
+				NOT = { owner = c:CNM }
+			}
+			AND = {
+				owner = {
+					NOT = { is_subject_type = subject_type_tributary }		
+					exists = overlord
+					overlord = {
+						ruler = { 
+							has_culture = cu:manchu 
+						}
+						country_has_primary_culture = cu:manchu
+						has_variable = is_qng_state
+						NOT = { 
+							has_law = law_type:law_multicultural
+						}
+					}
+				}
+				culture = {
+					OR = {
+						has_discrimination_trait = tibetan_language
+						has_discrimination_trait = mongol_language
+					}
+				}
+			}
+		}
+	}	
+}
+
+tibet_armypop_clothes_trigger = { #藏区满洲蒙古军队人群
+	exists = scope:pop
+	scope:pop = {
+	OR = {
+		culture = cu:manchu
+		AND = {
+			owner = { 
+				NOT = { is_subject_type = subject_type_tributary }		
+				exists = overlord
+				overlord = {
+					ruler = { 
+						has_culture = cu:manchu 
+					}
+					country_has_primary_culture = cu:manchu
+					has_variable = is_qng_state
+					NOT = { 
+						has_law = law_type:law_multicultural
+					}
+				}
+			}
+			culture = {
+				OR = {
+					has_discrimination_trait = tibetan_language
+					has_discrimination_trait = mongol_language
+				}
+			}
+		}
+		}
+		is_pop_type = officers 
+	}	
+}

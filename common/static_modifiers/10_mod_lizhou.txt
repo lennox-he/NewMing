@@ -1,0 +1,194 @@
+lizhou_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_bureaucracy_mult = -0.01
+	state_migration_pull_mult = 0.2
+	state_pollution_reduction_health_mult = -0.1
+}
+
+lizhou_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_machinists_pol_str_mult = 0.25
+	country_laborers_pol_str_mult = 0.25
+	country_engineers_pol_str_mult = 0.25
+	country_bureaucracy_mult = -0.05
+}
+
+lizhou_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_bureaucracy_mult = -0.05
+	state_colony_growth_creation_mult = 0.25
+	state_colony_growth_speed_mult = 0.5
+	country_institution_colonial_affairs_max_investment_add = 1
+}
+
+lizhou_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	state_conscription_rate_mult = 0.8
+}
+
+lizhou_5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	state_assimilation_mult = 0.25
+	state_education_access_wealth_add = 0.01
+	country_institution_schools_max_investment_add = 1
+}
+
+lizhou_6 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	country_officers_pol_str_mult = 0.25
+	country_soldiers_pol_str_mult = 0.25
+	unit_morale_recovery_mult = 0.1
+	country_military_wages_mult = 0.2
+}
+
+lizhou_7 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	country_bureaucracy_mult = -0.05
+	building_group_bg_agriculture_throughput_add = 0.1
+	building_group_bg_plantations_throughput_add = 0.1
+}
+
+lizhou_8 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	state_radicalism_increases_violent_hostility_mult = -0.10
+	state_radicalism_increases_cultural_erasure_mult = -0.10
+	state_radicalism_increases_open_prejudice_mult = -0.15
+	state_assimilation_mult = 0.05
+}
+
+lizhou_9 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	country_trade_route_competitiveness_mult = 0.1
+	state_trade_quantity_mult = 0.25
+	country_trade_route_quantity_mult = 0.5
+}
+
+lizhou_10 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	building_group_bg_mining_throughput_add = 0.25
+}
+
+lizhou_11 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_bureaucracy_add = -200
+	state_building_barrack_max_level_add = 5
+	state_building_conscription_center_max_level_add = 25
+}
+
+lizhou_12 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	country_law_enactment_time_mult = -0.25
+}
+
+lizhou_13 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	unit_offense_mult = 0.25
+	unit_defense_mult = 0.25
+	unit_morale_recovery_mult = 0.25
+}
+
+lizhou_14 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	interest_group_ig_rural_folk_pol_str_mult = 0.25
+	state_birth_rate_mult = 0.05 = 0.05
+}
+
+lizhou_15 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	state_conversion_mult = 0.5
+	interest_group_ig_devout_pol_str_mult = 0.25
+	country_legitimacy_base_add = 15
+}
+
+lizhou_16 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	state_laborers_mortality_mult = -0.25
+	state_slaves_mortality_mult = -0.25
+}
+
+lizhou_17 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+	state_migration_pull_mult = 0.5
+}
+
+lizhou_huiyi_open = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.05
+}
+
+lizhou_congjun = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	building_training_rate_add = 1000
+	country_military_goods_cost_mult = -0.25
+	unit_morale_recovery_mult = 0.1
+	state_conscription_rate_mult = 0.2
+	unit_experience_gain_mult = 0.2
+}
+
+lizhou_xuexiao = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_education_access_add = 0.1
+	country_tech_research_speed_mult = 0.1
+}
+
+lizhou_coal = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	building_coal_mine_throughput_add = 0.25
+}
+
+lizhou_trade = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_trade_quantity_mult = 0.5
+	country_trade_route_competitiveness_mult = 0.4
+}
+
+lizhou_dio = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_influence_mult = 0.2
+	country_improve_relations_speed_mult = 0.25
+	country_damage_relations_speed_mult = 0.25
+	country_prestige_add = 20
+	country_infamy_generation_mult = -0.2
+}
+
+lizhou_empire = {
+	icon = gfx/interface/icons/event_icons/china_eunuch.dds
+	country_influence_mult = 0.2
+	state_loyalism_increases_second_rate_citizen_mult = 0.25
+	state_loyalism_increases_full_acceptance_mult = 0.25
+	country_legitimacy_base_add = 10
+	country_tech_research_speed_mult = 0.1
+	country_law_enactment_time_mult = -0.25
+}
+
+cnl_faan_feichu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	country_influence_mult = -0.1
+	country_authority_mult = -0.1
+	country_legitimacy_base_add = -20
+}
+
+cnl_qingqiu_reb = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_non_homeland_colony_growth_speed_mult = -0.9
+}
+
+lizhou_13_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	unit_offense_mult = 0.1
+	unit_defense_mult = 0.8
+	unit_morale_recovery_mult = 0.8
+	state_conscription_rate_mult = 0.8
+}

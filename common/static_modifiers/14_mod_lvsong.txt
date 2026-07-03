@@ -1,0 +1,30 @@
+lvsong_culture = { # 文化交流
+	icon = gfx/interface/icons/religion_icons/protestant.dds
+	country_tech_spread_add = 20
+	state_capitalists_investment_pool_efficiency_mult = 0.1
+	interest_group_ig_devout_approval_add = -2
+}
+
+lvsong_quanwei = { # 统合宗教
+	icon = gfx/interface/icons/religion_icons/protestant.dds
+	country_authority_mult = 0.2
+	state_assimilation_mult = 0.25
+	state_conversion_mult = 1
+}
+
+lvsong_taiwan = { # 整合郑家
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	unit_morale_recovery_mult = 0.1
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+	interest_group_ig_armed_forces_approval_add = 2
+	interest_group_ig_armed_forces_pol_str_mult = 0.2
+	country_military_wages_mult = 0.1
+}
+
+lvsong_investment = { #投资热潮
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_capitalists_investment_pool_efficiency_mult = 0.2
+	country_prestige_add = 100
+	country_influence_mult = 0.2
+}

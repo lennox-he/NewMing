@@ -1,0 +1,145 @@
+decree_violent_suppression = {
+	texture = "gfx/interface/icons/decree/decree_violent_suppression.dds"
+
+	unlocking_technologies = {
+		standing_army
+	}
+
+	country_trigger = {
+		NOT = { has_law_or_variant = law_type:law_guaranteed_liberties }
+	}
+	state_trigger = {
+		turmoil >= 0.25
+		NOT = { has_decree = decree_jingyiwei_suppression }
+	}
+	modifier = {
+		state_turmoil_effects_mult = -0.5
+		state_mortality_turmoil_mult = 0.02
+	}
+	cost = 100
+
+	ai_weight = {
+		value = 100
+
+		if = {
+			limit = {
+				turmoil >= 0.5
+
+			}
+			add = 100
+		}
+		if = {
+			limit = {
+				turmoil >= 0.75
+
+			}
+			add = 100
+		}
+		if = {
+			limit = {
+				scope:country = {
+					OR = {
+						has_strategy = ai_strategy_egalitarian_agenda
+						has_strategy = ai_strategy_progressive_agenda
+					}
+				}
+			}
+			multiply = 0.5
+		}
+	}
+}
+
+decree_jingyiwei_suppression = {
+	texture = "gfx/interface/icons/decree/decree_jingyiwei.png"		
+	
+	unlocking_technologies = {
+		standing_army
+	}
+	
+	country_trigger = {
+		has_modifier = ming_jinyiwei
+		NOT = { has_law = law_type:law_guaranteed_liberties } 
+	}
+	state_trigger = {
+		NOT = { has_decree = decree_violent_suppression }
+	}
+	
+	modifier = {
+		state_turmoil_effects_mult = -0.8
+		state_mortality_turmoil_mult = 0.05
+		state_radicals_from_political_movements_mult = -0.1
+		state_tax_waste_add = -0.15
+	}
+	
+	cost = 200
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = { 
+				turmoil >= 0.5	
+			
+			}
+			add = 100
+		}
+		if = {
+			limit = { 
+				turmoil >= 0.75	
+			
+			}
+			add = 100
+		}
+		if = {
+			limit = {
+				scope:country = {
+					OR = {
+						has_strategy = ai_strategy_egalitarian_agenda
+						has_strategy = ai_strategy_progressive_agenda
+					}
+				}
+			}
+			multiply = 0.5
+		}	
+	}
+}
+
+decree_huanghan_jinghua = {
+	texture = "gfx/interface/icons/decree/decree_jinghua.png"
+	unlocking_technologies = {
+		centralization
+	}
+	
+	country_trigger = {
+		has_journal_entry = je_huanghan
+	}
+	state_trigger = {
+		NOT = {
+			culture_percent_state = {
+				target = cu:han
+				value > 0.99
+			}
+			has_modifier = huanghan_jinghua
+		}
+	}
+	
+	modifier = {
+		state_turmoil_effects_mult = -0.25
+		state_mortality_turmoil_mult = 0.05
+		state_radicals_from_political_movements_mult = 0.2
+		state_mortality_violent_hostility_mult = 0.5
+	}
+	cost = 100
+	
+	ai_weight = {
+		value = 0
+		if = {
+			limit = {
+				scope:country = {
+					NOT = { has_variable = jinghua_lengque }
+				}
+			}
+			add = 100
+		}
+	}
+}

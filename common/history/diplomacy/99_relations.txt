@@ -1,0 +1,23 @@
+DIPLOMACY = {
+	c:CNM = {
+		set_relations = { country = c:RYU value = 30 }
+		set_relations = { country = c:CNL value = 30 }
+		set_relations = { country = c:CHI value = -80 }
+		set_relations = { country = c:LAN value = 30 }
+		set_relations = { country = c:JAP value = -30 }
+		set_relations = { country = c:DAI value = -20 }
+		set_relations = { country = c:SIA value = -30 }
+	}
+	c:CHI = {
+		set_relations = { country = c:KOR value = 50 }
+		set_relations = { country = c:CNM value = -80 }
+		set_relations = { country = c:DZU value = -50 }
+		set_relations = { country = c:MGL value = -50 }
+	}
+	c:DZU = {
+		set_relations = { country = c:KOK value = 60 }
+		set_relations = { country = c:OZH value = 50 }
+		set_relations = { country = c:UZH value = 50 }
+		set_relations = { country = c:MGL value = 80 }
+	}
+}

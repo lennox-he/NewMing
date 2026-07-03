@@ -1,0 +1,12 @@
+DIPLOMACY = {
+	c:DZU = {
+		create_bidirectional_truce = {
+			country = c:MGL
+			months = 120
+		}
+		create_bidirectional_truce = {
+			country = c:KOK
+			months = 120
+		}
+	}	
+}

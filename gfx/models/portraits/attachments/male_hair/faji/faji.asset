@@ -1,0 +1,115 @@
+pdxmesh = {
+	name = "faji_mesh"
+	file = "faji.mesh"
+
+	meshsettings = {
+		name = "faji"
+		index = 0
+		texture_diffuse = "faji.dds"
+		texture_normal = "faji_n.dds"
+		texture_specular = "faji_p.dds"
+		#texture = { file = "black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "faji_entity"
+	pdxmesh = "faji_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "faji_nv_mesh"
+	file = "faji_nv.mesh"
+
+	meshsettings = {
+		name = "faji_nv"
+		index = 0
+		texture_diffuse = "faji.dds"
+		texture_normal = "faji_n.dds"
+		texture_specular = "faji_p.dds"
+		#texture = { file = "black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "faji_nv_entity"
+	pdxmesh = "faji_nv_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "faji_daimao_mesh"
+	file = "faji_daimao.mesh"
+
+	meshsettings = {
+		name = "faji_daimao"
+		index = 0
+		texture_diffuse = "faji.dds"
+		texture_normal = "faji_n.dds"
+		texture_specular = "faji_p.dds"
+		#texture = { file = "black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "faji_daimao_entity"
+	pdxmesh = "faji_daimao_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+}
+
+pdxmesh = {
+	name = "faji_nv_daimao_mesh"
+	file = "faji_nv_daimao.mesh"
+
+	meshsettings = {
+		name = "faji_nv_daimao"
+		index = 0
+		texture_diffuse = "faji.dds"
+		texture_normal = "faji_n.dds"
+		texture_specular = "faji_p.dds"
+		#texture = { file = "black_ssao_color.dds" index = 3 }
+		shader = "portrait_hair"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "faji_nv_daimao_entity"
+	pdxmesh = "faji_nv_daimao_mesh"
+
+	game_data = {
+		portrait_entity_user_data = {
+			color_mask_remap_interval = {
+				interval = {0.0 1.0}
+			}
+		}
+	}
+}

@@ -1,0 +1,631 @@
+# 准噶尔汗
+
+REPLACE_OR_CREATE:zhungaer_khan_template = {
+    # 孛尔只斤
+    first_name = "Kharkhul"
+    last_name = "Choros"
+
+	
+    birth_date = 1802.6.18
+    culture = cu:mongol
+    interest_group = ig_landowners
+    ideology = ideology_humanitarian_royalist
+    traits = {
+        plains_commander
+		experienced_offensive_planner 
+		inspirational_orator
+    }
+	
+}
+
+# China - CHI
+REPLACE_OR_CREATE:chi_sun_yat_sen_character_template = { # Sun Yat-sen
+    first_name = Yat_Sen
+    last_name = Sun
+    historical = yes
+    culture = cu:hakka
+    female = no
+    religion = protestant # Converted to Christianity in the 80s.
+    ideology = ideology_republican_leader
+    interest_group = ig_petty_bourgeoisie
+	
+    birth_date = 1866.11.12
+	dna = dna_sun_yat_sen
+    traits = {
+        ambitious
+        persistent
+        inspirational_orator
+		erudite
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CNM
+            this = c:CNM
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_petty_bourgeoisie
+            }
+        }
+        earliest_usage_date = 1888.1.1
+        latest_usage_date = 1925.1.1
+        chance = 50
+    }   
+}
+
+REPLACE_OR_CREATE:chi_mao_zedong_template = {
+    first_name = Zedong
+    last_name = dynn_Mao
+    historical = yes
+    culture = cu:han
+    female = no
+    religion = rel:atheist
+    ideology = ideology_vanguardist
+    interest_group = ig_rural_folk
+    birth_date = 1893.12.26
+    traits = {
+        ambitious
+        persistent
+        firebrand
+		expert_offensive_planner
+		expert_defensive_strategist
+		erudite
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CNM
+            this = c:CNM
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            OR = {
+                is_interest_group_type = ig_intelligentsia
+                is_interest_group_type = ig_trade_unions
+                is_interest_group_type = ig_rural_folk
+            }
+        }
+        earliest_usage_date = 1908.1.1
+        latest_usage_date = 1976.9.9
+        chance = 100
+    }   
+}
+
+REPLACE_OR_CREATE:chi_gong_character_template = {
+    first_name = Prince_Gong
+    last_name = Aisin_Gioro
+    historical = yes
+    culture = cu:manchu
+    female = no
+    ideology = ideology_royalist
+    interest_group = ig_landowners
+    birth_date = 1833.1.11
+    traits = {
+        experienced_diplomat
+        expensive_tastes
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CHI
+            this = c:CHI
+            c:CHI = { has_law = law_type:law_monarchy }
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_landowners
+        }
+        earliest_usage_date = 1853.1.1
+        latest_usage_date = 1898.1.1
+        chance = 50
+    }   
+}
+
+REPLACE_OR_CREATE:chi_daoguang_template = {
+    # The Daoguang Emperor
+    first_name = Minning
+    last_name = "Aisin_Gioro" # Not used by the emperor himself but there's got to be something here
+    historical = yes
+    ruler = yes
+    birth_date = 1782.9.16
+    dna = dna_daoguang_emperor
+    culture = cu:manchu
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        cautious
+    }
+}
+REPLACE_OR_CREATE:chi_xianfeng_template = {
+    # Prince Yizhu, the future Xianfeng Emperor
+    first_name = "Yizhu"
+    last_name = "Aisin_Gioro"
+    historical = yes
+    heir = yes
+    birth_date = 1831.7.17
+    culture = cu:manchu
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        trait_child
+    }
+}
+
+REPLACE_OR_CREATE:chi_fake_1_template = {
+    first_name = Yiqing
+    last_name = dynn_Li
+    culture = cu:hakka
+    female = no
+    religion = rel:confucian
+    ideology = ideology_moderate
+    interest_group = ig_intelligentsia
+    birth_date = 1802.2.26
+    traits = {
+		cautious
+		innovative
+    }   
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CNY
+            this = c:CNY
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1872.1.1
+        chance = 100
+    }
+}
+
+REPLACE_OR_CREATE:chi_fake_1_template = {
+    first_name = Zicheng
+    last_name = dynn_Wang
+    culture = cu:han
+    female = no
+    religion = rel:confucian
+    ideology = ideology_moderate
+    interest_group = ig_intelligentsia
+    birth_date = 1802.1.28
+    traits = {
+		cautious
+		alcoholic
+		explorer
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:CNY
+            this = c:CNY
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_intelligentsia
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1872.1.1
+        chance = 25
+    }
+}
+
+# China - CHI
+
+# 冯子才
+REPLACE_OR_CREATE:chi_general_feng_zicai = {
+	first_name = Zicai
+	last_name = dynn_Feng2
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1812.5.5
+	traits = {
+		forest_commander
+		direct
+		resupply_commander
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+			exists = c:CHI
+			this = c:CHI
+			}
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+			}
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1878.1.1	
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_general_zuo_zongtang = {
+	first_name = Zongtang
+	last_name = dynn_Zuo
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1818.7.17
+	traits = {
+		imperious
+		master_bureaucrat
+	}
+	commander_usage = {
+		OR = {
+			AND = {
+				exists = c:CHI
+				this = c:CHI
+			}
+			AND = {
+				exists = c:CNM
+				this = c:CNM
+			}
+		}
+		role = general
+		earliest_usage_date = 1855.1.1
+		latest_usage_date = 1875.1.1	
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_general_zhang_zhidong = {
+	first_name = Zhidong
+	last_name = dynn_Zhang
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1837.1.1
+	traits = {
+		imperious
+		master_bureaucrat
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+				exists = c:CHI
+				this = c:CHI
+			}
+			AND = {
+				exists = c:CNM
+				this = c:CNM
+			}
+			}
+		}
+		role = general
+		earliest_usage_date = 1863.1.1
+		latest_usage_date = 1900.1.1
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_general_fake_1 = {
+	first_name = Yang
+	last_name = dynn_Gao
+	culture = cu:han
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1818.7.17
+	traits = {
+		opium_addiction
+		basic_offensive_planner
+		cautious
+	}
+	commander_usage = {
+		country_trigger = {
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+		}
+		role = general
+		earliest_usage_date = 1838.1.1
+		latest_usage_date = 1878.1.1	
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_general_fake_2 = {
+	first_name = Jinhao
+	last_name = dynn_Yang
+	culture = cu:han
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1822.5.11
+	traits = {
+		pillager
+		pious
+	}
+	commander_usage = {
+		country_trigger = {
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+		}
+		role = general
+		earliest_usage_date = 1842.1.1
+		latest_usage_date = 1882.1.1	
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_admiral_Zheng_shichang = {
+	first_name = Shichang
+	last_name = Zheng
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1804.11.18
+	traits = {
+		expert_naval_commander
+		dockyard_master
+		direct
+	}
+	on_created = {
+				set_variable = {
+					name = is_zheng_navy
+				}				
+			}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+			exists = c:ZHD
+			this = c:ZHD
+			}
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1836.2.5
+		latest_usage_date = 1880.1.1	
+		chance = 80
+	}
+}
+
+REPLACE_OR_CREATE:chi_admiral_Zheng_yongxu = {
+	first_name = Yongxu
+	last_name = Zheng
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1830.1.18
+	traits = {
+		expert_naval_commander
+		innovative
+	}
+	on_created = {
+				set_variable = {
+					name = is_zheng_navy
+				}				
+			}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+			exists = c:ZHD
+			this = c:ZHD
+			}
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1869.2.5
+		latest_usage_date = 1900.1.1	
+		chance = 80
+	}
+}
+
+REPLACE_OR_CREATE:chi_admiral_ding_ruchang = {
+	first_name = Ruchang
+	last_name = Ding
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1836.11.18
+	traits = {
+		basic_naval_commander
+		dockyard_master
+		direct
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+			exists = c:CHI
+			this = c:CHI
+			}
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1875.2.5
+		latest_usage_date = 1905.1.1	
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_admiral_sa_chenbing = {
+	first_name = Chenbing
+	last_name = Sa
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_moderate
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1859.4.30
+	traits = {
+		basic_naval_commander
+		innovative
+		cautious
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+			exists = c:CHI
+			this = c:CHI
+			}
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+			}
+		}
+		role = admiral
+		earliest_usage_date = 1892.2.5
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_general_yuan_shikai = {
+	first_name = Shikai
+	last_name = Yuan
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_reformer
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1859.9.16
+	traits = {
+		ambitious
+		persistent
+		# army reformer, but insignificant field commander 
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+			exists = c:CHI
+			this = c:CHI
+			}
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+			}
+		}
+		role = general
+		earliest_usage_date = 1885.1.1
+		latest_usage_date = 1920.1.1	
+		chance = 50
+	}
+}
+
+REPLACE_OR_CREATE:chi_general_zeng_guofan = {
+	first_name = Guofan
+	last_name = Zeng
+	historical = yes
+	culture = cu:han
+	female = no
+	ideology = ideology_traditionalist
+	commander_rank = default
+	interest_group = ig_armed_forces
+	birth_date = 1811.11.26
+	traits = {
+		plains_commander
+		pious
+		pillager
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+			exists = c:CHI
+			this = c:CHI
+			}
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			}
+			}
+		}
+		role = general
+		earliest_usage_date = 1851.1.1
+		latest_usage_date = 1870.1.1	
+		chance = 50
+	}
+}
+REPLACE_OR_CREATE:chi_general_sengge_rinchen = {
+	first_name = Sengge_Rinchen
+	last_name = Borjigin
+	historical = yes
+	culture = cu:mongol
+	female = no
+	ideology = ideology_royalist
+	commander_rank = default
+	interest_group = ig_landowners
+	birth_date = 1811.2.26
+	traits = {
+		stalwart_defender
+		experienced_artillery_commander
+		meticulous
+	}
+	commander_usage = {
+		country_trigger = {
+			OR = {
+			AND = {
+			exists = c:CHI
+			this = c:CHI
+			c:CHI = {
+				has_law = law_type:law_monarchy 
+				owns_entire_state_region = STATE_HINGGAN
+			}
+			}
+			AND = {
+			exists = c:CNM
+			this = c:CNM
+			c:CNM = { 
+				has_law = law_type:law_monarchy 
+				owns_entire_state_region = STATE_HINGGAN
+			}
+			}
+			}
+			
+		}
+		role = general
+		earliest_usage_date = 1850.1.1
+		latest_usage_date = 1873.1.1	
+		chance = 50
+	}
+}

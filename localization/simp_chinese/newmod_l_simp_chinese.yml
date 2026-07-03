@@ -1,0 +1,3526 @@
+﻿l_simp_chinese:
+ 
+ # 修正
+ building_output_mult:0 "建筑商品输出"
+ modifier_building_output_mult:0 "商品输出"
+ xixue_xuezhe:0 "接纳西方学者"
+ xixue_chuanjiao:0 "新教教堂"
+ paixizhichi:0 "派系斗争"
+ paixizhichi2:0 "派系斗争"
+ ming_chizhe:0 "受到斥责"
+ ming_jishu:0 "接纳新技术"
+ ming_ruxue:0 "内圣外王"
+ building_lama_temple:0 "雍和宫"
+ journal_entry_goal_progress_integer_warlord:0 "五军都督府的势力：#variable [ROOT.GetCountry.MakeScope.Var('ming_warlord_power').GetValue|0]#!（#tooltippable;tooltip:[ROOT.GetCountry.GetTooltipTag],je_ming_warlord_power_var_tooltip [ROOT.GetCountry.MakeScope.Var('ming_warlord_power_progress').GetValue|1-=]#!）\n五军都督府的忠诚度：#variable [ROOT.GetCountry.MakeScope.Var('ming_warlord_like').GetValue|0]#!（#tooltippable;tooltip:[ROOT.GetCountry.GetTooltipTag],je_ming_warlord_like_var_tooltip [ROOT.GetCountry.MakeScope.Var('ming_warlord_like_progress').GetValue|1-=]#!）"
+ 
+ journal_entry_goal_progress_xuanweisi:0 "宣慰司对大明的依赖程度：#variable [ROOT.GetCountry.MakeScope.Var('ming_cny_tracker').GetValue|0]#!（#tooltippable;tooltip:[ROOT.GetCountry.GetTooltipTag],je_xuanweisi_power_var_tooltip [ROOT.GetCountry.MakeScope.Var('ming_cny_tracker_progress').GetValue|1-=]#!）"
+ 
+ je_xuanweisi_power_var_tooltip: "#tooltip_header 每月变更由以下因素决定：#!\n$TOOLTIP_DELIMITER$\n#variable 帝国的[concept_infamy]产生[Country.MakeScope.Var('ming_cny_tracker_from_inf').GetValue|-=]#!点\n#variable 属国的类型产生[Country.MakeScope.Var('ming_cny_tracker_from_type').GetValue|-=]#!点\n#variable 与帝国的关系产生[Country.MakeScope.Var('ming_cny_tracker_from_rel').GetValue|-=]#!点\n#variable 宣慰司的国家位阶产生[Country.MakeScope.Var('ming_cny_tracker_from_sta').GetValue|-=]#!点\n#variable 大明与宣慰司的军力比较产生[Country.MakeScope.Var('ming_cny_tracker_from_mil').GetValue|-=]#!点\n#variable 创新能力的差额产生[Country.MakeScope.Var('ming_cny_tracker_from_ino').GetValue|-=]#!点\n#variable 帝国的合法性产生[Country.MakeScope.Var('ming_cny_tracker_from_leg').GetValue|-=]#!点\n#variable 两国经济规模之比产生[Country.MakeScope.Var('ming_cny_tracker_from_gdp').GetValue|-=]#!点"
+ 
+ ming_bengkui:0 "崩溃的军事体系"
+ war_xinan:0 "麓川之战"
+ tusi_xinan:0 "土司军队"
+ 
+ lizhou_faan:0 "已通过的法案： [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline1')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline2')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline3')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline4')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline5')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline6')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline7')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline8')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline9')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline10')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline11')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline12')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline13')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline14')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline15')] [SCOPE.sC('lizhou_scope').GetCustom('lizhou_oneline16')]"
+ lizhou_huiyi_open:0 "议会运作开销"
+ lizhou_1_n:0 "环境保护法案"
+ lizhou_2_n:0 "工人权利法案"
+ lizhou_3_n:0 "殖民拓荒法案"
+ lizhou_4_n:0 "卫国征兵法案"
+ lizhou_5_n:0 "教育投资法案"
+ lizhou_6_n:0 "退役保障法案"
+ lizhou_7_n:0 "开垦农田法案"
+ lizhou_8_n:0 "土著权益法案"
+ lizhou_9_n:0 "自由贸易法案"
+ lizhou_10_n:0 "矿业开采法案"
+ lizhou_11_n:0 "义务兵役法案"
+ lizhou_12_n:0 "立法机构扩建"
+ lizhou_13_n:0 "紧急抗美法案"
+ lizhou_13_2:0 "卫国热情"
+ lizhou_14_n:0 "乡民权益法案"
+ lizhou_15_n:0 "国教地位法案"
+ lizhou_16_n:0 "危险保障法案"
+ lizhou_17_n:0 "移民保护法案"
+ lizhou_yi_n:0 "休会中...."
+ 
+ lizhou_17_tooltip:0 "#tooltip_header 增加我们的移民吸引力#!"
+ lizhou_0_n:0 "无议程"
+ 
+ lizhou_1:0 "环境保护法案"
+ lizhou_2:0 "工人权利法案"
+ lizhou_3:0 "殖民拓荒法案"
+ lizhou_4:0 "卫国征兵法案"
+ lizhou_5:0 "教育投资法案"
+ lizhou_6:0 "退役保障法案"
+ lizhou_7:0 "开垦农田法案"
+ lizhou_8:0 "土著权益法案"
+ lizhou_9:0 "自由贸易法案"
+ lizhou_10:0 "矿业开采法案"
+ lizhou_11:0 "义务兵役法案"
+ lizhou_12:0 "立法机构扩建"
+ lizhou_13:0 "紧急抗美法案"
+ lizhou_14:0 "乡民权益法案"
+ lizhou_15:0 "国教地位法案"
+ lizhou_16:0 "危险保障法案"
+ lizhou_17:0 "移民保护法案"
+ lizhou_yi:0 "休会中"
+ 
+ lizhou_congjun:0 "黎洲国防军"
+ 
+ 
+ #按钮
+ 
+ button_junfa1:0 "剥夺封地"
+ button_junfa1_desc:0 "收回军阀手中的土地"
+ button_junfa2:0 "赐予封地"
+ button_junfa2_desc:0 "赏赐忠臣的藩镇土地"
+ button_junfa3:0 "增加军费"
+ button_junfa3_desc:0 "额外提高军费支出"
+ button_junfa4:0 "文官监军"
+ button_junfa4_desc:0 "文官监军"
+ button_junfa5:0 "兵部界面"
+ button_junfa5_desc:0 "打开兵部界面"
+ button_junfa6:0 "改革兵部"
+ button_junfa6_desc:0 "改革兵部为国防部"
+ button_han2:0 "鼓动民族主义"
+ button_han2_desc:0 "在我国鼓动民族主义，反对五族共和。"
+ button_zhangliang1:0 "开启丈量工作"
+ button_zhangliang1_desc:0 "我们将开启丈量工作，向每个省派遣官员进行土地清算工作。"
+ button_zhangliang2:0 "暂停丈量工作"
+ button_zhangliang2_desc:0 "土地丈量不宜操之过急，暂时让官员返回京师。"
+ button_jiaban1:0 "额外加班"
+ button_jiaban1_desc:0 "让官员们额外加班来加速丈量进程。"
+ 
+ zhenggai_suiji:0 "随机消除一块领地的所有军阀"
+ button_han:0 "皇汉崛起"
+ button_han_desc:0 "皇汉民族已经觉醒，作为唯一正统的华夏继承者，我们有义务保护我们的文化和血脉，并清洗一切不纯净的劣等民族。"
+ button_han1:0 "净化省份"
+ button_han1_desc:0 "此地区被劣等民族所占据，我们必须实行大清洗。"
+ je_huanghan_minzuzhuyi_tt:0 "至少使用决议宣传一次民族主义"
+ 
+ ming_huanghan_1:0 "汉祚崩殂"
+ ming_huanghan_2:0 "汉祚混乱"
+ ming_huanghan_3:0 "汉祚没落"
+ ming_huanghan_4:0 "汉祚衰弱"
+ ming_huanghan_5:0 "汉祚新兴"
+ ming_huanghan_6:0 "汉祚崛起"
+ ming_huanghan_7:0 "汉祚繁盛"
+ ming_huanghan_8:0 "汉祚兴旺"
+ ming_huanghan_9:0 "汉祚狂热"
+ ming_huanghan_0:0 "汉祚极亢"
+
+ #事件
+ 
+ ming_warlord_events.10.t:0 "剥夺军镇封地"
+ ming_warlord_events.10.d:0 "继续让军阀控制地方对我们的中央权力造成了极大的威胁，因此我们必须收回他们的特权。"
+ ming_warlord_events.10.f:0 "“还有没有王法了？”\n“王法？我是李将军的人，山高皇帝远，就算是天子，也管不到我们李家军的头上，天子都要对我们敬畏三分，你居然敢和我们作对？”"
+ ming_warlord_events.10.a:0 "剥夺顺营土地"
+ ming_warlord_events.10.b:0 "剥夺西营土地"
+ ming_warlord_events.10.c:0 "剥夺郑氏土地"
+ ming_warlord_events.10.g:0 "剥夺狼军土地"
+ ming_warlord_events.10.h:0 "剥夺宣大土地"
+ ming_warlord_events.10.i:0 "剥夺榆园土地"
+ ming_warlord_events.10.j:0 "此事暂时搁置"
+ 
+ warlord_number1:0 "极大降低军队势力,并降低军队忠诚"
+ warlord_number2:0 "无事发生"
+ warlord_number3:0 "略微提高军队势力,并增大军队忠诚"
+ warlord_number4:0 "降低军队势力,并略微降低军队忠诚"
+ warlord_number5:0 "增加军队势力,并略微增加军队忠诚"
+ warlord_number6:0 "增加军队势力"
+ warlord_number7:0 "略微降低军队势力,并增大军队忠诚"
+ warlord_number8:0 "略微降低军队势力,并略微增大军队忠诚"
+ warlord_number9:0 "略微降低军队忠诚"
+ 
+ ming_warlord_events.11.t:0 "授予军镇土地"
+ ming_warlord_events.11.d:0 "军镇是我国的股肱之臣，有利地拱卫着我国的江山，我们可以将更多的土地授予他们，加强我们的统治。"
+ ming_warlord_events.11.f:0 "“越东节度琅邪公,赤幢曲盖红鬣骢。\n皎然清白不可犯,二十州县争承风。”"
+ 
+ ming_warlord_events.11.a:0 "授予顺营土地"
+ ming_warlord_events.11.b:0 "授予西营土地"
+ ming_warlord_events.11.c:0 "授予郑氏土地"
+ ming_warlord_events.11.g:0 "授予狼军土地"
+ ming_warlord_events.11.h:0 "授予宣大土地"
+ ming_warlord_events.11.i:0 "授予榆园土地"
+ ming_warlord_events.11.j:0 "此事暂时搁置"
+ 
+ ming_warlord_events.12.t:0 "国防部议程"
+ ming_warlord_events.12.d:0 "国防部正处于休会状态，我们可以选择一项议程让国防部展开讨论并推行下去。"
+ ming_warlord_events.12.f:0 "现在是选择政策的时候了。"
+ 
+ ming_warlord_events.12.a:0 "提出议程：更新军备"
+ ming_warlord_events.12.b:0 "提出议程：操练陆军"
+ ming_warlord_events.12.c:0 "提出议程：训练水师"
+ ming_warlord_events.12.g:0 "提出议程：全国动员"
+ ming_warlord_events.12.h:0 "提出议程：制造宣称"
+ ming_warlord_events.12.i:0 "提出议程：扩招军队"
+ ming_warlord_events.12.j:0 "此事暂时搁置"
+ 
+ ming_warlord_events.13.t:0 "五军都督府"
+ ming_warlord_events.13.d:0 "你可以使用五军都督府的决议，使用决议有一定的冷却，而且会导致军队的忠诚与势力发生变化。"
+ ming_warlord_events.13.f:0 "现在是选择政策的时候了。"
+ 
+ ming_warlord_events.13.a:0 "提拔军官"
+ ming_warlord_events.13.b:0 "扩建军队"
+ ming_warlord_events.13.c:0 "征召狼兵"
+ ming_warlord_events.13.g:0 "紧急动员"
+ ming_warlord_events.13.h:0 "重视军备"
+ ming_warlord_events.13.i:0 "彻查贪腐"
+ ming_warlord_events.13.j:0 "伪造宣称"
+ ming_warlord_events.13.k:0 "提拔海军"
+ ming_warlord_events.13.l:0 "临时激励"
+ ming_warlord_events.13.m:0 "暂时搁置"
+ 
+ ming_warlord_events.14.t:0 "五军联名上奏"
+ ming_warlord_events.14.d:0 "对于近日朝廷对军队打压态势的不满，五军都督府的几位将领联名上奏，要求朝廷重新正视军队的地位，不要走前宋老路。"
+ ming_warlord_events.14.f:0 "今既呈表，已明心志。上若不纳，请以身殉！"
+ ming_warlord_events.14.a:0 "既然如此你们就去死吧"
+ ming_warlord_events.14.b:0 "诸位误会了，朝廷没有这个意思"
+ 
+ ming_zhengya:0 "镇压军队"
+ 
+ scripted_button_key_guofangbu1:0 "打开国防部议程"
+ scripted_button_key_guofangbu1_desc:0 "筹备国防部议程，推行军部决议。"
+ 
+ scripted_button_key_guofangbu2:0 "扩建执行机构"
+ scripted_button_key_guofangbu2_desc:0 "扩大相关机构，促进议程推进。"
+ 
+ scripted_button_key_guofangbu3:0 "全力支援议程"
+ scripted_button_key_guofangbu3_desc:0 "调用国家部门协助推进议程。"
+ 
+ scripted_button_key_guofangbu4:0 "整顿土地"
+ scripted_button_key_guofangbu4_desc:0 "这片土地曾经被军阀控制，现在我们需要重新登记管理这里。"
+ 
+ xixue_events.1.t:0 "西方学者来访"
+ xixue_events.1.d:0 "一位来自[SCOPE.sCountry('xuezhe_xixue').GetName]的西方学者来到我国，为我们带来了一些有用的知识和一些西方国家特有的精巧机械。 "
+ xixue_events.1.f:0 "他带着精妙的钟表，他带着详尽的万年历，他带着让诸位大臣都惊叹的知识，为朝堂带来了西方的奇迹！"
+ xixue_events.1.a:0 "真是有趣"
+ 
+ xixue_events.2.t:0 "传教士来朝"
+ xixue_events.2.d:0 "一位来自[SCOPE.sCountry('xuezhe_xixue').GetName]的传教士来到我国，希望在[SCOPE.sState('xili_sheng').GetName]建立一座教堂，为中国的百姓传播福音，也许我们可以利用这一点，但是放任异教的传播并不是一件好事。"
+ xixue_events.2.f:0 "神阿，你是我的神，我要切切地寻求你。在干旱疲乏无水之地，我渴想你，我的心切慕你。\n我若心里注重罪孽，主必不听。 但神实在听见了。他侧耳听了我祷告的声音。"
+ xixue_events.2.a:0 "把这个异教徒赶走！"
+ xixue_events.2.b:0 "我们确实需要他！"
+ 
+ xixue_events.3.t:0 "西方技术传入"
+ xixue_events.3.d:0 "一项西方科技正传入我国，我们应该抓住这个机会，大力学习！"
+ xixue_events.3.f:0 "夫西洋之长技，在于军舰、器械、哲学，欲制衡众夷，必师夷长技以制夷。"
+ xixue_events.3.a:0 "立刻推广！"
+ xixue_events.3.b:0 "不要操之过急！"
+ 
+ xixue_events.4.t:0 "民众抵制基督教"
+ xixue_events.4.d:0 "我国省内出现的基督教传播引发了大批民众的抵制，他们难以接受这种怪异的宗教和诡异的教堂在身边传播。"
+ xixue_events.4.f:0 "大家听我说，这西洋教绝非善类，他们是打着传播福音的幌子敛财，远渡重洋为的是侵略扩张，我们要让着洋教滚出中国的土地！"
+ xixue_events.4.a:0 "基督教确实应该被限制"
+ xixue_events.4.b:0 "这帮愚民懂什么？"
+ 
+ xixue_events.5.t:0 "大臣改信基督教"
+ xixue_events.5.d:0 "一位我国的大臣最近改信了基督教并接受了洗礼。"
+ xixue_events.5.f:0 "你承认人人都有罪，罪的工价就是死。耶稣是全人类唯一的救主，只有耶稣能救所有的罪人，你愿意接受耶稣作你个人生命的救主吗？\n你承认圣灵在你生命中的主权，是圣灵光照你、引导你、感动你，接受耶稣做你的救主，你愿意在受洗以后，要跟着圣灵的引导，走遵行神旨意的道路吗？\n你承认圣经是神所默示的话语，是每一个基督徒包括你我行事为人的准则，你愿意受洗以后，多看圣经，喜爱圣经，遵行圣经的教导吗？"
+ xixue_events.5.a:0 "这是离经叛道！"
+ xixue_events.5.b:0 "这是他的自由。"
+ 
+ xixue_events.6.t:0 "儒学与西学"
+ xixue_events.6.d:0 "随着西学传入我国，儒学大家和西方学问开始针锋相对，他们四处开展辩论，都想证明自己才是最好的治国学说。"
+ xixue_events.6.f:0 "“一个真正的中国人可以同时拥有成年人的头脑以及孩童的心灵，故此，中国人精神便是一种让青春得以永葆、民族得以不朽的精神。”"
+ xixue_events.6.a:0 "儒学才是治国之本"
+ xixue_events.6.b:0 "西学才是强国之道"
+ 
+ xixue_events.7.t:0 "西式学院"
+ xixue_events.7.d:0 "一间新式学院在某省建立，他们教授西方的科学，而非儒家的仁义道德。这种新式学校给了我们全新的见闻。"
+ xixue_events.7.f:0 "赫胥黎独处一室之中，在英伦之南，背山而面野，槛外诸境，历历如在几下。乃悬想二千年前，当罗马大将恺彻未到时，此间有何景物。计惟有天造草昧，人功未施，其借征人境者，不过几处荒坟，散见坡陀起伏间，而灌木丛林，蒙茸山麓，未经删治如今日者，则无疑也。怒生之草，交加之藤，势如争长相雄。各据一抔壤土，夏与畏日争，冬与严霜争，四时之内，飘风怒吹，或西发西洋，或东起北海，旁午交扇，无时而息。上有鸟兽之践啄，下有蚁蝝之齧伤，憔悴孤虚，旋生旋灭，菀枯顷刻，莫可究详。是离离者亦各尽天能，以自存种族而已。数亩之内，战事炽然。强者后亡，弱者先绝。年年岁岁，偏有留遗。未知始自何年，更不知止于何代。苟人事不施于其间，则莽莽榛榛，长此互相吞并，混逐蔓延而已，而诘之者谁耶？"
+ xixue_events.7.a:0 "支持他们的行为"
+ xixue_events.7.b:0 "我们不能容忍他们的行为"
+ 
+ banner_events.1.t:0 "八旗攫取权力"
+ banner_events.1.d:0 "作为以满洲人为主要居民的我国，八旗制度一直是我国的一项政治军事与经济组织。从游牧时期开始，八旗就作为一股重要的政治力量左右我国的局势。"
+ banner_events.1.f:0 "八旗开始掌权"
+ banner_events.1.a:0 "八旗是我们的基础"
+ 
+CNM:0 "大明"
+CNM_ADJ:0 "大明"
+CHI:0 "大清"
+CHI_ADJ:0 "大清"
+QNG:0 "大清"
+QNG_ADJ:0 "大清"
+MNG:0 "大明"
+MNG_ADJ:0 "大明"
+TIB:0 "西藏"
+TIB_ADJ:0 "西藏"
+CHN:0 "中国"
+CHN_ADJ:0 "中国"
+dyn_mng_republic:0 "大明共和国"
+dyn_mng_republic_adj:0 "大明共和国"
+ dyn_ming_junta:0 "北斗军政府"
+ dyn_ming_junta_adj:0 "北斗军政府"
+ dyn_ming_empire:0 "大明帝国"
+ dyn_ming_empire_adj:0 "大明帝国"
+ dyn_mng_soviet:0 "大明人民民主国"
+ dyn_mng_soviet_adj:0 "大明人民民主国"
+ dyn_mng_1: "华夏"
+ dyn_mng_1_adj: "华夏"
+ dyn_mng_republic_1: "华夏共和国"
+ dyn_mng_republic_1_adj: "华夏共和国"
+ dyn_mng_dir_1:0 "华夏统制国"
+ dyn_mng_dir_1_adj:0 "华夏统制国"
+ dyn_mng_soviet_1: "华夏人民公社"
+ dyn_mng_soviet_1_adj: "华夏人民公社"
+ 
+ concept_zhongwuwang:0 "忠武王"
+ concept_zhongwuwang_desc:0 "忠武王本名郑森，后受隆武帝赐姓，改名朱成功。朱成功在朝廷危亡之际，拓土海外，收复台湾、吕宋。后来清廷因为继承危机发生内乱，鳌拜拒绝承认康熙是顺治皇帝的子嗣并发兵叛乱试图废除康熙。忠武王趁机发动北伐，成功收复南方，并在[concept_zhaowu]元年（西元1668年），在徽州找到了隐姓埋名的永王朱慈炤。永王在南京登基后建元[concept_zhaowu]。之后朱成功在多次战争中逐步收复了中原，并统合了关中、西川的抗清队伍。基本恢复了收复了关内的领土。但在五次北伐幽燕的时候屡屡受挫，无缘看到山河统一。他在明廷的头衔是奉天翊运推诚宣力定难延平亲王、总摄朝政督师北伐总理中外军国重事、总督东南诸省兼理吕宋抚夷钦差、提督汉番水陆诸军招讨大将军、宗人府宗人令、领南京中军都督府事臣。详见[concept_zhongwuwang_story]"
+
+ concept_zhongwuwang_story:0 "《明史：忠武王世家》"
+ concept_zhongwuwang_story_desc:0 "郑森，字大木，福建南安人。父芝龙，闽海豪酋；母田川氏，东瀛人也。森少聪颖，隆武帝见而奇之，赐国姓“朱”，改名成功，授御营中军都督。未几，芝龙降清，成功泣谏曰：“父教子忠，奈何自叛？”遂焚青衣于孔庙，誓曰：“此身许国，敢有二心！”。\n永历十三年，会张煌言舟师北伐，破瓜洲，克镇江，直薄金陵。江南父老箪食壶浆，谓中兴在望。然清廷伪示援绝，守将梁化凤穴城夜袭，王师溃于观音山。成功慨然曰：“岂天未厌胡运乎？”退守厦门。十五年，复振旗鼓，亲率舟师二万、舰三百攻台。红夷炮垒如星，诸将惧，成功叱曰：“赤嵌城头，岂无汉骨耶？”卒克热兰遮，夷酋揆一泣降。然闻清廷戮其父芝龙，呕血数升，誓曰：“不犁燕庭，此恨不销！”\n十六年，征吕宋。时西夷虐华，血洗涧内，成功遣责问，夷拒而辱之，遂发兵夷其堡。吕宋既下，得银舰无算，乃置甲必丹营，汉番混编。及返，闻帝崩于昆明，大嚎西拜，数日不进饮食。而后贼酋福临没于壮年，燕廷为乱。成功厉兵数年，始得良机，随挥师渡海，百姓无不箪食壶浆，虏伥望风而降，王师遂入金陵。\n昭武元年，奉永王慈炤返跸金陵，甲申板荡，永王流落中原，几经反折，之于江南，时弘历覆，帝隐于徽州，王师至，乃前呈身世。帝倚为柱石，拜辅政亲王，总摄五军。各地诸侯起兵应之，李来亨部入关中，于辅臣合兵，克西安，据武、潼以拒虏，可望出于川蜀，伪总督困于无援，不能敌，于是燕庭颓势。三藩遂自立，成功以鸟船驰袭番禺，连破之，三桂死而大仇报。又北伐中原，以铁人军、吕宋手炮营为引，虏军畏却之，莫与之敌，开封既克，西路诸藩遂朝于廷，得封敕。\n昭武五年始，五伐幽燕。初，破德州，克天津，焚通州，虏师不敌。八年，出正定，围燕京。朝中谗言，无功辄返。十年，清虏寇保定，成功率军据之，贼溃，成功轻敌逐之，中伏于拒马河，王师几殁，虏骑逐至济水，辎重尽丧，伏尸千里。王请致仕，帝不许。十三年，集宣大、顺营出宣化，王师出廊坊，数败虏军，再临京师，寇得英夷之佛朗基炮，镇之九门，不得克，乃返。忠武王数临旧京，八旗震怖，贼酋东迁。然清虏依坚城之险，上下死战，终不克。昭武十五年，会战燕郊，明军势盛，虏军固守不敢出。然成功旅途劳顿，久感风寒，扶辕欲视故都，雾浓不得见，成功怆然涕泪，不复言，次日，奉天翊运推诚宣力定难延平亲王、总摄朝政督师北伐总理中外军国重事、总督东南诸省兼理吕宋抚夷钦差、提督汉番水陆诸军招讨大将军、宗人府宗人令、领南京中军都督府事臣--成功,薨于白沟河驿，年六十。六军秘不发丧，白布缠臂，星夜归于真定。帝闻之，悲绝挽之，追忠武王。\n史官曰：\n成功以海寇之资，怀孤忠之志。台澎开基，吕宋雪耻，五叩燕关，气吞海岳，虽武侯北伐未若此勤也！然天不假年，雾失蓟门，岂非命耶？忠武绝而后世继，烈士陨而山河存。至若诸镇坐大，实因后继者无王之人望——昔者诸侯畏其威而效命，后则轻其子而萌异。悲夫！"
+
+ concept_zhaowu:0 "昭武"
+ concept_zhaowu_desc:0 "昭武皇帝朱慈炤的年号，朱慈炤为明思宗与田贵妃所生之子，于崇祯六年（1633年）六月二十一日出生， 崇祯十五年（1642年）三月二十一日被封为永王。崇祯十六年（1643年）八月出阁讲学。他与三兄定王朱慈炯都“眉宇并天人，诵书清圆，作字端楷。讲罢，呼：‘先生每吃茶！’音如玉”。\n崇祯十七年（1644年）明思宗自缢之前，将太子朱慈烺与定王朱慈炯、永王朱慈炤一起送出宫，但不久就被送他们出宫的太监交给李自成。不久，李自成兵败山海关，三兄弟都下落不明。朱慈炤一路向南逃亡，在安徽南部隐居，一直到1668年，郑明军队克复南京以后进军徽州，才现身与郑明官方取得联系。朱成功对此非常重视，亲自前往徽州迎接朱慈炤，并扶持其登基称帝。\n但昭武登基以后几乎没有实权，而是把朝政全部委托给了[concept_zhongwuwang]，朱成功主导了五次北伐军事行动，最终在[concept_zhaowu]十五年的最后一次北伐中去世。但这之后，[concept_zhongwuwang]的后代郑经继续把持朝政，由于军队几乎全部听令于郑家，所以昭武帝始终没有真正实权亲政的经历。更多的时候类似于郑氏在外出征时的监国。[concept_zhaowu]三十六年，崩，尊谥烈祖威皇帝，其子朱和垣继位，是为文祯帝"
+
+ 
+ concept_wenzhen:0 "文祯"
+ concept_wenzhen_desc:0 "文祯皇帝朱和垣的年号，朱和垣是明烈宗[concept_zhaowu]皇帝和孝端皇后周氏的长子，性格宽和稳重。文祯皇帝刚登基时，为了缓解原本为[concept_zhongwuwang]设立的各路义军藩镇和中央的矛盾，不得不允许藩镇获得当地的税收权利，这为日后藩镇做大埋下了隐患。文祯初年大明与荷兰在南海发生冲突，荷兰人常常截杀中国商船，为了探寻新的商道，郑经派舰队先向东行驶再向南，试图绕过荷兰人的控制区。并无意发现了远南大陆，并在[concept_wenzhen]十五年于此设置了[concept_xuanweisi_china]。文祯皇帝新政期间，引进高产水稻，发展江南经济，之后又发行新钞可惜以失败告终。[concept_wenzhen]十九年，乌斯藏的达赖朝贡于南京，皇帝设立都司进行管辖。文祯二十年，因为宝钞通胀严重，皇帝听从海商的传闻，下令招募流民前往新大陆开采金银矿产弥补纸钞流产的损失。到三十二年，黎洲地方人口渐盛，于是设立了黎洲[concept_xuanweisi_china]。文祯皇帝在位期间中原和江南的经济得到了一定的恢复。[concept_wenzhen]四十三年，朱和垣驾崩，谥号文襄。其子朱怡钺登基，是为[concept_jingsu]帝。详见[concept_wenzhen_story]"
+
+ concept_wenzhen_story:0 "《明史：文襄宗本纪》"
+ concept_wenzhen_story_desc:0 "文祯皇帝讳和垣，[concept_zhaowu]帝长子也，母孝端皇后周氏。帝生而隆准，性宽仁，好释典。[concept_zhaowu]三十六年春正月，昭武帝崩，尊谥烈祖威皇帝，太子即皇帝位，改元[concept_wenzhen]，颁诏大赦。[concept_wenzhen]元年，帝苦藩镇支用无度，每每以备夷看边为名索饷，每不予，则劝之以崇祯故事，帑库空虚，帝不能已，召诸藩督师入觐，颁《武臣敕谕》于午门“凡千户以下，许尔自除；岁饷毋逾赋十一。敢私盟、越境、截士子者，天下共击之！”，遂解藩饷之苦，且藩镇取于封所，财源得限，不得无度扩编，然藩镇自此，人事、财源皆以自取，自是渐离朝廷。此祸始也。\n文帝初，延平王郑经摄政，与红毛夷隙于南海，夷据旧港，锁三佛齐，华商不得通。为拓商道，避夷船而南向，忽至新陆，未见于舆图，谓之远南。遂登陆设埠，始通商，后以此建城，谓之远南城，设昆阳省。至拓新城，名之郑启。东拓天恩省，都于澳阳。后闽客多迁于此，十五年，帝设远南[concept_xuanweisi_china]治之。\n文祯四年，郑经薨，帝以爵利抚之后裔，收权亲政。“郑氏子弟，爵禄如故，军政勿预。”\n帝悯民力，引吕宋稻种，苏胡增产无数，江南殷实。帝遂推行新钞，曰文祯宝钞，然无金银为依，豪强拒纳，商贾折价三成，十年乃废。\n十九年，达赖入朝，请设都司，帝允之，设庙安抚，令川云征民夫修驿站以通之，四川巡抚兼察康藏，后转设专职驻藏大臣，赐金印，驻军三千，兵于昌都。\n文祯二十年，新钞既废，帝恼之，忽问海商曰，东去重洋，其土广富金矿。帝悦之，乃诏流民东迁，人赐铳一、粟三斛，三载不税。流民掘金于河谷，岁得粗银数十万两，野邑渐成。文祯三十二年，黎洲流民拓地千里，金山汉街栉比，帝始设[concept_xuanweisi_china]，都于坤宇，命进士王守忠为都护使，岁赋输银百万。帝好文治，多修水利，通商埠。甲申以来，江南中原屡经战火，民生困苦，文帝之治，繁荣愈胜昔日。文祯四十三年，帝崩于乾清宫，年七十四。\n史官曰：\n文帝以柔克刚，解藩饷之困，开远南之疆，江南粟溢，黎洲银涌，可谓善守成矣！然察其政：《武臣敕》下，而藩镇异心、边军自足，此谓养虎贻患；宝钞既行，而豪强拒纳、税吏剖金，斯曰恤民失道。昔汉元帝委政于石显，唐文宗受制于仇宦，文帝虽无阉祸，而藩镇之弊更烈焉！谚云“宽仁生乱”，岂不信哉？"
+
+ concept_jingsu:0 "靖溯"
+ concept_jingsu_desc:0 "靖溯帝朱怡钺的年号，朱怡钺是明文宗[concept_wenzhen]皇帝的第七子，母亲是孝静皇后吴氏，朱怡钺年少就喜欢骑射武艺而不好读书。对于[concept_zhaowu]年间的五次北伐总是耿耿于怀。即位以后先是在[concept_jingsu]五年西征准噶尔，在天山勒石，并收复了关西七卫。并在之后平定了西南土司的叛乱，又因为保护兰芳于荷兰发生冲突，焚毁满剌加城，东南亚各国此后重新朝贡于大明。[concept_jingsu]二十三年，皇帝认为四海已经平定，只剩燕云还未收复，于是调集京营和藩镇共同北伐。但是装备了英国援助的加农炮的清军伏击了明军，导致后者损失惨重。为了在有生之年再度凑出军队北伐，[concept_jingsu]皇帝加重了各地的税赋，并增收黎洲矿税三成以及加征丝绸税。第二年黎洲抗税运动愈演愈烈，最终发生了[concept_silkwar]，黎洲人驱逐了大明的官吏，靖朔皇帝大怒，本想造船东征，却因国库空虚作罢。[concept_jingsu]五十七年安南内乱，阮福映弑主自立，僭称“大南皇帝”。朝廷因此兴兵讨伐，成功攻占越南北部，并设立了安南[concept_buzhengsi_china]，但因为强推律令激起多次不满，最终册封其子朱伯洵为安南亲王，设立为[concept_fanwang_china]。[concept_jingsu]六十四年，驾崩，谥号桓皇帝。详见[concept_jingsu_story]"
+
+ concept_jingsu_story:0 "《明史：圣桓帝本纪》"
+ concept_jingsu_story_desc:0 "靖朔皇帝讳怡钺，文宗襄皇帝第七子也，母孝静皇后吴氏。帝隆准虬髯，膂力绝伦，尝御苑引三石弓，一矢贯双麂，侍臣惊呼“神射”。文宗四十三年冬，文宗崩，太子即皇帝位，改元靖朔。时五军都督府拥兵自固，帝登坛誓师：“昔烈祖五伐未竟之志，朕当提三尺剑酬之！”\n五年春，宣大都督马雄鸣献漠南骏马千匹，帝亲驰校场，蹄烟蔽日。忽勒马西指曰：“哈密故土，岂容准夷鼾睡？”遂点榆园锐卒八万，裹百日粮西征。师次酒泉，值大风雪，旌旗冻裂。帝解貂裘予士卒，夜持长槊立辕门，须眉尽冰。将士感泣，一鼓破哈密，兵至龟兹，准酋葛尔丹策零北遁。乃铸铁碑于天山，铭曰“圣武靖朔”。大兵返于玉门，帝大喜，诗曰：“朔气横雕弓，天山雪化甲。玉门沙似金，为我洗胡马。烽燧尽汉旌，驼铃鸣凯下。一箭定龟兹，何须班定远？遥望长安月，犹照烈祖剑。燕然石未勒，此身敢言倦！”设卫所抚之，乃班师。\n越三年，车里土司刀干孟结三十六峒作乱，焚腾越驿。帝命大西营督师李定国裔孙李嗣兴会京营讨之。嗣兴佯退诱敌，密遣象兵伏澜沧江谷。及叛酋渡半，巨象突践，俘斩三万。捷至，帝割犀带赐嗣兴曰：“卿不坠宁宇王英风！”由是土司具降，西南遂安。\n又五年，荷兰红夷焚兰芳，戮华商三百。帝震怒，召舟师提督陈泽于乾清宫，掷剑令曰：“不屠巴城，勿归见朕！”泽率巨舰百二十艘，乘月夜潮突袭满剌加。是役也，焚夷舰如炬，血染海峡。红夷缚酋献金乞和，帝笑纳其币，旋敕曰：“夷性犬羊，今断其爪牙可矣。”遂罢兵。琉球闻之，遣使献《洪武朝贡图》，东海诸岛复奉正朔。\n帝见西北绥靖、南洋宾服，遂决意北伐。二十三年秋，倾京营二十万出紫荆关，旌旗绵延四十里。初至涿州，八旗望“靖朔”纛辄溃。然帝轻敌，命轻骑逐北。至房山深谷，虏伏尽起，英制火炮裂崖石，神机营铳械尽没。溃兵争渡拒马河，溺毙相枕。帝单骑走脱，夜宿农家，割发置案曰：“朕负烈祖矣！”天明收残卒六万，退保济南。是谓“戊戌之溃”，明之精锐自此空。\n靖朔三十六年，为补军亏，诏增黎洲矿税三成。金山矿夫王三麻断指血书：“皮骨已枯槁，税吏犹剜心！”宣慰使呈之，帝掷书丹墀：“野氓安敢抗天子？”明年春，商船“安海号”泊金山港，税吏强征苏绸。青壮愤起，投火焚舶，锦灰蔽海三日，史称“焚丝之变”。明卒守黎洲者寡，多不恋战，及义军势起，多降之，及帝闻黎洲立国，帝目眦尽裂，叱令工部造十丈楼船百艘征之。户部尚书抱籍跪泣：“当今库银仅二十万两，尚欠宣大军饷，京营重建亦须巨资，而一舰需费六十万两！”帝仰天椎案：“朕不得为永乐乎？”掷斧斤于地。遂颁《锁洲令》：“片帆不得渡东溟！”\n五十七年，安南阮福映弑主自立，僭称“大南皇帝”。帝命宣大都督沐昌明帅师十万南征，六皇子伯洵监，南军战于富良江，安南象阵欲冲明军，昌明令火铳齐射，象惊反奔，踏阮军十里。大军围升龙，伯洵树《洪武赐印图》于阵前，呼：“黎氏旧臣降者免死！”，城门遂开，贼酋南遁。初置布政司，强推《明律》，禁土司祀雒龙君，致清化民变，交趾汹汹，既平，伯洵驰奏：“夷俗不可骤革。”。帝悟之，诏改宣慰司，封伯洵安南亲王，敕曰：“夷汉别俗，当顺其性。”亲绘《三抚图》赐之：一抚免丁税，二抚存祠庙，三抚通婚媾。\n六十四年，帝已病亟，犹指北舆图曰：“燕蓟……”语绝而崩，年七十九。是夕天雷碎孝陵石马，金陵童谣曰：“烈祖霹雳鞭，靖朔不得眠。”\n维[concept_chengan]元年，孝子嗣皇帝伯溱，谨奉金册上尊谥：圣宗奋武，桓震八荒。收交趾而铜柱立，定天山而胡马喑。然黎洲烟蔽海，燕蓙恨凝霜。谨循谥法，曰桓皇帝。伏惟圣灵，永鉴玄穹！\n史臣曰：\n帝以霸王之资，骋六合之志。西收哈密，南服交趾，东海波澄，何其雄也！然戊戌一蹶，弃甲如山；黎洲再乱，裂土海外。昔符坚投鞭断流，终败淝水；隋炀龙舟蔽江，卒殒江都。刚猛苛厉，虽暂震戎狄，终溃于萧墙。语曰“好战者亡”，靖朔之谓欤？"
+
+ concept_chengan:0 "承安"
+ concept_chengan_desc:0 "承安帝朱伯溱的年号，[concept_chengan]皇帝是在大明风雨飘摇的时候登基的，此时的大明经历了[concept_jingsu]北伐惨败，黎洲[concept_silkwar]和[concept_annan_war]，国库空虚、军力羸弱，军阀还有做大、割据的风险。承安皇帝不得不休养生息，把精力放到稳定国内局势和恢复经济上。但最终，承安皇帝的目标不仅仅是维持明朝马车的平稳，他真正想要的是，平定燕云和辽东、废除士绅的优待地位并平定地方藩镇。由于感觉自己时日不足以完成这些壮举，他把希望放在自己的继承人---朱促杉身上。"
+ 
+ concept_annan_war:0 "安南战争"
+ concept_annan_war_desc:0 "[concept_jingsu]五十七年，安南国内发生政变，阮福映弑主自立，僭称“大南皇帝”，[concept_jingsu]认为这是个接入安南的好时机，便派遣大军以复庙讨逆的名义进攻大南。统军将领沐昌明，六皇子朱伯洵监军，两军在富良江决战。明军的火器轻松击破了安南军队的象阵，明军以黎氏的名义招降了升龙的守军，随后一路南下到了顺化。但在之后的治理中，[concept_jingsu]皇帝希望让安南与内地迅速统一，设立了[concept_buzhengsi_china]强推大明律，导致了当地人不满。最终改设较为独立的宣慰司并册封皇子朱伯洵为安南亲王。"
+
+ dyn_ming_tib:0 "乌斯藏都司"
+ dyn_ming_tib_adj:0 "乌斯藏都司"
+ 
+ dyn_ming_mgl:0 "和林都司"
+ dyn_ming_mgl_adj:0 "和林都司"
+ dyn_dzu_mgl:0 "喀尔喀部"
+ dyn_dzu_mgl_adj:0 "喀尔喀部"
+ 
+ dyn_ming_chi:0 "奴儿干都司"
+ dyn_ming_chi_adj:0 "奴儿干都司"
+ 
+ HMI:0 "哈密"
+ HMI_ADJ:0 "哈密"
+ dyn_ming_hmi:0 "哈密卫"
+ dyn_ming_hmi_adj:0 "哈密卫"
+ 
+ MGE:0 "蒙古帝国"
+ MGE_ADJ:0 "蒙古帝国"
+ 
+ YUA:0 "大元"
+ YUA_ADJ:0 "大元"
+ 
+ DZU:0 "准噶尔"
+ DZU_ADJ:0 "准噶尔"
+
+ CNN:0 "安南"
+ CNN_ADJ:0 "安南"
+ dyn_ming_cnn:0 "安南宣慰司"
+ dyn_ming_cnn_adj:0 "安南宣慰司"
+ dyn_ming_cnn_fuyong:0 "安南布政司"
+ dyn_ming_cnn_adj_fuyong:0 "安南布政司"
+ dyn_ming_cnn_fuyong1:0 "安南国"
+ dyn_ming_cnn_adj_fuyong1:0 "安南国"
+ 
+ CNY:0 "远南"
+ CNY_ADJ:0 "远南"
+ dyn_ming_cny:0 "远南宣慰司"
+ dyn_ming_cny_adj:0 "远南宣慰司"
+ dyn_ming_cny_fuyong:0 "远南布政司"
+ dyn_ming_cny_adj_fuyong:0 "远南布政司"
+ dyn_ming_cny_fuyong1:0 "远南国"
+ dyn_ming_cny_adj_fuyong1:0 "远南国"
+ 
+ CNL:0 "黎洲"
+ CNL_ADJ:0 "黎洲"
+ dyn_ming_cnl:0 "黎洲宣慰司"
+ dyn_ming_cnl_adj:0 "黎洲宣慰司"
+ dyn_ming_cnl_fuyong:0 "黎洲布政司"
+ dyn_ming_cnl_adj_fuyong:0 "黎洲布政司"
+ dyn_ming_cnl_fuyong1:0 "黎洲郡国"
+ dyn_ming_cnl_adj_fuyong1:0 "黎洲郡国"
+ 
+ CNP:0 "吕宋"
+ CNP_ADJ:0 "吕宋"
+ dyn_ming_cnp:0 "吕宋宣慰司"
+ dyn_ming_cnp_adj:0 "吕宋宣慰司"
+ dyn_ming_cnp_fuyong:0 "吕宋布政司"
+ dyn_ming_cnp_adj_fuyong:0 "吕宋布政司"
+ dyn_ming_cnp_fuyong1:0 "吕宋国"
+ dyn_ming_cnp_adj_fuyong1:0 "吕宋国"
+ 
+ dyn_ming_lan:0 "兰芳宣慰司"
+ dyn_ming_lan_adj:0 "兰芳宣慰司"
+dyn_ming_lan_fuyong:0 "南洋布政司"
+dyn_ming_lan_adj_fuyong:0 "南洋布政司"
+dyn_ming_lan_fuyong1:0 "南洋国"
+dyn_ming_lan_adj_fuyong1:0 "南洋国"
+LAN:0 "兰芳"
+LAN_ADJ:0 "兰芳"
+ 
+ XJB:0 "极北"
+ XJB_ADJ:0 "极北"
+ dyn_ming_xjb:0 "北辰宣慰司"
+ dyn_ming_xjb_adj:0 "北辰宣慰司"
+ dyn_ming_xjb_fuyong:0 "北辰布政司"
+ dyn_ming_xjb_adj_fuyong:0 "北辰布政司"
+ dyn_ming_xjb_fuyong1:0 "北辰国"
+ dyn_ming_xjb_adj_fuyong1:0 "北辰国"
+ 
+ XXF:0 "爔枫"
+ XXF_ADJ:0 "爔枫"
+ dyn_ming_xxf:0 "爔枫宣慰司"
+ dyn_ming_xxf_adj:0 "爔枫宣慰司"
+ dyn_ming_xxf_fuyong:0 "爔枫布政司"
+ dyn_ming_xxf_adj_fuyong:0 "爔枫布政司"
+ 
+ XYA:0 "殷安"
+ XYA_ADJ:0 "殷安"
+ dyn_ming_xya:0 "殷安宣慰司"
+ dyn_ming_xya_adj:0 "殷安宣慰司"
+ dyn_ming_xya_fuyong:0 "殷安布政司"
+ dyn_ming_xya_adj_fuyong:0 "殷安布政司"
+ 
+ XYS:0 "阳山"
+ XYS_ADJ:0 "阳山"
+ dyn_ming_xys:0 "阳山宣慰司"
+ dyn_ming_xys_adj:0 "阳山宣慰司"
+ dyn_ming_xys_fuyong:0 "阳山布政司"
+ dyn_ming_xys_adj_fuyong:0 "阳山布政司"
+ 
+ yinan:0 "殷安人" 
+ yangshan:0 "阳山人" 
+ bosi:0 "安息人"
+ taixi:0 "泰西人"
+ fulin:0 "拂菻人"
+ luosha:0 "罗刹人"
+ tianfang:0 "天方人"
+ nuosi:0 "北海人"
+ xiematai:0 "独逸人"
+ heritage_qingqiu_indian:0 "海外青丘"
+ heritage_yangshan:0 "海外阳山"
+ heritage_yinan:0 "海外殷安"
+ tradition_north_india:0 "灵龟岛原住民"
+ tradition_central_india:0 "特诺奇原住民"
+ tradition_south_india:0 "安第斯原住民"
+ heritage_nanyang:0 "南洋归化民"
+
+ DHT:0 "煌原"
+ DHT_ADJ:0 "煌原"
+ dyn_ming_DHT:0 "煌原宣慰司"
+ dyn_ming_DHT_adj:0 "煌原宣慰司"
+ dyn_ming_DHT_fuyong:0 "煌原布政司"
+ dyn_ming_DHT_adj_fuyong:0 "煌原布政司"
+
+ XHY:0 "煌原"
+ XHY_ADJ:0 "煌原"
+ dyn_ming_xhy:0 "煌原宣慰司"
+ dyn_ming_xhy_adj:0 "煌原宣慰司"
+ dyn_ming_xhy_fuyong:0 "煌原布政司"
+ dyn_ming_xhy_adj_fuyong:0 "煌原布政司"
+ 
+ XTZ:0 "底马撒"
+ XTZ_ADJ:0 "底马撒"
+ dyn_ming_xtz:0 "底马撒宣慰司"
+ dyn_ming_xtz_adj:0 "底马撒宣慰司"
+ dyn_ming_xtz_fuyong:0 "底马撒布政司"
+ dyn_ming_xtz_adj_fuyong:0 "底马撒布政司"
+ 
+ XHZ:0 "河中"
+ XHZ_ADJ:0 "河中"
+ dyn_ming_xhz:0 "河中宣慰司"
+ dyn_ming_xhz_adj:0 "河中宣慰司"
+ dyn_ming_xhz_fuyong:0 "河中布政司"
+ dyn_ming_xhz_adj_fuyong:0 "河中布政司"
+ 
+ XMD:0 "新缅"
+ XMD_ADJ:0 "新缅"
+ dyn_ming_xmd:0 "缅甸宣慰司"
+ dyn_ming_xmd_adj:0 "缅甸宣慰司"
+ dyn_ming_xmd_fuyong:0 "缅甸布政司"
+ dyn_ming_xmd_adj_fuyong:0 "缅甸布政司"
+ 
+ XXL:0 "暹罗"
+ XXL_ADJ:0 "暹罗"
+ dyn_ming_xxl:0 "暹罗宣慰司"
+ dyn_ming_xxl_adj:0 "暹罗宣慰司"
+ dyn_ming_xxl_fuyong:0 "暹罗布政司"
+ dyn_ming_xxl_adj_fuyong:0 "暹罗布政司"
+ 
+ XHL:0 "红林"
+ XHL_ADJ:0 "红林"
+ dyn_ming_xhl:0 "红林宣慰司"
+ dyn_ming_xhl_adj:0 "红林宣慰司"
+ dyn_ming_xhl_fuyong:0 "红林布政司"
+ dyn_ming_xhl_adj_fuyong:0 "红林布政司"
+ 
+ RYU:0 "琉球"
+ RYU_ADJ:0 "琉球"
+ ryukyuan:0 "琉球人"
+ min_language:0 "闽南语"
+ 
+ ZHY:0 "镇元"
+ ZHY_ADJ:0 "镇元"
+ dyn_ming_zhy:0 "镇元都司"
+ dyn_ming_zhy_adj:0 "镇元都司"
+
+ CEL:0 "车里"
+ CEL_ADJ:0 "车里"
+ dyn_ming_cel:0 "车里都司"
+ dyn_ming_cel_adj:0 "车里都司"
+ 
+ MMK:0 "勐卯"
+ MMK_ADJ:0 "勐卯"
+ dyn_ming_mmk:0 "勐卯都司"
+ dyn_ming_mmk_adj:0 "勐卯都司"
+ 
+ dyn_luchuan_mmk:0 "麓川"
+ dyn_luchuan_mmk_adj:0 "麓川"
+
+ CHS:0 "茶山"
+ CHS_ADJ:0 "茶山"
+ dyn_ming_chs:0 "茶山都司"
+ dyn_ming_chs_adj:0 "茶山都司"
+ 
+ SGG:0 "宋卡"
+ SGG_ADJ:0 "宋卡"
+ dyn_ming_SGG:0 "宋卡卫"
+ dyn_ming_SGG_adj:0 "宋卡卫"
+ 
+ GSD:0 "大顺"
+ GSD_ADJ:0 "大顺"
+ GXD:0 "大西"
+ GXD_ADJ:0 "大西"
+ ZHD:0 "东宁"
+ ZHD_ADJ:0 "东宁"
+ XDY:0 "宣大军"
+ XDY_ADJ:0 "宣大军"
+ YYY:0 "榆园军"
+ YYY_ADJ:0 "榆园军"
+ 
+CNT:0 "泰西都护府"
+CNT_ADJ:0 "泰西都护府"
+CNF:0 "拂菻都护府"
+CNF_ADJ:0 "拂菻都护府"
+CNB:0 "波斯都护府"
+CNB_ADJ:0 "波斯都护府"
+CNS:0 "北海都护府"
+CNS_ADJ:0 "北海都护府"
+CNR:0 "罗刹都护府"
+CNR_ADJ:0 "罗刹都护府"
+CNA:0 "天方都护府"
+CNA_ADJ:0 "天方都护府"
+CNI:0 "天竺都护府"
+CNI_ADJ:0 "天竺都护府"
+CNX:0 "邪马尼宣慰司"
+CNX_ADJ:0 "邪马尼宣慰司"
+CNJ:0 "瀛洲宣慰司"
+CNJ_ADJ:0 "瀛洲宣慰司"
+
+ CNT_duhu: "成立泰西都护府"
+ CNT_duhu_desc: "“泰西之推有气映差，今夏则见河汉，冬则收，气浊之也”---《东西均·所以》"
+
+ CNF_duhu: "成立拂菻都护府"
+ CNF_duhu_desc: "拂菻国，一名大秦，在西海之上，东南与波斯接。 地方万余里，列城四百，邑居连属。 其宫宇柱栊，多以水精琉璃为之。---《通典》"
+
+ CNB_duhu: "成立波斯都护府"
+ CNB_duhu_desc: "龙朔初，又诉为大食所侵，是时天子方遣使者到西域分置州县，以疾陵城为波斯都督府，即拜卑路斯为都督。---《新唐书》"
+
+ CNS_duhu: "成立北海都护府"
+ CNS_duhu_desc: "北海虽赊，扶摇可接；东隅已逝，桑榆非晚。---《滕王阁序》"
+
+ CNR_duhu: "成立罗刹都护府"
+ CNR_duhu_desc: "问其何贫，曰：“我国所重，不在文章，而在形貌。其美之极者，为上卿；次任民社；下焉者，亦邀贵人宠，故得鼎烹以养妻子。若我辈初生时，父母皆以为不祥，往往置弃之，其不忍遽弃者，皆为宗嗣耳。”问：“此名何国？”曰：“大罗刹国。都城在北去三十里。”马请导往一观。于是鸡鸣而兴，引与俱去。---《罗刹海市》"
+
+ CNA_duhu: "成立天方都护府"
+ CNA_duhu_desc: "天方，古筠冲地，一名天堂，又曰默伽。不道自忽鲁谟斯四十日始至，自古里西南行，三月始至。其贡使多从陆道入嘉峪关---《明史·西域传》"
+
+ CNI_duhu: "成立天竺都护府"
+ CNI_duhu_desc: "“身毒之国，轩辕氏居之。郭注，天竺国也。”--《山海经》"
+
+ CNX_duhu: "成立邪马尼都护府"
+ CNX_duhu_desc: "邪马尼，居欧洲中原，同盟三十六国，而中惟布路斯最强。---《史稿》"
+ 
+ tianming.24.t: "成立泰西都护府"
+ tianming.24.d: "在征服了极西之地以后，我们决定在此地成立都护府，以便管理、教化此地的西洋人。当地人虽不通教化，然亦非蛮貊之人，楼阁亭台、诗歌戏剧，亦有其客观者。然欲使其归化，恐须良日。"
+ tianming.24.f: "泰西距中原两万里有余，昼夜相反。西临大洋，气候温润。"
+ tianming.24.a: "好的"
+
+ tianming.25.t: "成立拂菻都护府"
+ tianming.25.d: "拂菻者，乡大秦国也，后亦称鲁密。其国传祚数十代，计千年余，终为突厥所覆。今吾国兵锋临此，所以复其宫室宗庙，以飨其先祖，安其黎庶。千年之国，终朝于明。"
+ tianming.25.f: "大秦其王无有常人，皆简立贤者。国中灾异及风雨不时，辄废而更立，受放者甘黜不怨。其人民皆长大平正，有类中国，故谓之大秦……"
+ tianming.25.a: "好的"
+
+ tianming.26.t: "成立波斯都护府"
+ tianming.26.d: "波斯，旧安息国也，汉唐皆曾使之。成祖时，帖木儿欲以安息之兵征中国，未及，卒，成祖数下南洋以求共御之。今我军至此，始夙旧愿。"
+ tianming.26.f: "“帖木儿，僻处西域，乘国中无主，僭称可汗，控弦之士数十万，屡犯邻境。”"
+ tianming.26.a: "好的"
+
+ tianming.27.t: "成立邪马尼都护府"
+ tianming.27.d: "邪马台，亦作日耳曼，地处西洲之中原，森林广布，邦国众多，本为一国，其帝战陨，诸侯各自崩析。今我军兵至，或可解其乱局，平其纷争，统合诸邦，永缔宁和。"
+ tianming.27.f: "邪马尼，居欧洲中原，同盟三十六国，而中惟布路斯最强。"
+ tianming.27.a: "好的"
+
+ tianming.28.t: "成立北海都护府"
+ tianming.28.d: "北海地近北极，其民剽悍好斗，每乘舟持斧而南寇，莫有能敌者。善舟楫，能逆浪而驰，恶名扬于西洲。皆以战死为荣，以寿死为耻。今吾临之，可教化其民，使其为我所用。"
+ tianming.28.f: "穷发之北，有冥海者，天池也。有鱼焉，其广数千里，未有知其修者，其名为鲲。有鸟焉，其名为鹏。背若泰山，翼若垂天之云。"
+ tianming.28.a: "好的"
+
+ tianming.29.t: "成立罗刹都护府"
+ tianming.29.d: "罗刹国，故为大帐汗国之辖区，为元廷之臣属。而后雄主一统、尽逐鞑靼，挥师东进，寇边中华。今我军复临元师征伐之地，故地重游，他日之风景，或为不同焉。"
+ tianming.29.f: "俄罗斯，地跨亚细亚、欧罗巴两洲北境。初由东洋海岸收毳矿之贡，抵黑龙江北岸，据雅克萨、尼布楚二地，树木城居之，侵扰诸部。嗣又越兴安岭南向，侵掠布拉特乌梁海四佐领。崇祯十二年，建奴征黑龙江，毁其城，兵退而罗刹复城之。"
+ tianming.29.a: "好的"
+
+ tianming.30.t: "成立天方都护府"
+ tianming.30.d: "地多旷漠，即古筠冲之地，名为西域。风景融和，四时皆春也。田沃稻饶，居民安业，风俗好善。有酋长，无科扰于民，刑法之治，自然淳化。不生盗贼，上下和美。古置礼拜寺，见月初生，其酋长及民下悉皆拜天，以为一国之化，余无所施。其寺分为四方，每方九十间，共三百六十间。皆白玉为柱，黄甘玉为地，中有黑石一片，方丈余，曰汉初天降也。其寺层次高上，如塔之状。男子穿白长衫。地产金珀、宝石、珍珠、狮子、骆驼、祖剌法、豹、麂。马八尺之高也，即为天马也。货用金银、段疋、色绢、青花白磁器、铁鼎、铁铫之属。乃日中不市，至日落之后以为夜市，盖其日色热之故也。"
+ tianming.30.f: "罕见天方国，遗风礼义长。\n存心恭后土，加额感穹苍。\n玉殿临西域，山城接大荒。\n真珠光彩洁，异兽贵驯良。\n日以安民业，晚来聚市商。\n景融禾稼盛，物阜草木香。\n尤念苍生志，承恩览远邦。\n采诗虽句俗，诚意献君王。"
+ tianming.20.a: "好的"
+
+ tianming.31.t: "成立天竺都护府"
+ tianming.31.d: "天竺者，玄奘玄策所游之地也，向曰身毒，在西藏之西，灵山之南，古传之西天之地。陆路海路皆可通之。---《大明万国舆图》"
+ tianming.31.f: "“夫天竺之称，异议纠纷，旧称身笃，身毒，贤豆，天竺等。今从正音，宜云印度”。"
+ tianming.31.a: "好的"
+
+ JIANLI_YINGZHOU_XUANWEISI: "成立瀛洲宣慰司"
+ JIANLI_YINGZHOU_XUANWEISI_desc: "“海客谈瀛洲，烟涛微茫信难求；越人语天姥，云霞明灭或可睹。”---《梦游天姥吟留别》"
+ tianming.32.t: "成立瀛洲宣慰司"
+ tianming.32.d: "瀛洲，旧倭国也，唐时朝于廷，广受教化。然野性未改，性烈好斗，士人戮民以为乐，谓其试刀。元祖尝渡海征之，再征不可。本朝初，倭兵寇海，为祸乡野，海民畏而避之。太祖遣使以求约束，不得返。世宗时，倭乱甚猖，浙闽边民受戮者不计，后得元敬、志辅御之。神宗时，寇朝鲜，大兵驱之，神宗欲水师征之，未几，战时毕，不得行。今神州得幸，倭患得终，大兵已至，宇内"
+ tianming.32.f: "“海客谈瀛洲，烟涛微茫信难求；越人语天姥，云霞明灭或可睹。”---《梦游天姥吟留别》"
+ tianming.32.a: "好的"
+
+ CHI_FLAVOR_TEXT:1 "在面对郑成功激烈的反攻时，清朝的统治者选择了撤回关外。现在明朝已经重新复兴，大清是否还有机会重现两百年前萨尔浒之战的荣光，重新入主中原？"
+
+ TIB_FLAVOR_TEXT:0 "西藏在过去的五百年都向明朝中央朝贡请求册封，但是有幸能游离在中国政府的直接管辖之外，这样的时光还能持续下去吗？亦或者被中国政府的全新战略所取代，彻底融入中华帝国中去？"
+ 
+ RYU_FLAVOR_TEXT:0 "作为一个小国，琉球并没有太多的选择，这个夹在中国和日本之间的国家，并没有独立自主的能力。自三山统一以来的几百年里，琉球都是明朝的朝贡国，但是统一的日本逐渐对琉球人虎视眈眈，琉球能在这个时代从日本的侵略种幸存吗？"
+ 
+ CNN_FLAVOR_TEXT:0 "在一百年前的[concept_annan_war]中，明帝国仿照永乐大帝的做法，用大军荡平了越南北部的抵抗者，并且将南方的南朝的大越纳为朝贡。越南的局势一直动荡不安，但是在明帝国强大的军力威慑下，安南宣慰司依然保持着稳定的发展。如今，皇帝的亲弟弟，大明安南亲王朱伯洵被分封到这片大明的新边疆。安南的未来将会走向何处？"
+ 
+ CNP_FLAVOR_TEXT:0 "吕宋宣慰司的建立要归功于朱成功将军，在万历末年和崇祯末年，在吕宋岛的西班牙人两次对当地的华人居民举起屠刀，在收复了台湾后，朱成功将军整顿军队，出乎意料地出现在了马尼拉城下。溃不成军的西班牙人不得不放弃了吕宋的殖民地。吕宋曾作为郑明反攻大陆的基地，在光复南京以后，这里的郑军撤离，明帝国将这里设为了宣慰司辖区，派遣官员治理。吕宋是大明对外贸易的重要中转站，这里一片祥和，应该不会发生什么大事，我是说应该。"
+
+ CNM_FLAVOR_TEXT:0 "大明危在旦夕的时候，国姓爷朱成功挺身而出，他的后代在长达几十年的战争中夺回了大明的江山，平定了妄图自立的三藩，将大清的统治限制在燕云十六州和长城以北的荒漠。我们又享受了百年的盛世，但是随着西洋人的扩张，朝廷的腐化，以及虎视眈眈的关外，我们是否还有机会完成收复燕云，统一中国的鸿图？"
+ 
+ CNL_FLAVOR_TEXT:0 "为了寻找佛朗基人所说的银矿，我们的先祖远渡重洋来到了这片陌生的大陆，经过劳动与开垦，我们建立起了这片家园，并最终与中原王国决裂，成立了自己的共和政府。然而，虎视眈眈的西方人正在威胁我们的存在，我们需要迅速的发展壮大，才能对抗西洋帝国的威胁，抑或是，向巨龙求助？"
+ 
+ ming_tax_head:0 "人头税"
+ ming_tax_head_desc:0 "几千年来，人头税都是中国的重要税收项目，通过户籍统计出人口的总数，再按照人丁数量计算出每人应当缴纳的税额。这是帝国稳定运行的基石。然而这种税收制度也绝非万能，藏匿人口的情况时有发生，这种制度也大大遏制了我国民众的生育欲望，毕竟多一个人就要多一份税收。"
+ 
+ ming_zheng_navy:0 "郑氏海军"
+ ming_zheng_navy_desc:0 "作为反清复明的功臣，郑氏家族获得了及其崇高的地位。郑氏海军就是大明水师的全部，他们拥有着最庞大的军权和政府话语权，而皇帝不得不将他们的意见放在心上。"
+ 
+ ming_warlord:0 "藩镇林立"
+ ming_warlord_desc:0 "在抵抗清军的战争中，我们对所有能够施以援手的势力都许诺了好处，而回报就是在一京十三省中林立的如同独立王国一般的大小军阀。其中李定国后代在西南的云南王，前顺军册封的关中营是其中最不可小觑的势力。"
+ 
+ modifier_zhimin_1:0 "最近使用了朝廷互动"
+ modifier_zhimin_1_desc:0 "使用一段时间内不得再次使用"
+ 
+ modifier_zhimin_2:0 "大明户部援助"
+ 
+ modifier_zhimin_3:0 "大明礼部援助"
+ 
+ modifier_zhimin_4:0 "大明兵部援助"
+ 
+ modifier_zhimin_5:0 "大明工部援助"
+ 
+ modifier_zhimin_6:0 "向大明朝贡"
+ 
+ modifier_zhimin_7:0 "受到朝贡"
+ 
+ modifier_zhimin_8:0 "乡野民众的认可"
+ 
+ modifier_zhimin_9:0 "受贡宦官"
+
+ modifier_zhimin_10:0 "受贡奇珍异宝"
+ 
+ ming_tib_glory:0 "发现三江源"
+ 
+ #决议
+ 
+ ming_zibao_de:0 "#RED 大明自爆#!"
+ ming_zibao_de_desc:0 "这个选项可以让你手动让明朝自爆。"
+ 
+ qing_rus_de:0 "求助沙俄"
+ qing_rus_de_desc:0 "与明朝的战争已经走向了我们难以接受的情况，除了向俄罗斯求助，我们别无选择。"
+ 
+ ming_tib_explore_de:0 "开始西藏探险"
+ ming_tib_explore_de_desc:0 "派遣探险队堪探西藏的道路。"
+ 
+ ming_landlord:0 "士绅优待"
+ ming_landlord2:0 "对取消优待福利的不满"
+ ming_landlord3_de:0 "废除士绅优待"
+ ming_landlord3_de_desc:0 "废除从太祖朱元璋时期开始的士绅优待制度。"
+ ming_daya:0 "打压士绅阶层"
+ ming_landlord_de:0 "弹压士绅"
+ ming_landlord_de_desc:0 "开始从朝廷各个方面打压士绅阶层"
+ ming_landlord2_de:0 "开启丈量工作"
+ ming_landlord2_de_desc:0 "派遣官员开始丈量全国土地。"
+ ming_measuring1:0 "测量开销"
+ ming_under_measuring:0 "未测量土地"
+ ming_under_measuring1:0 "汇总田亩信息中"
+ ming_under_measuring2:0 "测量工作受挫"
+ yijingjiaban_tt:0 "你不能连续让官员加班。"
+ shishen_back:0 "士绅重新掌权"
+ ming_fubai:0 "腐败行为"
+ ming_shangren:0 "商人补税"
+ ming_xiying:0 "大西营"
+ ming_shunying:0 "顺营"
+ ming_zhengjun:0 "郑氏海军"
+ ming_xuanda:0 "宣大营"
+ ming_yuyuan:0 "榆园营"
+ ming_langjun:0 "广西狼军"
+ ming_yanyun:0 "收复燕云"
+ ming_anfu:0 "安抚百姓"
+ ming_xixue:0 "西学东渐"
+ ming_qishi:0 "歧视满洲人"
+ ming_new_tax:0 "新税法"
+ ming_tib_exp:0 "西藏探险开销"
+ je_stop_kantan:0 "每两个月可以完成一次堪探。"
+ ming_ronghe_de:0 "融合格鲁派"
+ ming_ronghe_de1:0 "取消格鲁派融合地位"
+ ming_ronghe_de1_desc:0 "我们应该取消格鲁派融合地位，只遵从一个国教。"
+ ming_ronghe_de_no:0 "格鲁派不是融合教派"
+ ming_ronghe_de_dac:0 "融合大乘佛教"
+ ming_ronghe_de_dac_desc:0 "大乘佛教是我国传统教派之一，我们应该给予他们国教的同等地位。"
+ ming_ronghe_de_dac_cancel:0 "取消大乘佛教融合地位"
+ ming_ronghe_de_dac_cancel_desc:0 "我们应该取消大乘佛教融合地位，只遵从一个国教。"
+ ming_ronghe_de_dac_no:0 "大乘佛教不是融合教派"
+ 
+ ming_ronghe_de_tao:0 "融合道教"
+ ming_ronghe_de_tao_desc:0 "道教是我国传统教派之一，我们应该给予他们国教的同等地位。"
+ ming_ronghe_de_tao_cancel:0 "取消道教融合地位"
+ ming_ronghe_de_tao_cancel_desc:0 "我们应该取消道教融合地位，只遵从一个国教。"
+ ming_ronghe_de_tao_no:0 "道教不是融合教派"
+ 
+ ming_ronghe_de_conf:0 "融合儒教"
+ ming_ronghe_de_conf_desc:0 "儒教是我国传统教派之一，我们应该给予他们国教的同等地位。"
+ ming_ronghe_de_conf_cancel:0 "取消儒教融合地位"
+ ming_ronghe_de_conf_cancel_desc:0 "我们应该取消儒教融合地位，只遵从一个国教。"
+ ming_ronghe_de_conf_no:0 "儒教不是融合教派"
+ 
+ sanjiao: "三教"
+ je_sanjiao:0 "三教"
+ je_sanjiao_reason:0 "作为一个非宗教化社会，中国往往"
+ lengqueqi_tt:0 "不在冷却期内"
+ ming_ronghe_de_desc:0 "我国并非单一的宗教国家，而是包容并蓄的自由信仰国家，虽然我们有名义上的国教，但是儒释道都是被视为于国教同等地位的教派。格鲁派虽然不同于寻常佛教，但是将他们整合入我们的信仰还是很有必要的。"
+ ming_ronghe_de_tt:0 "是融合教派"
+ 
+ law_state_religion_sanjiao: "三教合一"
+ law_state_religion_sanjiao_desc:0 "我国并非单一的宗教国家，而是包容并蓄的自由信仰国家，虽然我们有名义上的国教，但是儒释道都是被视为于国教同等地位的教派。同时我国的宗教被认为是一种生活方式而不是意识形态，即使是异教徒，也能得到很大程度的宽容和理解。"
+ 
+ qing_banner:0 "八旗"
+ qing_banner2:0 "御林军"
+ unit_combat_unit_type_hussars_offense_mult:0 "轻骑兵攻击力"
+ unit_combat_unit_type_dragoons_offense_mult:0 "龙骑兵攻击力"
+ unit_combat_unit_type_cuirassiers_offense_mult:0 "胸甲骑兵攻击力"
+ unit_combat_unit_type_lancers_offense_mult:0 "枪骑兵攻击力"
+    
+    
+ ming_junfei:0 "增加军费"
+ ming_langarmy_up:0 "狼军战士"
+ ming_dongyuan_up:0 "全国动员"
+ ming_junshi_up:0 "研发军备"
+ ming_daya_army_up:0 "打压军队"
+ ming_jili_army_up:0 "激励军队"
+ ming_jili_navy_up:0 "提拔海军"
+ 
+ ming_beijing_de:0 "迁都北京"
+ ming_beijing_de_desc:0 "王师北定中原日，家祭勿忘告乃翁。"
+ 
+ xinying_yimin_1_de:0 "打开朝廷面板"
+ xinying_yimin_1_de_desc:0 "一封朝奏九重天"
+ 
+ xinying_yimin_2_de:0 "关闭朝廷面板"
+ xinying_yimin_2_de_desc:0 "夕贬潮州路八千"
+ 
+ xinying_yimin_3_de:0 "吸引明朝移民"
+ xinying_yimin_3_de_desc:0 "大明人口众多，我们可以吸引一些没有土地的本地居民前往新大陆开拓殖民地。"
+ 
+ xinying_yimin_4_de:0 "研发殖民技术"
+ xinying_yimin_4_de_desc:0 "在新世界遇到的困难远比我们想得要多，为了解决瘴气的困扰，我们可以请求大明协助研究。"
+ 
+ xinying_yimin_5_de:0 "请求财政拨款"
+ xinying_yimin_5_de_desc:0 "我们的财政已经捉襟见肘，一笔来自大明的拨款可以为我们雪中送炭！"
+ 
+ xinying_yimin_6_de:0 "开垦更多土地"
+ xinying_yimin_6_de_desc:0 "我们殖民地的潜力还有待开发，我们可以扩张可耕作土地来容纳更多人口。"
+ 
+ xinying_yimin_7_de:0 "宣称更多领土"
+ xinying_yimin_7_de_desc:0 "普天之下莫非王土，率土之滨莫非王臣。所有与我们相邻的殖民区域都应该属于我们的管辖。"
+ 
+ xinying_yimin_8_de:0 "请求行政援助"
+ xinying_yimin_8_de_desc:0 "行政机构的扩张让我们的官员捉襟见肘，我们应该向大明求助，获取一批文员帮我们处理内务。"
+ 
+ xinying_yimin_9_de:0 "请求外交援助"
+ xinying_yimin_9_de_desc:0 "外交部门的扩张让我们的官员捉襟见肘，我们应该向大明求助，获取一批文员帮我们处理外务。"
+ 
+ xinying_yimin_10_de:0 "请求天兵救援"
+ xinying_yimin_10_de_desc:0 "对外战争让我国独木难支，我们可以向大明求助，帮我们击败外敌。"
+ 
+ xinying_yimin_11_de:0 "请求教育援助"
+ xinying_yimin_11_de_desc:0 "我国对于教育的需求空前膨胀，让大明调拨一些教师和学校资源会是一个不错的选择。"
+ 
+ xinying_yimin_12_de:0 "请求军事援助"
+ xinying_yimin_12_de_desc:0 "我国军队需要整顿，如果能得到大明的帮助，就能迅速提升我国军事实力。"
+ 
+ xinying_yimin_13_de:0 "请求建设援助"
+ xinying_yimin_13_de_desc:0 "我国的建筑部门难以满足需求，向大明请求一批工匠援助能解决我们的燃眉之急。"
+
+ xinying_yimin_14_de:0 "向朝廷进贡"
+ xinying_yimin_14_de_desc:0 "是时候展现我们的忠诚了，我们将向大明朝贡，赢取大明的信赖。"
+ 
+ xinying_yimin_15_de:0 "宣布从大明独立"
+ xinying_yimin_15_de_desc:0 "人生而自由，却无时不处于枷锁之中。"
+ 
+ xinying_yimin_16_de:0 "    提拔远南"
+ xinying_yimin_16_de_desc:0 "我们对[GetPlayer.MakeScope.Var('yuannan_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升远南的地位。"
+ 
+ xinying_yimin_17_de:0 "    提拔黎洲"
+ xinying_yimin_17_de_desc:0 "我们对[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升黎洲的地位。"
+ 
+ ming_cny_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('yuannan_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('yuannan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ ming_cnl_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_18_de:0 "    提拔安南"
+ xinying_yimin_18_de_desc:0 "我们对[GetPlayer.MakeScope.Var('annan_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_cnn_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('annan_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('annan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_19_de:0 "    提拔吕宋"
+ xinying_yimin_19_de_desc:0 "我们对[GetPlayer.MakeScope.Var('lvsong_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_cnp_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('lvsong_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('lvsong_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_20_de:0 "    提拔琉球"
+ xinying_yimin_20_de_desc:0 "我们对[GetPlayer.MakeScope.Var('liuqiu_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_ryu_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('liuqiu_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('liuqiu_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_21_de:0 "    提拔哈密"
+ xinying_yimin_21_de_desc:0 "我们对[GetPlayer.MakeScope.Var('hami_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_hmi_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('hami_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('hami_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_22_de:0 "    提拔兰芳"
+ xinying_yimin_22_de_desc:0 "我们对[GetPlayer.MakeScope.Var('lanfang_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_lan_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('lanfang_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('lanfang_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_23_de:0 "    提拔极北"
+ xinying_yimin_23_de_desc:0 "我们对[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xjb_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_24_de:0 "    提拔曦枫"
+ xinying_yimin_24_de_desc:0 "我们对[GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xxf_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_25_de:0 "    提拔殷安"
+ xinying_yimin_25_de_desc:0 "我们对[GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xya_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_26_de:0 "    提拔阳山"
+ xinying_yimin_26_de_desc:0 "我们对[GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xys_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_27_de:0 "    提拔煌原"
+ xinying_yimin_27_de_desc:0 "我们对[GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xhy_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_28_de:0 "    提拔底马撒"
+ xinying_yimin_28_de_desc:0 "我们对[GetPlayer.MakeScope.Var('tianzhu_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xtz_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('tianzhu_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('tianzhu_scope').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_29_de:0 "    提拔河中"
+ xinying_yimin_29_de_desc:0 "我们对[GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xhz_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_30_de:0 "    提拔新缅"
+ xinying_yimin_30_de_desc:0 "我们对[GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xmd_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_31_de:0 "    提拔暹罗"
+ xinying_yimin_31_de_desc:0 "我们对[GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xxl_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_32_de:0 "    提拔红林"
+ xinying_yimin_32_de_desc:0 "我们对[GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ ming_xhl_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_yimin_35_de:0 "    提拔朝鲜"
+ xinying_yimin_35_de_desc:0 "我们对[GetPlayer.MakeScope.Var('kor_fushu').GetCountry.GetName]的控制力已经很高了，我们应该更进一步，提升他们的地位。"
+ 
+ xinying_yimin_36_de:0 "招募移民"
+ xinying_yimin_36_de_desc:0 "我们可以招募中原的移民充实我们的人口。"
+ 
+ ming_xhl_rely_number1_tt:0 "需要[GetPlayer.MakeScope.Var('kor_fushu').GetCountry.GetName]对大明的依赖程度大于80,目前是[GetPlayer.MakeScope.Var('kor_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xinying_tiba_open_de:0 "  宣慰司:册封"
+ xinying_tiba_open_de_desc:0 "  博望初乘贯月槎，龙庭万里欲为家。"
+ 
+ xinying_tiba_close_de:0 "  宣慰司:册封"
+ xinying_tiba_close_de_desc:0 "  轮台诏下陈哀痛，上苑犹栽苜蓿花。"
+ #事件
+ 
+ game_mod_events.1.t:0 "欢迎游玩日月河山模组 1.4.8版本（2026.1.21更新）"
+ game_mod_events.1.d:0 "本模组由#BLUE 桑榆#!制作，使用了#BLUE 变身大民#!模组的素材包，世界观架构来源于#RED Zhult#!，封面图由#RED 小玄学#!绘制，对他们表达感谢。本mod事件图来自#RED TheMoonOfLocy#!使用AI绘图提供。同时本mod英文翻译部分由#RED Swan#!提供"
+ game_mod_events.1.f:0 "本mod尚在测试中，试图做出一个庞大世界观的架空模组，为相关国家做出独特的机制和剧情体验。如果你遇到了bug或者有特殊的想法和灵感，希望即时与作者沟通交流，请加入#BOLD 粉丝群：593708089#!\n本次更新内容：\n1，更改了宣慰司成立日志"
+ game_mod_events.1.a:0 "我知道了"
+ 
+ game_mod_events.2.t:0 "麓川之战"
+ game_mod_events.2.d:0 "西南土司的狼子野心已经昭然若是，西南各部已经宣布联合，共同抵御明军的进攻，宣布从大明独立出去。"
+ game_mod_events.2.f:0 "西南土司诸国，不服王化，以区区之数，效尤奋臂螳螂。"
+ game_mod_events.2.a:0 "我们会将他们全部消灭"
+ 
+ state_trait_yunnan_forest: "云贵森林"
+ state_trait_qingzang_mountains: "青藏高原"
+
+ game_mod_events.3.t:0 "战事结束"
+ game_mod_events.3.d:0 "我们在西南的讨伐战争终于结束了，这漫长的日子里，士兵在西南的丛林中苦不堪言，无数同胞在瘴气中殒命，不过这一切终于结束了。"
+ game_mod_events.3.f:0 "埋骨何须桑梓地，人生无处不青山。"
+ game_mod_events.3.a:0 "回家吧，士兵们"
+ 
+ game_mod_events.4.t:0 "朝鲜献印"
+ game_mod_events.4.d:0 "随着我们的大军踏上了朝鲜的土地，朝鲜国王惊慌失措，希望我们念在旧时的藩属关系上对朝鲜手下留情。"
+ game_mod_events.4.f:0 "朝鲜国王散发自缚，对大明军队投降，只求留他一条生路。"
+ game_mod_events.4.a:0 "朝鲜永远是大明赤子"
+ game_mod_events.4.b:0 "把这个无君无父的狗贼拉出去砍了"
+ 
+ game_mod_events.5.t:0 "五军都督府的教程"
+ game_mod_events.5.d:0 "五军都督府存在两个指标，忠诚度和势力值。势力值太高和忠诚度太低都会导致国家陷入军阀混战。其中，忠诚度用带有颜色的字表示：#GREEN 忠诚#!、#BLUE 认可#!、#BOLD 服从#!、#YELLOW 中立#!、#RED 抵触#!、#RED 反叛#!。一旦达到反叛，就会触发叛乱。一般来说，五军都督府应当保持在认可及以上的态度，对于你控制军队的势力会有帮助，当五军都督府处于中立及以下时，他们会迅速扩张自己的势力。\n势力值用总数为一百的进度条表示。达到一百时，意味着军队彻底夺取地方的控制权，天子失去权力，军队开始割据。军队的势力并非全是负面影响，当军队势力提高时，军队的战斗力也会相应提升。当然，随之提升的也有军队IG的势力和军队的工资。五军都督府的势力不适宜维持过高，那样会导致更频繁的军队事件触发。同时也不适合过低，极低的军队势力会导致军队将领集体不满。同时备受打压的军队也会像前宋军队一样失去战斗意志。"
+ game_mod_events.5.f:0 "你有很多种方法控制军队的忠诚度和势力。\n1，如果想要提升忠诚度，可以尝试扶持军队IG，让军队IG对你达到喜爱，以及处于战争之中。这些会缓慢提升五军都督府的好感，但是并不能立刻看出效果。\n2，五军都督府的互动决议是提升好感度的好方法，给军队加工资，发放激励，提拔将领等等都会增加军队的忠诚度。对应的，其中大部分还会同时提升军队的势力。册封土地给军阀无疑是缓和矛盾的绝佳方法，但是要小心，拥有了太多土地的军阀，一旦挑起内战，将让你无从应对。而且赐予他们土地无疑会减缓改革速度。\n势力值的影响也是多种多样的，主要的决议都会影响势力的变化。这里介绍一些其他方法：\n1，军队IG举足轻重无疑会促进军队势力的增长，必须遏制他们。\n2，将军队放入内阁也会让他们增长自己的势力。除非你确实需要他们帮助来进行改革，否则最好不要让他们进入政府。\n3，打压或者扶持军队IG也会降低五军都督府的势力值，如果你有富裕的权威力，可以在需要的时候来遏制他们的扩张。\n4，文官监军是一个很好的快速降低势力值的方法，而且监军期间势力值也会持续降低，但是请确保军队的忠诚度，不要让他们因此而反叛。同时，文官监军也会降低军队的战斗力，请谨慎使用。"
+ game_mod_events.5.a:0 "我明白了"
+ 
+ #西南叛乱
+ 
+ je_china_xinan: "安抚西南土司"
+ je_china_xinan_reason: "西南土司最近怀揣异心，我们必须让他们明白天朝的威严，让他们恪守其责，成为帝国的边境的忠诚卫士。"
+ anfu_xinan: "云南布政司"
+ 
+ je_china_xinan_2: "麓川之战"
+ je_china_xinan_2_reason: "西南边界冲突不断，最终演化成了如今的全面战争，西南的土司试图凭借地利抵抗朝廷大军，将西南变为他们的独立王国。"
+ 
+ xinan_events.1.t: "安抚西南"
+ xinan_events.1.d: "西南土司接受朝廷册封，替天朝把守边疆。但是据说最近随着边境的动乱，土司开始怀揣异心，试图与朝廷背心离德。我们必须遏制他们的小心思。"
+ xinan_events.1.f: "羽檄如流星，虎符合专城。喧呼救边急，群鸟皆夜鸣。\n白日曜紫微，三公运权衡。天地皆得一，澹然四海清。\n借问此何为？答言楚征兵。渡泸及五月，将赴云南征。\n怯卒非战士，炎方难远行。长号别严亲，日月惨光晶。\n泣尽继以血，心摧两无声。困兽当猛虎，穷鱼饵奔鲸。\n千去不一回，投躯岂全生！如何舞干戚，一使有苗平！"
+ xinan_events.1.a: "我们必须不计一切代价稳固南方！"
+ 
+ xinan_events.2.t: "云南布政司"
+ xinan_events.2.d: "西南土司已经平定，朝廷决定将此地划入云南布政司，"
+ xinan_events.2.f: "羽檄如流星，虎符合专城。喧呼救边急，群鸟皆夜鸣。\n白日曜紫微，三公运权衡。天地皆得一，澹然四海清。\n借问此何为？答言楚征兵。渡泸及五月，将赴云南征。\n怯卒非战士，炎方难远行。长号别严亲，日月惨光晶。\n泣尽继以血，心摧两无声。困兽当猛虎，穷鱼饵奔鲸。\n千去不一回，投躯岂全生！如何舞干戚，一使有苗平！"
+ xinan_events.2.a: "我们应该先着重发展归顺的土司地区！"
+ xinan_events.2.b: "我们应该继续拓展南方边境！"
+ 
+ ming_events.1:0 "残留的人头税"
+ ming_events.1.t:0 "残留的人头税制度"
+ ming_events.1.d:0 "几千年来，人头税都是中国的重要税收项目，通过户籍统计出人口的总数，再按照人丁数量计算出每人应当缴纳的税额。这是帝国稳定运行的基石。然而这种税收制度也绝非万能，藏匿人口的情况时有发生，这种制度也大大遏制了我国民众的生育欲望，毕竟多一个人就要多一份税收。"
+ ming_events.1.f:0 "我国曾经的首相张居正曾经推行过一种被称为一条鞭税法的法律，用来改革这种制度。不过最终以失败告终。现在我们应当效仿先贤，完成税务制度的彻底革新。"
+ ming_events.1.a:0 "我们必须推行摊丁入亩！"
+
+ abolished_headtax_peasant_belief:0 "民众的耐心"
+ ming_peasant_belief_bar:0 "民众的耐心"
+ ming_peasant_belief_bar_desc:0 "民众的耐心#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）"
+ abolished_headtax_peasant_belief_progress_bar_at_low_tt: "#variable $abolished_headtax_peasant_belief$#!低于#variable 5%#!"
+ journal_entry_goal_progress_abolished_headtax_peasant_belief:0 "TIPS：善待农民，打压地主，避免饥荒，稳步推进土地改革"
+
+ shishen_ingovernment_tt: "士绅重新执政，民众感觉受到了欺骗，不要让地主进入政府"
+ shishen_famine_tt: "肆虐的饥荒"
+ shishen_famine_1_tt: "正在救济的饥荒"
+ shishen_shiye_tt: "省份失业"
+ shishen_not_famine_tt:0 "没有饥荒"
+ 
+ ming_events.2.t:0 "打压士绅"
+ ming_events.2.d:0 "这是一个几乎疯狂的决定，帝国终于决定对困扰朝堂已久的士绅们动手了！一系列对士绅的优待条件被取消，许多文官表现出了无比的震惊，朝堂上瞬间乱成一锅粥！大明王朝终于迎来了一个历史的转折点。"
+ ming_events.2.f:0 "他们不知道我们的下一步将会更加激进！"
+ ming_events.2.a:0 "这只是我们的第一步"
+ 
+ ming_events.3.t:0 "士绅优待"
+ ming_events.3.d:0 "士大夫是我国行政机构的基石，维系着天朝上下的儒学传承和天命的维护，他们是我们能够运行着庞大帝国的保障和税收制度的基础。因此，给予他们一些优待也是可以理解的。自洪武皇帝开始，我们就对士大夫进行了科举方面的优待，以及全方位的减免税款。"
+ ming_events.3.f:0 "但这不代表我们将会继续这么做。"
+ ming_events.3.a:0 "士绅优待终将被取缔"
+ ming_events_3_tt:0 "我国土地被士绅大量私藏，如果要解决这个问题必须通过决议清查所有土地。"
+ 
+ ming_events.4.t:0 "成功结束[SCOPE.sState('current_measuring_provinces').GetName]的丈量工作"
+ ming_events.4.d:0 "经过辛勤的劳动，我们终于完成了[SCOPE.sState('current_measuring_provinces').GetName]的土地丈量工作，相关的田亩数据已经造册送往中央，再也没有人能够瞒报实际情况了！"
+ ming_events.4.f:0 "这是我们加大对地方控制的第一步"
+ ming_events.4.a:0 "非常棒"
+ 
+ ming_events.5.t:0 "[SCOPE.sState('current_measuring_provinces').GetName]的严重贪污"
+ ming_events.5.d:0 "我们在[SCOPE.sState('current_measuring_provinces').GetName]的丈量工作中遇到了前所未有的困难，我们发现了大量被官府私藏的土地，如果轻举妄动，可能会造成当地官场的大面积波动。"
+ ming_events.5.f:0 "这显然是一种公开的腐败行为"
+ ming_events.5.a:0 "立刻停止调查！"
+ ming_events.5.b:0 "彻查所有贪污者！"
+ 
+ ming_events.6.t:0 "[SCOPE.sState('current_measuring_provinces').GetName]的皇庄财产"
+ ming_events.6.d:0 "在[SCOPE.sState('current_measuring_provinces').GetName]的土地清查工作正遇到一个棘手的问题，我们在[SCOPE.sState('current_measuring_provinces').GetName]发现了数额巨大的皇家庄园，他们不需要交税，收入也完全归皇帝本人所有。是否要把这片皇帝的私人庄园也写进账本呢？"
+ ming_events.6.f:0 "这可是皇帝的财产，你疯了吗？"
+ ming_events.6.a:0 "不要动这片皇庄"
+ ming_events.6.b:0 "我们应该对所有人一视同仁"
+ 
+ ming_events.7.t:0 "[SCOPE.sState('current_measuring_provinces').GetName]的测绘毫无进展"
+ ming_events.7.d:0 "[SCOPE.sState('current_measuring_provinces').GetName]地区的情况错综复杂，我们没能取得任何进展，调查将会继续开展。"
+ ming_events.7.f:0 "这是很常见的场景，复杂的地方情况让措手不及的到任官员需要逐步适应。"
+ ming_events.7.a:0 "我知道了"
+ ming_events.7.b:0 "不能停下！所有人加班工作！"
+ 
+ ming_events.8.t:0 "[SCOPE.sState('current_measuring_provinces').GetName]地区的官商勾结"
+ ming_events.8.d:0 "在我们的调查走访中，发现[SCOPE.sState('current_measuring_provinces').GetName]的商人和当地政府合作，占用了大量的农田用于其他用途，但是这片区域却被当地政府登记为未开垦的荒地。"
+ ming_events.8.f:0 "这是很明显的官商合流，必须制止这种情况！"
+ ming_events.8.a:0 "惩治当地政府和商人！"
+ ming_events.8.b:0 "只要补交税款，我们可以不管。"
+ 
+ ming_events.21.t:0 "[SCOPE.sState('current_measuring_provinces').GetName]地区的军队腐败"
+ ming_events.21.d:0 "在我们的调查走访中，发现[SCOPE.sState('current_measuring_provinces').GetName]的的军队以屯田的名义占用了大批良田，卫所的士兵已经沦为农奴为长官耕作，并且还能以屯田的名义免除一切税收。"
+ ming_events.21.f:0 "简直令人发指！"
+ ming_events.21.a:0 "清查军队的腐败情况！"
+ ming_events.21.b:0 "不要惹恼这帮人"
+ 
+ ming_events.9.t:0 "藩镇遍布全国"
+ ming_events.9.d:0 "在对抗大清的过程中，各路英雄豪杰纷纷涌现，造就了我国如今四处林立的军阀，他们是我们对抗外敌的有利屏障，但同时也威胁着我们的统治。"
+ ming_events.9.f:0 "我们应当迅速削弱他们的影响，让皇帝重新集中权力！"
+ ming_events.9.a:0 "已阅。"
+ ming_events.9.b:0 "告诉我更多！"
+ ming_events_9_tt:0 "藩镇控制着我国的边疆地区，我们必须小心对待他们。"
+ 
+ ming_events.10.t:0 "军阀作乱"
+ ming_events.10.d:0 "失控的军阀发动了暴动，原本镇守四方的将军们突然对政府发难，帝国陷入了一片混乱。"
+ ming_events.10.f:0 "祈祷上天能够继续保佑我们的统治，戡乱这些逆贼"
+ ming_events.10.a:0 "明朝会继续复兴！"
+ ming_events.10.b:0 "大顺会夺取天下！"
+ ming_events.10.c:0 "大西将统一中国！"
+ ming_events.10.h:0 "郑家将重整江山！"
+ 
+ ming_events.11.t:0 "北方领土问题"
+ ming_events.11.d:0 "一百多年前，我们击败了清军，收复了大片国土，但是郑将军却折戟燕京，辽东和燕云地区一直是我们帝国梦魂萦绕的土地，现在是时候将他们重新纳入统治了！。"
+ ming_events.11.f:0 "胡虏腥尘遍九州,忠臣义士怀悲愁.\n既无博浪子房击,须效中流祖逖舟.\n故国山河尽变色,旧京宫阙化成丘.\n复仇雪耻知何日,不斩楼兰誓不休."
+ ming_events.11.a:0 "收复故土！"
+ 
+ ming_events.12.t:0 "东北光复"
+ ming_events.12.d:0 "我们终于在铁与血中收复了我们的故土，证明了我们是中国的唯一合法统治者。"
+ ming_events.12.f:0 "日月河山，泱泱华夏。"
+ ming_events.12.a:0 "大明万岁！"
+ ming_events.12.b:0 "迁回旧都！"
+ 
+ ming_events.13.t:0 "淡忘的土地"
+ ming_events.13.d:0 "对于已经习惯了目前生活的汉人，东北的同胞已经成了可有可无的东西，也许该被解救的并不是他们，而是我们自己。"
+ ming_events.13.f:0 "北京和辽东不再被视作我们的故土了，这将成为我们民族永远的痛楚。"
+ ming_events.13.a:0 "结束了。"
+ 
+ ming_events.14.t:0 "民族的未来"
+ ming_events.14.d:0 "满洲的汗国已经成为历史，满洲人也从此成为了天子治理下普通的一支部落子民，我们要怎样面对这些新加入我们帝国的人？"
+ ming_events.14.f:0 "从宋代开始的数百年敌对让我们的百姓难以接受他们成为我们的一部分，但是对他们的敌视也会导致新领土的动荡不安。"
+ ming_events.14.a:0 "不论满汉，都是大明子民！"
+ ming_events.14.b:0 "关外的蛮夷没有资格提出要求！"
+ 
+ ming_events.15.t:0 "关外的敌人"
+ ming_events.15.d:0 "满洲人和我们仍处于对峙状态，有时我们的关系会缓和，有时冲突会加剧，但是永不停息。"
+ ming_events.15.f:0 "帝国必须解决这个问题。"
+ ming_events.15.a:0 "愿上天保佑[SCOPE.GetRootScope.GetCountry.GetName]。"
+ 
+ ming_events.16.t:0 "游牧民族的终结"
+ ming_events.16.d:0 "数千年来，游牧民族一直是中原的危险，但是今天这一切将会改变，[SCOPE.GetRootScope.GetCountry.GetName]已经有了足够的能力彻底解决游牧民的危机。"
+ ming_events.16.f:0 "我们要让草原之上再无战火！"
+ ming_events.16.a:0 "将所有游牧地区统一在[SCOPE.GetRootScope.GetCountry.GetName]的统治之下。"
+ ming_events.16.b:0 "那些荒凉的土地不值得我们费心。"
+ 
+ ming_events.17.t:0 "游牧时代的结束"
+ ming_events.17.d:0 "经过漫长的斗争，整个西北地区都归于伟大[SCOPE.GetRootScope.GetCountry.GetName]天子的统治，现在是时候解决蒙古人的归属问题了。"
+ ming_events.17.f:0 "我们如何对待这一新加入我国的人民？"
+ ming_events.17.a:0 "他们也是[SCOPE.GetRootScope.GetCountry.GetName]的子民"
+ ming_events.17.b:0 "我们不与这些野蛮人为伍，汉人将自己开拓西域。"
+ 
+ je_xiyu_duhu:0 "西域都护"
+ je_xiyu_duhu_reason:0 "在西域被侵占的漫长岁月中，这里已经被深度胡化，天朝上国对于当地人只是一个遥远而模糊的概念。我们有责任将他们重新纳入停止，让天朝的秩序取代无尽的纷争，让各族人民都能和谐地生活在我们帝国的庇护之下！"
+ je_xiyu_duhu_goal:0 ""
+
+ je_anfu_monglia:0 "漠北计划"
+ je_anfu_monglia_reason:0 "自古以来，草原的游牧民族就是中原王朝的心腹大患。它们游离于文明世界之外，与残酷的自然环境进行殊死斗争。为了生存，他们不得不向中原发动袭击，造成了我们长久以来的边患。不过这种情况即将成为历史。在我们的统治下，漠北人也能过上安定的生活，长城内外将不再有隔阂存在！"
+ ming_mogol:0 "生长于马背之上"
+ 
+ cnl_events.1.t:0 "开拓新土地"
+ cnl_events.1.d:0 "他们建国几十年，人民安居乐业生机勃勃，一座座城市沿着海岸线建立起来。不过有些激进的年轻人不满足这些现状，他们认为向东继续开拓有利于我国的继续发展壮大，只有不断进去才能寻找到新的机会。"
+ cnl_events.1.f:0 "不过我猜那些刚刚在土地上安顿下来的人们对此并无兴趣。"
+ cnl_events.1.a:0 "向东部进发！"
+ cnl_events.1.b:0 "还是先发展本土吧。"
+ 
+ cnl_events.2.t:0 "黎洲人民议会"
+ cnl_events.2.d:0 "黎洲议会正在等在议程，我们应该选择议程开始讨论。"
+ cnl_events.2.f:0 "选择一项议程。"
+ cnl_events.2.a:0 "环境保护法案"
+ cnl_events.2.b:0 "工人权利法案"
+ cnl_events.2.c:0 "殖民拓荒法案"
+ cnl_events.2.g:0 "卫国征兵法案"
+ cnl_events.2.h:0 "教育投资法案"
+ cnl_events.2.i:0 "退役保障法案"
+ cnl_events.2.j:0 "开垦农田法案"
+ cnl_events.2.k:0 "土著权益法案"
+ cnl_events.2.l:0 "自由贸易法案"
+ cnl_events.2.m:0 "矿业开采法案"
+ cnl_events.2.n:0 "义务兵役法案"
+ cnl_events.2.o:0 "立法机构扩建"
+ cnl_events.2.p:0 "紧急抗美法案"
+ cnl_events.2.q:0 "乡民权益法案"
+ cnl_events.2.r:0 "国教地位法案"
+ cnl_events.2.s:0 "危险保障法案"
+ cnl_events.2.w:0 "移民保护法案"
+ cnl_events.2.u:0 "此事暂时搁置"
+ 
+ cnl_events.6.t:0 "废除已有议程"
+ cnl_events.6.d:0 "我们的部分法案不太适宜国情，我们打算废除他们"
+ cnl_events.6.f:0 "选择一项议程进行废除。"
+ cnl_events.6.a:0 "环境保护法案"
+ cnl_events.6.b:0 "工人权利法案"
+ cnl_events.6.c:0 "殖民拓荒法案"
+ cnl_events.6.g:0 "卫国征兵法案"
+ cnl_events.6.h:0 "教育投资法案"
+ cnl_events.6.i:0 "退役保障法案"
+ cnl_events.6.j:0 "开垦农田法案"
+ cnl_events.6.k:0 "土著权益法案"
+ cnl_events.6.l:0 "自由贸易法案"
+ cnl_events.6.m:0 "矿业开采法案"
+ cnl_events.6.n:0 "义务兵役法案"
+ cnl_events.6.o:0 "立法机构扩建"
+ cnl_events.6.p:0 "紧急抗美法案"
+ cnl_events.6.q:0 "乡民权益法案"
+ cnl_events.6.r:0 "国教地位法案"
+ cnl_events.6.s:0 "危险保障法案"
+ cnl_events.6.w:0 "移民保护法案"
+ cnl_events.6.u:0 "此事暂时搁置"
+ 
+ cnl_events.7.t:0 "吸引中国移民"
+ cnl_events.7.d:0 "我们优越的定居点已经吸引了大量中国移民前来定居，他们将为我们的社会注入新的活力！"
+ cnl_events.7.f:0 "春风一夜到衡阳，楚水燕山万里长。\n莫道春来便归去，江南虽好是他乡。"
+ cnl_events.7.a:0 "欢迎我们的同胞"
+ 
+ cnl_faan_feichu:0 "废除法案"
+ button_lizhou_2:0 "废除法案"
+ button_lizhou_2_desc:0 "将我们已经通过的法案废除掉"
+ button_lizhou_1:0 "赎买华盛顿州"
+ button_lizhou_1_desc:0 "为了解决煤矿供应问题，也许我们应该向我们的友邦提出购买省份的请求。"
+ 
+ cnl_events.3.t:0 "[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]拒绝和解"
+ cnl_events.3.d:0 "我们派往[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]的使节已经返回了京师，尽管[SCOPE.GetRootScope.GetCountry.GetName]一直尝试释放善意，但是[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]无法原谅我们在统治新大陆时期犯下的总总过错，他们的人民并没有从敌对的情绪中走出来。关于重新册封和加强合作的提议。"
+ cnl_events.3.f:0 "就在几十年前，还叫黎洲宣慰司的新大陆政府还是大明帝国领土的一部分，但是随着丝绸事件的爆发，新大陆迅速掀起了对明帝国的叛乱，并最终以明军和黎洲总督撤离新大陆而告终。大明对黎洲的封锁已经有十几年之久了，两国的关系也将进入新的篇章......"
+ cnl_events.3.a:0 "这帮逆贼，还想再来一次[concept_silkwar]吗？"
+ cnl_events.3.b:0 "还是让时间冲淡一切吧。"
+ 
+ cnl_events.4.t:0 "[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]重新朝贡"
+ cnl_events.4.d:0 "我们派往[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]的使节已经返回了京师，他们以及详细地讨论了大明提交给他们的方案，并决定承认[SCOPE.GetRootScope.GetCountry.GetName]天子的权威，换取重新加入我们的经济圈。"
+ cnl_events.4.f:0 "就在几十年前，还叫黎洲宣慰司的新大陆政府还是大明帝国领土的一部分，但是随着丝绸事件的爆发，新大陆迅速掀起了对明帝国的叛乱，史称[concept_silkwar]，并最终以明军和黎洲总督撤离新大陆而告终。大明对黎洲的封锁已经有十几年之久了，两国的关系也将进入新的篇章......"
+ cnl_events.4.a:0 "度尽劫波兄弟在，相逢一笑泯恩仇。"
+ 
+ cnl_events.5.t:0 "解决煤矿危机"
+ cnl_events.5.d:0 "我国的煤矿问题终于得到了缓解，这意味着我国的工业化得到了充分的保障！"
+ cnl_events.5.f:0 "蒸汽机的推广让煤炭成为了我们的工业血液，现在我们已经从一个虚弱的病人中恢复过来了！"
+ cnl_events.5.a:0 "发动机器吧！"
+ 
+ cnl_events.8.t:0 "[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]请求购买"
+ cnl_events.8.d:0 "[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]的使者宣称他们的煤矿供应存在问题，希望获得我们一个省份的开采权。"
+ cnl_events.8.f:0 "如果没有煤矿，[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]将不能进一步发展，这有悖我们之间的友谊。"
+ cnl_events.8.a:0 "这没什么，接受它"
+ cnl_events.8.b:0 "让他们自己和当地总督谈吧"
+ 
+ concept_silkwar: "丝绸战争"
+ concept_silkwar_desc: "丝绸战争是发生在[concept_jingsu]三十七年[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]与他的[concept_colony][GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]的一场战争，事件的起因是因为[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]反对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]强制禁止[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]种植丝绸，并要求他们只能购买来自大明的丝绸的暴政而导致的[concept_revolution]，几个[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]青年冲上停靠在金山港的[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]商船，将所有丝绸当场焚烧，最终演化为全面的独立战争。这场[concept_war]因为大明并没有对新大陆给予过高的期望，以及国内北部边界的严峻形势，最终以大明撤军告终。[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetName]获得了独立，但是随之而来的整个帝国的敌视和[concept_embargo]。"
+ 
+ ming_events.18.t:0 "远南宣慰司"
+ ming_events.18.d:0 "自从郑经开辟南洋航线以后，远南逐渐形成了与土著贸易的港口据点，并在百年间逐渐壮大繁荣，形成了今天的远南宣慰司，然而宣慰司成立后，大明的重心逐渐转向国内，与宣慰司的联系逐渐减少衰弱。"
+ ming_events.18.f:0 "海外有岛焉，曰远南，去华夏五万里，蜉蝣狂海之外。其民筚路蓝缕，辟土于荒蛮，沐恩而教化，尔来一百三十一年矣---《大明万国舆图》"
+ ming_events.18.a:0 "开始工作"
+ 
+ #远南日志
+ 
+ je_yuannan_1: "开发昆阳"
+ je_yuannan_1_reason: "昆阳省虽然很早就被我国征服，但我们对这篇荒芜的土地一直只存在象征性的管理，并没有实际的进行开发。我们需要将此地完全纳入我们的管辖，从而巩固我们再远南大陆的统治！"
+ 
+ je_yuannan_2: "吸引移民"
+ je_yuannan_2_reason: "自从大明的商队在远南建立据点，已经过去一百三十多年，但此地依旧人口稀少。大部分人只把这里当作边远蛮荒的边陲治所，而我们将会告诉他们这片土地真正的潜力！我们会让这里变成所有中国人梦寐以求的富饶之地！"
+ je_yuannan_2_mod: "潜力之地"
+ 
+ je_yuannan_3: "矿车之国"
+ je_yuannan_3_reason: "远南地区看似贫瘠，土地也并不肥沃，但是根据我们的勘探，此处的矿藏实在是丰富的惊人！我们应该紧抓我们的优势，将矿业打造为我们的招牌，成为名副其实的矿车之国！"
+ je_yuannan_3_tt: "完成矿车之国日志"
+ company_china_yuannan: "远南矿业可用"
+ 
+ je_yuannan_4: "统一远南"
+ je_yuannan_4_reason: "我们并不孤单，或者说，我们其实有不少不讨人喜欢的邻国。一些来自欧罗巴大陆的红毛夷占据着我们的临近地区，并咄咄逼人地进行圈地扩张。我们必须驱逐这些外部势力，将整片大陆控制在我们的手中！\n--弓背霞明剑照霜，秋风扬帆下南洋"
+ 
+ je_yuannan_5: "北部屏障"
+ je_yuannan_5_reason: "南方大陆已经在我们的控制之下，但是为了更牢固地包围我们的基业，我们应该夺取北方的岛屿作为我们的屏障。"
+ 
+ ming_events.19.t:0 "黎洲的抉择"
+ ming_events.19.d:0 "黎洲曾经是大明最遥远的领土，数以万计想要淘金的百姓在移民机构的鼓动下纷纷前往此地。然而在#BOLD 旧金山焚烧丝绸#!事件后，黎洲地区驱逐了大明官员，实行了共和自治。几年过去了，大明和黎洲的关系有所缓和，我们应该重新设定对大明的政策。"
+ ming_events.19.f:0 "自华夏以东万里，极日出之地，有陆焉，谓之黎洲。富金矿，无邦国，气节有类中原，遂有明人移焉。---《大明万国舆图》"
+ ming_events.19.a:0 "与明朝和解"
+ ming_events.19.b:0 "终止与明朝一切联系"
+ 
+ ming_events.20.t:0 "明王朝的末路"
+ ming_events.20.d:0 "历经了接近五百年的大明王朝走向了终结。内乱和政变给了这个庞大的帝国最后一击，野心家和军阀把这个帝国瞬间肢解。明朝还有机会重整河山吗？"
+ ming_events.20.f:0 "滚滚长江东逝水，浪花淘尽英雄。\n是非成败转头空。\n青山依旧在，几度夕阳红。\n白发渔樵江渚上，惯看秋月春风。\n一壶浊酒喜相逢。\n古今多少事，都付笑谈中。"
+ ming_events.20.a:0 "明朝会继续复兴！"
+ ming_events.20.b:0 "大顺会夺取天下！"
+ ming_events.20.c:0 "大西将统一中国！"
+ ming_events.20.h:0 "郑家将重整江山！"
+ 
+ ming_events.22.t:0 "颁布新税法"
+ ming_events.22.d:0 "旧的税法已经不再适合中国的国情，我们要颁布新法律。"
+ ming_events.22.f:0 "彻底废除人头税，我们将获得更高效的政府。"
+ ming_events.22.a:0 "天命永存！"
+ 
+ ming_events.23.t:0 "[SCOPE.sState('duoqu_diqu').GetName]的边界冲突"
+ ming_events.23.d:0 "在我们军队的强硬态度下，我们取得了[SCOPE.sState('duoqu_diqu').GetName]地区的宣称。"
+ ming_events.23.f:0 "我们应该征服这里！"
+ ming_events.23.a:0 "[SCOPE.GetRootScope.GetCountry.GetName]万岁！"
+ 
+ ming_events.24.t:0 "藩镇时代结束"
+ ming_events.24.d:0 "所有的藩镇都失去了权力，我们集中了所有权力。"
+ ming_events.24.f:0 "混乱的割据时代结束了，从此以后，只有大明军队。"
+ ming_events.24.a:0 "[SCOPE.GetRootScope.GetCountry.GetName]万岁！"
+ 
+ ming_events.25.t:0 "外东北诉求"
+ ming_events.25.d:0 "外兴安岭自古以来就是我们的土地，但是俄罗斯却在我们与清朝对峙时非法占有了这里，我们概不承认一切不平等条约，誓将守护我们的领土完整。"
+ ming_events.25.f:0 "俄罗斯必须归还外兴安岭。"
+ ming_events.25.a:0 "驱逐俄罗斯殖民者！"
+ 
+ ming_buy_manchu:0 "我们同意先礼后兵，向俄罗斯赎买外兴安岭，如果他们不同意，我们可以对他们使用武力。"
+ 
+ ming_events.26.t:0 "中国的无理要求"
+ ming_events.26.d:0 "我们与清政府的交易让我们合法获得了外东北地区，但是中国政府却不再承认我们权益的合法性，并且公然要求我们返还这块土地。外东北是我们征重要据点，我们不能就这样拱手相让。"
+ ming_events.26.f:0 "俄罗斯很大，但是没有一块土地是多余的。"
+ ming_events.26.a:0 "如果想要，得花重金赎买。"
+ ming_events.26.b:0 "没有人能从俄罗斯手中获得土地。"
+ 
+ ming_events.27.t:0 "陆地霸权"
+ ming_events.27.d:0 "我们已经拥有了一支能让整个世界为之震撼的庞大陆军，他们足够支持我们支配整个世界。"
+ ming_events.27.f:0 "帝国的朝阳正在升起。"
+ ming_events.27.a:0 "我们的目光看向大陆"
+ 
+ ming_events.28.t:0 "海洋霸权"
+ ming_events.28.d:0 "我们已经拥有了一支能让整个世界为之震撼的无敌舰队，他们足够支持我们支配所有大洋。"
+ ming_events.28.f:0 "帝国的海域无穷无尽。"
+ ming_events.28.a:0 "我们的目光看向深海"
+ 
+ ming_events.29.t:0 "民族主义思想传播"
+ ming_events.29.d:0 "因为民族主义思想不断的酝酿传播，我国的一位政治家转变为了狂热的民族主义者，并希望将帝国建设成为一个纯粹的民族国家。"
+ ming_events.29.f:0 "每一个可怜巴巴的笨蛋，在这世上没有一样自己能为之感到骄傲的东西，他就只有最后一招：为自己所属的民族而骄傲了。由此他获得了补偿。所以，他充满感激之情，准备不惜以“牙齿和指甲”去捍卫自己民族所特有的一切缺点和愚蠢。---叔本华"
+ ming_events.29.a:0 "民族主义时代"
+ 
+ ming_events.30.t:0 "排外运动"
+ ming_events.30.d:0 "因为民族主义的空前狂热，[SCOPE.sState('baoluan_provinces').GetName]地区的汉人开始发起对异族的肃清运动，他们冲进异族的家中，洗劫他们的财产，烧毁他们的宅邸，留下满地的血色。"
+ ming_events.30.f:0 "你做了什么？\n没什么，不过是一个普通爱国者该做的。这帮蛮夷就不该留在[SCOPE.sState('baoluan_provinces').GetName]，这是他们自找的。我不过是代替上天行使天汉的意志，天佑大汉，不是吗？"
+ ming_events.30.a:0 "这不怪我们，谁让他们不离开[SCOPE.sState('baoluan_provinces').GetName]呢？"
+ 
+ ming_events.31.t:0 "隐藏土地被清查"
+ ming_events.31.d:0 "随着全国土地勘察的结束，被豪族士绅隐瞒的土地被清查造册送往中央。"
+ ming_events.31.f:0 "经勘察，广平县有私匿土地二十五万亩，平原县私匿土地一十八万亩......"
+ ming_events.31.a:0 "太好了"
+ 
+ ming_events.32.t:0 ""
+ ming_events.32.d:0 ""
+ ming_events.32.f:0 ""
+ ming_events.32.a:0 ""
+ 
+ ming_events.33.t:0 "殖民地问题讨论"
+ ming_events.33.d:0 "世界秩序已经改变，我们接下来应该思考另一个问题了。"
+ ming_events.33.f:0 "世界欠发达地区遍布着未受到承认的松散政权，他们虽然有名义上的领袖和土地，但是在前帝国主义时期，他们只被认为是未开化的野蛮人，而不被承认拥有正当的国际地位，所有人都可以肆意在他们的国土上殖民扩张。如今，我们应该如何看待这些欠发达的松散部落呢？"
+ ming_events.33.a:0 "他们的主权也应当收到尊重"
+ ming_events.33.b:0 "蛮貊之人，需要我们的教化"
+ 
+ ming_events.34.t:0 "皇帝遇刺！"
+ ming_events.34.d:0 "因为帝国中枢长久的不作为，进步人士感到不满，发动了政变！"
+ ming_events.34.f:0 "刺客在皇帝迅游的时候迅速出手，侍卫很快逮捕了相关人士，但是天子情况非常危急。"
+ ming_events.34.a:0 "先帝已死，现在是维新派掌权了！"
+ ming_events.34.b:0 "谢天谢地，皇帝陛下挺过来了！"
+ 
+ je_land_or_sea:0 "海权还是陆权"
+ je_land_or_sea_reason:0 "我国无可避免地被卷入了列强的争端，加入了世界舞台。然而民力有限，我国只能选择一个发展路线。我们可以选择成为庞大陆军的陆权国家，或者打造一支称霸大洋的无敌舰队。"
+ ming_haiquan:0 "大明海权"
+ ming_luquan:0 "大明陆权"
+ 
+ je_huanghan:0 "汉祚狂热"
+ je_huanghan_reason:0 "汉祚代表了我们民族情绪的狂热度，越高的民族热情会给我们越好的加成。\n•如果没有发起战争，民众的热情会逐渐衰退。\n•拥有民族主义或者法西斯意识形态的领袖会增加狂热值。\n•政府内拥有和平主义，共产主义或者社会民主主义意识形态的领导人会降低狂热值。\n•对[concept_major_power]或更高等级的国家强制执行[concept_war_goal]。\n•狂热值的不同给予我们不同强度的buff"
+ 
+ button_hh1:0 "进献财富"
+ button_hh1_desc:0 "我们的民族万众一心，为了民族的未来，我们可以毁家纾难。"
+ 
+ button_hh2:0 "纠察叛徒"
+ button_hh2_desc:0 "很难想象，即使是现在，我国依然存在大量背叛民族的汉奸。我们要把这些反对国家的异见分子统统消灭。"
+ 
+ button_hh3:0 "恭颂德政"
+ button_hh3_desc:0 "在我们的统治下，汉民族的地位回到了正轨，我们应该大力歌颂这一功德，强化我们的政府。"
+ 
+ button_hh4:0 "扩张汉土"
+ button_hh4_desc:0 "日月所照，皆为汉土。我们的生存空间永无止境。"
+ 
+ ming_dezheng:0 "万众一心"
+ ming_pantu:0 "全民肃反"
+ 
+ xuanweisi_events.11.t:0 "生存空间"
+ xuanweisi_events.11.d:0 "我们需要不断争取我们民族的生存空间，现在我们已经确定[SCOPE.sState('xuanweisi_hanhua').GetName]实质上就是我们的生存空间的一部分，此地的蛮夷已经被基本涤荡。只剩下最后一步了。"
+ xuanweisi_events.11.f:0 "就是这样，不断扩展我们民族的生存空间！"
+ xuanweisi_events.11.a:0 "大汉万岁！"
+ 
+ je_abolish_poll_tax:0 "推行摊丁入亩"
+ je_abolish_poll_tax_reason:0 "户籍制度曾是[SCOPE.GetRootScope.GetCountry.GetName]的牢固基石，但是这种制度未免有些不适合时代的发展，人头税已经成为绝大多数平民的负担，并且阻碍人口的增长。#BOLD 摊丁入亩#!是我们目前的最佳选择。废除人头税，将税收变成以实际土地所有制度为基础的税收统计制度。一切由#BOLD 洪武皇帝#!制定的免税条款都将被废除。"
+ je_abolish_poll_tax_lobby:0 "$je_abolish_poll_tax_reason$"
+ je_abolish_poll_tax_goal:0 "完成这些改革可以让[SCOPE.GetRootScope.GetCountry.GetName]的百姓摆脱#BOLD 人头税#!的压迫！为了做到这些，我们需要："
+ je_abolish_poll_tax_success_1:0 "#tooltippable;tooltip:je_abolish_poll_tax_1 一、通过日志选项压制国内#BLUE 士绅#!，保证计划推行。#!"
+ je_abolish_poll_tax_1: "使用摊丁入亩日志上方的决议打压士绅。"
+ 
+ je_abolish_poll_tax_success_2:0 "#tooltippable;tooltip:je_abolish_poll_tax_2 二、在全国开展堪探#BOLD 丈量工作#!，彻底废除#BOLD 人头税#!!。#!"
+ je_abolish_poll_tax_2: "完成全国土地测量工作日志"
+ je_abolish_poll_tax_success_3:0 "#tooltippable;tooltip:je_abolish_poll_tax_3 三、彻底终结士绅优待，颁布新税法#!"
+ je_abolish_poll_tax_3: "使用摊丁入亩日志上方的决议废除士绅优待."
+ fail_to_abolish_poll_tt:0 "对百姓的严苛剥削和因各种原因导致的大饥荒会导致一场大起义正在酝酿。"
+ new_law_ming:0 "一项新的法律被颁布！"
+ start_measuring: "已经开始测量工作"
+ 
+ je_measuring:0 "全国土地测量工作"
+ je_measuring_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]是一个庞大的帝国，这意味着我们的国土情况错综复杂，藏匿土地和逃税在帝国的土地上比比皆是。因此，我们必须进行一次彻底的土地清查，来了解我们帝国的具体情况。<高合法性会让测量结果更正面，低合法性会导致更多负面事件。>"
+ je_measuring_goal:0 "[SCOPE.GetRootScope.GetCountry.GetName]的的土地将被彻底清查！"
+ je_measuring_success:0 "一份详细的全国农业地图被呈上朝廷，我们会获得额外的可使用土地。"
+ fail_to_measuring_tt:0 "未能按时完成测量工作。"
+ 
+ je_recover_beijing:0 "收复燕云"
+ je_recover_beijing_reason:0 "北京和辽宁一直是我们不可分割的一部分，可是自从1627年满洲人反叛朝廷以来，这两地就逐渐沦为了清朝的统治。在1672年的北京之战以我军的无功而返告终后，我们停在燕云以南已经有将近两百年，是时候将他们收复了！"
+ je_recover_beijing_lobby:0 "$je_recover_beijing_reason$"
+ recover_beijing_tt:0 "[SCOPE.GetRootScope.GetCountry.GetName]的人民不能忍受$STATE_BEIJING$和$STATE_SHENGJING$一直游离在外！"
+ shoufu_yanyun_tt:0 "故土终复"
+ fail_to_shoufu_yanyun_tt:0 "我们未能收复燕云地区，随着民族主义的固化，这里产生了新的民族认同。"
+ yanyun_provinces:0 "燕云地区"
+ 
+ je_solve_monglian:0 "终结游牧民族"
+ je_solve_monglian_reason:0 "游牧民族是困扰中国近千年的难题，西北的准噶尔部崛起以及有一百多年了。如果我们不能尽早解决游牧民族的问题，他们可能会在以后给我们造成难以想象的麻烦。"
+ je_solve_monglian_goal:0 "不能有任何一个游牧民族的国家继续存在,请彻底消灭准噶尔和蒙古国。"
+ je_solve_monglian_success_tt:0 "长城内外是一家！"
+ 
+ je_zheng_army:0 "郑家军问题"
+ je_zheng_army_reason:0 "郑家是大明的英雄，在国家危难之际，他们仍然坚持抗敌。但是，随着时间的迁移，他们已经成为了顽固的军阀，是时候让他们去养老了！"
+ je_zheng_army_goal:0 "我们应该让郑氏家族离开朝廷。"
+ je_zheng_army_success:0 "军队被肃清"
+ 
+ je_end_Qing:0 "终结大清"
+ je_end_Qing_reason:0 "我们已经无法容忍清朝的存在了，为了彰显我们是天下唯一的合法统治者，我们必须彻底消灭清政府。"
+ je_end_Qing_tt:0 "清朝走向终结，现在是清算时刻..."
+ fail_je_end_Qing_tt:0 "我们错失了彻底消灭清朝的最佳时机。"
+ 
+ je_nuergan_china:0 "重建奴儿干都司"
+ je_nuergan_china_reason:0 "奴儿干都司曾经是大明统治东北地区的行政机构，现在我们应该尝试重建奴儿干都司，取代清朝在此的统治，重新施加我们的影响力。"
+ manchu_to_liao:0 "部分满人转化为辽人"
+
+ je_ming_xixue:0 "西学东渐"
+ je_ming_xixue_reason:0 "西方学者带给我们的某些东西超出了我们的认知，虽然[SCOPE.GetRootScope.GetCountry.GetName]帝国无所不有，但是我们仍然需要对这些西方人带来的知识感到重视。希望我们能在为时未晚之前展开一次对西方技术的全面研究。"
+ je_ming_xixue_lobby:0 "$je_ming_xixue_reason$"
+ je_ming_xixue_goal:0 "将[SCOPE.GetRootScope.GetCountry.GetName]百姓识字率提升到35%"
+ je_ming_xixue_tt:0 "学术工作的开展，会给我们的学者很大的启发。"
+ 
+ je_zhimin_cny:0 "[SCOPE.GetRootScope.GetCountry.GetName]对大明的依赖程度"
+ je_zhimin_cny_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]和大明保持着若隐若现的联系，这里体现了大明对我们的控制力度，依赖度每月增加0.5。"
+ je_zhimin_cny_goal:0 "足够高的控制力度可以让大明直接干涉[SCOPE.GetRootScope.GetCountry.GetName]。"
+ je_zhimin_cny_tt:0 ""
+ je_not_high_cny:0 "对大明依赖程度低于20"
+ uo
+ je_zhimin_MNG:0 "帝国理藩院"
+ je_zhimin_MNG_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]和藩属国保持着密切的联系，并通过理藩院相互沟通。在这里你可以查看我国在外设置的布政司的情况。"
+ je_zhimin_MNG_goal:0 "海外宣慰司 \n[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('tianzhu_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('tianzhu_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ je_ming_warlord:0 "五军都督府"
+ je_ming_warlord_reason:0 "都督府是帝国军队的将军和指挥官们的系统组织，他们主管国家的军事，并且因为卫所制度的遗留，不少成组织的军队势力拥有自己的土地和势力范围。一方面他们是帝国抵抗外敌的中坚力量，另一方面他们也为帝国造成了不少麻烦，我们必须合理对待他们，逐步改革。\n[concept_zhongwuwang]光复南京以后，重新设立了五军都督府，[concept_wenzhen]皇帝为了缓和藩镇的矛盾，颁布了《武臣敕谕》导致了五军都督府的权力扩大。[concept_jingsu]北伐的失利导致京营被严重削弱，导致地方更加尾大不掉。[concept_chengan]试图缓慢的改革来解决五军都督府的割据问题。"
+ je_ming_warlord_lobby:0 "$je_ming_warlord_reason$"
+ je_ming_warlord_goal:0 "军阀的势力可以通过以下方式改变：\n1.军队势力举足轻重会增加势力\n2.军队处于政府中会增加势力\n3.扶持军队派系会增加势力\n4.军队态度低于中立会增加势力\n5.打压军队会降低势力\n6.军队属于边缘派系会降低势力\n7.军队处于忠诚会降低势力\n8.国家对外开战期间，军队的势力会扩张，忠诚度也会增加"
+ je_ming_warlord_fail:0 "如果军阀势力失控，或者他们的对朝廷不忠，后果将会是灾难性的......"
+ je_ming_warlord_tt:0 "#BOLD 兵部改革可以彻底废除五军都督府，并成立新的国防部#!\n军阀的势力可以通过以下方式改变：\n1.军队势力举足轻重会增加势力\n2.军队处于政府中会增加势力\n3.扶持军队派系会增加势力\n4.军队态度低于中立会增加势力\n5.打压军队会降低势力\n6.军队属于边缘派系会降低势力\n7.军队处于忠诚会降低势力\n8.国家对外开战期间，军队的势力会扩张，忠诚度也会增加\n9.决议中增加军费可以同时增加军队好感和减少势力。\n10.兵部决议中对军队有益的决议可以增加军队的好感。"
+ je_ming_warlord2_tt:0 "失去军队势力对军事的影响buff。"
+ ming_warlord_like_1:0 "军队对朝廷:#GREEN 忠诚#!"
+ ming_warlord_like_2:0 "军队对朝廷:#BLUE 认可#!"
+ ming_warlord_like_3:0 "军队对朝廷:#BOLD 服从#!"
+ ming_warlord_like_4:0 "军队对朝廷:#YELLOW 中立#!"
+ ming_warlord_like_5:0 "军队对朝廷:#RED 抵触#!"
+ ming_warlord_like_6:0 "军队对朝廷:#RED 反叛#!"
+ junfa_shili:0 "五军都督府势力小于50%"
+ is_zheng_navy:0 "这位将领不来自郑家军"
+ is_xi_army:0 "这位将领不来自大西营"
+ is_shun_army:0 "这位将领不来自大顺营"
+ is_emperor_family:0 "我们不能流放亲王！"
+ 
+ je_ming_warlord_power_var_tooltip: "#tooltip_header 每月变更由以下因素决定：#!\n$TOOLTIP_DELIMITER$\n#variable 五军都督府在朝廷执政地位产生[Country.MakeScope.Var('ming_warlord_power_from_in_government').GetValue|-=]#!点\n#variable 五军都督府[Concept('concept_interest_group', '$concept_interest_groups$')]的[concept_clout]产生[Country.MakeScope.Var('ming_warlord_power_from_ig').GetValue|-=]#!点\n#variable 五军都督府受到的行动产生[Country.MakeScope.Var('ming_warlord_power_from_action').GetValue|-=]#!点\n#variable 五军都督府的忠诚度产生[Country.MakeScope.Var('ming_warlord_power_from_wujun_atitude').GetValue|-=]#!点\n#variable 五军都督府[Concept('concept_interest_group', '$concept_interest_groups$')]的好感产生[Country.MakeScope.Var('ming_warlord_power_from_ig_atitude').GetValue|-=]#!点\n#variable 国家修正（文官监军/镇压军队）产生[Country.MakeScope.Var('ming_warlord_power_from_buff').GetValue|-=]#!点\n#variable 战争状态产生[Country.MakeScope.Var('ming_warlord_power_from_war').GetValue|-=]#!点\n#variable 五军都督府的封地数量产生[Country.MakeScope.Var('ming_warlord_power_from_territory').GetValue|-=]#!点"
+ 
+ je_ming_warlord_like_var_tooltip: "#tooltip_header 每月变更由以下因素决定：#!\n$TOOLTIP_DELIMITER$\n#variable 五军都督府在朝廷执政地位产生[Country.MakeScope.Var('ming_warlord_like_from_in_government').GetValue|-=]#!点\n#variable 五军都督府[Concept('concept_interest_group', '$concept_interest_groups$')]的[concept_clout]产生[Country.MakeScope.Var('ming_warlord_like_from_ig').GetValue|-=]#!点\n#variable 五军都督府受到的行动产生[Country.MakeScope.Var('ming_warlord_like_from_action').GetValue|-=]#!点\n#variable 五军都督府的忠诚度产生[Country.MakeScope.Var('ming_warlord_like_from_wujun_atitude').GetValue|-=]#!点\n#variable 五军都督府[Concept('concept_interest_group', '$concept_interest_groups$')]的好感产生[Country.MakeScope.Var('ming_warlord_like_from_ig_atitude').GetValue|-=]#!点\n#variable 国家修正（文官监军/镇压军队）产生[Country.MakeScope.Var('ming_warlord_like_from_buff').GetValue|-=]#!点\n#variable 战争状态产生[Country.MakeScope.Var('ming_warlord_like_from_war').GetValue|-=]#!点\n#variable 五军都督府的封地数量产生[Country.MakeScope.Var('ming_warlord_like_from_territory').GetValue|-=]#!点"
+ 
+ ming_warlord_open_de:0 "打开兵部界面"
+ ming_warlord_open_de_desc:0 "杀尽江南百万兵，腰间宝剑血犹腥！"
+ 
+ ming_warlord_close_de:0 "关闭兵部界面"
+ ming_warlord_close_de_desc:0 "老僧不识英雄汉，只管哓哓问姓名。"
+ 
+ ming_warlord_1_de:0 "提拔军官"
+ ming_warlord_1_de_desc:0 "我们应该提拔一批军官，扩大我军有生力量。"
+ 
+ ming_warlord_2_de:0 "增加军费"
+ ming_warlord_2_de_desc:0 "我们可以扩大对军队拨款，改善军队的装备。这也会加大中央对军队的控制。"
+ 
+ ming_warlord_3_de:0 "扩招军队"
+ ming_warlord_3_de_desc:0 "我国的军队数量需要调整，我们应该增加更多的兵力。"
+ 
+ ming_warlord_4_de:0 "征召狼兵"
+ ming_warlord_4_de_desc:0 "广西的狼兵拥有非常强大的战斗力，我们可以征发他们为我们效力/"
+ 
+ ming_warlord_5_de:0 "紧急动员"
+ ming_warlord_5_de_desc:0 "国家处于危机之中，我们应该让五军都督府在全国范围进行总动员。"
+ 
+ ming_warlord_6_de:0 "重视军备"
+ ming_warlord_6_de_desc:0 "我国的军事装备需要更新换代，我们应该对其投入更多精力。"
+ 
+ ming_warlord_7_de:0 "彻查贪腐"
+ ming_warlord_7_de_desc:0 "军队之中往往潜藏着贪腐和空饷的情况，我们可以利用这个借口打击军队势力。"
+ 
+ ming_warlord_8_de:0 "授予顺营土地"
+ ming_warlord_8_de_desc:0 "顺营的良好表现值得我们授予他们一块新的封地"
+ 
+ ming_warlord_9_de:0 "授予西营土地"
+ ming_warlord_9_de_desc:0 "西营的良好表现值得我们授予他们一块新的封地"
+ 
+ ming_warlord_10_de:0 "授予狼军土地"
+ ming_warlord_10_de_desc:0 "狼军的良好表现值得我们授予他们一块新的封地"
+ 
+ ming_warlord_11_de:0 "授予郑氏土地"
+ ming_warlord_11_de_desc:0 "郑氏的良好表现值得我们授予他们一块新的封地"
+ 
+ ming_warlord_12_de:0 "授予宣大土地"
+ ming_warlord_12_de_desc:0 "宣大营的良好表现值得我们授予他们一块新的封地"
+ 
+ ming_warlord_13_de:0 "授予榆园土地"
+ ming_warlord_13_de_desc:0 "榆园营的良好表现值得我们授予他们一块新的封地"
+ 
+ ming_warlord_14_de:0 "剥夺顺营土地"
+ ming_warlord_14_de_desc:0 "继续让军阀控制地区军事力量对我们并没有好处，是时候收回土地了。"
+ 
+ ming_warlord_15_de:0 "剥夺西营土地"
+ ming_warlord_15_de_desc:0 "继续让军阀控制地区军事力量对我们并没有好处，是时候收回土地了。"
+ 
+ ming_warlord_16_de:0 "剥夺狼军土地"
+ ming_warlord_16_de_desc:0 "继续让军阀控制地区军事力量对我们并没有好处，是时候收回土地了。"
+ 
+ ming_warlord_17_de:0 "剥夺郑氏土地"
+ ming_warlord_17_de_desc:0 "继续让军阀控制地区军事力量对我们并没有好处，是时候收回土地了。"
+ 
+ ming_warlord_18_de:0 "剥夺宣大土地"
+ ming_warlord_18_de_desc:0 "继续让军阀控制地区军事力量对我们并没有好处，是时候收回土地了。"
+ 
+ ming_warlord_19_de:0 "剥夺榆园土地"
+ ming_warlord_19_de_desc:0 "继续让军阀控制地区军事力量对我们并没有好处，是时候收回土地了。"
+ 
+ ming_warlord_20_de:0 "制造领土冲突"
+ ming_warlord_20_de_desc:0 "我们的军官渴望战争，我们可以让他们挑起与邻国的冲突，这可以让我们获得一个对邻国土地的宣称。"
+ 
+ ming_warlord_21_de:0 "临时激励"
+ ming_warlord_21_de_desc:0 "军官们都喜欢激励，用金钱赏赐他们可以让他们的满意度大大增加。"
+ 
+ ming_warlord_22_de:0 "提拔海军"
+ ming_warlord_22_de_desc:0 "海军也是我国的中坚力量，我们应该提拔海军士兵。"
+ 
+ ming_warlord_23_de:0 "文官监军"
+ ming_warlord_23_de_desc:0 "我们可以提拔一批文官监察军队，这将有效削减军队的势力。"
+ 
+ ming_warlord_24_de:0 "改组兵部"
+ ming_warlord_24_de_desc:0 "五军都督府已经落后于时代，是时候改组兵部，成立国防部了！"
+ ming_warlord_24_tt:0 "尚未开始改革兵部"
+ ming_warlord_24_1_tt:0 "五军都督府势力低于#GREEN 五十#!"
+ ming_warlord_24_2_tt:0 "五军都督府态度高于#BLUE 认可#!"
+
+ ming_warlord_25_de:0 "整顿土地"
+ ming_warlord_25_de_desc:0 "这片土地曾经被军阀控制，现在我们需要重新登记管理这里。"
+ 
+ ming_warlord_26_de:0 "获取阿克赛钦"
+ ming_warlord_26_de_desc:0 "阿克赛钦是连接天山和阿里地区的重要补给线，我们应该让乌斯藏把这里交给我们。"
+ 
+ ming_beijing_de_note:0 "定都北京"
+ ming_beijing_de_note_desc:0 "我们回归了我们原本的首都。"
+ 
+ ming_warlord_events.1.t:0 "文官与武将"
+ ming_warlord_events.1.d:0 "土木堡事变之后，五军都督府的职权逐渐被文官取代。兵部逐渐取代了五军都督府的职权。郑成功将军恢复了这一机构，但是朝廷的官员对五军都督府的权力扩张感到担忧。"
+ ming_warlord_events.1.f:0 "我们必须回应文官与武将的冲突"
+ ming_warlord_events.1.a:0 "给予武将充分的信任，提高军费！"
+ ming_warlord_events.1.b:0 "施行以文抑武的国策"
+ ming_warlord_events.1.c:0 "同时打压他们两者，我们要用国库修缮皇宫！"
+ 
+ ming_warlord_events.2.t:0 "[SCOPE.sState('current_robbing_provinces').GetName]的军队哗变"
+ ming_warlord_events.2.d:0 "[SCOPE.sState('current_robbing_provinces').GetName]的部分军队对微薄的待遇感到不满，他们希望提高军费从而改善生活，目前他们已经聚集起来向朝廷抗议，我们必须谨慎处置他们。"
+ ming_warlord_events.2.f:0 "这帮人简直无法无天！"
+ ming_warlord_events.2.a:0 "派遣官军剿灭这帮闹事分子"
+ ming_warlord_events.2.b:0 "为他们的诉求买单"
+ ming_warlord_events.2.c:0 "默许他们的劫掠活动"
+ 
+ ming_warlord_events.3.t:0 "[SCOPE.sState('current_robbing_provinces').GetName]之劫"
+ ming_warlord_events.3.d:0 "在我们军队攻占了[SCOPE.sState('current_robbing_provinces').GetName]之后，一些不够安分的士兵劫掠了当地，造成了严重的破坏。"
+ ming_warlord_events.3.f:0 "火光冲天，满地狼藉。"
+ ming_warlord_events.3.a:0 "依法处置所有肇事者"
+ ming_warlord_events.3.b:0 "从国库调给他们赏金，防止骚乱扩大"
+ ming_warlord_events.3.c:0 "反正抢的不是我，让他们继续闹吧"
+ 
+ ming_warlord_events.4.t:0 "军队里的裙带关系"
+ ming_warlord_events.4.d:0 "一位低级军官在犯了严重的错误，按照法律，应该受到军事法庭的审判，但是他与[SCOPE.sCharacter('fubai_junguan').GetFullName]有着某些裙带关系，让他居然堂而皇之地躲过了惩罚。"
+ ming_warlord_events.4.f:0 "这是赤裸裸的腐败行为！"
+ ming_warlord_events.4.a:0 "对于这样的行为，我们必须严惩"
+ ming_warlord_events.4.b:0 "作为战功赫赫的将领，[SCOPE.sCharacter('fubai_junguan').GetFullName]有这个权力"
+ ming_warlord_events.4.c:0 "看来军队中的某些职务应该让文官进行管理"
+ 
+ ming_warlord_events.5.t:0 "军队贪腐成风"
+ ming_warlord_events.5.d:0 "军队的腐败已经非常严重了，很多项目支出出现了亏空，而且很多本来被划为军队屯田的土地也莫名其妙成为了某些富人的私有财产。"
+ ming_warlord_events.5.f:0 "我们必须严查军队的腐败情况！"
+ ming_warlord_events.5.a:0 "整治不良之风！"
+ ming_warlord_events.5.b:0 "放任军队行为。"
+ 
+ ming_warlord_events.6.t:0 "劣质军服"
+ ming_warlord_events.6.d:0 "我们的供应商提供了一批劣质的军队制服，让我们的士兵感到非常不满。"
+ ming_warlord_events.6.f:0 "劣质的军服根本不适合作战使用，士兵们都感到士气低迷。"
+ ming_warlord_events.6.a:0 "该死"
+ ming_warlord_events.6.b:0 "我们必须重新采购一批新的制服！"
+ 
+ ming_warlord_events.7.t:0 "军队扩张势力"
+ ming_warlord_events.7.d:0 "我们治下的将军试图扩张自己的私军，在[SCOPE.sState('duoqu_diqu').GetName]省份部署自己的军队势力。"
+ ming_warlord_events.7.f:0 "军队的势力不断膨胀，我们很难遏制他们。"
+ ming_warlord_events.7.a:0 "默许他的扩张。"
+ ming_warlord_events.7.b:0 "严厉禁止这种行为，军队必须接受朝廷的管辖！"
+ 
+ ming_warlord_events.8.t:0 "从军热"
+ ming_warlord_events.8.d:0 "不同于旧帝国对军人的歧视，现在的大明王朝当兵是一件火热的职业，所有人趋之若鹜。"
+ ming_warlord_events.8.f:0 "但是军队可能借助这个机会扩张自己的势力。"
+ ming_warlord_events.8.a:0 "利用这股热情"
+ ming_warlord_events.8.b:0 "打压这股风气"
+ 
+ ming_warlord_events.9.t:0 "弹劾武官"
+ ming_warlord_events.9.d:0 "文人和跋扈的武官从来都不对付，今天在朝廷上，很多文官开始了对武官集团的弹劾，从各方面指责武将的失职。"
+ ming_warlord_events.9.f:0 "真让人头疼。"
+ ming_warlord_events.9.a:0 "反驳文官的弹劾"
+ ming_warlord_events.9.b:0 "执行对武官的惩罚"
+ 
+ ming_army_wenguan:0 "文官监军"
+ ming_wenguan_daya:0 "文官受到打压"
+ ming_rongyao:0 "修缮皇宫"
+ ming_diuren:0 "腐败事迹败露"
+ ming_caigou:0 "采购物资"
+ ming_zhengzhi:0 "整治军队"
+ ming_shiqi:0 "士气不振"
+ ming_congjun:0 "参军狂潮"
+ 
+ ming_army_1:0 "军队势力：羸弱不堪"
+ ming_army_2:0 "军队势力：渺小无比"
+ ming_army_3:0 "军队势力：稍显逊色"
+ ming_army_4:0 "军队势力：略具影响"
+ ming_army_5:0 "军队势力：兵强马壮"
+ ming_army_6:0 "军队势力：举足轻重"
+ ming_army_7:0 "军队势力：一手遮天"
+ 
+ #蒙古日志
+ 
+ monglia_army_1:0 "草原战士"
+ no_great_khan:0 "可汗已死"
+ 
+ je_monglia_1:0 "统一草原"
+ je_monglia_1_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]是普遍意义上的蒙古大汗，但是我们的治下的部落却各自为政。我们必须重申汗国的威严，重新统一草原！"
+ je_monglia_1_lobby:0 "$je_monglia_1_reason$"
+ je_monglia_1_goal:0 "[SCOPE.GetRootScope.GetCountry.GetName]的所有地区的动乱小于10%，维持君主制和独裁制，没有内战进度，维持十年。"
+ je_monglia_1_success:0 "我们将建立一个广袤且统一的游牧帝国！"
+ fail_je_monglia_1_tt:0 "蒙古帝国最终分崩离析。"
+ 
+ je_monglia_2:0 "追求认可"
+ je_monglia_2_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]曾经是庞大的帝国，后来逐步衰落，虽然可汗让我们团结一致，但是我们在国际舞台上的话语权依旧十分轻微，甚至被认为是不受认可的此等国家，我们要通过强有力的改革，完成现代化，争取我们应有的国际地位！"
+ je_monglia_2_goal:0 "[SCOPE.GetRootScope.GetCountry.GetName]应该统治所有蒙古帝国的历史领土。"
+ je_monglia_2_success:0 "蒙古帝国重现！"
+ 
+ je_monglia_3:0 "重建元朝"
+ je_monglia_3_reason:0 "元朝是蒙古人主导的中华帝国，是一个多元开放的混合帝国。我们应该重新入主中原，宣称我们的中国皇位！"
+ je_monglia_3_lobby:0 "$je_monglia_3_reason$"
+ je_monglia_3_goal:0 "[SCOPE.GetRootScope.GetCountry.GetName]应该统治所有元朝的历史领土。"
+ je_monglia_3_success:0 "大元复辟！"
+ 
+ je_monglia_4:0 "争夺哈密"
+ je_monglia_4_reason:0 "哈密的政权实际上被我们的蒙古同胞所控制，但是他们现在却向明朝朝廷效忠，我们应该对哈密施加影响力，兵不血刃地将哈密争夺过来，成为我们的一部分。"
+ je_monglia_4_goal:0 "[SCOPE.GetRootScope.GetCountry.GetName]可以对哈密施加影响力，通过一下几个方式：\n1,我国gdp超过5M\n 2,哈密与我国保持友好关系\n3,哈密不再是明朝附庸"
+ je_monglia_4_tt:0 "哈密成为准噶尔的附庸"
+ 
+ je_monglia_5:0 "蒙古大汗"
+ je_monglia_5_reason:0 "准噶尔的统治建立在大汗的个人威望之上。只要大汗仍在，草原诸部尚能被汗庭约束；若大汗身死，各部的忠诚和汗国的未来都会陷入疑问。"
+ je_monglia_5_lobby:0 "$je_monglia_5_reason$"
+ je_monglia_5_goal:0 "维持大汗的权威。"
+ 
+ je_monglia_6:0 "马背上的战士"
+ je_monglia_6_reason:0 "我们蒙古人的立国之本乃是骑兵，如今世界局势殊异，很多人认为骑兵已经被历史所淘汰，而我们要告诉他们，我们蒙古的勇士只要在马背之上，就永远是无敌的存在，我们永不放弃自己的根本！"
+ je_monglia_6_goal:0 "保证军队中有足够数量的骑兵"
+ je_monglia_6_tt:0 ""
+ 
+ houseman_mon: "蒙古骑兵"
+ 
+ je_unite_tib:0 "册封西藏"
+ je_unite_tib_reason:0 "乌斯藏都司归附[SCOPE.GetRootScope.GetCountry.GetName]已经数百年了，但是我们之间并没有建立明确的行政关系，而是作为册封的臣属徘徊在帝国的周围，我们必须加深我们之间的联系。"
+ je_unite_tib_goal:0 "[SCOPE.GetRootScope.GetCountry.GetName]应该像元朝一样确立对高原的绝对权威！请维持与乌斯藏的良好附庸关系，维持君主制，融合格鲁派信仰或采取信仰自由法律，并持续十年。"
+ je_unite_tib_success:0 "金瓶掣签制度被确立"
+ 
+ je_unite_tib_1:0 "堪探西藏"
+ je_unite_tib_1_reason:0 "乌斯藏都司的驿站早已荒废，[SCOPE.GetRootScope.GetCountry.GetName]需要重新堪探我们之间的道路，测绘新的行省地图，以便未来设置沟通高原的信息通道，保证天子的命令可以快速高效地传达到这里。"
+ je_unite_tib_1_goal:0 "完成三次全部堪探。"
+ je_unite_tib_1_goal_1:0 "1.堪探安多地区"
+ je_unite_tib_1_goal_2:0 "2.堪探康区地区"
+ je_unite_tib_1_goal_3:0 "3.堪探卫藏地区"
+ 
+ je_unite_tib_2:0 "西藏探险"
+ je_unite_tib_2_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]的冒险家已经出发，他们将从中原出发，翻过高山，穿过牧民的土地。观察沿途的人文地理，测绘一份详细的行省地图。"
+ je_unite_tib_2_goal:0 "当测绘进度满格以后，我们会获得一份测量结果。"
+ je_unite_tib_2_success:0 "探险圆满结束"
+ 
+ monglia_events.1.t:0 "蒙古大汗"
+ monglia_events.1.d:0 "[SCOPE.GetRootScope.GetCountry.GetName]脱胎于瓦剌部落，统治草原已经数百年了，但是东方崛起的满洲和东南的明朝都对我们造成了很大的威胁。\n虽然我们名义上是正统的蒙古大汗，但是蒙古部落并不都被我们管辖，有一半的蒙古喀尔喀部落向清朝臣服，另一半则在我们的庇佑下自治。我们必须重申蒙古帝国的权威！"
+ monglia_events.1.f:0 "我们会完成成吉思汗未竟的事业。"
+ monglia_events.1.a:0 "重整蒙古帝国"
+ 
+ monglia_events.2.t:0 "蒙古统一"
+ monglia_events.2.d:0 "蒙古部落已经被统一在[SCOPE.GetRootScope.GetCountry.GetName]的治下，现在是时候扩张我们的土地了！"
+ monglia_events.2.f:0 "我们必须收复所有蒙古人的土地！"
+ monglia_events.2.a:0 "蒙古帝国万岁！"
+ monglia_events.2.b:0 "我们要重建元朝！"
+ 
+ monglia_events.3.t:0 "世界征服者"
+ monglia_events.3.d:0 "蒙古帝国已经重现，我们将为征服整个世界作为目标！"
+ monglia_events.3.f:0 "世界将在蒙古人的治下享受安宁。"
+ monglia_events.3.a:0 "征服世界"
+ 
+ monglia_events.4.t:0 "大元帝国"
+ monglia_events.4.d:0 "中国人已经臣服，我们可以宣布正统地位了！"
+ monglia_events.4.f:0 "我们将成为正统的天子！"
+ monglia_events.4.a:0 "登上皇位！"
+ 
+ je_ming_guofangbu:0 "改革兵部"
+ je_ming_guofangbu_reason:0 "五军都督府和兵部已经成为我军现代化的阻碍，我们必须对他们进行彻底的改革，组建全新的国防部！"
+ je_ming_guofangbu_success:0 "兵部和五军都督府丧失了权力，一个新的机构成立了！"
+ 
+ ming_guofanbu_1:0 "没有议程"
+ ming_guofanbu_2:0 "议程：更新军备"
+ ming_guofanbu_3:0 "议程：操练陆军"
+ ming_guofanbu_4:0 "议程：训练水师"
+ ming_guofanbu_5:0 "议程：全国动员"
+ ming_guofanbu_6:0 "议程：制造宣称" 
+ ming_guofanbu_7:0 "议程：扩招军队"
+ ming_guofanbu_8:0 "休会中......"
+ 
+ je_ming_guofangbu1:0 "大明国防部"
+ je_ming_guofangbu1_reason:0 "国防部是主管[SCOPE.GetRootScope.GetCountry.GetName]军事的机关，你可以通过国防部向朝廷提出议程，通过议程可以让我们的军队获得一些加成。"
+ 
+ ming_guofangbu_open_de:0 "打开国防部界面"
+ ming_guofangbu_open_de_desc:0 "前往国防部，准备议程工作。"
+ 
+ ming_guofangbu_close_de:0 "关闭国防部界面"
+ ming_guofangbu_close_de_desc:0 "离开国防部。"
+ 
+ ming_guofangbu_de_1:0 "提出议程：更新军备"
+ ming_guofangbu_de_1_desc:0 "我们需要更新军备，研发新技术"
+ 
+ ming_guofangbu_de_2:0 "提出议程：操练陆军"
+ ming_guofangbu_de_2_desc:0 "我们要加大训练，增强陆军的战斗力。"
+ 
+ ming_guofangbu_de_3:0 "提出议程：训练水师"
+ ming_guofangbu_de_3_desc:0 "我们要加大训练，增强海军的战斗力。"
+ 
+ ming_guofangbu_de_4:0 "提出议程：全国动员"
+ ming_guofangbu_de_4_desc:0 "我们要进行全国动员，增加动员兵力。"
+ 
+ ming_guofangbu_de_5:0 "提出议程：制造宣称"
+ ming_guofangbu_de_5_desc:0 "我们要对邻国制造宣称，对外扩张。"
+ 
+ ming_guofangbu_de_6:0 "提出议程：扩招军队"
+ ming_guofangbu_de_6_desc:0 "我们要扩大我们的部队规模。"
+ 
+ ming_guofangbu_de_7:0 "扩建执行机构"
+ ming_guofangbu_de_7_desc:0 "扩大相关机构，促进议程推进。"
+ 
+ ming_guofangbu_de_8:0 "全力支援议程"
+ ming_guofangbu_de_8_desc:0 "调用国家部门协助推进议程。"
+ 
+ ming_gfb_1:0 "议程：更新军备"
+ ming_gfb_2:0 "议程：训练水师"
+ ming_gfb_3:0 "议程：操练陆军"
+ ming_gfb_4:0 "议程：全国动员"
+ ming_gfb_5:0 "国防部会议"
+ ming_gfb_6:0 "额外行政支出"
+ ming_tib_rub:0 "藏人叛乱"
+ ming_tib_tuoxie:0 "向僧侣妥协"
+ ming_tib_tuoxie_tt: "增加西藏整合进度"
+ wuzu_gonghe:0 "五族共和"
+ 
+ ming_guofangbu_de_1_tt:0 "开始一项关于更新军备的议程。"
+ ming_guofangbu_de_2_tt:0 "开始一项关于操练军队的议程。"
+ ming_guofangbu_de_3_tt:0 "开始一项关于整顿海军的议程。"
+ ming_guofangbu_de_4_tt:0 "开始一项关于全国总动员的议程"
+ ming_guofangbu_de_5_tt:0 "开始一项挑起与邻国冲突的议程"
+ ming_guofangbu_de_6_tt:0 "开始一项关于扩建我国军队的议程。"
+ ming_guofangbu_de_7_tt:0 "扩张我国行政机构，加快议程推进速度。"
+ ming_guofangbu_de_8_tt:0 "集合全国力量，大大加速议程推进速度。"
+ 
+ je_warfactory:0 "筹建兵工厂"
+ je_warfactory_reason:0 "随着军事科技的进步，我国急需军事产业的扩张，这样才能为前线的士兵提供更加稳定的装备来源。因此，我们需要筹建一座巨型兵工厂。我们有以下几个选择。\n1，汉阳兵工厂，坐落在江汉平原。丰富的水源和广阔的平原非常适合我们扩张我们的军事产业。\n2，江宁制造总局，坐落于南京，拥有巨大的人力优势，可以吸引大量廉价劳动力。\n3，太原兵工厂。虽然地处偏远，但是太原一带矿产丰富，有利于降低我国军事工厂的原料价格。\n这只是暂行版本，新版本会为玩家开启不同的军工类型公司。等待p社更新。"
+ 
+ #公司
+ 
+ factory_wuhan:0 "汉阳兵工厂"
+ factory_jiangning:0 "江宁制造总局"
+ factory_taiyuan:0 "太原兵工厂"
+ company_jiangning_arsenal:0 "江宁制造总局"
+ company_qingdao:0 "青岛啤酒"
+ company_sinoop:0 "中国石油化工公司"
+ company_mihoyo:0 "米哈游"
+ company_shangwu:0 "商务印书馆"
+ 
+ prestige_good_hanyang_rife: "汉阳造"
+ prestige_good_qingdao_beer: "青岛啤酒"
+ 
+ lizhou_buzai:0 "该国家不存在\n"
+ lizhou_duli:0 "[SCOPE.GetRootScope.GetCountry.GetName]已脱离[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]"
+ lizhou_zhengchang:0 "[SCOPE.GetRootScope.GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：#variable [ROOT.GetCountry.MakeScope.Var('ming_cny_tracker').GetValue|0]#!（#tooltippable;tooltip:[ROOT.GetCountry.GetTooltipTag],je_xuanweisi_power_var_tooltip [ROOT.GetCountry.MakeScope.Var('ming_cny_tracker_progress').GetValue|1-=]#!）"
+ 
+ ming_zhimin_xianshi:0 "[SelectLocalization(GetPlayer.MakeScope.Var('annan_fushu').GetCountry.IsValid,'annan_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('yuannan_fushu').GetCountry.IsValid,'yuannan_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('lvsong_fushu').GetCountry.IsValid,'lvsong_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.IsValid,'lizhou_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('liuqiu_fushu').GetCountry.IsValid,'liuqiu_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('hami_fushu').GetCountry.IsValid,'hami_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('lanfang_fushu').GetCountry.IsValid,'lanfang_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.IsValid,'jibei_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.IsValid,'xifeng_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.IsValid,'yingan_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.IsValid,'yangshan_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.IsValid,'huangyuan_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('tianzhu_fushu').GetCountry.IsValid,'tianzhu_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.IsValid,'hezhong_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.IsValid,'miandian_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.IsValid,'xianluo_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.IsValid,'honglin_xianshi','')] [SelectLocalization(GetPlayer.MakeScope.Var('kor_fushu').GetCountry.IsValid,'kor_xianshi','')]"
+ 
+ annan_xianshi:0 "[GetPlayer.MakeScope.Var('annan_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ yuannan_xianshi:0 "[GetPlayer.MakeScope.Var('yuannan_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ lvsong_xianshi:0 "[GetPlayer.MakeScope.Var('lvsong_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ lizhou_xianshi:0 "[GetPlayer.MakeScope.Var('lizhou_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ liuqiu_xianshi:0 "[GetPlayer.MakeScope.Var('liuqiu_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ hami_xianshi:0 "[GetPlayer.MakeScope.Var('hami_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ lanfang_xianshi:0 "[GetPlayer.MakeScope.Var('lanfang_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ jibei_xianshi:0 "[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ xifeng_xianshi:0 "[GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ yingan_xianshi:0 "[GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ yangshan_xianshi:0 "[GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ huangyuan_xianshi:0 "[GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ tianzhu_xianshi:0 "[GetPlayer.MakeScope.Var('tianzhu_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ hezhong_xianshi:0 "[GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ miandian_xianshi:0 "[GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ xianluo_xianshi:0 "[GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ honglin_xianshi:0 "[GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ kor_xianshi:0 "[GetPlayer.MakeScope.Var('kor_fushu').GetCountry.GetCustom('fushu_oneline')]"
+ 
+ jibei_zhengchang:0 "[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
+ 
+ xuanweisi_20:0 "提升二十点依赖度"
+ xuanweisi_21:0 "降低十点依赖度"
+ 
+ #西藏
+ 
+ tib_events.1.t:0 "乌斯藏都司"
+ tib_events.1.d:0 "乌斯藏，帝国西南的边疆，自永乐时期，便并入了帝国的一部分。不过长久以来，帝国对这一地区的影响力极其有限。噶厦政府取代了帝国，对此地施行统治。我们应该和西藏地方政府加强合作，逐渐完成汉藏地区的合并统一。"
+ tib_events.1.f:0 "要完成藏区的合并，需要我们改善与乌斯藏的关系直到50以上，然后将法律改为自由信仰，维持君主制，保持十年。"
+ tib_events.1.a:0 "处理藏区问题"
+ 
+ tib_events.2.t:0 "驻藏大臣"
+ tib_events.2.d:0 "中原与西藏的联系已经空前紧密，皇帝陛下已经恩准了金瓶掣签，通过天子的名义，确认达赖喇嘛的合法性，并且尊重了西藏的宗教。西藏人都逐渐认同了自己位于[SCOPE.sState('capital_state').GetName]的天子，并把他尊为佛教的文殊菩萨转生。"
+ tib_events.2.f:0 "我们会派遣驻藏大臣，控制噶厦政府的各个方面，加速他们与中原的统一。"
+ tib_events.2.a:0 "好的"
+ 
+ tib_events.3.t:0 "达赖出逃"
+ tib_events.3.d:0 "随着我们的征服了藏区，不满我国政策的达赖喇嘛仓皇逃出拉萨，到达了[SCOPE.sCountry('taowang_target').GetName]，并号召所有藏族人抵抗我们的统治。"
+ tib_events.3.f:0 "他们不过是一群不自量力的蝼蚁，我们会稳定一切。"
+ tib_events.3.a:0 "不用管那个懦夫。"
+ 
+ tib_events.4.t:0 "合并乌斯藏"
+ tib_events.4.d:0 "噶厦政府的使命已经结束，接下来，乌斯藏将废除宣慰司，正式升格为布政司，统治者也从僧侣和驻藏大臣变成布政使和巡抚。西藏已经彻底并入帝国，西藏人也正式成为了帝国的一等公民。"
+ tib_events.4.f:0 "汉藏统一。"
+ tib_events.4.a:0 "万岁！"
+ 
+ tib_events.5.t:0 "完成安多堪探"
+ tib_events.5.d:0 "我们绘制了安多地区的地图。"
+ tib_events.5.f:0 "完毕。"
+ tib_events.5.a:0 "成功了。"
+ 
+ tib_events.6.t:0 "完成西康堪探"
+ tib_events.6.d:0 "我们绘制了西康地区的地图。"
+ tib_events.6.f:0 "完毕。"
+ tib_events.6.a:0 "成功了！"
+ 
+ tib_events.7.t:0 "完成卫藏堪探"
+ tib_events.7.d:0 "我们绘制了卫藏地区的地图。"
+ tib_events.7.f:0 "完毕。"
+ tib_events.7.a:0 "成功了！"
+ 
+ tib_events.8.t:0 "翻越雪山"
+ tib_events.8.d:0 "我们遇到了一座雪山，翻过他可以节约探险队的大量时间，但是这一举动也非常冒险。"
+ tib_events.8.f:0 "如果我们翻越雪山，可能会导致我们不得不放弃许多辎重。"
+ tib_events.8.a:0 "值得冒险"
+ tib_events.8.b:0 "想办法绕过去吧"
+ 
+ tib_events.9.t:0 "成功翻越雪山"
+ tib_events.9.d:0 "我们的探险者成功翻越了雪山。"
+ tib_events.9.f:0 "尽管雪山陡峭和危险，我们仍设法躲过了危险区域，成功到达了另一侧山脉，相关的数据已经被记录下来，工作正在快速推进。"
+ tib_events.9.a:0 "成功了！"
+ 
+ tib_events.10.t:0 "遭遇暴风雪"
+ tib_events.10.d:0 "我们很不幸遭遇了暴风雪，不得不折返回去。"
+ tib_events.10.f:0 "我们没有通过雪山的考研，物资逐渐散落，方向也迷失。我们不得不寻找出口，折返到山脚，另外寻找其他通道。"
+ tib_events.10.a:0 "真可惜！"
+ 
+ tib_events.11.t:0 "顺利地堪探工作"
+ tib_events.11.d:0 "我们的探险者来到了一片风景优美的原野，这里气候温和，野生动物众多，河流也很丰富。"
+ tib_events.11.f:0 "难得的闲暇时刻。"
+ tib_events.11.a:0 "非常棒！"
+ 
+ tib_events.12.t:0 "三江源"
+ tib_events.12.d:0 "神迹！我们发现了三江源！"
+ tib_events.12.f:0 "经过我们的堪探，这片区域是长江，黄河以及澜沧江的源头，拥有非常充沛的水源，得知了母亲河的源头，整个[SCOPE.GetRootScope.GetCountry.GetName]的百姓都无比振奋！"
+ tib_events.12.a:0 "好消息！"
+ 
+ tib_events.13.t:0 "与当地人交易"
+ tib_events.13.d:0 "我们遇到了当地藏人，他们可以帮助我们。"
+ tib_events.13.f:0 "如果我们肯为他们的地图支付一些钱的话。"
+ tib_events.13.a:0 "支出这笔钱！"
+ tib_events.13.b:0 "我们自己能走！"
+ 
+ tib_events.14.t:0 "朝圣者"
+ tib_events.14.d:0 "朝圣是藏传佛教的一种习俗，藏人会用身体丈量到布达拉宫的距离，表达自己对信仰的虔诚。。"
+ tib_events.14.f:0 "真是伟大的壮举。"
+ tib_events.14.a:0 "分给朝圣者一些食物"
+ tib_events.14.b:0 "别看了，我们还有工作要做"
+ 
+ tib_events.15.t:0 "购买补给"
+ tib_events.15.d:0 "我们来到了一个居民点，探险家们希望可以在这里稍作休息，购买一些补给。"
+ tib_events.15.f:0 "友善的藏族村庄让大家流连忘返。"
+ tib_events.15.a:0 "买一些补给，整顿整顿队伍！"
+ tib_events.15.b:0 "休息休息就出发吧！"
+ 
+ tib_events.16.t:0 "放牧的牧民"
+ tib_events.16.d:0 "我们遇见了放牧的牧民，但队员们在是否与牧民换取食物上产生了分歧。"
+ tib_events.16.f:0 "我们已经许久没吃肉了。"
+ tib_events.16.a:0 "我们应该与牧民交换！"
+ tib_events.16.b:0 "我们应该拿枪去抢！"
+ 
+ tib_events.17.t:0 "新奇的植物"
+ tib_events.17.d:0 "我们的队员在路上发现了一株从未见过的奇特植物。"
+ tib_events.17.f:0 "这是白菜吗？"
+ tib_events.17.a:0 "很好，把它记录下来！"
+ tib_events.17.b:0 "不要耽误我们的工作！"
+ 
+ tib_events.18.t:0 "高原反应"
+ tib_events.18.d:0 "一位队员缺氧了，但最近的探险点距离还有一个时辰的路程。"
+ tib_events.18.f:0 "真糟糕！"
+ tib_events.18.a:0 "我们毫无办法！"
+ tib_events.18.b:0 "我们不能放弃他！"
+
+ tib_events.19.t:0 "牦牛"
+ tib_events.19.d:0 "一只浑身长着长毛的牛出现在我们的视野中，它应该是跟族群走散了。"
+ tib_events.19.f:0 "奇形怪状，哪有毛那么长的牛！"
+ tib_events.19.a:0 "它是我们的补给。"
+
+ tib_events.20.t:0 "奔腾的藏羚羊"
+ tib_events.20.d:0 "那是什么，一群奔腾而来的羚羊！"
+ tib_events.20.f:0 "妈的，一群疯羊！"
+ tib_events.20.a:0 "快避开！"
+ tib_events.20.b:0 "猎杀他们！"
+
+ tib_events.21.t:0 "风和日丽"
+ tib_events.21.d:0 "当我们走出帐篷时，发现天气意外的不错。"
+ tib_events.21.f:0 "天气好心情好。"
+ tib_events.21.a:0 "探险的好日子！"
+
+ tib_events.22.t:0 "雪豹"
+ tib_events.22.d:0 "我们发现在远处的小山坡上，有一只雪白的豹子。"
+ tib_events.22.f:0 "多美的生物！"
+ tib_events.22.a:0 "抓住它献给陛下！"
+ tib_events.22.b:0 "我们不应该招惹它！"
+
+ tib_events.23.t:0 "失踪"
+ tib_events.23.d:0 "清晨醒来，发现少了一名探险队员！"
+ tib_events.23.f:0 "他去哪里了？！"
+ tib_events.23.a:0 "必须找到他！"
+ tib_events.23.b:0 "不能因为他耽误探险进度！"
+
+ tib_events.24.t:0 "找到失踪队员"
+ tib_events.24.d:0 "我们在一处山沟里发现了被困的探险队员！"
+ tib_events.24.f:0 "总算找到了！"
+ tib_events.24.a:0 "谢天谢地！"
+
+ tib_events.25.t:0 "我们没能找到那名队员"
+ tib_events.25.d:0 "妈的，这可不是一个好消息！"
+ tib_events.25.f:0 "只能为他祈祷了！"
+ tib_events.25.a:0 "你会魂归故里的！"
+
+ tib_events.26.t:0 "湖泊"
+ tib_events.26.d:0 "在我们许久没有得到补给时，我们眼前出现了一片湛蓝的湖。"
+ tib_events.26.f:0 "多美啊，和江南一样！"
+ tib_events.26.a:0 "下湖捕鱼！"
+ tib_events.26.b:0 "谨慎的钓鱼。"
+
+ tib_events.27.t:0 "寺庙"
+ tib_events.27.d:0 "我们遇到了一座寺庙，队员们都希望能够进入寺庙为自己祈福。"
+ tib_events.27.f:0 "大家都想向佛陀祈愿自己能平安回家。"
+ tib_events.27.a:0 "好吧，我也想为自己祈福。"
+
+ #清朝事件
+ 
+ qing_events.1.t:0 "征服蒙古"
+ qing_events.1.d:0 "蒙古高原已经服从皇帝，我们现在已经加冕蒙古的大汗了！"
+ qing_events.1.f:0 "自两百年前，我们击败林丹汗以来，大清帝国就夺取了元朝的传国玉玺，宣称了对草原的统治。东喀尔喀蒙古随后归附了大清的统治，但是西部的准噶尔蒙古在噶尔丹的率领下反抗我们的统治。现在我们终于击败了我们的敌人，夺回了整个草原。锡林郭勒的蒙古八旗都感到十分振奋，蒙古贵族纷纷来到[SCOPE.sState('capital_state').GetName]，为我们准备可汗的加冕仪式。"
+ qing_events.1.a:0 "太好了"
+ 
+ qing_events.2.t:0 "十全武功"
+ qing_events.2.d:0 "皇帝[SCOPE.sCharacter('shiquan').GetFirstName]正雄心勃勃地准备着自己的事业。"
+ qing_events.2.f:0 "帝国周边危机四伏，我们需要激励人心的胜利来振兴帝国。我们的皇帝[SCOPE.sCharacter('shiquan').GetFirstName]雄心勃勃，我们一定能在他的领导下实现全面的崛起！"
+ qing_events.2.a:0 "消灭一切阻挡我们的敌人！"
+ 
+ qing_events.3.t:0 "处置汉人"
+ qing_events.3.d:0 "[SCOPE.sCharacter('shiquan').GetFirstName]虽然是满人，但是[SCOPE.GetRootScope.GetCountry.GetName]的主要支柱仍然是汉人。如今我们已经让汉人重新归顺了我们的帝国，如何处置他们以及他们的文化成了亟待解决的问题。"
+ qing_events.3.f:0 "帝国周边危机四伏，我们需要激励人心的胜利来振兴帝国。我们的皇帝[SCOPE.sCharacter('shiquan').GetFirstName]雄心勃勃，我们一定能在他的领导下实现全面的崛起！"
+ qing_events.3.a:0 "我们必须让汉人剃发以示归顺！"
+ qing_events.3.b:0 "顺应天命接受汉化才是最好的选择！"
+ 
+ qing_events.4.t:0 "四库全书完稿！"
+ qing_events.4.d:0 "按照皇帝陛下的要求，我们的四库全书终于定稿完成，这部史无前例的百科全书将彰显我们帝国的荣耀！"
+ qing_events.4.f:0 "《四库全书》既然要囊括以前的历代典籍，涵盖了所有传统学术书籍，用传统目录学将典籍按照一定的体系加以排纂编次，将浩如烟海的各类书籍汇总成册，同时广泛收集海外各类学说，亦作经史子集的分类，包括国外神话传说、史诗歌剧、科学论著以及文学集合。"
+ qing_events.4.a:0 "书海无涯，吾心亦无涯！"
+ siku_china: "四库全书"
+
+ qing_events.5.t:0 "广州港扩建！"
+ qing_events.5.d:0 "广州作为帝国的门户，拥有优秀的港湾和繁荣的经济。如今我们已经将广州港升级完毕，他将作为帝国的明珠，向世界展现我们的光彩！"
+ qing_events.5.f:0 "诸人政坐爱闲游，天遣南游天尽头。到得广州天尽处，方教回首向韶州。"
+ qing_events.5.a:0 "我们要建设一个开放的帝国！"
+ 
+ qing_events.6.t:0 "俄清友好条约"
+ qing_events.6.d:0 "俄罗斯同意在战争中援助我们但条件是我们接受他们的条约。"
+ qing_events.6.f:0 "大清国大皇帝大俄国大皇帝愿将两国边界及通商等事于两国有益者，商定妥协，以固和好，是以特派全权大臣会同商定。大清国钦差出使俄国全权大臣一等毅勇侯大理寺； 大俄国钦差参政大臣署理总管外部大臣，参议大臣出使中国全权大臣布； 两国全权大臣各将所奉全权谕旨互相校阅后，议定条约如左：......"
+ qing_events.6.a:0 "我们只能接受他们的要求"
+
+ tifa_qing:0 "强制剃发令"
+ anfu_qing:0 "新朝雅政"
+ end_ming:0 "灭亡明朝"
+ outsea_qing:0 "四海咸服"
+ qing_kaifang:0 "开放的中国"
+ 
+ je_annex_monglia:0 "满蒙联盟"
+ je_annex_monglia_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]与蒙古的情谊非同寻常，作为血缘亲近的兄弟，满蒙的联姻一直不曾断绝。但是蒙古的土地却被人为地割裂开来，东部仍处于大清的统治，西部则被准噶尔汗国占据。我们统治下的蒙古八旗希望能够实现统一，我们应该拥有整个蒙古草原。"
+ annex_monglia_tt:0 "统一蒙古草原，获取蒙古贵族的认可。"
+ 
+ je_shiquan_china:0 "十全武功"
+ je_shiquan_china_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]的皇帝并非池中之物，他正雄心勃勃地试图振兴整个帝国，如果我们能在他的统治下实现所有的雄心，那么全世界都将为我们而战栗。"
+ je_shiquan_china_goal:0 "#Bold 皇帝的十全武功将获得认可#!"
+ shiquan_china_tt:0 "皇帝的十全武功将获得认可。"
+ shiquan_menggu_tt:0 "征服蒙古\n    完成满蒙联盟日志"
+ shiquan_zhungaer_tt:0 "终结准噶尔\n    完成终结准噶尔日志"
+ shiquan_chaoxian_tt:0 "吞并朝鲜\n    将朝鲜地区彻底吞并"
+ shiquan_xizang_tt:0 "统治西藏\n    吞并整个青藏高原区域或傀儡西藏"
+ shiquan_huabei_tt:0 "占据华北\n    控制整个华北区域"
+ shiquan_nanfang_tt:0 "剑指南方\n    控制整个华南区域"
+ shiquan_yuenan_tt:0 "降伏安南\n    控制整个越南"
+ shiquan_miandian_tt:0 "击败缅甸\n    控制或傀儡缅甸"
+ shiquan_wubei_tt:0 "整顿武备\n    完成革新八旗"
+ shiquan_haijun_tt:0 "发展海军\n    研发铁甲舰科技"
+ shiquan_shibai_tt:0 "皇帝在我们完成所有目标前就已经逝世。"
+ 
+ shiquan_qing:0 "十全武功"
+ 
+ je_destory_banner:0 "革新八旗"
+ je_destory_banner_reason:0 "八旗制度曾经是[SCOPE.GetRootScope.GetCountry.GetName]的中流砥柱，他们帮助我们征服敌人，包围国土，同时也是皇帝陛下最忠诚的侍卫。然而随着时间的流逝，八旗制度已经变得臃肿而落后了，我们需要重新对其进行革新，让我们的军队能追赶上世界的潮流。"
+ je_shiquan_china_tt:0 "十全武功的进度获得提升。"
+ 
+ je_destory_canquerkor:0 "征服朝鲜"
+ je_destory_canquerkor_reason:0 "朝鲜国王已经龟缩在我们的荫蔽下很久了，是时候剥夺他们的独立地位，让他们彻底成为帝国的一部分了。"
+ 
+ kor_qing:0 "整合朝鲜"
+ 
+ je_destory_tibback:0 "夺取西藏"
+ je_destory_tibback_reason:0 "西藏的喇嘛尚未向天子效忠，我们必须赶走前朝余孽和其他势力，彻底控制高原地区，让活佛重新回到我们的掌控之中。"
+ 
+ je_destory_norchi:0 "巩固华北"
+ je_destory_norchi_reason:0 "是时候南下征服中原了！华北是中国的发源地，人口密集，农业繁荣，我们需要用强有力的手段巩固我们在华北地区的统治，把天子的号令传到每一个角落。"
+ 
+ je_destory_end_ming:0 "终结明朝"
+ je_destory_end_ming_reason:0 "虽然在与我们的对抗中不断溃败，大明依旧龟缩在中国南方苟延残喘。我们应当乘胜追击，一举终结明朝的统治，让我们的王朝成为中原大地的唯一统治者。"
+ 
+ je_destory_outsea:0 "海外咸服"
+ je_destory_outsea_reason:0 "国内的战事暂时告一段落，但是海外尚有许多曾经向明朝效忠的华夏邦国的存在，我们应当继承大明的地位，将他们囊括到我们的统治之下。"
+ 
+ je_destory_siku:0 "四库全书"
+ je_destory_siku_reason:0 "我们必须证明我们是中国最强盛、最伟大的王朝，因此，我们应当着手编撰一本空前绝后的百科全书。这本书将会囊括世界上各类书籍记载，包罗万象，成为可以找到任何你想要找到的只是的宝库。我们要让他超越西方的不列颠百科全书，成为凝聚我们民族自信力的代表作。"
+ je_destory_siku_goal:0 "完成整本书的编写"
+ 
+ je_destory_guangzhou:0 "广州口岸"
+ je_destory_guangzhou_reason:0 "广州是我国最繁荣最自由的贸易港，我们应该加紧建设这里，把这里作为我们与世界交流的核心。同时，加强贸易管理也能强化我们的统治能力和贸易主权。"
+ 
+ je_destory_banner2:0 "创立新军"
+ je_destory_banner2_reason:0 "新式军队已经在全世界开始流行，我们必须继续对八旗军队进行全方位的改革，以适应新战场的要求。"
+ 
+ journal_entry_goal_progress_siku:0 "四库全书编撰速度：#variable [ROOT.GetCountry.MakeScope.Var('qing_siku_var_1').GetValue|0]#!（#tooltippable;tooltip:[ROOT.GetCountry.GetTooltipTag],je_siku_power_var_tooltip [ROOT.GetCountry.MakeScope.Var('qing_siku_var_pro').GetValue|1-=]#!）"
+ 
+ je_siku_power_var_tooltip: "#tooltip_header 每月变更由以下因素决定：#!\n$TOOLTIP_DELIMITER$\n#variable 创新力产生[Country.MakeScope.Var('qing_siku_var_pro_new').GetValue|-=]#!点\n#variable 文人势力产生[Country.MakeScope.Var('qing_siku_var_pro_lit').GetValue|-=]#!点\n#variable 大学数量[Country.MakeScope.Var('qing_siku_var_pro_col').GetValue|-=]#!点\n#variable 识字率产生[Country.MakeScope.Var('qing_siku_var_pro_rea').GetValue|-=]#!点\n#variable 西方伙伴产生[Country.MakeScope.Var('qing_siku_var_pro_wes').GetValue|-=]#!点\n#variable"
+ 
+ je_wuzu_china:0 "五族共和"
+ je_wuzu_china_reason:0 "何为中国，不同人有不同的说法。对于我们而言，中国并不是一个固定的民族概念，而是一个文化概念。入华夏则华夏之，入夷狄则夷狄之。诸夏和夷狄是相互转化的，但是他们都围绕在以华夏文明为核心的儒学体系周围。在[SCOPE.GetRootScope.GetCountry.GetName]的百姓看来，满汉蒙回藏是形成中华民族的主要构成部分，我们要形成五个民族和谐共处，构成统一的国族认同，加大我们的文化外向感染力，这有助于我们融合更多的民族，让更多的夷狄沐浴王化，让[SCOPE.GetRootScope.GetCountry.GetName]的边疆永无终点！"
+ je_wuzu_china_lobby:0 "$je_wuzu_china_reason$"
+ je_wuzu_china_success:0 "兵部和五军都督府丧失了权力，一个新的机构成立了！"
+ wuzu_han:0 "汉是主流文化"
+ wuzu_man:0 "满是主流文化"
+ wuzu_meng:0 "蒙是主流文化"
+ wuzu_wei:0 "维是主流文化"
+ wuzu_zang:0 "藏是主流文化"
+ ming_tib_explore_de_tt:0 "有尚未完成的堪探。"
+ 
+ je_wuzu_china_2:0 "国族塑造"
+
+
+ qing_ming_de:0 "核查土地"
+ qing_ming_de_desc:0 "我国部分地区存在藏匿土地的情况，我们应该立刻展开核查。"
+ 
+ #大清
+ 
+ je_annex_han:0 "接纳汉人"
+ je_annex_han_reason:0 "虽然我们已经被驱逐到关外，但是汉人依然是我们无比重要的支持者，我们应该放下偏见，将他们视为我们的一等公民，一起为[SCOPE.GetRootScope.GetCountry.GetName]的崛起而奋斗！"
+ je_annex_han_goal:0 "至少拥有一块无动乱汉文化本土土地，并持续至少十年"
+ 
+ je_destory_dzu:0 "终结准噶尔帝国"
+ je_destory_dzu_reason:0 "准噶尔已经不能继续存在了，他们一直困扰我国的西部地区，并且对蒙古保持着足够的威胁，为了稳固我国的塞防，我们必须彻底解决准噶尔问题，并且不能让外国势力插手西部地区。"
+ je_destory_dzu_goal:0 "必须彻底消灭准噶尔。"
+ annex_dzu_tt:0 "蒙古的威胁彻底结束了。"
+ 
+ taolism:0 "道教"
+ taolism_chinese:0 "道教"
+ quzhu_zhimin_tt:0 "驱逐所有殖民者"
+ ming_tianmin:0 "天命终结"
+ ming_huanghan:0 "皇汉崛起"
+ je_huanghuan_tonghua:0 "所有汉族分支文化将被同化为汉人。"
+ d:0 "种族清洗"
+ building_kong_temple:0 "孔庙"
+ kong_temple_can_construct_tt:0 "完成了西学学校改革"
+ lama_temple_can_construct_tt:0 "是道教或者大乘佛教国家"
+ pmg_base_building_lama_temple:0 "寺庙"
+ pm_default_building_lama_temple:0 "参拜"
+
+ # 黎洲日志
+ 
+ je_lizhou_gold:0 "淘金热"
+ je_lizhou_gold_reason:0 "我们的国民远渡重洋来到这里，就是为了寻找传说中的金矿。如果我们能找到一处大的金矿，一定能鼓舞我们的国民，并吸引更多移民前来建设我们的国家！"
+ je_lizhou_gold_goal:0 "寻找一处巨大的金矿。"
+ je_lizhou_gold_tt:0 ""
+ 
+ je_lizhou_army:0 "保境安民"
+ je_lizhou_army_reason:0 "虽然黎洲享受太平已久，但我们的身边依然危机四伏。如果不能维持一支强大的军队，社稷恐有倒悬之危。我们需要立刻着手扩张我们的军队，保障我们边境的安全。"
+ 
+ je_lizhou_coal:0 "保障煤矿"
+ je_lizhou_coal_reason:0 "黎洲的土地缺乏煤矿供应，这对我们的发展产生了巨大的阻碍。如果我们不能获得稳定的煤矿供应，黎洲就没法进一步工业化，追赶先进国家。"
+ 
+ je_lizhou_edu:0 "书香门第"
+ je_lizhou_edu_reason:0 "教育是立国之本，[COUNTRY.GetName]立国伊始，多为贫贱之士，即使如此，也没有将教育的重要性放低。我们作为华夏后裔，应当发扬我们的传统，让所有[COUNTRY.GetName]百姓都能成为书香门第。"
+ 
+ je_lizhou_help:0 "寻求庇护"
+ je_lizhou_help_reason:0 "虽然我国摆脱了巨龙的侵扰，但是这并不意味着我们的安全。虎视眈眈的美利坚人将我们的土地视为他们的昭昭天命，我们必须在这以前寻找到新的盟友，帮助我们对抗这帮野蛮人。"
+ lizhou_fuyong_tt: "我们是他们的附庸国"
+
+ je_lizhou_empire:0 "威加海内"
+ je_lizhou_empire_reason:0 "黎洲发于黔首，起于微末，却形成了如今的盛大之势。我们已经不能满足于仅仅生存在列强的夹缝中，我们要控制整个新大陆，将我们平等自由的理念传播到世界的每一个角落！"
+ 
+ lizhou_xuexiao:0 "书香门第"
+ lizhou_dio:0 "合纵连横"
+ lizhou_coal:0 "煤矿工业"
+ lizhou_trade:0 "保障贸易"
+ lizhou_empire:0 "黎洲帝国"
+ 
+ ming_xixue_de:0 "筹建西学学校"
+ ming_xixue_de_desc:0 "我们应该筹建新型学院，将孔庙改造成全新的教育中心，方便我们推行教育政策以及接纳西方先进科技。"
+ jiaoyu_xixue:0 "引进西学"
+ kongmiao_ready:0 "可以在山东修建孔庙"
+ 
+ pmg_base_building_kong_temple:0 "新孔庙工作方向"
+ pm_default_building_kong_temple:0 "仅为旅游"
+ pm_default_building_kong_temple_jiaohua:0 "教化夷狄"
+ pm_default_building_kong_temple_xinxue:0 "引进西学"
+ pm_default_building_kong_temple_tianming:0 "维系天命"
+ 
+ cnl_gold:0 "金山之地！"
+ 
+ je_lizhou_weiguo:0 "卫国战争"
+ je_lizhou_weiguo_reason:0 "美利坚合众国已经对我们发起了进攻，意图摧毁我们的国家，为了捍卫我们的自由，我们必须凝聚一切力量，抗击来犯之敌！\n        -----黎洲人民到了最危险的时候！每个人被迫着发出最后的吼声！"
+ je_lizhou_weiguo_tt:0 ""has_journal_entry
+ 
+ je_lizhou_huiyi:0 "黎洲人民议会"
+ je_lizhou_huiyi_reason:0 "黎洲人民通过会议来运作他们的民主。"
+ button_lizhou:0 "启动议程"
+ button_lizhou_desc:0 "准备选择一项议程开始讨论。"
+ #安南统一
+ 
+ je_annan_tongyi:0 "统一安南"
+ je_annan_tongyi_reason:0 "自安南内战以来，安南的土地就被一分为二，北方的土地被明朝的安南宣慰司所管辖，而南方则是由越南南朝统治。这种分裂必须结束，越南必须早日决定他自己的命运！"
+
+ CNN_DAI_WAR:0 "安南统一战争"
+ annan_war_de:0 "发动统一战争"
+ annan_war_de_desc:0 "是时候发起战争，彻底结束南北分裂了！"
+ 
+ je_annan_wending:0 "稳定政局"
+ je_annan_wending_reason:0 "安南王决心稳固[COUNTRY.GetName]的政府，加强安南的王权力量，牢牢控制住本地贵族，为进一步的改革提供基础。"
+ annan_guizu: "贵族被削弱"
+
+ je_annan_xuexiao:0 "改革科举"
+ je_annan_xuexiao_reason:0 "虽然科举已经在最初引入了[COUNTRY.GetName]，但为了安抚本地贵族阶层，以及后续的混乱局势，导致[COUNTRY.GetName]的科举事实上以及变成了腐败滋生的特权生产地，由于不需要明廷的钦点，本地的科举往往存在严重的徇私舞弊和权力操纵，国王殿下希望在任内彻底解决这个问题。"
+ 
+ je_annan_jundui:0 "重整三军"
+ je_annan_jundui_reason:0 "安南布政司的耻辱失败让明廷彻底放弃了对此地的直辖，这也是册封藩王替代布政司官员的原因。藩王初就[COUNTRY.GetName]，安南的军队还游离在王宫的控制之外，为了大展宏图，殿下必须先用雷霆手段控制安南军队。"
+ 
+ je_annan_wenhua:0 "弥合文化"
+ je_annan_wenhua_reason:0 "安南自汉朝以来就是中华的一部分，却因为五代的羸弱而游离于天朝之外。如今想要将京人重新融入华夏，需要我们想办法弥合两者的矛盾，重塑统一的民族认同。"
+
+ je_annan_ming:0 "奉天靖难"
+ je_annan_ming_reason:0 "明王朝的崩溃意味着当今圣上并不坐享天命，奸臣当道、帝王无德，只有殿下才智超人，是继承大统的不二之选。我们应当立刻奉天靖难，让皇位被交给正确的人。"
+ 
+ annan_no_ming: "大明已经灭亡"
+
+ je_annan_ming1:0 "再造大明"
+ je_annan_ming1_reason:0 "前明已经在可悲的分裂中崩溃，我们必须继承洪武皇帝的意志，平定中原，让日月重临中华大地！"
+
+ #天命奔溃事件组
+ 
+ je_ming_deaser:0 "明帝国的危机"
+ je_ming_deaser_reason:0 "大明正在面临可怕的危机。大明皇室没能遵循天命、统治天下，不再享有上天给予的庇佑和盛名。经年的管理不善和无尽的冲突已形成了痼疾，侵染了整个中华大地，人民的不满正迅速蔓延。一时间，天下汹汹，四处揭竿斩木。《诗》有之：「无念尔祖，聿修厥德」，我们必须感怀先祖、修养德行；毕竟，「宜鉴于殷，骏命不易」，永保天命绝非易事！"
+ je_ming_deaser_goal:0 "一旦崩溃进度条满格，我国将再度崩溃。"
+ 
+ je_qisha_daxi:0 "七杀效忠"
+ je_qisha_daxi_reason:0 "我军以残暴为天下所知，然而此非我等所愿。如天下安宁，奸凶攘除，那我等也不必频动刀兵。我们致力于消除一切不忠不孝不仁不义之人，定义一个我们眼中的盛世。"
+ je_qisha_daxi_tt:0 "天生万物以养人，世人犹怨天不仁。\n不知蝗蠹遍天下，苦尽苍生尽王臣。\n人之生矣有贵贱，贵人长为天恩眷。\n人生富贵总由天，草民之穷由天谴。\n忽有狂徒夜磨刀，帝星飘摇荧惑高。\n翻天覆地从今始，杀人何须惜手劳。\n不忠之人曰可杀！不孝之人曰可杀！\n不仁之人曰可杀！不义之人曰可杀！\n不礼不智不信人，大西王曰杀杀杀！\n我生不为逐鹿来，都门懒筑黄金台，\n状元百官都如狗，总是刀下觳觫材。\n传令麾下四王子，破城不须封刀匕。\n山头代天树此碑，逆天之人立死跪亦死！"
+ button_xi1:0 "不忠之人曰可杀"
+ button_xi1_desc:0 "叛逆大西朝的人应当被处决！"
+ button_xi2:0 "不孝之人曰可杀"
+ button_xi2_desc:0 "不孝有三，无后为大。我们要鼓励利益之风，塑造我们的德行。"
+ button_xi3:0 "不仁之人曰可杀"
+ button_xi3_desc:0 "仁爱是万物之大爱，不仁的官吏暴徒为祸乡里，应当剿灭。"
+ button_xi4:0 "不义之人曰可杀"
+ button_xi4_desc:0 "义即为公正，我们新朝应当别异于旧朝，鼓励公正之法。"
+ button_xi5:0 "不礼之人曰可杀"
+ button_xi5_desc:0 "礼义廉耻，人之所钟也。混乱秩序，沦丧礼节者，实在是国家之祸根。"
+ button_xi6:0 "不智之人曰可杀"
+ button_xi6_desc:0 "我等新朝鼓励开化民智，不知则昏聩。"
+ button_xi7:0 "不信之人曰可杀"
+ button_xi7_desc:0 "信乃立身之本，不信之人，早晚祸倾朝野。"
+ 
+ ming_theend_events.1.t:0 "农民战争"
+ ming_theend_events.1.d:0 "中国的农民向来是最温顺的绵羊，如非迫不得已，绝不会有任何的反抗。因为长久以来的压迫和剥削，农民终于忍无可忍，开始用暴力回应他们的主子。"
+ ming_theend_events.1.f:0 "最初只是在几个偏远的乡野，实在无法交出税金的农民在争斗中杀死了他的债主，当地知名的地主。第一次杀人让向来顺从的他惶恐不安，但很快他就回过神来，处理掉了地主剩下的家人。同样被逼的走投无路的破产农民在看着他浑身血迹从地主的府邸出来时，立马就明白了局势。一支斩木为兵的农民军很快从村庄出发，他们冲进了县衙，将淫威作福的税官和县令都吊在了城墙。反抗的农民如蝗虫般蔓延，当帝国反应过来时，已成燎原之势。。。。。"
+ ming_theend_events.1.a:0 "绵羊变成了恶魔"
+ ming_theend_events.1.b:0 "压迫者才是恶魔"
+ ming_theend_events.1.c:0 "贪官污吏！该杀！"
+ nongminqiyi:0 "农民起义"
+ 
+ ming_theend_events.2.t:0 "七杀立国"
+ ming_theend_events.2.d:0 "经过了几百年，大西国再次重临华夏。这一次，我们将彻底消灭一切罪恶，将不仁不义之徒彻底根除！"
+ ming_theend_events.2.f:0 "现在是我们的时代了！"
+ ming_theend_events.2.a:0 "统一华夏！"
+ 
+ ming_theend_events.1.t:0 ""
+ ming_theend_events.1.d:0 ""
+ ming_theend_events.1.f:0 ""
+ ming_theend_events.1.a:0 ""
+ 
+ ming_theend_events.1.t:0 ""
+ ming_theend_events.1.d:0 ""
+ ming_theend_events.1.f:0 ""
+ ming_theend_events.1.a:0 ""
+ 
+ tib_events.50.t:0 "[SCOPE.sState('tib_baoluan').GetName]的暴乱已经平息"
+ tib_events.50.d:0 "在[SCOPE.sState('tib_baoluan').GetName]的暴乱已经逐步平息，当地的极端分子已经被逮捕和再教育。宗教神权已经成为遥远的历史，当地人开始追求新的生活了。"
+ tib_events.50.f:0 "已经没有人再听从达赖的号召了，农奴从土地中解放，被压迫者重获了新生，他们发现，也许遵从一个虚无缥缈的神，并不一定就是他们生命最大的追求。人们以最快的速度拥抱着新的生活。"
+ tib_events.50.a:0 "谢天谢地，一切结束了"
+ 
+ tib_events.51.t:0 "[SCOPE.sState('tib_baoluan').GetName]的恐怖袭击"
+ tib_events.51.d:0 "[SCOPE.sState('tib_baoluan').GetName]的密宗狂热分子，在达赖的号召下开始了暴乱行动，对当地平民开展无差别袭击。"
+ tib_events.51.f:0 "暴徒们像蝗虫一样在城市里横冲直撞，打砸，焚烧，杀戮，，，，宛如人间炼狱。"
+ tib_events.51.a:0 "必须制裁他们"
+ 
+ tib_events.52.t:0 "[SCOPE.sState('tib_baoluan').GetName]的僧侣自焚"
+ tib_events.52.d:0 "[SCOPE.sState('tib_baoluan').GetName]的密宗狂热分子，为了表达对宗教和活佛的忠诚，在市中心进行了张扬的自焚活动，表达对政府的抗议。"
+ tib_events.52.f:0 "熊熊烈火突然升起，人群惊慌逃窜。当警察赶到灭火时，只剩下黑黢黢的地面和一些尸体的灰尘。其身虽死，却激发了更多卫道士的怒火。"
+ tib_events.52.a:0 "必须制裁他们"
+ 
+ tib_events.53.t:0 "[SCOPE.sState('tib_baoluan').GetName]的分离主义宣传"
+ tib_events.53.d:0 "我们在[SCOPE.sState('tib_baoluan').GetName]发现了大量的分离主义宣传，他们编造了大量民族冲突的事实，用以鼓励分离主义。"
+ tib_events.53.f:0 "如果不及时阻止这些有害内容的传播，很可能回造成难以预料的后果。"
+ tib_events.53.a:0 "让特勤局处理这些人。"
+ tib_events.53.b:0 "多加注意就行了。"
+ 
+ tib_events.54.t:0 "在[SCOPE.sState('tib_baoluan').GetName]废除农奴制"
+ tib_events.54.d:0 "[SCOPE.sState('tib_baoluan').GetName]的农奴得到了解放，我们彻底打倒了当地的贵族僧侣，将权力还给了农民。"
+ tib_events.54.f:0 "我们是作为解放者而非征服者来到这里。"
+ tib_events.54.a:0 "好的"
+ 
+ tib_events.55.t:0 "镇压[SCOPE.sState('tib_baoluan').GetName]的暴乱"
+ tib_events.55.d:0 "[SCOPE.sState('tib_baoluan').GetName]的暴乱已经被我们镇压，当地居民已经其他效忠于帝国的人口替换。这里不会再有暴动了。"
+ tib_events.55.f:0 "对付这些暴徒就该用点血腥的手段！"
+ tib_events.55.a:0 "继续杀！"
+ 
+ ming_tib_gaitu:0 "西藏农奴制改革"
+ 
+ je_china_industry:0 "中国工业化"
+ je_china_industry_reason:0 "实业兴国，我国绝不能落于世界之后！随着技术的各种进步，各式的新奇物件层出不穷，而社会生产也发生了翻天覆地的变化。我们必须紧跟潮流，进行全方位的工业化，来保证我们能跟随世界的脚步！"
+ ming_industry:0 "中国工业"
+ 
+ je_rebuild_world:0 "重塑世界秩序"
+ je_rebuild_world_reason:0 "当今的世界体系基本上是由西方列强所设立的，他们设定了所谓“文明”的标准，肆意对他人进行划分和指点。将他们看不上的异国统统贬为野蛮人。我们已经受够了这种歧视，总有一天，我们要重塑整个世界的秩序，让我们成为唯一的标准和中心！"
+ je_rebuild_world_goal:0 "为了完成这一目标，我们需要在国际上获得举足轻重的地位。我们的势力圈需要达到#variable [ROOT.GetCountry.MakeScope.Var('shijie_GDP').GetValue|0]#!的GDP（也就是全世界GDP总额的一半），目前我们的GDP为#variable [ROOT.GetCountry.MakeScope.Var('jituan_GDP').GetValue|0]#!，所有我们势力圈的国家以及我们的附庸都会被纳入考量。"
+ challenge_world_rule:0 "受到新兴国家挑战"
+
+ chongzhi_shijie_tt:0 "没有其他国家已经完成这一目标。"
+ 
+ tib_panluan_tt:0 "#RED 藏人开始暴动#!"
+ tib_ter:0 "恐怖袭击"
+ tib_sel:0 "自焚抗议"
+ tib_sec:0 "抵抗组织"
+ tib_con:0 "征服西藏"
+ nongnu_lengque_tt:0 "一年的冷却期"
+ 
+ je_unite_tib_3:0 "安抚西藏"
+ je_unite_tib_3_reason:0 "和平统一在目前看来已经是不可能完成的任务了。因为我们与乌斯藏地区直接的武力冲突，西藏的僧侣集团公开号召藏人用暴动的形式反抗我们的统治。暴乱在帝国的各个藏人省份都有发生。\n因此，想要真正统治这里，我们必须得到西藏百姓的认可，这需要我们花费更大的精力，来争取广大藏族人民的支持，而不是讨好少数的贵族高层。当暴乱逐渐平息以后，藏人才能真正认可我们，成为我们密不可分的一部分。"
+ je_unite_tib_3_goal:0 "我们可以等待藏人的暴乱自己结束，让时间冲刷掉一切。\n当然，我们也可以主动推动改革，获取藏人的认可。\n如果想要主动获得藏人认可，需要：\n1.在西藏地块进行农奴制改革，解放农奴。\n2.消除当地的动乱。\n3.获得10%的藏族效忠派。\n暴动就会自然消失。之后我们就可以彻底整合当地，获取藏人的认同。"
+ 
+ button_tib1:0 "进行农奴制改革"
+ button_tib1_desc:0 "为了争取藏族的支持，有必要帮助被压迫者打倒贵族和僧侣集团。"
+ 
+ huanghan_shouduan:0 "在选择了皇汉崛起后，您可以用其他方法消除暴乱，比如彻底清除当地人口。"
+ 
+ button_tib2: "向僧侣妥协"
+ button_tib2_desc: "在一些特权问题上对僧侣做出承诺"
+ senglv_tuirang_tt: "没有向西藏僧侣妥协"
+ 
+ button_tib3: "派遣官员"
+ button_tib3_desc: "向西藏派遣直属官员进行管理"
+ ming_tib_guanyuan: "向西藏派遣官员"
+ guanyuan_paiqian_tt: "尚未派遣官员"
+ 
+ button_tib4: "确保经济控制"
+ button_tib4_desc: "向乌斯藏进行投资确保我们对他们的控制力"
+ kongzhi_tt: "尚未施加经济控制"
+ 
+ tib_jiangdi: "降低自治"
+ 
+ #与大洋国mod联动部分
+ DAYXN:0 "西南宣慰司"
+ DAYXN_ADJ:0 "西南宣慰司"
+ DAYLG:0 "两广总督府"
+ DAYLG_ADJ:0 "两广总督府"
+ DAYHG:0 "湖广布政司"
+ DAYHG_ADJ:0 "湖广布政司"
+ DAYZY:0 "中原总督府"
+ DAYZY_ADJ:0 "中原总督府"
+ DAYXB:0 "西北宣慰司"
+ DAYXB_ADJ:0 "西北宣慰司"
+ DAYMG:0 "蒙古宣慰司"
+ DAYMG_ADJ:0 "蒙古宣慰司"
+ DAY_MING:0 "大明帝国"
+ DAY_MING_ADJ:0 "大明帝国"
+ DAY_MING2:0 "大明联邦共和国"
+ DAY_MING2_ADJ:0 "大明联邦共和国"
+ DAY_MING3:0 "大明社会主义联盟"
+ DAY_MING3_ADJ:0 "大明社会主义联盟"
+ DAY_MING4:0 "大明神圣帝国"
+ DAY_MING4_ADJ:0 "大明神圣帝国"
+ DAY_MING5:0 "大明神圣帝国"
+ DAY_MING5_ADJ:0 "大明神圣帝国"
+ DAY:0 "汉洲"
+ DAY_ADJ:0 "汉洲"
+ DAY_empire:0 "汉洲帝国"
+ DAY_empire_ADJ:0 "汉洲帝国"
+ DAY_republic:0 "汉洲联省共和国"
+ DAY_republic_ADJ:0 "汉洲联省共和国"
+ DAY_communist:0 "汉洲联合公社"
+ DAY_communist_ADJ:0 "汉洲联合公社"
+ DAY_anarchy:0 "自由公社联盟"
+ DAY_anarchy_ADJ:0 "自由公社联盟"
+ DAY_theocracy:0 "神圣汉洲帝国"
+ DAY_theocracy_ADJ:0 "神圣汉洲帝国"
+ DAY_party:0 "汉洲联盟"
+ DAY_party_ADJ:0 "汉洲联盟"
+ DAY_cybernetic:0 "汉洲联合工团"
+ DAY_cybernetic_ADJ:0 "汉洲联合工团"
+ 
+ ai_strategy_reform_mandate_of_heaven:0 "改革天命"
+ ai_strategy_reform_mandate_of_heaven_desc:0 "[COUNTRY.GetName]认为国内亟待改革来适应新的世界变化，他们试图改革天命来维护帝国的统治。"
+ 
+ reb_army:0 "革命热情"
+ 
+ #军事编队
+ 
+ Imperial_guard:0 "京营"
+ Zheng_Army:0 "延平军"
+ Yuyuan_Army:0 "榆园军"
+ Xuanda_Army:0 "宣大军"
+ Xi_Army:0 "大西营"
+ Shun_Army:0 "大顺营"
+ Jiangbei_Army:0 "江北营"
+ Chu_Army:0 "江汉营"
+ Zheng_Fleet:0 "郑氏水师"
+ Wolf_Army:0 "广西狼军"
+ Han_Banners:0 "汉军八旗"
+ Manchu_Banners:0 "满洲八旗"
+ EASTERN_FLEET:0 "东海水师"
+ SHENG_FLEET:0 "盛京水师"
+ 
+ #中华群雄
+ je_qunxiong_china:0 "统一中国"
+ je_qunxiong_china_reason:0 "中华大地陷入割据与分裂，此诚危急存亡之际。我军既承天命，申大义于天下，当弥合金瓯，重塑河山，扫灭宵小，以求四海归一。"
+ je_qunxiong_china_1_tt:0 "完成统一华北"
+ je_qunxiong_china_2_tt:0 "完成征服华南"
+ je_qunxiong_china_3_tt:0 "完成进军燕云"
+ 
+ je_qunxiong_north:0 "统一华北"
+ je_qunxiong_north_reason:0 "华北是中华帝国的核心，也是中华文明的发源地，想要称霸中国，我们必须将此地纳入囊中。"
+ qunxiong_tianming_1:0 "天命所归"
+ 
+ je_qunxiong_south:0 "征服华南"
+ je_qunxiong_south_reason:0 "华南是中华帝国最富饶的土地，这里河如罗网，湖泊密布，土地肥沃，商贸繁荣。我们必须控制这里，让华南的财富成为我们逐鹿中原的资本！"
+ qunxiong_tianming_2:0 "发展商贸" 
+ 
+ je_qunxiong_destory:0 "终结伪朝"
+ je_qunxiong_destory_reason:0 "伪帝窃据天命，履役黔首，致使生灵涂炭，四海扰攘。我军奉生民之愿，兴仁义之师，乘浩然之气，讨逆命之寇。挽社稷于刀兵之祸，救万民于倒悬之危。"
+ qunxiong_tianming_3:0 "应天讨贼" 
+ 
+ je_qunxiong_qianlong:0 "潜龙勿用"
+ je_qunxiong_qianlong_reason:0 "君子待时而慎动，厚积而薄发。今群雄逐鹿，四海皆乱，我军无绝顶之势，乏百战之兵，此非用武之际也，吾当保境安民，操练士卒，以为王霸之业。"
+ qunxiong_up_1:0 "逐鹿中原"
+ 
+ je_qunxiong_build:0 "大兴土木"
+ je_qunxiong_build_reason:0 "我主傲视群雄，提剑四顾，泱泱华夏难有睥睨者。今霸业在望，百废待兴，诚宜兴土木而繁都市，乐生民而荣故园。譬如扩城拓郭，兴贸充市，兹以为盛世之景也。"
+ 
+ fazhan:0 "城市发展"
+ 
+ qunxiong_tianming_4:0 "旭日之朝" 
+ 
+ je_qunxiong_drangon:0 "巨龙觉醒"
+ je_qunxiong_drangon_reason:0 "见龙在田，利见大人。我朝蛰伏已久，终有腾飞之日。曦辰东升，霞光万丈，宜当扶摇而上，使我之国家傲立于世界民族之林。"
+ qunxiong_age_of_loong:0 "巨龙时代"
+ 
+ qunxiong_events.1.t:0 "群雄逐鹿"
+ qunxiong_events.1.d:0 "明失其鹿，天下共逐。四海烽烟，豪杰蜂起，岂知今日之域中，为何人之天下？"
+ qunxiong_events.1.f:0 "兴义军，诛伪帝，统江山，福万民！"
+ qunxiong_events.1.a:0 "天命在我！"
+ 
+ je_qunxiong_changwei:0 "设立厂卫"
+ je_qunxiong_changwei_reason:0 "厂卫是天子的耳目，能用来监察百官，肃清乱党，将权力牢牢地掌握在我们手中。"
+ 
+ ming_jinyiwei:0 "锦衣卫"
+ 
+ je_qunxiong_court_tt:0 "完成统一中国"
+ qunxiong_xianren:0 "贤人宫廷"
+ 
+ je_qunxiong_court:0 "朝廷安泰"
+ je_qunxiong_court_reason:0 "今天下既定，我朝所患，非在江海之远，乃在朝堂之上也。故协和百官，综理朝政，使朝廷安泰，方可使天下太平，万国来朝也。"
+ 
+ je_qunxiong_court2_tt:0 "完成统一南方和朝廷安泰"
+ 
+ je_qunxiong_trade:0 "贸易政策"
+ je_qunxiong_trade_reason:0 "商贸遍行全球，其重要性与往日不可同日而语。今天朝富饶，而商者云至，若不予管辖，必为朝廷之祸。若因势而为，则可为朝廷之福也。"
+ 
+ qunxiong_trade:0 "开放贸易"
+ qunxiong_no_trade:0 "闭关锁国"
+ 
+ je_qunxiong_trade_tt:0 "我们对贸易的管理实在乏善可陈，各种问题让我们的官吏捉襟见肘。最终我们决定，放任这帮商人胡闹吧。"
+ 
+ qunxiong_miss_trade:0 "猖獗走私"
+ 
+ qunxiong_tax:0 "户籍制度革新"
+ 
+ je_qunxiong_tax:0 "户籍革新"
+ je_qunxiong_tax_reason:0 "我们王朝所推崇的治理系统在近代几乎没有得到革新。因此，我们必须确立一种适当的方式来管理我们治下的广大臣民，并适当减轻腐败和行政过度扩张带来的负面影响。"
+ 
+ je_qunxiong_edu:0 "科举革新"
+ je_qunxiong_edu_reason:0 "科举制度为我们提供了广泛优秀的专业官僚。但是他们的知识在日新月异的时代中已经显得不再优越。我们需要革新科举制度，重建教育体系，为我们的帝国提供更优秀的人才！"
+ je_qunxiong_edu_tt:0 "完成朝廷安泰和户籍革新"
+ 
+ qunxiong_zhubi:0 "改革税法"
+ je_qunxiong_land:0 "税法改革"
+ je_qunxiong_land_reason:0 "利用现代的管理制度对我国的税务系统进行完全的革新，彻底扫除隐瞒土地的情况和偷税漏税的恶劣行径，将使我们对于帝国全境的控制能力达到全新的高度！"
+ 
+ je_qunxiong_expand:0 "中华秋海棠"
+ je_qunxiong_expand_reason:0 "中国的边疆应该是整个秋海棠，我们应该团结治下的所有民族！"
+ 
+ qunxiong_events.2.t:0 "治理黄河"
+ qunxiong_events.2.d:0 "[SCOPE.sState('yellow_river_scope').GetName]一带的黄河大堤已经开始建设，不日将会竣工。"
+ qunxiong_events.2.f:0 "大河奔流，泽披万方，长堤一筑，扼惊涛而束汹汹，御地利以为民生，故烝民得恤、商旅得行，此天地之懿德也。至于千里晦暝，银河倒倾，死生一覆，荣枯尽灭，此天地之无情也。是故河情监视，洪涛疏堵，以保长堤之不虞，不敢懈怠也。"
+ qunxiong_events.2.a:0 "汹汹涛声，时不我与！"
+ 
+ state_trait_yellow_river:0 "泛滥黄河"
+ state_trait_yellow_river_1:0 "黄河"
+ huanghe_shigong:0 "河床施工"
+ huanghe_shutong:0 "疏通河道"
+ huanghe_ok:0 "黄河治理已完成"
+
+ button_huanghe1:0 "治理黄河"
+ button_huanghe1_desc:0 "治理黄河不是一项容易的事情，我们需要花费大量的人力和物力，将每一段黄河的河道都修复完整，最终完成整条河流的治理。"
+ 
+ qunxiong_events.3.t:0 "黄河泛滥"
+ qunxiong_events.3.d:0 "[SCOPE.sState('yellow_river_scope').GetName]一带的黄河已经决堤，开始泛滥！"
+ qunxiong_events.3.f:0 "黄河泛滥之年，涤荡百姓之命，沉淀壅滞河间。众所周知，洪水乃是我大国历朝历代兴亡之相和灾祸的预兆。当务之急是迅速处理损害，以免这成为我们伟大王朝覆灭的导火索。"
+ qunxiong_events.3.a:0 "凄哉！"
+ qunxiong_events.3.b:0 "尽力救济灾民！"
+ 
+ huanghe_fanlan:0 "严重水灾"
+ qunxiong_huanghe:0 "治理黄河"
+ 
+ je_qunxiong_river:0 "疏通河道"
+ je_qunxiong_river_reason:0 "黄河是中国的母亲河，但是它的河道却常常淤积泥沙，一旦泛滥，就会导致黄河两岸灾难性的后果！年久失修的河道已经不能在承担抵御洪水的职责，我们必须迅速开始疏通河道，重建黄河大堤！为可能到来的#RED 黄河改道#!提前做好准备！"
+ 
+ qunxiong_events.4.t:0 "[GetYear]的黄河改道"
+ qunxiong_events.4.d:0 "今年的雨洵来的比往年都早，很快就超过了黄河水位的安全警戒线，当我们从执勤人员那里得到消息时，黄河的泛滥已经开始了！不同于平常的堤坝损毁，今年的黄河完全像一头猛兽，改变了原有的河道，冲入人口密集的平原地区，从新的河道再次汇入大海，留下了满地狼藉。"
+ qunxiong_events.4.f:0 "黄河泛滥之年，涤荡百姓之命，沉淀壅滞河间。众所周知，洪水乃是我大国历朝历代兴亡之相和灾祸的预兆。当务之急是迅速处理损害，以免这成为我们伟大王朝覆灭的导火索。"
+ qunxiong_events.4.a:0 "如此天灾，我们无能为力。"
+ qunxiong_events_4_tt:0 "因为没有完成黄河的修缮，我们根本无法阻止黄河的改道！！！"
+ qunxiong_events.4.b:0 "幸好我们在此之前的河道修缮工作，让我们成功引导黄河完成泄洪！"
+ huanghe_plain:0 "淤积平原"
+ 
+ decree_jingyiwei_suppression:0 "派遣锦衣卫"
+ decree_jingyiwei_suppression_desc:0 "派遣锦衣卫到地方清查账簿，追捕叛乱分子，维护治安。"
+ jingyiwei_desc:0 "派遣锦衣卫的地区法令将可用。"
+ ming_jinyiwei_feichu:0 "裁撤厂卫"
+ state_trait_north_plain:0 "华北平原"
+ 
+ ming_remove_jinyiwei:0 "裁撤厂卫"
+ ming_remove_jinyiwei_desc:0 "厂卫制度是专制主义的象征，我们必须取消他们！"
+ 
+ ming_rebuilde_empire:0 "重建大明"
+ ming_rebuilde_empire_desc:0 "大明王朝已经崩溃，我们作为帝国的正统继任者，有责任重建帝国。"
+ 
+ #兰芳公司：以下内容主要为兰芳的剧情内容
+ 
+ company_lanfang:0 "兰芳公司"
+ 
+ zhimin_lanfang:0 "企业国家"
+ 
+ je_zhimin_lanfang:0 "兰芳公司"
+ je_zhimin_lanfang_reason:0 "兰芳公司创立于1776年，最初是华人移民的工人社团，在罗兰伯的带领下成为了经政一体的公司组织，并成功多次抵御了西方殖民者的入侵。作为一个企业国家，我们需要注重我们的盈利情况，只有不断的发展进步，我们才能获取民众的信任，鼓励更多的地区加入我们。"
+ je_zhimin_lanfang_goal:0 "高繁荣度情况下，公司将获得更多的投资和利息更低的贷款。"
+ 
+ journal_entry_lanfang_progress:0 "月初的GDP：#variable [ROOT.GetCountry.MakeScope.Var('lanfang_GDP').GetValue|0]#!     公司繁荣度：#variable [ROOT.GetCountry.MakeScope.Var('lanfang_comp_PRO').GetValue|0]#!（#tooltippable;tooltip:[ROOT.GetCountry.GetTooltipTag],je_lanfang_progress_var_tooltip [ROOT.GetCountry.MakeScope.Var('lanfang_comp_progress').GetValue|1+=]#!）"
+ 
+ je_lanfang_progress_var_tooltip: "#tooltip_header 每月变更由以下因素决定：#!\n$TOOLTIP_DELIMITER$\n#variable 收入盈余产生[Country.MakeScope.Var('lanfang_comp_PRO_progress_eco').GetValue|+=]#!点\n#variable 经济健康产生[Country.MakeScope.Var('lanfang_comp_PRO_progress_inc').GetValue|+=]#!点\n#variable 经济正增长产生[Country.MakeScope.Var('lanfang_comp_PRO_progress_add').GetValue|+=]#!点\n#variable 生活水平产生[Country.MakeScope.Var('lanfang_comp_PRO_progress_sol').GetValue|+=]#!点\n#variable 繁荣的公司数量产生[Country.MakeScope.Var('lanfang_comp_PRO_progress_com').GetValue|+=]#!点\n#variable 充分就业产生[Country.MakeScope.Var('lanfang_comp_PRO_progress_wok').GetValue|+=]#!点\n#variable 和平状态产生[Country.MakeScope.Var('lanfang_comp_PRO_progress_std').GetValue|+=]#!点\n#variable 经济规模产生[Country.MakeScope.Var('lanfang_comp_PRO_progress_gdp').GetValue|+=]#!点"
+ 
+ button_lanfang_1:0 "扩展公司"
+ button_lanfang_1_desc:0 "我们的公司在列强的夹缝中开张，为了我们不断扩大生存空间，我们可以用我们耀眼的成绩，吸引周边的土著部落接受我们的管辖，共创辉煌的业绩！"
+ 
+ button_lanfang_2:0 "扩建厂房"
+ button_lanfang_2_desc:0 "为了公司的发展，我们需要专门的建设队伍来扩建厂房。"
+ 
+ button_lanfang_3:0 "招募员工"
+ button_lanfang_3_desc:0 "为了企业的发展，新员工必须保证充足的供应。"
+ 
+ button_lanfang_4:0 "注重研发"
+ button_lanfang_4_desc:0 "不断研发新产品才能让我们在市场内更有竞争力"
+ 
+ button_lanfang_5:0 "扩大生产"
+ button_lanfang_5_desc:0 "我们应该注重生产环节，提升生产效率。"
+ 
+ button_lanfang_6:0 "经济作物"
+ button_lanfang_6_desc:0 "种植经济作物能让我们产生更多的收益。"
+ 
+ button_lanfang_7:0 "招商引资"
+ button_lanfang_7_desc:0 "公司的规模亟待扩大，我们需要提供更宽松的投资环境。"
+ 
+ button_lanfang_8:0 "优化制度"
+ button_lanfang_8_desc:0 "公司内部管理亟待革新，我们需要更有效的政府！"
+ 
+ lengque_tt:0 "处于冷却期内"
+ 
+ lan_events.1.t:0 "土著归顺"
+ lan_events.1.d:0 "我们的公司绩效斐然，这让附近的土著感到振奋，他们已经决定脱离原本的政府，加入我们，接受我们的领导。"
+ lan_events.1.f:0 ""
+ lan_events.1.a:0 "这是公司的又一次胜利！"
+ 
+ lanfang_bu:0 "扩建厂房"
+ lanfang_pe:0 "招募员工"
+ lanfang_re:0 "注重研发"
+ lanfang_ma:0 "扩大生产"
+ lanfang_pl:0 "经济作物"
+ lanfang_po:0 "招商引资"
+ lanfang_go:0 "优化制度"
+ 
+ lanfang_1:0 "#GREEN 信誉：优秀#!"
+ lanfang_2:0 "#BLUE 信誉：良好#!"
+ lanfang_3:0 "#BOLD 信誉：一般#!"
+ lanfang_4:0 "#YELLOW 信誉：关注#!"
+ lanfang_5:0 "#RED 信誉：风险#!"
+ 
+ capital_china:0 "首都需要位于中国内地"
+ 
+ notification_qng_sell_land_notification_name: "#RED 清朝用领土交换沙俄参战！#!"
+ notification_qng_sell_land_notification_desc: "卑鄙无耻的清朝私下与沙俄达成协议，将领土移交给沙俄，换取沙俄对我们作战，他们嚣张地宣称要彻底消灭我们！"
+ notification_qng_sell_land_notification_tooltip: "#header $notification_qng_sell_land_notification_name$#!\n$TOOLTIP_DELIMITER$\n$notification_qng_sell_land_notification_desc$"
+ 
+ notification_ming_junfa_notification_name: "明朝军阀作乱"
+ notification_ming_junfa_notification_desc: "五军都督府与明朝政府不可调和的矛盾已经演变为全面冲突，军方代表在军阀驻地发动叛乱，试图完全消灭明朝政府，在这之后，中国会重新回到四分五裂的场景，并最终被一个军阀所统一。"
+ notification_ming_junfa_notification_tooltip: "#header $ming_junfa_notification_name$#!\n$TOOLTIP_DELIMITER$\n$ming_junfa_notification_desc$"
+ 
+ has_formed_china_tt: "成立了国家#v $CHI$#!或我们是#v $CNM$#!"
+
+ notification_ming_nongmin_notification_name: "中国的农民起义"
+ notification_ming_nongmin_notification_desc: "受到压迫的中国农民掀起了浩浩荡荡的农民起义，他们试图颠覆明朝政府，建立新的朝代，中国似乎会回到群雄逐鹿的局面。"
+ notification_ming_nongmin_notification_tooltip: "#header $ming_nongmin_notification_name$#!\n$TOOLTIP_DELIMITER$\n$ming_nongmin_notification_desc$"
+ 
+ gov_tianchao_absolute_empire:0 "天朝"
+ gov_tianchao_absolute_empire_desc:0 "[Concept('concept_ruler','$RULER_TITLE_EMPEROR_TIANCHAO$')]作为中央王朝绝对的权威，代表上天，对人世间的一切土地施加统治。[Concept('concept_ruler','$RULER_TITLE_EMPEROR_TIANCHAO$')]代表着昊天上帝的意志，自诩为普天之下的唯一至高统治者。"
+ RULER_TITLE_EMPEROR_TIANCHAO:0 "天子"
+ RULER_TITLE_EMPRESS_TIANCHAO:0 "天后"
+ RULER_TITLE_PRINCE_TIANCHAO:0 "太子"
+ RULER_TITLE_PRINCESS_TIANCHAO:0 "太女"
+ gov_tianchao_empire:0 "天朝"
+ gov_tianchao_constitutional_empire:0 "天朝议会"
+ gov_tianchao_constitutional_empire_desc:0 "[Concept('concept_ruler','$RULER_TITLE_EMPEROR_TIANCHAO$')]仍是名义上至高无上的存在，但是国政由他忠心的首辅和六部尚书共同辅佐处理，协助他接见地方代表，共同商议国是。[Concept('concept_ruler','$RULER_TITLE_EMPEROR_TIANCHAO$')]广开言路、兼听则明，天朝会议既是上天意志的体现，也是民众意愿的总和。"
+ gov_TIANCHAO_absolute_kingdom:0 "中华群雄"
+ gov_TIANCHAO_absolute_kingdom_desc:0 "中华群雄是对所有角逐中华帝国正统宝座的诸侯的统称。"
+ RULER_TITLE_KING_TIANCHAO:0 "藩王"
+ RULER_TITLE_QUEEN_TIANCHAO:0 "藩后"
+ RULER_TITLE_PRINCE_TIANCHAO:0 "王储"
+ RULER_TITLE_PRINCESS_TIANCHAO:0 "王女"
+ gov_TIANCHAO_feudal_kingdom:0 "亲王国"
+ gov_TIANCHAO_kingdom:0 "中华群雄"
+ gov_TIANCHAO_constitutional_kingdom:0 "中华群雄"
+ gov_xuanweisi_kingdom:0 "藩王国"
+ gov_xuanweisi_zongdu:0 "宣慰司"
+
+ state_trait_KUNYU_lin:0 "坤宇经济开发区"
+ je_lizhou_capital:0 "坤宇城改造计划"
+ je_lizhou_capital_reason:0 "我们的首都坐落在黎洲大陆的西侧，依傍在群山之侧，深林之中。然而这样的环境不适合我们经济的增长，我们需要在坤宇城周边推进城市化，让它成为世界瞩目的国际大都市！"
+
+ qingqiu:0 "青丘"
+ huizu:0 "凉"
+ manzu:0 "辽"
+ 
+ tianzhu:0 "天竺"
+
+ button_huizu:0 "促进西域认同"
+ button_huizu_desc:0 "信仰回教西域人在元代被称为色目人，现在被我们称为凉人，归化的色目人现在被认为是我们民族的分支，他们在保有一定的地方文化特色的同时，也将自己视为汉族的一部分。"
+ scripted_button_huizu_tt:0 "当地的部分色目人会同化为凉人"
+
+ je_lizhou_qingqiu:0 "原住民法案"
+ je_lizhou_qingqiu_reason:0 "根据新修订的法案，原住民被认为是与其他民族完全平等的国家公民。但是我们仍需要通过指导帮助他们融入我们的新国家。"
+ button_qingqiu:0 "归化原住民"
+ button_qingqiu_desc:0 "原住民被认同为我们国家的一部分，他们会保留原本的文化，但同时也摆脱部落的束缚，形成新的身份认同"
+ button_qingqiu_1:0 "反抗殖民者"
+ button_qingqiu_1_desc:0 "我们应该号召与青丘人的同胞与我们结盟起来反抗殖民者，我们会为他们提供武器装备，阻止西洋人扩大他们的地盘。"
+ company_kangtao:0 "康陶"
+ cnl_qingqiu_reb:0 "原住民反抗殖民"
+ state_trait_reb_anticolo:0 "反殖民运动"
+
+ #大顺
+ 
+ je_shun_tax:0 "均田免赋"
+ je_shun_tax_reason:0 "朝求生，暮求合，近来贫汉难存活。杀牛羊，备酒浆，开了城门迎闯王！\n 百姓们信任我们，是因为我们均田免赋的口号，但是我们是否真的能如他们所愿还天下一个朗朗乾坤，还需要我们用自己的行动来证明。"
+ 
+ je_shun_landlord:0 "诛杀士绅"
+ je_shun_landlord_reason:0 "在中原板荡，饿殍千里的时期，城中的士绅不知发粮救灾，反倒像贪婪的豚妖一样吸食着民脂民膏，变本加厉地剥削灾区的人民。猛药去疴，我们只有用最严厉的方式将他们诛灭，才能保障我们能有一个更加光明的未来！"
+ 
+ je_shun_land:0 "平均地权"
+ je_shun_land_reason:0 "我们的权力来自于人民，我们的力量也服务于人民。平均地权是我们新政权成立后需要尽早着手准备的事情，废除一切不平等的制度，做到人人有地耕，人人有粮吃。"
+ 
+ je_shun_opium:0 "禁止鸦片"
+ je_shun_opium_reason:0 "一种黑色的毒品在中国西南开始泛滥，它所到之处，民众当妻卖子家破人亡，我们的土地上，绝不能容忍这种惨剧继续扩散！必须尽早阻止这一切！"
+ 
+ je_shun_right:0 "还政于民"
+ je_shun_opium_right:0 "闯军从不是一家一姓之军队，天下也不是一家一姓之天下，如今大道既行，是时候还政于民了。"
+ 
+ # 日本国策
+ 
+ jungugo_jap:0 "这会让日本向军国主义发展。"
+ 
+ je_jap_1:0 "大陆政策：征服朝鲜"
+ je_jap_1_reason:0 "今陛下继承列祖列宗的伟业，欲开拓万里波涛，布国威于四方。\n然欲征服世界，必先征服唐土；惟欲征服唐土，必先征服辽东；欲图辽东，先谋划朝鲜。\n现在我国已不与往日同语，想要与西方列强并驱，就需要向外扩张，获取更大的市场和更多的资源，而朝鲜就是我们最合适的目标！"
+ je_jap_1_no_kor:0 "朝鲜不存在"
+ jap_antijapan:0 "反日活动"
+ 
+ je_jap_2:0 "大陆政策：征服辽东"
+ je_jap_2_reason:0 "今陛下继承列祖列宗的伟业，欲开拓万里波涛，布国威于四方。\n然欲征服世界，必先征服唐土；惟欲征服唐土，必先征服辽东；欲图辽东，先谋划朝鲜。\n朝鲜已经到手，如果能将关东广袤之土地纳入囊中，则平定唐土可计日而待之也。"
+
+ je_jap_3:0 "大陆政策：征服华北"
+ je_jap_3_reason:0 "今陛下继承列祖列宗的伟业，欲开拓万里波涛，布国威于四方。\n然欲征服世界，必先征服唐土；惟欲征服唐土，必先征服辽东；欲图辽东，先谋划朝鲜。\n长城以北已经平定，接下来我国应当一举南下，擒拿伪帝，平定中原！"
+
+ je_jap_4:0 "大陆政策：征服琉球"
+ je_jap_4_reason:0 "今陛下继承列祖列宗的伟业，欲开拓万里波涛，布国威于四方。\n征服唐土之关键，在于夺定唐东南之土；欲取唐东南之土，必先取台湾；欲夺台湾，先取琉球\n如果想要完成对中国的征服，我们必须先从海上出发，从海上彻底封锁中国东南，而第一步，就是夺走中国的属国琉球。"
+ 
+ je_jap_5:0 "大陆政策：征服台湾"
+ je_jap_5_reason:0 "今陛下继承列祖列宗的伟业，欲开拓万里波涛，布国威于四方。\n征服唐土之关键，在于夺定唐东南之土；欲取唐东南之土，必先取台湾；欲夺台湾，先取琉球\n琉球已经取得，此地可以作为我们进攻台湾的跳板。台湾开发日久，拥有丰富的资源和地理位置，我们有必要将他们整合为帝国的一部分。"
+
+ je_jap_6:0 "大陆政策：征服华南"
+ je_jap_6_reason:0 "今陛下继承列祖列宗的伟业，欲开拓万里波涛，布国威于四方。\n征服唐土之关键，在于夺定唐东南之土；欲取唐东南之土，必先取台湾；欲夺台湾，先取琉球\n一切准备就绪，对中国的全面战争即将开始，而我们也会夺得东亚正溯，成为亚洲唯一的主导者！"
+ 
+ je_jap_7:0 "武士道精神"
+ je_jap_7_reason:0 "长久以来，我国的官方意识形态都受到中国的影响，佛教、儒教甚至道教都在我国有着一席之地。如想摆脱中国，就必须先建立我们自己的信仰。我们将一些尚武思想与我们的传统原始拜物宗教结合，再融合一些中国的哲学思想，形成我们自己的指导宗教！神道教将更有利于我们强化君主至高无上的地位！"
+ jap_modifier_wushi:0 "武士道"
+ je_jap_8:0 "征服虾夷"
+ je_jap_8_reason:0 "自从大和民族存在开始，我们就在同北部的阿伊努人作斗争，并在千年的时间中将他们驱逐出本州岛。现在我们应当更进一步，彻底消灭这群野蛮人，将他们同化为大和民族的一部分。"
+ jap_modifier_tonghua:0 "同化虾夷"
+ jap_modifier_conquer:0 "殖民扩张"
+ button_jap_move_2:0 "整合北海道"
+ button_jap_move_2_desc:0 "随着越来越多的日本人进入北海道殖民，我们应该在北海道直接设立管辖机构，而不是放任其成为未整合地区。"
+ native_conscription_n: "阿伊努战团"
+ ani_def: "反日阿伊努军团"
+ 
+ je_jap_9:0 "移民夏威夷"
+ je_jap_9_reason:0 "我国的人口众多，在工业化过程中，产生了严重的社会动荡。但好在我们的邻国，夏威夷愿意接纳我国的移民，他们我国也可以通过这这种方式对其施加影响力。"
+ jap_modifier_haw:0 "太平洋霸权"
+ button_jap_move_1:0 "移民夏威夷"
+ button_jap_move_1_desc:0 "夏威夷缺乏劳动力人口，而我国恰好能为其提供劳工，双方若能达成一致，我们便可以将移民送到夏威夷群岛，增强我们的控制力和影响力。"
+ 
+ je_jap_10:0 "皇民化：台湾"
+ je_jap_10_reason:0 "为了让台湾彻底成为帝国的一部分，我们需要推行彻底的皇民化教育，让他们认为自己是日本人，从而忘掉自己原本的种族和血统，成为我们扩大战争的马前卒！"
+ jap_taiwan:0 "模范殖民地"
+ 
+ je_jap_11:0 "皇民化：朝鲜"
+ je_jap_11_reason:0 "大韩帝国已经在我们的支持下脱离中华，但是让他们整合进帝国是一个漫长的过程，在此之前我们需要对朝鲜人进行深入的皇民教育，让其成为我们的模范殖民地。"
+ 
+ button_jap_tegaoke_1:0 "出动特高课"
+ button_jap_tegaoke_1_desc:0 "我们可以出动特工来彻底地摧毁那些反日分子的根据地，杜绝他们的危害。"
+ 
+ je_jap_12:0 "皇民化：满洲"
+ je_jap_12_reason:0 "满洲已经归顺了帝国，我们需要派遣开拓团来开发这篇富饶的土地，将其整合后，帝国将不再是悬于孤岛上的羸弱之邦，我们也将拥有问鼎世界的能力。"
+
+ je_jap_13:0 "新式海军"
+ je_jap_13_reason:0 "帝国需要一支全新的海军，天皇将让萨摩藩担任这一职责，建设一支隶属于天皇的现代化海军。"
+
+ je_jap_14:0 "新式陆军"
+ je_jap_14_reason:0 "帝国需要一支全新的陆军，天皇将让长州藩担任这一职责，建设一支隶属于天皇的现代化陆军。"
+
+ je_jap_15:0 "大政赞翼会"
+ je_jap_15_reason:0 "在天皇陛下的英明领导下，日本帝国所有的派别都被整合进入了一个党派，大政翼赞会的宗旨是“实践翼赞大政的臣道，上意下达，下情上通，密切配合政府”。自此以后，服侍天皇陛下，争取帝国之荣耀成为所有皇民的唯一目标，日本将不再拥有那些可笑的党派之争。"
+ jap_modifier_zanyi:0 "大政赞翼"
+ 
+ je_jap_16:0 "国民热忱"
+ je_jap_16_reason:0 "维新以来，我国国民对于新政颇感兴趣，对于国体的争论也喋喋不休。也许我国发展的方向，最终会决定我们国家的走向！"
+ je_jap_16_goal:0 "国民热忱满格会让军国主义成为大众所向的道路，成功的军事扩张日志和军事的进展会让我们偏向军国主义。"
+ je_jap_16_fail:0 "民主化完成意味着我们的国民抛弃了军国主义道路。逐步的开化和对武力的克制会让我们偏向于民主主义。"
+ 
+ je_jap_16_var_tooltip: "#tooltip_header 每月变更由以下因素决定：#!\n$TOOLTIP_DELIMITER$\n#variable 国内支持军国的势力产生[Country.MakeScope.Var('jap_junguo_from_in_government_1').GetValue|-=]#!点\n#variable 国内支持民主的势力产生[Country.MakeScope.Var('jap_junguo_from_in_government_2').GetValue|-=]#!点\n#variable 国家处于战争状态或和平状态产生[Country.MakeScope.Var('jap_junguo_from_war').GetValue|-=]#!点"
+ 
+ je_jap_17:0 "海陆之争"
+ je_jap_17_reason:0 "维新以来，长州与萨摩的冲突便没有停止过。作为帝国的海军与陆军，我们需要安抚他们，让他们能够忠心地为帝国服务。"
+ je_jap_17_goal:0 "为了让海军与陆军更稳定地合作，我们需要让他们的支持度保持大致相等。"
+ je_jap_17_fail:0 "独走度过高意味着军队彻底失控，海陆冲突会彻底摧毁帝国！"
+ 
+ je_jap_17_var_tooltip: "#tooltip_header 每月变更由以下因素决定：#!\n$TOOLTIP_DELIMITER$\n#variable 陆海两军的支持度差额造成[Country.MakeScope.Var('jap_duzou_from_support').GetValue|-=]#!点\n#variable 陆海两军的将领人气差额造成[Country.MakeScope.Var('jap_duzou_from_power').GetValue|-=]#!点\n#variable 陆海两军的部队规模差额造成[Country.MakeScope.Var('jap_duzou_from_character').GetValue|-=]#!点"
+ 
+ journal_entry_goal_progress_je_jap_16:0 "国民热忱：#variable [ROOT.GetCountry.MakeScope.Var('jap_junguo_1').GetValue|0]#!（#tooltippable;tooltip:[ROOT.GetCountry.GetTooltipTag],je_jap_16_var_tooltip [ROOT.GetCountry.MakeScope.Var('jap_junguo_1_change').GetValue|1-=]#!）"
+ 
+ journal_entry_goal_progress_je_jap_17:0 "#RED #BOLD 独走度：#！#variable [ROOT.GetCountry.MakeScope.Var('jap_duzou').GetValue|0]#!（#tooltippable;tooltip:[ROOT.GetCountry.GetTooltipTag],je_jap_17_var_tooltip [ROOT.GetCountry.MakeScope.Var('jap_duzou_change').GetValue|1-=]#!） #！ \n #YELLOW 陆军支持度：#!#variable [ROOT.GetCountry.MakeScope.Var('jap_lujun').GetValue|0]#!\n#BLUE 海军支持度#!：#variable [ROOT.GetCountry.MakeScope.Var('jap_haijun').GetValue|0]#!"
+ 
+ duzou_max: "独走度过高意味着军队彻底失控，海陆冲突会彻底#RED 摧毁帝国#！ ！"
+ jap_modifier_dabeny:0 "大本营"
+ jap_modifier_dabeny_lujun:0 "IJA-帝国陆军"
+ jap_modifier_dabeny_haijun:0 "IJN-帝国海军"
+ 
+ button_jap_dabeny_1:0 "提拔陆军"
+ button_jap_dabeny_2:0 "增加陆军开支"
+ button_jap_dabeny_3:0 "贬谪陆军"
+ button_jap_dabeny_4:0 "削减陆军开支"
+ button_jap_dabeny_5:0 "提拔海军"
+ button_jap_dabeny_6:0 "增加海军开支"
+ button_jap_dabeny_7:0 "贬谪海军"
+ button_jap_dabeny_8:0 "削减海军开支"
+ button_jap_dabeny_9:0 "两军协作训练计划"
+ button_jap_dabeny_10:0 "鼓励两军协作演习"
+ button_jap_dabeny_11:0 "打击两军腐败"
+ button_jap_dabeny_12:0 "接触总司令部的指挥权"
+ 
+ button_jap_dabeny_1_desc:0 "我们将提拔对我方政府友好的军官，此举将使整个#YELLOW 陆军#!满意，并让我方获得有用的盟友。"
+ button_jap_dabeny_2_desc:0 "增加#YELLOW 陆军#!的预算肯定能使他们支持政府。"
+ button_jap_dabeny_3_desc:0 "政府将以某些原因，贬职几位被认为是不听指挥的#YELLOW 陆军#!军官。此举将使陆军更加#RED 独行其是。#！"
+ button_jap_dabeny_4_desc:0 "削减#YELLOW 陆军#!预算可以给我们省点钱，但他们肯定不喜欢这样。"
+ button_jap_dabeny_5_desc:0 "我们将提拔对我方政府友好的军官，此举将使整个#BLUE 海军#!满意，并让我方获得有用的盟友。"
+ button_jap_dabeny_6_desc:0 "增加#BLUE 海军#!的预算肯定能使他们支持政府。"
+ button_jap_dabeny_7_desc:0 "政府将以某些原因，贬职几位被认为是不听指挥的#BLUE 海军#!军官。此举将使陆军更加#RED 独行其是。#！"
+ button_jap_dabeny_8_desc:0 "削减#BLUE 海军#!预算可以给我们省点钱，但他们肯定不喜欢这样。"
+ button_jap_dabeny_9_desc:0 "通过举办陆海两军协作训练项目，我们可以稍微增加两军对我们的支持，并降低军方独走度。"
+ button_jap_dabeny_10_desc:0 "投入更多的资金，我们可以进行需要军中间合作的复杂军事演习，从而增加陆海两军对我们的支持，并显著降低独走度。"
+ button_jap_dabeny_11_desc:0 "打击海陆两军内部的腐败可以降低独走度，但我们会失去一定的支持，比较没有人愿意家丑外扬。"
+ button_jap_dabeny_12_desc:0 "我们可以采取严厉措施，让军队难以制造动荡，而这么做会极大损害我们与两军间的关系。这本书就可能导致严重后果。"
+ 
+ jungugo_lujun1: "#YELLOW 陆军#!#GREEN 支持+10#! \n #BLUE 海军#!#RED 支持-5 #！ \n #RED 独走度+1.5 #！"
+ jungugo_lujun2: "#YELLOW 陆军#!#GREEN 支持+5#! \n #BLUE 海军#!#RED 支持-2.5 #！ \n #RED 独走度+1.5 #！"
+ jungugo_lujun3: "#YELLOW 陆军#!#RED 支持-5#! \n #BLUE 海军#!#GREEN 支持+2.5 #！ \n #RED 独走度+1.5 #！"
+ jungugo_lujun4: "#YELLOW 陆军#!#RED 支持-5#! \n #BLUE 海军#!#GREEN 支持+2.5 #！ \n #RED 独走度+1.5 #！"
+ jungugo_lujun5: "#BLUE 海军#!#GREEN 支持+10#! \n #BLUE 海军#!#RED 支持-5 #！ \n #RED 独走度+1.5 #！"
+ jungugo_lujun6: "#BLUE 海军#!#GREEN 支持+5#! \n #BLUE 海军#!#RED 支持-2.5 #！ \n #RED 独走度+1.5 #！"
+ jungugo_lujun7: "#BLUE 海军#!#RED 支持-10#! \n #YELLOW 陆军#!#GREEN 支持+5 #！ \n #RED 独走度+1.5 #！"
+ jungugo_lujun8: "#BLUE 海军#!#RED 支持-5#! \n #YELLOW 陆军#!#GREEN 支持+2.5 #！ \n #RED 独走度+1.5 #！"
+ jungugo_lujun9: "#YELLOW 陆军#!#GREEN 支持+2.5#! \n #BLUE 海军#!#GREEN 支持+2.5 #！ \n #RED 独走度#！ #GREEN -5#！"
+ jungugo_lujun10: "#YELLOW 陆军#!#GREEN 支持+5#! \n #BLUE 海军#!#GREEN 支持+5 #！ \n #RED 独走度#！ #GREEN -25#！"
+ jungugo_lujun11: "#YELLOW 陆军#!#RED 支持-10#! \n #BLUE 海军#!#RED 支持-19 #！ \n #RED 独走度#！ #GREEN -10#！"
+ jungugo_lujun12: "#YELLOW 陆军#!#RED 支持-25#! \n #BLUE 海军#!#RED 支持-25 #！ \n #RED 独走度#！ #GREEN -40#！"
+ 
+ time_limit_180: "每180天可用"
+ time_limit_360: "每年可用"
+ time_limit_5y: "每五年可用"
+ 
+ junguo_zero:0 "国内的军国主义情绪已经彻底被冷却，民主的光辉降临了！"
+ 
+ je_jap_18:0 "自由民权运动：民主化"
+ je_jap_18_reason:0 "自改革以来，民主思想已经逐步开始在民间扩散。有识之士开始呼吁民众的觉醒，反对专制集权和君主独裁，为百姓争取自由民主的权利。"
+ je_jap_18_goal:0 ""
+ je_jap_18_fail:0 ""
+ 
+ jap_events.1.t:0 "军国主义的崛起"
+ jap_events.1.d:0 "当今的世界，只有武力是唯一的语言，要想我国不落后于他人，只有悉心武备，征服四方，将全民投入到生存空间的争夺中去。"
+ jap_events.1.f:0 "以军事组织的力量，作政权的重心，一切政 治的势力，都附从在军事势力之下，一切政治的组织，都附从在军国组织之下，必须这样，才能成为军国主义的国家"
+ jap_events.1.a:0 "旭日舞刀！"
+ jap_modifier_junguo:0 "皇国化"
+ 
+ jap_events.2.t:0 "大正民主的遗产"
+ jap_events.2.d:0 "民主的光辉正继续照亮着整个帝国！"
+ jap_events.2.f:0 "我们在维新中学习到了新的思想和新的理念，在推行民主化进步思想的潮流中，我们认识到了权利的来源与国民的价值，只有坚定将民主思想遍及全国，我国才能才能真正做到以民为本，避免走上歧途！"
+ jap_events.2.a:0 "拥抱民主！(线路未制作，等待更新)"
+ jap_modifier_minzhu:"民主黎明"
+ 
+ jap_events.3.t:0 "道路的抉择"
+ jap_events.3.d:0 "幕府的阴霾已经褪去，摆在日本面前的是两条道路：还政于民，施行彻底的改革，让日本实现真正的民主化，还是学习西方列强，参与到瓜分世界的博弈中去？"
+ jap_events.3.f:0 "如果我们继续在国内挑起军国主义，对外发动战争，国民就会倾向于走向军国主义道路，最终让我们彻底走向一条不归路。如果我们把视角放在国内，开化民智，不断进步的国民就会让我们走向民主化。"
+ jap_events.3.a:0 "是时候前进了！"
+ 
+ jap_events.4.t:0 "反日活动兴起"
+ jap_events.4.d:0 "随着治安的松懈与恶化，[SCOPE.sState('kor_xiji_1').GetName]地区开始出现有组织的抵抗运动抵抗帝国的通知。"
+ jap_events.4.f:0 "一份又一份的报告被特高课提交，很明显一支有组织的抵抗力量正在[SCOPE.sState('kor_xiji_1').GetName]形成，我们必须尽早应对，以免他们威胁我们的殖民地安全。"
+ jap_events.4.a:0 "不过是弱者无谓的挣扎"
+ 
+ jap_events.5.t:0 "反日分子袭击"
+ jap_events.5.d:0 "今天，一支朝鲜的反日分子在帝国的[SCOPE.sState('kor_xiji_1').GetName]展开了恐怖袭击，他们的目的是抵抗帝国对朝鲜的统治。"
+ jap_events.5.f:0 "随着帝国对朝鲜统治的深入，越来越多的朝鲜人开始抗拒这一切，一些激进分子在帝国四处开展恐怖活动。他们袭击警察局，破坏各种基础设施，骚扰我们的军队，但是这种不自量力的抵抗最终会被我们肃清。"
+ jap_events.5.a:0 "螳臂挡车罢了"
+ 
+ jap_events.6.t:0 ""
+ jap_events.6.d:0 ""
+ jap_events.6.f:0 ""
+ jap_events.6.a:0 ""
+ 
+ jap_events.7.t:0 "成功的行动"
+ jap_events.7.d:0 "特高课的特工和当地警察配合，废除顺利地捣毁了当地的反日分子窝点。"
+ jap_events.7.f:0 "“特高课”是日本的特务机构，也建立于19世纪末20世纪初。最初，特高科是一个应付国内事变的机构，但随着日本侵略中国和远东的需要，在被日军占领的中国各地的“日本领事馆警察署”内都设有一个“特高课”，负责侵华特务活动和谍报活动。"
+ jap_events.7.a:0 "天闹黑卡板载！"
+ jap_modifier_tgk:0 "特高课扫荡"
+ 
+ jap_events.8.t:0 "功亏一篑"
+ jap_events.8.d:0 "特高课的特工废了很大的精力来追捕当地的恐怖分子，但是这些反日分子躲过了搜查，让我们没能摧毁他们的核心根据地，尽管如此，我们依然破坏了他们大部分的活动网络。"
+ jap_events.8.f:0 "“特高课”是日本的特务机构，也建立于19世纪末20世纪初。最初，特高科是一个应付国内事变的机构，但随着日本侵略中国和远东的需要，在被日军占领的中国各地的“日本领事馆警察署”内都设有一个“特高课”，负责侵华特务活动和谍报活动。"
+ jap_events.8.a:0 "相关人员需要检讨！"
+ 
+ jap_events.9.t:0 "彻底的失败"
+ jap_events.9.d:0 "这帮抗日分子把我们耍得团团转，让我们要收网的时候，却发现我们的追查对象都是他们散布的诱饵，最终我们不但没有取得任何战果，反而自身损失惨重。"
+ jap_events.9.f:0 "“特高课”是日本的特务机构，也建立于19世纪末20世纪初。最初，特高科是一个应付国内事变的机构，但随着日本侵略中国和远东的需要，在被日军占领的中国各地的“日本领事馆警察署”内都设有一个“特高课”，负责侵华特务活动和谍报活动。"
+ jap_events.9.a:0 "主管人是谁？我要当他的介错人！"
+ 
+ prosperity_greater_or_equal:0 "公司繁荣度大于"
+ 
+ jap_events.10.t:0 "长州藩与萨摩藩"
+ jap_events.10.d:0 "倒幕之战中，长州与萨摩都是出兵主力。然而两者素有间隙，在争夺军权上有着无比尖锐的矛盾。以至于常常到了水火不容的地步。"
+ jap_events.10.f:0 "幕末时 日本 诸藩当中，以 萨摩藩 和 长州藩 最具政治上的影响力。 虽然当时双方都已经有武力讨伐幕府（讨幕）的打算，但因为西乡隆盛、 大久保利通 主导下的萨摩，曾于1864年的 禁门之变 中将长州势力逐出京都，并参与第一次长州征伐 (幕府与长州间的战争) ，故双方对彼此都怀有敌意。"
+ jap_events.10.a:0 "兄弟阋墙"
+ 
+ jap_events.11.t:0 "全面政变！"
+ jap_events.11.d:0 "昔日的阴影如今已升级为赤裸裸、公开的街头暴力。由大阴谋引发的妄想症似乎终于爆发成了公开的 “关公战秦琼”--以弱胜强。军队现在公开不值得信任，越来越不服从命令，暴力在街头肆虐。甚至在我们自己的政府内部，也有关于阴谋腐朽的说法，我们的政府正在从里到外腐烂。如果不这样做，局势将明显恶化--后果将不堪设想。"
+ jap_events.11.f:0 "今天是东京的又一天。大批工薪族、工厂工人、行人和平民走上街头，就像被风轻轻吹向目的地的尘埃。今天，市内轨道交通准时运行，顺利抵达所有站点，安全快捷地运送着人们。从皇宫看去，今天似乎很美好，甚至是田园诗般的美好。 成群结队穿着制服的人从横须贺的海军基地出发。他们的目的地是皇宫 文官政府已经辜负了日本人民的期望 现在就靠她在军队中的儿子们 来拯救她的末日了 他们是旁观者眼中的奇观；他们全副武装，身着卡其色制服，走在大街上，途中遇到的一切都尽收眼底。从埼玉县出发，军队开始了自己的行动。法律和礼节是该死的；现在是下级从下面、从结构之外进行统治的时候了。如果拯救日本所需要的仅仅是一些违反规则的行为，那么他们每次都会这么做。这些相互冲突的力量就像海浪拍打着墙壁一样迎面而来；在日本中部，他们相遇了。他们解下步枪，对准对方，但拒绝开火，他们将驻守首都的建筑，维持着不稳定的平衡。惊慌失措的国会调动了近卫第一师，命令他们保卫国会大厦和皇宫。"
+ jap_events.11.a:0 "内战爆发了！"
+ 
+ IJA:0 "日本帝国陆军"
+ IJA_ADJ:0 "日本帝国陆军"
+ 
+ IJN:0 "日本帝国海军"
+ IJN_ADJ:0 "日本帝国海军"
+ xiakeshang:0 "下克上"
+ 
+ # 1，消极怠工 2，贪污腐败 3，窃取机密 4，设施破坏 5，地方冲突 6，夺取区域 7，揭发违纪 8，全面冲突
+ 
+ # 势力范围内容
+ 
+ MING_CHINA:0 "大明帝国"
+ identity_tianchao:0 "天朝上国"
+ identity_tianchao_desc:0 "普天之下莫非王土，率土之滨莫非王臣。天朝上国是天子统御八荒的组织，尽管还有不服教化的野蛮人游离于文明的中心之外。番邦紧紧地团结在天朝皇帝的身边，组成一个以经济为主的共同体。天朝皇帝对四周的夷狄进行教化，帮助他们融入帝国的核心，成为中华文明的一部分。"
+ 
+ POWER_BLOC_COHESION_TURMOIL:0 "天朝本土动乱大于15%的省份数"
+ POWER_BLOC_COHESION_PEACE:0 "[concept_wending]的天朝"
+ POWER_BLOC_COHESION_PEACE_1:0 "[concept_fanrong]的省份"
+ 
+ concept_wending: "和谐稳定"
+ concept_wending_desc: "和谐稳定是指：1，国家没有陷入[concept_war]：2，所有[concept_state][concept_turmoil]不超过10%：3，政府[concept_legitimacy]高于60：4，没有[concept_revolution]与[concept_secession]。"
+ concept_fanrong: "繁荣"
+ concept_fanrong_desc: "繁荣的省份是指：1，[concept_state][concept_turmoil]小于10% 2，[concept_loyalist]大于5% 3，[concept_unemployed]率等于0 4，[concept_sol]最低为10。 符合以上条件的省份。"
+ tianchao_reform:0 "天命改革"
+ 
+ principle_group_tianchao_neisheng:0 "内圣之道"
+ principle_group_tianchao_neisheng_desc:0 "在处理外部问题以前，我们应该先完备自身。" 
+ principle_tianchao_neisheng_1:0 "御民之道"
+ principle_tianchao_neisheng_1_desc:0 "我们有专门的方法来统御和安抚百姓。" 
+ principle_tianchao_neisheng_2:0 "行政之道"
+ principle_tianchao_neisheng_2_desc:0 "通过改革行政，我们能让六部更高效地完成任务。" 
+ principle_tianchao_neisheng_3:0 "商贸之道"
+ principle_tianchao_neisheng_3_desc:0 "商业如同我们内部的血液，我们要想办法让帝国的经脉疏通，血液流动！" 
+ 
+ principle_group_tianchao_waiwang:0 "外王之道"
+ principle_group_tianchao_waiwang_desc:0 "我们上承天命，唯一的职责就是向边缘的蛮夷传播王化，如果他们听不懂我们的诗歌，就让他们听懂我们的刀剑！"
+ principle_tianchao_waiwang_1:0 "吊民伐罪"
+ principle_tianchao_waiwang_2:0 "四海布德"
+ principle_tianchao_waiwang_3:0 "六师宣威"
+ principle_tianchao_waiwang_1_desc:0 "王师讨伐敌军，都是师出有名。"
+ principle_tianchao_waiwang_2_desc:0 "我们需要向四方的蛮夷宣扬我们的威名。"
+ principle_tianchao_waiwang_3_desc:0 "普天之下莫非王土，我们需要将世界把握手中。"
+ 
+ subject_type_jimi_china: "@jimi_china! $subject_type_jimi_china_no_icon$"
+ subject_type_jimi_china_no_icon: "$concept_jimi_china$"
+ 
+ concept_jimi_china: "羁縻"
+ concept_jimi_china_desc: "名义上册封的属国，皇帝几乎不干涉属国内政，羁縻地区需要向朝廷缴纳税金。"
+ 
+ jimi_china: "羁縻"
+ jimi_china_desc: "名义上册封的属国，皇帝几乎不干涉属国内政，羁縻地区需要向朝廷缴纳税金。"
+ jimi_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_jimi_china]"
+ 
+ subject_type_tusi_china: "@tusi_china! $subject_type_tusi_china_no_icon$"
+ subject_type_tusi_china_no_icon: "$concept_tusi_china$"
+ 
+ concept_tusi_china: "土司"
+ concept_tusi_china_desc: "帝国境内的土著地区，由世袭的部落首领进行统治，虽然需要收到朝廷的册封，但是平常与独立王国别无二致。"
+ 
+ tusi_china: "土司"
+ tusi_china_desc: "帝国境内的土著地区，由世袭的部落首领进行统治，虽然需要收到朝廷的册封，但是平常与独立王国别无二致。"
+ tusi_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_tusi_china]"
+ 
+ tusi_china_action_break_name: "取消土司册封关系"
+ chaogong_china_action_break_name: "断绝朝贡关系"
+ 
+ subject_type_chaogong_china: "@chaogong_china! $subject_type_chaogong_china_no_icon$"
+ subject_type_chaogong_china_no_icon: "$concept_chaogong_china$"
+ 
+ concept_chaogong_china: "朝贡"
+ concept_chaogong_china_desc: "名义上朝贡国是天朝的一部分，需要上交贡品换取在帝国内贸易的权利，而帝国往往会回馈更多，其内政与军事往往独立于中央王朝。"
+ chaogong_china_effect_desc_first: "[TARGET_COUNTRY.GetName]成为[COUNTRY.GetName]的[concept_chaogong_china]"
+ 
+ chaogong_china: "朝贡"
+ chaogong_china_desc: "名义上朝贡国是天朝的一部分，需要上交贡品换取在帝国内贸易的权利，而帝国往往会回馈更多，其内政与军事往往独立于中央王朝。"
+ chaogong_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_chaogong_china]"
+ 
+ subject_type_xuanweisi_china: "@xuanweisi_china! $subject_type_xuanweisi_china_no_icon$"
+ subject_type_xuanweisi_china_no_icon: "$concept_xuanweisi_china$"
+ 
+ concept_xuanweisi_china: "宣慰司"
+ concept_xuanweisi_china_desc: "宣慰司被认为是帝国的本土，属于帝国的边缘地带，这里往往被由朝廷册封的异族头目所统治，同时朝廷也派遣官员共同参与治理。"
+ 
+ xuanweisi_china: "宣慰司"
+ xuanweisi_china_desc: "宣慰司被认为是帝国的本土，属于帝国的边缘地带，这里往往被由朝廷册封的异族头目所统治，同时朝廷也派遣官员共同参与治理。"
+ xuanweisi_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_xuanweisi_china]"
+ 
+ subject_type_fanwang_china: "@fanwang_china! $subject_type_fanwang_china_no_icon$"
+ subject_type_fanwang_china_no_icon: "$concept_fanwang_china$"
+ 
+ concept_fanwang_china: "藩属"
+ concept_fanwang_china_desc: "藩属国是帝国的一部分，统治者往往是帝国册封的亲王或郡王。在当前天朝的藩属管理中，藩国的军权和治权被分离，藩王仅仅有名义上的封地，实质上封地的人口和军队都收到朝廷的管理和节制。"
+ 
+ fanwang_china: "藩属"
+ fanwang_china_desc: "藩属国是帝国的一部分，统治者往往是帝国册封的亲王或郡王。在当前天朝的藩属管理中，藩国的军权和治权被分离，藩王仅仅有名义上的封地，实质上封地的人口和军队都收到朝廷的管理和节制。"
+ fanwang_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_fanwang_china]"
+ 
+ subject_type_buzhengsi_china: "@buzhengsi_china! $subject_type_buzhengsi_china_no_icon$"
+ subject_type_buzhengsi_china_no_icon: "$concept_buzhengsi_china$"
+ 
+ concept_buzhengsi_china: "布政司"
+ concept_buzhengsi_china_desc: "全名是承天布政使司，是帝国领土的一部分，与天子统治下的其他土地别无二致，仅仅是特许巡抚总督便宜行事。"
+ 
+ buzhengsi_china: "布政司"
+ buzhengsi_china_desc: "全名是承天布政使司，是帝国领土的一部分，与天子统治下的其他土地别无二致，仅仅是特许巡抚总督便宜行事。"
+ buzhengsi_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_buzhengsi_china]"
+ 
+ yimin_china_1: "招募移民" 
+ yimin_china_2: "研发殖民技术" 
+ yimin_china_3: "请求财政拨款" 
+ yimin_china_4: "开垦更多土地" 
+ yimin_china_5: "宣称更多领土"
+ yimin_china_6: "请求行政援助" 
+ yimin_china_7: "请求外交援助" 
+ yimin_china_8: "请求天兵救援" 
+ yimin_china_9: "请求教育援助" 
+ yimin_china_10: "请求军事援助" 
+ yimin_china_11: "请求建设援助"
+ yimin_china_12: "向朝廷进贡"
+ 
+ yimin_china_1_desc: "[TARGET_COUNTRY.GetName]人口众多，我们可以吸引一些没有土地的本地居民前往新大陆开拓殖民地。" 
+ yimin_china_2_desc: "在新世界遇到的困难远比我们想得要多，为了解决瘴气的困扰，我们可以请求[TARGET_COUNTRY.GetName]协助研究。" 
+ yimin_china_3_desc: "我们的财政已经捉襟见肘，一笔来自大明的拨款可以为我们雪中送炭！" 
+ yimin_china_4_desc: "我们殖民地的潜力还有待开发，我们可以扩张可耕作土地来容纳更多人口。" 
+ yimin_china_5_desc: "普天之下莫非王土，率土之滨莫非王臣。所有与我们相邻的殖民区域都应该属于我们的管辖。"
+ yimin_china_6_desc: "行政机构的扩张让我们的官员捉襟见肘，我们应该向大明求助，获取一批文员帮我们处理内务。" 
+ yimin_china_7_desc: "外交部门的扩张让我们的官员捉襟见肘，我们应该向大明求助，获取一批文员帮我们处理外务。" 
+ yimin_china_8_desc: "对外战争让我国独木难支，我们可以向大明求助，帮我们击败外敌。" 
+ yimin_china_9_desc: "我国对于教育的需求空前膨胀，让大明调拨一些教师和学校资源会是一个不错的选择。" 
+ yimin_china_10_desc: "我国军队需要整顿，如果能得到大明的帮助，就能迅速提升我国军事实力。" 
+ yimin_china_11_desc: "我国的建筑部门难以满足需求，向大明请求一批工匠援助能解决我们的燃眉之急。"
+ yimin_china_12_desc: "是时候展现我们的忠诚了，我们将向大明朝贡，赢取大明的信赖。"
+ 
+ yimin_china_1_action_notification_name: "[INITIATOR_COUNTRY.GetName]开始招揽移民" 
+ yimin_china_2_action_notification_name: "[INITIATOR_COUNTRY.GetName]研发殖民技术" 
+ yimin_china_3_action_notification_name: "[INITIATOR_COUNTRY.GetName]请求财政拨款" 
+ yimin_china_4_action_notification_name: "[INITIATOR_COUNTRY.GetName]开垦土地" 
+ yimin_china_5_action_notification_name: "[INITIATOR_COUNTRY.GetName]宣称边疆"
+ yimin_china_6_action_notification_name: "[INITIATOR_COUNTRY.GetName]请求行政援助" 
+ yimin_china_7_action_notification_name: "[INITIATOR_COUNTRY.GetName]请求外交援助。" 
+ yimin_china_8_action_notification_name: "[INITIATOR_COUNTRY.GetName]请求天朝参战" 
+ yimin_china_9_action_notification_name: "[INITIATOR_COUNTRY.GetName]请求教育援助。" 
+ yimin_china_10_action_notification_name: "[INITIATOR_COUNTRY.GetName]请求军事援助" 
+ yimin_china_11_action_notification_name: "[INITIATOR_COUNTRY.GetName]请求建设援助"
+ 
+ yimin_china_1_action_notification_desc: "[INITIATOR_COUNTRY.GetName]开始招揽[TARGET_COUNTRY.GetName]的移民进入本国。" 
+ yimin_china_2_action_notification_desc: "[TARGET_COUNTRY.GetName]协助[INITIATOR_COUNTRY.GetName]研发了殖民技术" 
+ yimin_china_3_action_notification_desc: "[TARGET_COUNTRY.GetName]向[INITIATOR_COUNTRY.GetName]拨了一大笔款，用以协助其财政。" 
+ yimin_china_4_action_notification_desc: "[TARGET_COUNTRY.GetName]协助[INITIATOR_COUNTRY.GetName]在本国殖民地开垦土地。" 
+ yimin_china_5_action_notification_desc: "[TARGET_COUNTRY.GetName]天子准许了[INITIATOR_COUNTRY.GetName]对边疆省份的宣称。"
+ yimin_china_6_action_notification_desc: "[TARGET_COUNTRY.GetName]派遣文官支援[INITIATOR_COUNTRY.GetName]的行政。" 
+ yimin_china_7_action_notification_desc: "[TARGET_COUNTRY.GetName]派遣礼部支援[INITIATOR_COUNTRY.GetName]的外交。" 
+ yimin_china_8_action_notification_desc: "[TARGET_COUNTRY.GetName]宣布介入[INITIATOR_COUNTRY.GetName]的战争！" 
+ yimin_china_9_action_notification_desc: "[TARGET_COUNTRY.GetName]援助[INITIATOR_COUNTRY.GetName]建立了大学。" 
+ yimin_china_10_action_notification_desc: "[TARGET_COUNTRY.GetName]派遣武将支援[INITIATOR_COUNTRY.GetName]的军队建设。" 
+ yimin_china_11_action_notification_desc: "[TARGET_COUNTRY.GetName]派遣工部官员支援[INITIATOR_COUNTRY.GetName]的城建。"
+ 
+ yimin_china_12_action_notification_name: "[INITIATOR_COUNTRY.GetName]向朝廷进贡"
+ yimin_china_12_action_notification_desc: "[INITIATOR_COUNTRY.GetName]派遣一支使团向[TARGET_COUNTRY.GetName]朝贡。"
+ 
+ yimin_china_1_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]开始招揽移民" 
+ yimin_china_2_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]研发殖民技术" 
+ yimin_china_3_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]请求财政拨款" 
+ yimin_china_4_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]开垦土地" 
+ yimin_china_5_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]宣称边疆"
+ yimin_china_6_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]请求行政援助" 
+ yimin_china_7_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]请求外交援助。" 
+ yimin_china_8_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]请求天朝参战" 
+ yimin_china_9_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]请求教育援助。" 
+ yimin_china_10_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]请求军事援助" 
+ yimin_china_11_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]请求建设援助"
+ yimin_china_12_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]向朝廷进贡"
+ 
+ yimin_china_1_action_notification_third_party_desc: "[INITIATOR_COUNTRY.GetName]开始招揽[TARGET_COUNTRY.GetName]的移民进入本国。" 
+ yimin_china_2_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]协助[INITIATOR_COUNTRY.GetName]研发了殖民技术" 
+ yimin_china_3_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]向[INITIATOR_COUNTRY.GetName]拨了一大笔款，用以协助其财政。" 
+ yimin_china_4_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]协助[INITIATOR_COUNTRY.GetName]在本国殖民地开垦土地。" 
+ yimin_china_5_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]天子准许了[INITIATOR_COUNTRY.GetName]对边疆省份的宣称。"
+ yimin_china_6_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]派遣文官支援[INITIATOR_COUNTRY.GetName]的行政。" 
+ yimin_china_7_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]派遣礼部支援[INITIATOR_COUNTRY.GetName]的外交。" 
+ yimin_china_8_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]宣布介入[INITIATOR_COUNTRY.GetName]的战争！" 
+ yimin_china_9_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]援助[INITIATOR_COUNTRY.GetName]建立了大学。" 
+ yimin_china_10_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]派遣武将支援[INITIATOR_COUNTRY.GetName]的军队建设。" 
+ yimin_china_11_action_notification_third_party_desc: "[TARGET_COUNTRY.GetName]派遣工部官员支援[INITIATOR_COUNTRY.GetName]的城建。"
+ yimin_china_12_action_notification_third_party_desc: "[INITIATOR_COUNTRY.GetName]派遣一支使团向[TARGET_COUNTRY.GetName]朝贡。"
+ 
+ yimin_china_3_proposal_third_party_accepted_name: "[INITIATOR_COUNTRY.GetName]请求财政拨款"
+ yimin_china_3_proposal_third_party_accepted_desc: "[TARGET_COUNTRY.GetName]向[INITIATOR_COUNTRY.GetName]拨了一大笔款，用以协助其财政。"
+ 
+ yimin_china_4_proposal_third_party_accepted_name: "[INITIATOR_COUNTRY.GetName]开垦土地"
+ yimin_china_4_proposal_third_party_accepted_desc: "[TARGET_COUNTRY.GetName]协助[INITIATOR_COUNTRY.GetName]在本国殖民地开垦土地。"
+ 
+ yimin_china_8_proposal_third_party_accepted_name: "[INITIATOR_COUNTRY.GetName]请求天朝参战"
+ yimin_china_8_proposal_third_party_accepted_desc: "[TARGET_COUNTRY.GetName]宣布介入[INITIATOR_COUNTRY.GetName]的战争！"
+ 
+ yimin_china_9_proposal_third_party_accepted_name: "[INITIATOR_COUNTRY.GetName]请求教育援助"
+ yimin_china_9_proposal_third_party_accepted_desc: "[TARGET_COUNTRY.GetName]援助[INITIATOR_COUNTRY.GetName]建立了大学。"
+ 
+ yimin_china_10_proposal_third_party_accepted_name: "[INITIATOR_COUNTRY.GetName]请求军事援助"
+ yimin_china_10_proposal_third_party_accepted_desc: "[TARGET_COUNTRY.GetName]派遣武将支援[INITIATOR_COUNTRY.GetName]的军队建设。"
+ 
+ yimin_china_11_proposal_third_party_accepted_name: "[INITIATOR_COUNTRY.GetName]请求建设援助"
+ yimin_china_11_proposal_third_party_accepted_desc: "[TARGET_COUNTRY.GetName]派遣工部官员支援[INITIATOR_COUNTRY.GetName]的城建。"
+ 
+ yimin_china_3_proposal_third_party_declined_name: "[INITIATOR_COUNTRY.GetName]请求财政拨款遭到拒绝"
+ yimin_china_3_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]驳回了向[INITIATOR_COUNTRY.GetName]财政拨款的议题。"
+ 
+ yimin_china_4_proposal_third_party_declined_name: "[INITIATOR_COUNTRY.GetName]开垦土地遭到拒绝"
+ yimin_china_4_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]不愿协助[INITIATOR_COUNTRY.GetName]在开垦土地。"
+ 
+ yimin_china_8_proposal_third_party_declined_name: "[INITIATOR_COUNTRY.GetName]请求天朝参战遭到拒绝"
+ yimin_china_8_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]宣布在[INITIATOR_COUNTRY.GetName]的战争保持中立。"
+ 
+ yimin_china_9_proposal_third_party_declined_name: "[INITIATOR_COUNTRY.GetName]请求教育援助遭到拒绝"
+ yimin_china_9_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]拒绝援助[INITIATOR_COUNTRY.GetName]建立大学。"
+ 
+ yimin_china_10_proposal_third_party_declined_name: "[INITIATOR_COUNTRY.GetName]请求军事援助遭到拒绝"
+ yimin_china_10_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]否决了派遣武将支援[INITIATOR_COUNTRY.GetName]的提议。"
+ 
+ yimin_china_11_proposal_third_party_declined_name: "[INITIATOR_COUNTRY.GetName]请求建设援助遭到拒绝"
+ yimin_china_11_proposal_third_party_declined_desc: "[TARGET_COUNTRY.GetName]否决了派遣工部官员支援[INITIATOR_COUNTRY.GetName]的提议。"
+ 
+ yimin_china_3_proposal_declined_name: "[INITIATOR_COUNTRY.GetName]请求财政拨款遭到拒绝"
+ yimin_china_3_proposal_declined_desc: "[TARGET_COUNTRY.GetName]驳回了向[INITIATOR_COUNTRY.GetName]财政拨款的议题。"
+ 
+ yimin_china_4_proposal_declined_name: "[INITIATOR_COUNTRY.GetName]开垦土地遭到拒绝"
+ yimin_china_4_proposal_declined_desc: "[TARGET_COUNTRY.GetName]不愿协助[INITIATOR_COUNTRY.GetName]在开垦土地。"
+ 
+ yimin_china_8_proposal_declined_name: "[INITIATOR_COUNTRY.GetName]请求天朝参战遭到拒绝"
+ yimin_china_8_proposal_declined_desc: "[TARGET_COUNTRY.GetName]宣布在[INITIATOR_COUNTRY.GetName]的战争保持中立。"
+ 
+ yimin_china_9_proposal_declined_name: "[INITIATOR_COUNTRY.GetName]请求教育援助遭到拒绝"
+ yimin_china_9_proposal_declined_desc: "[TARGET_COUNTRY.GetName]拒绝援助[INITIATOR_COUNTRY.GetName]建立大学。"
+ 
+ yimin_china_10_proposal_declined_name: "[INITIATOR_COUNTRY.GetName]请求军事援助遭到拒绝"
+ yimin_china_10_proposal_declined_desc: "[TARGET_COUNTRY.GetName]否决了派遣武将支援[INITIATOR_COUNTRY.GetName]的提议。"
+ 
+ yimin_china_11_proposal_declined_name: "[INITIATOR_COUNTRY.GetName]请求建设援助遭到拒绝"
+ yimin_china_11_proposal_declined_desc: "[TARGET_COUNTRY.GetName]否决了派遣工部官员支援[INITIATOR_COUNTRY.GetName]的提议。"
+ 
+ yimin_china_3_proposal_notification_name: "[INITIATOR_COUNTRY.GetName]请求财政拨款"
+ yimin_china_3_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]希望[TARGET_COUNTRY.GetName]能够拨款给他们来缓解他们的财政困难。"
+
+ yimin_china_3_proposal_accepted_name: "[INITIATOR_COUNTRY.GetName]请求财政拨款被接受了"
+ yimin_china_3_proposal_accepted_desc: "[INITIATOR_COUNTRY.GetName]拨款给[TARGET_COUNTRY.GetName]来缓解他们的财政困难。"
+ 
+ yimin_china_4_proposal_notification_name: "[INITIATOR_COUNTRY.GetName]开垦土地"
+ yimin_china_4_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]希望[TARGET_COUNTRY.GetName]协助他们开垦土地。"
+ 
+ yimin_china_8_proposal_notification_name: "[INITIATOR_COUNTRY.GetName]请求天朝参战"
+ yimin_china_8_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]请求[TARGET_COUNTRY.GetName]在战争中帮助他们。"
+ 
+ yimin_china_9_proposal_notification_name: "[INITIATOR_COUNTRY.GetName]请求教育援助"
+ yimin_china_9_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]请求[TARGET_COUNTRY.GetName]援助大学。"
+ 
+ yimin_china_10_proposal_notification_name: "[INITIATOR_COUNTRY.GetName]请求军事援助"
+ yimin_china_10_proposal_notification_desc: "[TARGET_COUNTRY.GetName]派遣武将支援[INITIATOR_COUNTRY.GetName]的军队建设。"
+ 
+ yimin_china_11_proposal_notification_name: "[INITIATOR_COUNTRY.GetName]请求建设援助"
+ yimin_china_11_proposal_notification_desc: "[TARGET_COUNTRY.GetName]派遣工部官员支援[INITIATOR_COUNTRY.GetName]的城建。"
+ 
+ jujue_qingqiu: "拒绝属国请求"
+ 
+ tianchao_china_1: "要求进贡宦官"
+ tianchao_china_1_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要提拔[TARGET_COUNTRY.GetName]的宦官入宫协助宫廷各项事务。"
+ tianchao_china_1_proposal_third_party_accepted_name: "要求进贡宦官"
+ tianchao_china_1_proposal_third_party_accepted_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要提拔[TARGET_COUNTRY.GetName]的宦官入宫协助宫廷各项事务。"
+ tianchao_china_1_proposal_notification_name: "要求进贡宦官"
+ tianchao_china_1_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要提拔[TARGET_COUNTRY.GetName]的宦官入宫协助宫廷各项事务。"
+
+ tianchao_china_1_action_propose_name: "要求进贡宦官"
+ tianchao_china_1_action_propose_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要提拔[TARGET_COUNTRY.GetName]的宦官入宫协助宫廷各项事务。"
+ tianchao_china_1_action_break_name: "停止进贡宦官"
+ tianchao_china_1_action_break_desc: "[INITIATOR_COUNTRY.GetName]朝廷不再需要[TARGET_COUNTRY.GetName]的宦官入宫。"
+ tianchao_china_1_pact_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要提拔[TARGET_COUNTRY.GetName]的宦官入宫协助宫廷各项事务。"
+
+ tianchao_china_1_proposal_accepted_name: "[TARGET_COUNTRY.GetName]进贡宦官"
+ tianchao_china_1_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]进贡宦官给[INITIATOR_COUNTRY.GetName]协助处理宫廷各项事务。"
+ 
+ tianchao_china_1_proposal_decline_name: "[TARGET_COUNTRY.GetName]拒绝进贡宦官"
+ tianchao_china_1_proposal_decline_desc: "[TARGET_COUNTRY.GetName]将朝贡要求置若罔闻。"
+ 
+ tianchao_china_2: "要求进贡珍宝"
+ tianchao_china_2_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要[TARGET_COUNTRY.GetName]进贡本地的奇珍异宝填充天朝的博物馆。"
+ tianchao_china_2_proposal_third_party_accepted_name: "要求进贡珍宝"
+ tianchao_china_2_proposal_third_party_accepted_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要[TARGET_COUNTRY.GetName]进贡本地的奇珍异宝填充天朝的博物馆。"
+ tianchao_china_2_proposal_notification_name: "要求进贡珍宝"
+ tianchao_china_2_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要[TARGET_COUNTRY.GetName]进贡本地的奇珍异宝填充天朝的博物馆。"
+ 
+ tianchao_china_2_action_notification_name: "[INITIATOR_COUNTRY.GetName]要求[TARGET_COUNTRY.GetName]进贡珍宝" 
+ tianchao_china_2_action_notification_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要[TARGET_COUNTRY.GetName]进贡本地的奇珍异宝填充天朝的博物馆。" 
+
+ tianchao_china_2_proposal_accepted_name: "[TARGET_COUNTRY.GetName]进贡珍宝"
+ tianchao_china_2_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]进贡珍宝给[INITIATOR_COUNTRY.GetName]来填充天朝的收藏库。"
+ 
+ tianchao_china_2_proposal_decline_name: "[TARGET_COUNTRY.GetName]拒绝进贡珍宝"
+ tianchao_china_2_proposal_decline_desc: "[TARGET_COUNTRY.GetName]将朝贡要求置若罔闻。"
+ 
+ tianchao_china_3: "整合布政司"
+ tianchao_china_3_desc: "将布政司整合进帝国，成为国家的一部分。"
+ 
+ tianchao_china_3_action_notification_name: "[INITIATOR_COUNTRY.GetName]整合[TARGET_COUNTRY.GetName]" 
+ tianchao_china_3_action_notification_desc: "[INITIATOR_COUNTRY.GetName]将[TARGET_COUNTRY.GetName]并入本土，成为国家的一部分。" 
+ 
+ tianchao_china_3_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]整合[TARGET_COUNTRY.GetName]"
+ tianchao_china_3_action_notification_third_party_desc: "[INITIATOR_COUNTRY.GetName]将[TARGET_COUNTRY.GetName]并入本土，成为国家的一部分。"
+ 
+ tianchao_china_4: "册封附属国"
+ tianchao_china_4_desc: "将附属国纳入天朝朝贡体系。"
+ 
+ tianchao_china_4_action_notification_name: "[INITIATOR_COUNTRY.GetName]册封[TARGET_COUNTRY.GetName]" 
+ tianchao_china_4_action_notification_desc: "[INITIATOR_COUNTRY.GetName]将[TARGET_COUNTRY.GetName]册封为朝贡体系的一员。" 
+ 
+ tianchao_china_4_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]册封[TARGET_COUNTRY.GetName]"
+ tianchao_china_4_action_notification_third_party_desc: "[INITIATOR_COUNTRY.GetName]将[TARGET_COUNTRY.GetName]册封为朝贡体系的一员。"
+ 
+ tianchao_china_5: "赏赐附属国"
+ tianchao_china_5_desc: "赏赐一笔款项给附属国。"
+ 
+ tianchao_china_5_action_notification_name: "[INITIATOR_COUNTRY.GetName]赏赐[TARGET_COUNTRY.GetName]" 
+ tianchao_china_5_action_notification_desc: "[INITIATOR_COUNTRY.GetName]向[TARGET_COUNTRY.GetName]赏赐一笔巨款，来安抚其统治者。" 
+ 
+ tianchao_china_5_action_notification_third_party_name: "[INITIATOR_COUNTRY.GetName]赏赐[TARGET_COUNTRY.GetName]"
+ tianchao_china_5_action_notification_third_party_desc: "[INITIATOR_COUNTRY.GetName]向[TARGET_COUNTRY.GetName]赏赐一笔巨款，来安抚其统治者。"
+ 
+ jimi_china_action_break_name: "取消羁縻关系"
+ fanwang_china_action_break_name: "取消藩属关系"
+ xuanweisi_china_action_break_name: "取消宣慰司关系"
+ buzhengsi_action_break_name: "取消布政司关系"
+ tusi_china_action_break_name: "取消土司关系"
+ chaogong_china_action_break_name: "取消朝贡关系"
+ duhufu_3_china_action_break_name: "取消都护关系"
+ duhufu_2_china_action_break_name: "取消都护关系"
+ duhufu_1_china_action_break_name: "取消都护关系"
+
+ zhiminjishu_have: "开发过殖民技术"
+ 
+ ming_banner:0 "三千营骑兵"
+ last_khan: "最后的大汗"
+ 
+ je_china_dongbei:0 "开发北大荒"
+ je_china_dongbei_reason:0 "中国东三省是一片富有潜力的黑土地，但是还远远没有被开发，我们应该好好地耕耘这里，让此处成为我国的粮食支柱产地！让北大荒变成北大仓！"
+ 
+ state_trait_dongbei: "东北黑土地"
+ 
+ je_great_game_china_control: "远东大博弈"
+ je_great_game_china_control_reason: "进度条向#bold 左#!推进有利于#v $GBR$#!，进度条向#bold 右#!推进有利于#v $CNM$#!。\n\n#bold 远东大博弈#!是#v $GBR$#!和#v $CNM$#!为争夺[SCOPE.sStrategicRegion('indochina_region').GetName]及周边影响力而产生的冲突。随着西方列强的侵入，#v $CNM$#!在亚洲的霸主地位受到挑战，西方列强希望肢解#v $CNM$#!原有的朝贡国体系，用西方的国际体系取而代之。#bold 远东大博弈#!双方政府都不认为能在军事上全面战胜对手，于是通过一系列间接斗争来对两国间的国家施加影响。\n\n#bold 胜利：\n[SCOPE.GetRootScope.GetCountry.GetCustom('great_game_china_victory_tibtean')][SCOPE.GetRootScope.GetCountry.GetCustom('great_game_china_victory_mlj')][SCOPE.GetRootScope.GetCountry.GetCustom('great_game_china_victory_ind')][SCOPE.GetRootScope.GetCountry.GetCustom('great_game_china_victory_qng')]#!\n#bold 进展：#!"
+ 
+ CNMGBR_expelled_from_casia_tt: "#v $CNM$#!或#v $GBR$#!在[SCOPE.sStrategicRegion('indochina_region').GetName]或[SCOPE.sStrategicRegion('indonesia_region').GetName][Concept('concept_strategic_region','$concept_strategic_regions$')]都未拥有任何[Concept('concept_subject', '$concept_subjects$')]或[Concept('concept_state', '$concept_states$')]"
+ 
+ great_game_china_balance_passive_var: "直接控制或[concept_subject]控制的#v 中南半岛#!或#v 印度尼西亚#![Concept('concept_strategic_region','$concept_strategic_regions$')]的[concept_gdp]对比\n（#v $GBR$#!：[GetGlobalVariable('great_game_china_british_passive_var').GetValue|v1%]#!，#v $CNM$#!：[GetGlobalVariable('great_game_china_chinese_passive_var').GetValue|v1%]#!）"
+ 
+ great_game_china_core_progress_bar_name: "天朝博弈"
+ great_game_china_core_progress_bar_britain_desc: "[GetGlobalVariable('great_game_china_gbr_progress').GetValue|1]#!"
+ great_game_china_core_progress_bar_china_desc: "[GetGlobalVariable('great_game_china_mng_progress').GetValue|1]#!"
+ 
+ great_game_complete_tt: "#bold 大博弈#!已结束，[SCOPE.sStrategicRegion('indochina_region').GetName]、[SCOPE.sStrategicRegion('indonesia_region').GetName]和[SCOPE.sStrategicRegion('himalayas_region').GetName][Concept('concept_strategic_region','$concept_strategic_regions$')]的所有国家都是#v $CNM$#!或#v $GBR$#!的[concept_subject]或[concept_power_bloc]成员"
+ 
+ great_game_china_points_britain_increases_10_tt: "大博弈向大不列颠移动10"
+ great_game_china_points_britain_increases_15_tt: "大博弈向大不列颠移动15"
+ great_game_china_points_britain_increases_25_tt: "大博弈向大不列颠移动25"
+ great_game_china_points_britain_increases_50_tt: "大博弈向大不列颠移动50"
+ 
+ great_game_china_points_russia_increases_10_tt: "大博弈向中国移动10"
+ great_game_china_points_russia_increases_15_tt: "大博弈向中国移动15"
+ great_game_china_points_russia_increases_25_tt: "大博弈向中国移动25"
+ great_game_china_points_russia_increases_50_tt: "大博弈向中国移动50"
+ 
+ #争夺高原
+ je_great_game_tibtean: "争夺高原"
+ je_great_game_tibtean_reason: "世界屋脊---喜马拉雅山脉和青藏高原，是亚洲的中心。如果控制这里，向东可以威胁中国内地，向南可以控制印度，向西可以牵制阿富汗，染指中亚。正因其战略价值独特，英国希望能通过渗透这一区域，瓦解中国在高原的统治，从而更好地掌控亚洲。而中国则希望保护自己的领土，驱逐进犯的欧洲殖民者。"
+ 
+ tib_gser_tt: "驻藏大臣已被派遣"
+ 
+ gg_tib_china_won: "#bold 高原争夺#!——#variable 中国#!胜利\n"
+ gg_tib_gbr_won: "#bold 高原争夺#!——#variable 不列颠#!胜利\n"
+ gg_tib_inconclusive: "#bold 高原争夺#!——未分胜负\n"
+ 
+ #控制马六甲
+ je_great_game_china_mlj: "马六甲航道"
+ je_great_game_china_mlj_reason: "马六甲海峡是沟通东亚与印度洋最关键的通道，一旦控制这里，任何人想要穿过这道海峡都将受到我们的监控，我们也能保障自己从亚洲到欧洲的贸易路线。绝对不能让它落入敌人的手中！"
+ 
+ gg_mly_china_won: "#bold 马六甲争夺#!——#variable 中国#!胜利\n"
+ gg_mly_gbr_won: "#bold 马六甲争夺#!——#variable 不列颠#!胜利\n"
+ gg_mly_inconclusive: "#bold 马六甲争夺#!——未分胜负\n"
+ 
+ #肢解印度
+ je_great_game_china_india: "解放印度"
+ je_great_game_china_india_reason: "印度，古人谓之曰身毒，百年以来，为英吉利所图。兴港口，役民众，驻强军，通阡陌，更谋东向。欲求四境之安稳，必拔其据所，驱其总督，逐西洋于亚洲之外。故我等必解放印度于英人爪牙之下。"
+ 
+ je_great_game_china_india_tt: "已完成宣告英属印度成立决议"
+ 
+ gg_ind_china_won: "#bold 印度解放#!——#variable 中国#!胜利\n"
+ gg_ind_gbr_won: "#bold 印度整合#!——#variable 不列颠#!胜利\n"
+ gg_ind_inconclusive: "#bold 印度争夺#!——未分胜负\n"
+ 
+ #保护清朝
+ je_great_game_china_qing: "保护清朝"
+ je_great_game_china_qing_reason: "中国一旦统一，就可能对我们产生极大的威胁，因此，清朝作为可以牵制中国的重要工具，是我们天然的盟友和棋子，我们应当不遗余力地支援和保护他们，阻碍中国的统一。"
+ 
+ je_great_game_china_qing_tt: "清朝存在"
+ 
+ gg_qng_china_won: "#bold 消灭清朝#!——#variable 中国#!胜利\n"
+ gg_qng_gbr_won: "#bold 保护清朝#!——#variable 不列颠#!胜利\n"
+ gg_qng_inconclusive: "#bold 清朝博弈#!——未分胜负\n"
+ 
+ #控制日本
+ je_great_game_china_jap: "控制日本"
+ je_great_game_china_jap_reason: "日本长期以来处于闭关锁国的状态，他的地理环境优越，港口众多，一旦掌控日本列岛，我们的海军就能辐射整个中国沿海。"
+ 
+ #统一澳洲
+ 
+ 
+ # 宋卡任务
+ 
+ # 宋卡—摆脱桎梏
+ 
+ je_sogg_free: "摆脱桎梏"
+ je_sogg_free_reason: "虽然在长时间内，我国都是一个及其自治的半独立公国，但是暹罗仍是我们名义上侍奉的宗主。我们想要壮大自己的势力，必须从摆脱暹罗人施加给我们的桎梏开始！"
+ 
+ free_sogg: "挣脱桎梏"
+ sogg_achieve: "民族独立！"
+ 
+ # 宋卡-控制马六甲
+ 
+ je_sogg_malijia: "控制航线"
+ je_sogg_malijia_reason: "马六甲得天独厚的条件，是我们发展商贸的不二之选，我们必须将马来亚地区纳入统治，才能在商业角逐中展露头角。"
+ 
+ # 宋卡-南洋帝国
+ 
+ nanyang: "南洋人"
+ 
+ je_sogg_nanyang: "掌控南洋"
+ je_sogg_nanyang_reason: "我们的祖先前往南洋寻求更好的生活，但是没有庇护的生活永远是镜花水月，梦幻泡影。因此，我们需要建立一个能庇护所有人的国家，施行平等的政策，给所有人机遇，这样我们才能达成先祖的夙愿。"
+ 
+ #兰芳任务
+ 
+ lanfang_pro_sub_50: "降低五十点公司繁荣度"
+ lanfang_pro_sub_25: "降低二十五点公司繁荣度"
+ lanfang_pro_add_20: "增加二十点公司繁荣度"
+ 
+ je_lanfang_haijun: "南洋舰队"
+ je_lanfang_haijun_reason: "为了保护我们的贸易，我们必须在南海建立起我们的舰队存在，只有这样我们才能让我们的商船可以自由地扬帆到我们想要他们去的地方。"
+ lanfang_haijun1: "扩建海军"
+ lanfang_haijun2: "兰芳舰队"
+ 
+ je_lanfang_nanyang: "接纳土著"
+ je_lanfang_nanyang_reason: "我们的政府建立在当地酋长的支持之上，我们共同开发这片土地，创造繁荣的经济。但是随着城市的发展壮大，我们之间产生了隔阂。因为语言文化的原因，我们与婆罗洲的本地人产生的摩擦，他们也不能很好地融入我们的社会。因此我们需要想办法改善这一情况，将他们接纳进我们的国家！"
+ je_lanfang_nanyang_goal: "满足以上目标十年，若拥有文化多元则为五年。"
+ 
+ je_lanfang_farm: "扩展种植园"
+ je_lanfang_farm_reason: "兰芳最出名的业务是矿产，其次则是这片富饶土地之上的密集种植园。得益于热带气候的滋润，婆罗洲的土地肥沃而富饶，让我们可以大量种植经济作物。我们必须抓紧机会，将兰芳种植园的名声尽早宣扬出去！"
+ state_trait_nanyang: "兰芳种植园"
+ 
+ je_lanfang_war: "兰和战争"
+ je_lanfang_war_reason: "自吾国立业之始，荷兰国就是我国的头号威胁。夷人据爪哇，行大船，肆虐南海，侵略部族。吾民久为所害。此贼一日不逐，则邦国不可享一日之宁。"
+ 
+ lan_events.2.t: "驱逐和夷"
+ lan_events.2.f: "我们长久的宿敌与威胁#v $UNL$#!，已经被彻底驱逐出了[SCOPE.sStrategicRegion('indonesia_region').GetName]，达摩克里斯之剑已经被取下，接下来是我们掌控的时代了！"
+ lan_events.2.d: "听说了吗？公司解散了！就是一直霸占南洋的荷属东印度公司！红毛夷终于还是狼狈地逃窜离开了这里。新政府正在清算那些曾经帮着这帮洋人为非作歹的恶徒！"
+ lan_events.2.a: "太阳从海平面升起！"
+ lanfang_helan: "称霸南洋"
+ 
+ shun_mianshui: "民众拥护"
+ shun_mianshui_2: "背信弃义"
+ je_shun_tax_goal: "完成五年的免赋承诺"
+ 
+ button_shun_mianshui_1: "免除赋税"
+ button_shun_mianshui_1_desc: "我们承诺，一旦取得革命的胜利，就会免去田赋，让百姓能够休养生息，从繁重的赋税中能够喘口气。是时候兑现我们的承诺了！如果我们没有兑现我们的承诺，百姓就会丧失对我们的支持。"
+ 
+ shun_mianshui_1: "免税政策"
+ journal_entry_goal_progress_shun_mianshui: "需要执行五年的免税政策"
+ 
+ button_shun_mianshui_2: "取消免税"
+ button_shun_mianshui_2_desc: "我们承诺，一旦取得革命的胜利，就会免去田赋，但是很明显现在不是时候，我们只能暂时延期兑现。"
+ 
+ je_shun_landlord_goal: "持续十年打压士绅"
+ 
+ shun_shishen: "改革无阻"
+ 
+ #吕宋日志
+ 
+ je_lvsong_tianzhu: "吕宋的天主教"
+ je_lvsong_tianzhu_reason: "吕宋岛的曾经有西洋布道士频繁渗透，其上土人多为洗礼，遂信仰天主。然西夷与我国矛盾愈深，恐将有所图，若不早日稳定国内天主教之异教徒，若两国刀兵相见，则恐腹背受敌矣。"
+ 
+ lvsong_quanwei: "统合宗教"
+ lvsong_culture: "文化交流"
+ 
+ je_lvsong_tongyi: "南下扩张"
+ je_lvsong_tongyi_reason: "吕宋岛以南仍有西夷盘踞，我们应当延续百年前的战争，将他们彻底驱逐出南洋诸岛！将土人整合进我们的统治之中！"
+ scripted_button_lvsong_sulu: "与苏禄的交易"
+ SULU_TANPAN: "与苏禄的交易"
+ SULU_TANPAN_desc: "与苏禄谈判完成合并事宜"
+
+ je_lvsong_north: "取得琉球"
+ je_lvsong_north_reason: "台湾岛是郑家的基业根本，如果取得这片土地，对于我们进一步的发展具有不可估量的价值！"
+ 
+ lvsong_taiwan: "郑家军"
+ 
+ je_lvsong_jap: "叩关倭岛"
+ je_lvsong_jap_reason: "倭岛远悬海外，人口众多且资源丰富。我们必须在这里拥有一席之地！"
+ 
+ lvsong_investment: "投资热潮"
+ 
+ decree_huanghan_jinghua: "种族清洗"
+ decree_huanghan_jinghua_desc: "对地区展开种族清洗"
+ jinghua_lengque_tt: "处于一年冷却期内"
+ 
+ je_china_shehuizhuyi: "建设祖国！"
+ je_china_shehuizhuyi_reason: "赤色的火焰已经点燃了#YELLOW 华夏大地#!，在过去的#RED 艰苦斗争#!中，我们推翻了#RED 压迫#!和#RED 桎梏#!，将#BLUE 平等#!和#GREEN 自由#!传播向了这片古老的国土。然而在这样的国家内，我们仍面对#RED 重重困难#!......蠢蠢欲动的#BLUE 保守派#!，内心动摇的#GREEN 群众#!，意志不坚定的#RED 同志#!。打江山易，守江山难。如果我们不能取得大家的#YELLOW 信任#!，保卫革命胜利果实，那么#RED 历史也会抛弃我们#!。"
+ je_china_shehuizhuyi_goal: "完成其他几个社会主义日志可以增加民众信心。"
+ people_belief_in_socialism: "人民对社会主义的热情"
+ people_belief_in_socialism_desc: "人民对社会主义的热情#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|%]#!（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）"
+ journal_entry_goal_progress_people_belief_in_socialism: "在革命壮大的初期，民众对#RED 社会主义#!总是抱有热情。但是这种热情总是随着理想与现实的差距而不断被消磨。如果我们不能完成民众对社会主义的预期，他们很可能会#BLUE 抛弃#!我们。\n社会主义支持率：#RED [ROOT.GetCountry.MakeScope.Var('social_support_point').GetValue|0]%#!不足五十会降低人民对社会主义的热情。\n\n·拥有50%以上的支持\n·将[concept_sol]提高到世界前二十\n·拥有10%的[concept_loyalist]\n·拥有#BOLD $institution_workplace_safety$、$institution_social_security$、$institution_health_system$#!且达到五级\n#GREEN 可以增加民众的热情。#!"
+ shehuizhuyi_progress_bar_at_low_tt: "#variable $people_belief_in_socialism$#!低于#variable 10%#!"
+ 
+ people_support_council: "民众普遍支持社会主义"
+ sol_satified: "民众对[concept_sol]满意"
+ loy_high: "[concept_loyalist]较多"
+ institution_secure: "$institution_workplace_safety$达到五级"
+ institution_welfare: "$institution_social_security$达到五级"
+ institution_welfare2: "$institution_health_system$达到五级"
+ 
+ people_nolonger_support_council: "民众不再支持社会主义"
+ sol_not_satified: "平均[concept_sol]低于全球前五十"
+ rad_high: "[concept_radical]较多"
+ law_secret_police1: "反感秘密警察"
+ have_famine: "发生[concept_famine]"
+ have_severe_famine: "发生严重[concept_famine]"
+ have_low_legi: "政府合法性低"
+ have_unemp: "失业人群"
+ 
+ add_pro_china_social: "增加20点人民对社会主义的热情"
+ 
+ je_china_gongchan_1: "互助集团"
+ je_china_gongchan_1_reason: "#RED 中国人民大团结万岁！世界人民大团结万岁！#!\n我国的革命已经得到巩固，我们必须帮助更多的受压迫者推翻桎梏！将世界上所有被压迫的人民团结起来，团结的人民永不被击溃！"
+ china_soviet_1: "人民联盟"
+ 
+ je_china_gongchan_2: "人多力量大"
+ je_china_gongchan_2_reason: "人多力量大，柴多火焰高。我们祖国的社会建设正需要足够的人力支持。我们应当鼓励生育，让更多的劳动力有能力投入到祖国的建设当中！"
+ jihua_pochan: "失败的人口控制"
+ 
+ je_china_jihua: "计划生育部"
+ je_china_jihua_reason: "我国幅员辽阔，但同时人口极为庞大。如果不加以管理，必然会造成资源和人口需求的紧张关系，从而影响我国的和谐发展。所以我们需要专门的部门对人口增速进行管控。"
+ jihua_1: "独生子女政策"
+ jihua_2: "鼓励生育政策"
+ jihua_3: "晚生优生政策"
+ 
+ button_single_child: "独生子女政策"
+ button_single_child_desc: "我们应该执行独生子女政策，每一家只能有一个孩子。"
+ button_single_child1: "取消独生子女政策"
+ button_single_child1_desc: "独生子女政策不太符合我们的国情，我们应该取缔这个政策。"
+ 
+ button_pro_birth: "鼓励生育政策"
+ button_pro_birth_desc: "我们应该执行鼓励生育政策，鼓励适婚人群尽快生育，同时为他们提供补助。"
+ button_low_birth: "取消鼓励生育政策"
+ button_low_birth_desc: "鼓生育政策不太符合我们的国情，我们应该取缔这个政策。"
+ 
+ button_lat_birth: "晚生优生政策"
+ button_lat_birth_desc: "我们应该鼓励适龄夫妇延后生育时间，从而降低人口增速。"
+ button_ear_birth: "取消晚生优生"
+ button_ear_birth_desc: "晚生优生不太符合我们的国情，我们应该取缔这个政策。"
+ 
+ je_china_gongchan_3: "钢铁龙脉"
+ je_china_gongchan_3_reason: "我国幅员辽阔，人口众多，管理与交流多有不易。然而这一困状即将被全新的技术颠覆，我们应当让铁路贯穿全国各地，让钢铁制成的经脉联络祖国的各地，让兆亿黎民能够互通有无！"
+ je_china_gongchan_3_1_tt: "#tooltippable #tooltip:china_railway_jingjiu_tt #bold 京九线#!#!#!通车"
+ china_railway_jingjiu_tt: "京九铁路线包括以下$concept_state_regions$：\n$STATE_BEIJING$\n$STATE_ZHILI$\n$STATE_HENAN$\n$STATE_EASTERN_HUBEI$\n$STATE_HUNAN$\n$STATE_SHAOZHOU$"
+ je_china_gongchan_3_2_tt: "#tooltippable #tooltip:china_railway_jingha_tt #bold 京哈线#!#!#!通车"
+ china_railway_jingha_tt: "京哈铁路线包括以下$concept_state_regions$：\n$STATE_BEIJING$\n$STATE_SHENGJING$\n$STATE_SOUTHERN_MANCHURIA$\n$STATE_NORTHERN_MANCHURIA$\n$STATE_OUTER_MANCHURIA$\n$STATE_TONGLIAO$\n$STATE_HINGGAN$"
+ je_china_gongchan_3_3_tt: "#tooltippable #tooltip:china_railway_jinghu_tt #bold 京沪线#!#!#!通车"
+ china_railway_jinghu_tt: "京沪铁路线包括以下$concept_state_regions$：\n$STATE_BEIJING$\n$STATE_ZHILI$\n$STATE_SHANDONG$\n$STATE_JIANGSU$\n$STATE_NORTHERN_ANHUI$\n$STATE_NANJING$\n$STATE_SUZHOU$"
+ je_china_gongchan_3_4_tt: "#tooltippable #tooltip:china_railway_huguang_tt #bold 沪广线#!#!#!通车"
+ china_railway_huguang_tt: "沪广铁路线包括以下$concept_state_regions$：\n$STATE_SUZHOU$\n$STATE_ZHEJIANG$\n$STATE_FUJIAN$\n$STATE_SHAOZHOU$\n$STATE_GUANGDONG$"
+ je_china_gongchan_3_5_tt: "#tooltippable #tooltip:china_railway_hukun_tt #bold 沪昆线#!#!#!通车"
+ china_railway_hukun_tt: "沪昆铁路线包括以下$concept_state_regions$：\n$STATE_SUZHOU$\n$STATE_NANJING$\n$STATE_SOUTHERN_ANHUI$\n$STATE_WESTERN_HUBEI$\n$STATE_HUNAN$\n$STATE_GUIZHOU$\n$STATE_YUNNAN$"
+ je_china_gongchan_3_6_tt: "#tooltippable #tooltip:china_railway_lanxin_tt #bold 兰新线#!#!#!通车"
+ china_railway_lanxin_tt: "兰新铁路线包括以下$concept_state_regions$：\n$STATE_NINGXIA$\n$STATE_GANSU$\n$STATE_DZUNGARIA$\n$STATE_TIANSHAN$"
+ je_china_gongchan_3_7_tt: "#tooltippable #tooltip:china_railway_qingzang_tt #bold 青藏线#!#!#!通车"
+ china_railway_qingzang_tt: "青藏铁路线包括以下$concept_state_regions$：\n$STATE_GANSU$\n$STATE_QINGHAI$\n$STATE_LHASA$"
+ je_china_gongchan_3_8_tt: "#tooltippable #tooltip:china_railway_xulan_tt #bold 徐兰线#!#!#!通车"
+ china_railway_xulan_tt: "沪昆铁路线包括以下$concept_state_regions$：\n$STATE_JIANGSU$\n$STATE_HENAN$\n$STATE_XIAN$\n$STATE_NINGXIA$\n$STATE_GANSU$"
+ je_china_railway: "完成钢铁龙脉日志"
+ china_railway_set_up: "激活中国铁路总公司"
+ company_china_railway: "中国铁路总公司"
+ 
+ je_china_gongchan_4: "农业革命"
+ je_china_gongchan_4_reason: "中华大地数千年来，哺育了万千黎民。我们的先民勤恳地开垦土地、培育庄稼，养育了我们的世代子孙。但是靠山吃山靠水吃水的日子不能长久，每当天灾降临，中华大地就会化为炼狱，饥荒席卷大地，出现人相食的惨象。\n如今我们执掌天下，此等惨状绝不可再度发生，我们需要迅速改变整个中国的农业现状，推动农业技术的发展进步，一劳永逸地解决粮食问题。愿天下再无饥民，愿良田尽是满穗！"
+ gc_nongye: "农村合作社"
+ 
+ je_china_gongchan_5: "工业革命"
+ je_china_gongchan_5_reason: "如今世界之道，在于工业。工业兴，则国家兴。为了使国家振兴，列名世界民族之林，我们必须将工业建设落实下来。如此，才能展现我国政府之于历代前朝的优越之处，从而体现革命革新之面貌！"
+ gc_gongye: "工业突破"
+ 
+ je_china_gongchan_6: "政府革命"
+ je_china_gongchan_6_reason: "国家两千年以来之政府，皆为帝王门阀之政府。数千年以来之官员，皆为列侯士绅之官员。而当今之政府，当为人民掌权之政府，当今之官员，当为为人民服务之官员。我们需要在政府内广泛地推行各项利民政策，兑现我们对人民的承诺！"
+ gc_zhengfu: "为人民服务"
+ 
+ je_china_gongchan_7: "大同社会"
+ je_china_gongchan_7_reason: "大道之行也，天下为公。选贤与能，讲信修睦。故人不独亲其亲，不独子其子，使老有所终，壮有所用，幼有所长，矜、寡、孤、独、废疾者皆有所养，男有分，女有归。货恶其弃于地也，不必藏于己；力恶其不出于身也，不必为己。是故谋闭而不兴，盗窃乱贼而不作，故外户而不闭。是谓大同。"
+ je_datong_tt: "[Concept('concept_gdp_per_capita','$concept_gdp_per_capita_short$')]位于前20"
+ je_gc1_tt: 0 "#BOLD 互助集团#!日志已完成"
+ je_gc2_tt: 0 "#BOLD 人多力量大#!日志已完成"
+ je_gc3_tt: 0 "#BOLD 钢铁龙脉#!日志已完成"
+ je_gc4_tt: 0 "#BOLD 农业革命#!日志已完成"
+ je_gc5_tt: 0 "#BOLD 工业革命#!日志已完成"
+ je_gc6_tt: 0 "#BOLD 政府革命#!日志已完成"
+ datong_china: "#BOLD 大同之道#!日志已完成"
+ 
+ je_china_shehuizhuyi_1: "改革开放！"
+ je_china_shehuizhuyi_1_reason: "不管黑猫还是白猫，能抓老鼠就是好猫。过于纠结阶级斗争的问题造成了我们前期工作中对经济建设工作的漠视，人民群众的生活水平没有得到很好的保障和提升。但是现在不一样了，拥抱世界市场会给我们新的选择。我们相信，庞大的海外资金可以为我们这篇古老的国度注入新的生机！"
+investment_pool_efficiency 
+ je_china_shehuizhuyi_2: "改革开放:家庭联产承包责任制"
+ je_china_shehuizhuyi_2_reason: "事实证明，将土地交还给农民比吃大锅饭的集体农庄更能激发农民的生产积极性。我们应该立刻推广家庭联产承包责任制，结算所有的人民公社，让市场成为农民生产力的推手！"
+ je_sh2_tt: "完成#Bold 家庭联产承包责任制#!日志"
+ gk_nongye: "农业现代化"
+ 
+ je_china_shehuizhuyi_3: "改革开放:打破铁饭碗"
+ je_china_shehuizhuyi_3_reason: "收入靠贡献，岗位靠竞争；搬掉铁椅子，打破铁饭碗！工人已经在我们的政策的庇护下安稳了太久，他们的劳动激情正在消退，反过来成为阻碍我们国家进步的绊脚石。但是从今以后，这种大锅饭养懒人的情况将会彻底结束，终生的雇佣劳动将不复存在，考核、合同、绩效将成为我们用工未来的方向！"
+ je_sh3_tt: "完成#Bold 打破铁饭碗#!日志"
+ gk_gongye: "市场化改革"
+ 
+ je_china_shehuizhuyi_4: "改革开放:取消劳动保障"
+ je_china_shehuizhuyi_4_reason: "为了团结工人阶层，我们曾制定了严苛的劳动保障制度。然而这种情况下，实业家和外国企业的投资热情被大大削减，他们无法承担高昂的劳保需求，害怕不谨慎的投资会在我国境内血本无归。不用担心，我们会扫清这最后的障碍。"
+ je_sh4_tt: "完成#Bold 取消劳动保障#!日志"
+ gk_gongren: "放宽限制"
+ 
+ je_china_shehuizhuyi_5: "改革开放:吸引外资"
+ je_china_shehuizhuyi_5_reason: "我们致力于缔造一个开放的中国，我们需要让全世界的资金进入中国，让海外资本引进来，没要留下来。在这些外国资本的帮助下，我们将在经济发展上获得更大的突破，加速中国的现代化进程！"
+ je_sh5_tt: "完成#Bold 吸引外资#!日志"
+ gk_touzi: "外国投资"
+ 
+ je_china_shehuizhuyi_6: "改革开放:贸易组织"
+ je_china_shehuizhuyi_6_reason: "随着我们的经济不断发展，中国需要一个更紧密的组织将自己与世界相连接。我们需要加入一个足够庞大的国际组织来实现经济互助的目标，推动全球化潮流！"
+ je_sh6_tt: "完成#Bold 贸易组织#!日志"
+ gk_zuzhi: "扩张势力"
+ 
+ je_china_shehuizhuyi_7: "小康社会"
+ je_china_shehuizhuyi_7_reason: "今大道既隐，天下为家，各亲其亲，各子其子，货力为己。大人世及以为礼，城郭沟池以为固，礼义以为纪，以正君臣，以笃父子，以睦兄弟，以和夫妇，以设制度，以立田里，以贤勇知，以功为己。故谋用是作，而兵由此起。禹、汤、文、武、成王、周公由此其选也。此六君子者，未有不谨于礼者也。以著其义，以考其信，著有过，刑仁讲让，示民有常，如有不由此者，在势者去，众以为殃。是谓小康。\n"
+ xiaokang_china: "小康社会"
+ 
+ defeat_ref: "社会动荡"
+ 
+ #社会主义事件
+ 
+ ming_events.35.t: "新方向！"
+ ming_events.35.d: "随着改革的不断失败，民众和党内反对派对我们承诺的未来逐步失去信心。原领导人[SCOPE.sCharacter('cnm_zhixi').GetFullName]已被迫下台，是时候迎接新时代了！"
+ ming_events.35.f: "所有这些变化都需要作出巨大的努力，都是在尖锐的斗争中进行的，都曾遇到旧的、过时的、反动的势力日益严重的反抗，这里既有过去的党和国家机构和经济结构，也有我们的习惯、思想偏见、平均主义和坐享其成的心理。这些变化遇到了我们的偏执、政治文化水平低下、对变革的恐惧心理。因此我们才损失了许多时间。旧体制瓦解之时，新体制尚未开始运作。于是社会的危机更加深重。我知道对目前严重局势的不满情绪，知道对各级行政当局和对我本人活动的尖锐批评。不过我想再次强调指出：在我们这样一个幅员广大又拥有如此遗产的国家里，根本性变革不可能在毫无痛苦、毫无困难和动荡的情况下进行。"
+ ming_events.35.a: " 现在我们将拥抱自由！"
+ 
+ people_belief_in_huanghan: "民众狂热值"
+ people_belief_in_huanghan_desc: "皇汉狂热#v [JournalEntry.GetCurrentBarProgress(ScriptedProgressBar.Self)|% ]#!（[JournalEntry.GetCurrentBarValue(ScriptedProgressBar.Self)|1]/100）"
+ huanghan_bar_1: "自然衰退"
+ huanghan_bar_2: "战时狂热"
+ huanghan_bar_3: "非边缘利益集团领袖拥有民族主义或法西斯思想"
+ huanghan_bar_4: "政府内存在和平主义、社会主义集团领袖。"
+ state_mortality_violent_hostility_mult: "暴力对抗地位死亡率"
+ huanghan_jinghua: "净化省份"
+ 
+ ming_events.36.t: "帝制的终结"
+ ming_events.36.d: "两千年的帝制中国，随着最后一位朱家皇帝被送出紫禁城而走到尽头。如今，[ROOT.GetCountry.GetName]正处于历史的转折点，我们必须对自己进行全新的审视！"
+ ming_events.36.f: "“我们已经找到新路，我们能跳出这周期率。这条新路，就是民主。只有让人民来监督政府，政府才不敢松懈。只有人人起来负责，才不会人亡政息。”"
+ ming_events.36.a: "“#YELLOW 大明#!”这个称呼已经延续了五百年之久，他还会继续作为我们的国名延续下去！"
+ ming_events.36.b: "是时候彻底铲除朱明王朝给神州大地的枷锁了！"
+ ming_events.36.c: "中国！在过去、现在和未来，都只有这一个称呼！"
+
+ DIPLOMATIC_ACCEPTANCE_SHOULD_GET_DESIRE:0 "省份是宣慰司的固有领土"
+
+ law_sishu_schools: "私塾教育"
+ law_sishu_schools_desc: "儒家社会向来注重教育，民间往往会兴办私塾，通过教授四书五经等经典来启化民智，这让儒家社会能长期保持较高的识字率，但同时，单一的儒家教育也限制了中国人更全面发展的可能。"
+ treaty_name_rus_qng_agreement: "俄清友好条约"
+ 
+ han_rate_over_60: "有60%以上人口属于汉族[Concept('concept_cultural_trait', '$concept_cultural_traits$')]"
+ xuanweisi_demand_state: "宣慰司索要土地"
+ xuanweisi_demand_state_desc: "请求宗主国把我们的法理领土还给我们"
+
+ xuanweisi_demand_state_proposal_third_party_accepted_name: "宣慰司索要土地"
+ xuanweisi_demand_state_proposal_third_party_accepted_desc: "[INITIATOR_COUNTRY.GetName]向[TARGET_COUNTRY.GetName]朝廷索要属于他们的土地。"
+ xuanweisi_demand_state_proposal_notification_name: "宣慰司索要土地"
+ xuanweisi_demand_state_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]向[TARGET_COUNTRY.GetName]朝廷索要属于他们的土地。"
+ xuanweisi_demand_state_action_propose_name: "宣慰司索要土地"
+ xuanweisi_demand_state_action_propose_desc: "[INITIATOR_COUNTRY.GetName]向[TARGET_COUNTRY.GetName]朝廷索要属于他们的土地。"
+ 
+ xuanweisi_demand_state_pact_desc: "[INITIATOR_COUNTRY.GetName]向[TARGET_COUNTRY.GetName]朝廷索要属于他们的土地。"
+ xuanweisi_demand_state_proposal_accepted_name: "宣慰司索要土地"
+ xuanweisi_demand_state_proposal_accepted_desc: "[INITIATOR_COUNTRY.GetName]向[TARGET_COUNTRY.GetName]朝廷索要属于他们的土地。"
+ laozi_bugei_1: "大明拒绝给予省份"
+ je_tianming_duhufu: "设立都护府"
+ je_tianming_duhufu_reason: "面对广大的边疆地域，我国决定设立都护府来进行管辖，用以安抚夷民、稳固疆域。通过高效的军事管理区划，我们有信心粉碎一切叛乱，拱卫天朝！"
+ je_tianming_duhufu_lobby: "$je_tianming_duhufu_reason$"
+ 
+ je_tianming_xuanweisi: "建立海外宣慰司"
+ je_tianming_xuanweisi_reason: "随着大明再次一统中华，是时候将视线看向全世界世界、重拾我们逝去的天命，再现当年万国来朝的辉煌景象了。\n天朝九天阊阖开宫殿,万国衣冠拜冕旒。"
+ je_tianming_xuanweisi_lobby: "$je_tianming_xuanweisi_reason$"
+
+ concept_duhufu_3_china: "都护府"
+ concept_duhufu_3_china_desc: "都护府是帝国设立在边缘蛮夷地区的行政机构，不过更准确的说是一种军事机构，都护府往往负责拱卫帝国边境的安宁，维持大量的兵力用以防御或征讨蛮夷。都护府的将军拥有非常强大的自治权力，比较“将在外，君命有所不受”。"
+ duhufu_3_china: "都护府"
+ duhufu_3_china_desc: "都护府是帝国设立在边缘蛮夷地区的行政机构，不过更准确的说是一种军事机构，都护府往往负责拱卫帝国边境的安宁，维持大量的兵力用以防御或征讨蛮夷。都护府的将军拥有非常强大的自治权力，比较“将在外，君命有所不受”。"
+ duhufu_3_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_duhufu_3_china]"
+
+ subject_type_duhufu_3_china: "@duhufu_3_china! $subject_type_duhufu_3_china_no_icon$"
+ subject_type_duhufu_3_china_no_icon: "$concept_duhufu_3_china$"
+
+ concept_duhufu_2_china: "大都护府"
+ concept_duhufu_2_china_desc: "都护的职责是“抚慰诸藩，辑宁外寇”，凡对周边民族之“抚慰、征讨、叙功、罚过事宜”，皆其所统。"
+ duhufu_2_china: "都护府"
+ duhufu_2_china_desc: "都护的职责是“抚慰诸藩，辑宁外寇”，凡对周边民族之“抚慰、征讨、叙功、罚过事宜”，皆其所统。"
+ duhufu_2_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_duhufu_2_china]"
+
+ subject_type_duhufu_2_china: "@duhufu_2_china! $subject_type_duhufu_2_china_no_icon$"
+ subject_type_duhufu_2_china_no_icon: "$concept_duhufu_2_china$"
+
+ concept_duhufu_china: "军政司"
+ concept_duhufu_china_desc: "军政州是一种特殊的行省，虽然理论上其是帝国直属疆域的一部分，但是与普通民州不同，军政州是军政司直属的军事行省，往往承担更多与蛮夷交战、杀伐以及开疆扩土的职责。"
+ duhufu_china: "军政司"
+ duhufu_china_desc: "军政州是一种特殊的行省，虽然理论上其是帝国直属疆域的一部分，但是与普通民州不同，军政州是军政司直属的军事行省，往往承担更多与蛮夷交战、杀伐以及开疆扩土的职责。"
+ duhufu_china_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]是[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]的[concept_duhufu_china]"
+
+ subject_type_duhufu_china: "@duhufu_china! $subject_type_duhufu_china_no_icon$"
+ subject_type_duhufu_china_no_icon: "$concept_duhufu_china$"
+
+ button_unenable: "按钮可用"
+ dufuhu_aid: "大明援建"
+ tonghua_duhufu: "都护府会同化部分当地人"
+ tonghua_xuanweisi: "宣慰司会同化部分当地人"
+ called_china: "我们的国名会更变为中国"
+ shangci_chaoting: "朝廷的援助金"
+ 
+ duhufu_china_1: "提拔都护府军官"
+ duhufu_china_1_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要[TARGET_COUNTRY.GetName]经验丰富的边疆军官入朝参与[INITIATOR_COUNTRY.GetName]的军队管理。"
+ duhufu_china_1_action_propose_name: "提拔都护府军官"
+ duhufu_china_1_action_propose_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要[TARGET_COUNTRY.GetName]经验丰富的边疆军官入朝参与[INITIATOR_COUNTRY.GetName]的军队管理。"
+ duhufu_china_1_action_break_name: "停止征召军官"
+ duhufu_china_1_action_break_desc: "[INITIATOR_COUNTRY.GetName]朝廷不再需要[TARGET_COUNTRY.GetName]的军人协助。"
+ duhufu_china_1_pact_desc: "[INITIATOR_COUNTRY.GetName]朝廷需要[TARGET_COUNTRY.GetName]经验丰富的边疆军官入朝参与[INITIATOR_COUNTRY.GetName]的军队管理。"
+ duhufu_china_1_proposal_accepted_name: "[TARGET_COUNTRY.GetName]进贡边军军官"
+ duhufu_china_1_proposal_accepted_desc: "[TARGET_COUNTRY.GetName]进贡军官给[INITIATOR_COUNTRY.GetName]协助提升军队作战能力。"
+ 
+ duhufu_china_1_proposal_decline_name: "[TARGET_COUNTRY.GetName]拒绝提供军官"
+ duhufu_china_1_proposal_decline_desc: "[TARGET_COUNTRY.GetName]将朝贡要求置若罔闻。"
+
+ duhufu_china_2: "干涉战争"
+ duhufu_china_2_desc: "[INITIATOR_COUNTRY.GetName]朝廷决议介入[TARGET_COUNTRY.GetName]的战争。"
+ duhufu_china_2_proposal_third_party_accepted_name: "干涉战争"
+ duhufu_china_2_proposal_third_party_accepted_desc: "[INITIATOR_COUNTRY.GetName]朝廷决议介入[TARGET_COUNTRY.GetName]的战争。"
+ duhufu_china_2_proposal_notification_name: "干涉战争"
+ duhufu_china_2_proposal_notification_desc: "[INITIATOR_COUNTRY.GetName]朝廷决议介入[TARGET_COUNTRY.GetName]的战争。"
+ duhufu_china_2_action_propose_name: "干涉战争"
+ duhufu_china_2_action_propose_desc: "[INITIATOR_COUNTRY.GetName]朝廷决议介入[TARGET_COUNTRY.GetName]的战争。"
+ 
+ duhufu_china_2_pact_desc: "[INITIATOR_COUNTRY.GetName]朝廷决议介入[TARGET_COUNTRY.GetName]的战争。"
+ duhufu_china_2_proposal_accepted_name: "干涉战争"
+ duhufu_china_2_proposal_accepted_desc: "[INITIATOR_COUNTRY.GetName]朝廷决议介入[TARGET_COUNTRY.GetName]的战争。"
+
+ duhufu_junguan: "都护府军队支援"
+ duhufu_tonghua: "都护府同化"
+ tianming.33.t: "都护府同化"
+ tianming.33.d: "都护府会缓慢同化管辖地区"
+ tianming.33.f: "此地的人群逐渐接受教化下新的民族认同"
+ tianming.33.a: "好的"
+
+ ming_events.37.t:0 "世界秩序之讨论"
+ ming_events.37.d:0 "我国目前在世界上已经有了一定的话语权，然而这个世界并非由我们主导，而是被殖民时代霸占世界话语权的西方国家主导，这意味着我们要么选择加入，要么选择对抗这个世界秩序。"
+ ming_events.37.f:0 "现在，我首先谈不同的思想意识和社会制度问题。我们应该承认，在亚非国家中是存在有不同的思想意识和社会制度的，但这并不妨碍我们求同和团结。第二次大战后，亚非两洲兴起了许多独立国家，一类是共产党领导的国家，一类是民族主义者领导的国家。前一类国家并不多。但是某些人所不喜欢的，就是6亿中国人民选择了中国共产党领导的、属于社会主义体系的政治制度，而不再为帝国主义所统治了。后一类国家很多，像印度、缅甸、印度尼西亚和亚非许多国家都是。我们这两类国家都是从殖民主义的统治下独立起来的，并且还在继续为完全独立而奋斗。我们有什么理由不可以互相了解和尊重、互相同情和支持呢?五项原则完全可以成为在我们中间建立友好合作和亲善睦邻关系的基础。我们亚非国家，中国也在内，不论在经济上或文化上都落后。我们亚非会议既然不要排斥任何人，为什么我们自己反倒不能互相了解、不能友好合作呢?\n次之，我要谈有无宗教信仰自由的问题。宗教信仰自由是近代国家所共同承认的原则。我们共产党人是无神论者，但是我们尊重有宗教信仰的人。我们希望有宗教信仰的人也应该尊重无宗教信仰的人。中国是有宗教信仰自由的国家，它不仅有700万共产党员，并且还有以千万计的回教徒和佛教徒，以百万计的基督教徒和天主教徒。中国代表团中就有虔诚的伊斯兰教的阿訇。这些情况并不妨碍中国内部的团结，为什么在亚非国家的大家庭中就不能将有宗教信仰的和没有宗教信仰的人团结在一起呢?挑起宗教纷争的时代应该过去了，因为从挑起那种纷争中得到利益的并不是我们中间的人。\n第三，我要谈所谓颠覆活动的问题。中国人民为反对殖民主义所进行的斗争超过100年。中国共产党领导的民族、民主的革命斗争也经历了近30年的艰难困苦的过程，才终于达到了成功。中国人民在帝国主义、封建主义和蒋介石统治下所受的苦难是数也数不尽的，最后才选择了这个国家制度和现在的政府。中国革命是依靠中国人民的努力取得胜利的，决不是从外输入的，这一点连不喜欢中国革命胜利的人也不能否认。中国古话说：“己所不欲，勿施于人。”我们反对外来干涉，为什么我们会去干涉别人的内政呢?有人说，中国在国外有1000多万华侨，可能利用他们的双重国籍来进行颠覆活动。但是，华侨的双重国籍问题是旧中国遗留下来的，蒋介石至今还在利用极少数的华侨进行对所在国的破坏活动。新中国的人民政府却准备与有关各国政府解决华侨的双重国籍问题。又有人说，在中国有傣族自治区威胁了别人。中国境内有几十种少数民族共4000多万人。其中傣族和相同系统的壮族将近千万人。他们既然存在，我们就必须给他们自治权利。好像缅甸有掸族自治邦一样，在中国境内各个少数民族都有他们的自治区。中国少数民族在中国境内实行自治权利，如何能说威胁邻邦呢?我们现在准备在坚守五项原则的基础上与亚非各国，乃至世界各国，首先是我们的邻邦，建立正常关系。现在的问题不是我们去颠覆别人的政府，倒是有人在中国的周围建立进行颠覆中国政府的据点。比如在缅甸边境就存在着蒋介石集团的残余武装分子，对中缅两国进行破坏。因为中缅友好，我们一直尊重缅甸的主权，信任缅甸政府去解决这个问题。\n中国人民选择和拥护自己的政府，中国有宗教信仰自由，中国决无颠覆邻邦政府的意图。相反的，中国正在受着美国政府公然不讳地进行颠覆活动的害处。大家如果不信，可亲自或派人到中国去看。我们是容许不知真相的人怀疑的，中国俗语说：“百闻不如一见。”我们欢迎所有到会的各国代表到中国去参观，你们什么时候去都可以。我们没有竹幕，倒是别人要在我们之间施放烟幕。\n16亿亚非人民期待着我们的会议成功。全世界愿意和平的国家和人民期待着我们的会议能为扩大和平区域和建立集体和平有所贡献。让我们亚非国家团结起来，为亚非会议的成功努力吧!"
+ ming_events.37.a:0 "我们选择接受这个秩序"
+ ming_events.37.b:0 "我们会和西方列强对抗到底！"
+
+ pro_now_system: "我们会成为现行世界体制的支持者，如果有新的挑战者想要颠覆世界秩序，我们会和现有秩序站在一边。"
+ pro_now_system_1: "宣布支持现行世界秩序的国家会是我们的敌人。"
+
+ ming_historical_events.1.t: "拜谒忠武王庙"
+ ming_historical_events.1.d: "忠武王五次北伐试图克复燕蓟，然而最终病倒在了白沟河驿。他死后，当地百姓为其立庙，最初以山神庙为名掩人耳目。后胡廷与明廷关系渐缓，默许之，亦差人修缮。"
+ ming_historical_events.1.f: "昭武五年始，五伐幽燕。初，破德州，克天津，焚通州，虏师不敌。八年，出正定，围燕京。朝中谗言，无功辄返。十年，清虏寇保定，成功率军据之，贼溃，成功轻敌逐之，中伏于拒马河，王师几殁，虏骑逐至济水，辎重尽丧，伏尸千里。王请致仕，帝不许。十三年，集宣大、顺营出宣化，王师出廊坊，数败虏军，再临京师，寇得英夷之佛朗基炮，镇之九门，不得克，乃返。忠武王数临旧京，八旗震怖，贼酋东迁。然清虏依坚城之险，上下死战，终不克。昭武十五年，会战燕郊，明军势盛，虏军固守不敢出。然成功旅途劳顿，久感风寒，扶辕欲视故都，雾浓不得见，成功怆然涕泪，不复言，次日，奉天翊运推诚宣力定难延平亲王、总摄朝政督师北伐总理中外军国重事、总督东南诸省兼理吕宋抚夷钦差、提督汉番水陆诸军招讨大将军、宗人府宗人令、领南京中军都督府事臣--成功,薨于白沟河驿，年六十。六军秘不发丧，白布缠臂，星夜归于真定。帝闻之，悲绝挽之，追忠武王。\n史官曰：\n成功以海寇之资，怀孤忠之志。台澎开基，吕宋雪耻，五叩燕关，气吞海岳，虽武侯北伐未若此勤也！然天不假年，雾失蓟门，岂非命耶？忠武绝而后世继，烈士陨而山河存。至若诸镇坐大，实因后继者无王之人望——昔者诸侯畏其威而效命，后则轻其子而萌异。悲夫！-------《明史：忠武王世家-其三》"
+ ming_historical_events.1.a: "大明无忠武王，山河定不得存"
+
+ ming_historical_events.2.t: "厦门军港"
+ ming_historical_events.2.d: "厦门军港，曾是国姓爷忠武王起兵之处，彼时忠武王与降清的父亲决裂，后屯兵金厦，坚持与清军斗争。从此地出兵会师张煌言，后征台湾、克吕宋，皆出兵于此。这里也是郑家军心中的圣地，大明海军军官都会在就任后拜谒此处。"
+ ming_historical_events.2.f: "郑森，字大木，福建南安人。父芝龙，闽海豪酋；母田川氏，东瀛人也。森少聪颖，隆武帝见而奇之，赐国姓“朱”，改名成功，授御营中军都督。未几，芝龙降清，成功泣谏曰：“父教子忠，奈何自叛？”遂焚青衣于孔庙，誓曰：“此身许国，敢有二心！”。\n永历十三年，会张煌言舟师北伐，破瓜洲，克镇江，直薄金陵。江南父老箪食壶浆，谓中兴在望。然清廷伪示援绝，守将梁化凤穴城夜袭，王师溃于观音山。成功慨然曰：“岂天未厌胡运乎？”退守厦门。十五年，复振旗鼓，亲率舟师二万、舰三百攻台。红夷炮垒如星，诸将惧，成功叱曰：“赤嵌城头，岂无汉骨耶？”卒克热兰遮，夷酋揆一泣降。然闻清廷戮其父芝龙，呕血数升，誓曰：“不犁燕庭，此恨不销！”\n十六年，征吕宋。时西夷虐华，血洗涧内，成功遣责问，夷拒而辱之，遂发兵夷其堡。吕宋既下，得银舰无算，乃置甲必丹营，汉番混编。及返，闻帝崩于昆明，大嚎西拜，数日不进饮食。-------《明史：忠武王世家-其一》"
+ ming_historical_events.2.a: "天佑大明，兴于闽海"
+
+ ming_historical_events.3.t: "金陵皇城"
+ ming_historical_events.3.d: "南京城始建于元至正廿六年，完工于明洪武廿六年，历时28年，乃遵循礼制、呼应天象、顺应自然的杰作，依照《周礼》为原则，根据“三垣、二十八宿”的星象，结合南京虎踞龙盘、依山傍水的地理优势，一改以往都城墙取方形或矩形的旧制而筑，成为中国礼教制度、传统堪舆天象和自然地理相结合的典范，独树一帜。燕庭动荡，忠武王厉兵秣马，枕戈待旦，终于抓准时机，北克应天，南京始为光复。后昭武帝作践阼，以此为都，拜成功为总摄朝政督师北伐总理中外军国重事，总督五军都督府事，由延平郡王加封延平亲王。"
+ ming_historical_events.3.f: "而后贼酋福临没于壮年，燕廷为乱。成功厉兵数年，始得良机，随挥师渡海，百姓无不箪食壶浆，虏伥望风而降，王师遂入金陵。\n昭武元年，奉永王慈炤返跸金陵，甲申板荡，永王流落中原，几经反折，之于江南，时弘历覆，帝隐于徽州，王师至，乃前呈身世。帝倚为柱石，拜辅政亲王，总摄五军。各地诸侯起兵应之，李来亨部入关中，于辅臣合兵，克西安，据武、潼以拒虏，可望出于川蜀，伪总督困于无援，不能敌，于是燕庭颓势。三藩遂自立，成功以鸟船驰袭番禺，连破之，三桂死而大仇报。又北伐中原，以铁人军、吕宋手炮营为引，虏军畏却之，莫与之敌，开封既克，西路诸藩遂朝于廷，得封敕。-------《明史：忠武王世家-其二》"
+ ming_historical_events.3.a: "洪武旧城，昭武新都"
+
+ ming_historical_events.4.t: "五军都督府"
+ ming_historical_events.4.d: "五军都督府最初由太祖洪武皇帝设立，用以加强皇帝对军队的控制。至土木堡之变以来，五军都督府逐渐衰微，其功能被兵部逐渐取代。忠武王复国以来，于南京重新设立了五军都督府，并总摄五军，各路藩镇也在都督府内任职和参与考核。然而文祯皇帝之后，各路藩镇逐渐走向失控，开始与中央貌合神离，他们往往左右中央决策，干扰皇帝的行动。当今皇帝知道，改革都督府的时候要来了。"
+ ming_historical_events.4.f: "文祯皇帝讳和垣，昭武帝长子也，母孝端皇后周氏。帝生而隆准，性宽仁，好释典。昭武三十六年春正月，昭武帝崩，尊谥烈祖威皇帝，太子即皇帝位，改元文祯，颁诏大赦。文祯元年，帝苦藩镇支用无度，每每以备夷看边为名索饷，每不予，则劝之以崇祯故事，帑库空虚，帝不能已，召诸藩督师入觐，颁《武臣敕谕》于午门“凡千户以下，许尔自除；岁饷毋逾赋十一。敢私盟、越境、截士子者，天下共击之！”，遂解藩饷之苦，且藩镇取于封所，财源得限，不得无度扩编，然藩镇自此，人事、财源皆以自取，自是渐离朝廷。此祸始也。文帝初，延平王郑经摄政，与红毛夷隙于南海，夷据旧港，锁三佛齐，华商不得通。为拓商道，避夷船而南向，忽至新陆，未见于舆图，谓之远南。遂登陆设埠，始通商，后以此建城，谓之远南城，设昆阳省。至拓新城，名之郑启。东拓天恩省，都于澳阳。后闽客多迁于此，帝设远南宣慰司治之。文祯四年，郑经薨，帝以爵利抚之后裔，收权亲政。“郑氏子弟，爵禄如故，军政勿预。”帝悯民力，引吕宋稻种，苏胡增产无数，江南殷实。帝遂推行新钞，曰文祯宝钞，然无金银为依，豪强拒纳，商贾折价三成，十年乃废。十九年，达赖入朝，请设都司，帝允之，设庙安抚，令川云征民夫修驿站以通之，四川巡抚兼察康藏，后转设专职驻藏大臣，赐金印，驻军三千，兵于昌都。文祯二十年，新钞既废，帝恼之，忽问海商曰，东去重洋，其土广富金矿。帝悦之，乃诏流民东迁，人赐铳一、粟三斛，三载不税。流民掘金于河谷，岁得粗银数十万两，野邑渐成。文祯三十二年，黎洲流民拓地千里，金山汉街栉比，帝始设宣慰司，都于坤宇，命进士王守忠为都护使，岁赋输银百万。帝好文治，多修水利，通商埠。甲申以来，江南中原屡经战火，民生困苦，文帝之治，繁荣愈胜昔日。文祯四十三年，帝崩于乾清宫，年七十四。史官曰：文帝以柔克刚，解藩饷之困，开远南之疆，江南粟溢，黎洲银涌，可谓善守成矣！然察其政：《武臣敕》下，而藩镇异心、边军自足，此谓养虎贻患；宝钞既行，而豪强拒纳、税吏剖金，斯曰恤民失道。昔汉元帝委政于石显，唐文宗受制于仇宦，文帝虽无阉祸，而藩镇之弊更烈焉！谚云“宽仁生乱”，岂不信哉？-------《明史：本纪-文襄帝》"
+ ming_historical_events.4.a: "不为大明之刃，必为大明之患"
+ 
+ ming_historical_events.5.t: "《明史·靖朔帝本纪》"
+ ming_historical_events.5.d: "圣宗桓皇帝"
+ ming_historical_events.5.f: "靖朔皇帝讳怡钺，文宗襄皇帝第七子也，母孝静皇后吴氏。帝隆准虬髯，膂力绝伦，尝御苑引三石弓，一矢贯双麂，侍臣惊呼“神射”。文宗四十三年冬，文宗崩，太子即皇帝位，改元靖朔。时五军都督府拥兵自固，帝登坛誓师：“昔烈祖五伐未竟之志，朕当提三尺剑酬之！”\n五年春，宣大都督马雄鸣献漠南骏马千匹，帝亲驰校场，蹄烟蔽日。忽勒马西指曰：“哈密故土，岂容准夷鼾睡？”遂点榆园锐卒八万，裹百日粮西征。师次酒泉，值大风雪，旌旗冻裂。帝解貂裘予士卒，夜持长槊立辕门，须眉尽冰。将士感泣，一鼓破哈密，兵至龟兹，准酋葛尔丹策零北遁。乃铸铁碑于天山，铭曰“圣武靖朔”。大兵返于玉门，帝大喜，诗曰：“朔气横雕弓，天山雪化甲。玉门沙似金，为我洗胡马。烽燧尽汉旌，驼铃鸣凯下。一箭定龟兹，何须班定远？遥望长安月，犹照烈祖剑。燕然石未勒，此身敢言倦！”设卫所抚之，乃班师。\n越三年，车里土司刀干孟结三十六峒作乱，焚腾越驿。帝命大西营督师李定国裔孙李嗣兴会京营讨之。嗣兴佯退诱敌，密遣象兵伏澜沧江谷。及叛酋渡半，巨象突践，俘斩三万。捷至，帝割犀带赐嗣兴曰：“卿不坠宁宇王英风！”由是土司具降，西南遂安。\n又五年，荷兰红夷焚兰芳，戮华商三百。帝震怒，召舟师提督陈泽于乾清宫，掷剑令曰：“不屠巴城，勿归见朕！”泽率巨舰百二十艘，乘月夜潮突袭满剌加。是役也，焚夷舰如炬，血染海峡。红夷缚酋献金乞和，帝笑纳其币，旋敕曰：“夷性犬羊，今断其爪牙可矣。”遂罢兵。琉球闻之，遣使献《洪武朝贡图》，东海诸岛复奉正朔。\n帝见西北绥靖、南洋宾服，遂决意北伐。二十三年秋，倾京营二十万出紫荆关，旌旗绵延四十里。初至涿州，八旗望“靖朔”纛辄溃。然帝轻敌，命轻骑逐北。至房山深谷，虏伏尽起，英制火炮裂崖石，神机营铳械尽没。溃兵争渡拒马河，溺毙相枕。帝单骑走脱，夜宿农家，割发置案曰：“朕负烈祖矣！”天明收残卒六万，退保济南。是谓“戊戌之溃”，明之精锐自此空。\n为补军亏，靖朔三十六年诏增黎洲矿税三成。金山矿夫王三麻断指血书：“皮骨已枯槁，税吏犹剜心！”宣慰使呈之，帝掷书丹墀：“野氓安敢抗天子？”明年春，商船“安海号”泊金山港，税吏强征苏绸。青壮愤起，投火焚舶，锦灰蔽海三日，史称“焚丝之变”。明卒守黎洲者寡，多不恋战，及义军势起，多降之，及帝闻黎洲立国，帝目眦尽裂，叱令工部造十丈楼船百艘征之。户部尚书抱籍跪泣：“当今库银仅二十万两，尚欠宣大军饷，京营重建亦须巨资，而一舰需费六十万两！”帝仰天椎案：“朕不得为永乐乎？”掷斧斤于地。遂颁《锁洲令》：“片帆不得渡东溟！”\n五十七年，安南阮福映弑主自立，僭称“大南皇帝”。帝命宣大都督沐昌明帅师十万南征，六皇子伯洵监，南军战于富良江，安南象阵欲冲明军，昌明令火铳齐射，象惊反奔，踏阮军十里。大军围升龙，伯洵树《洪武赐印图》于阵前，呼：“黎氏旧臣降者免死！”，城门遂开，贼酋南遁。初置布政司，强推《明律》，禁土司祀雒龙君，致清化民变，交趾汹汹，既平，伯洵驰奏：“夷俗不可骤革。”。帝悟之，诏改宣慰司，封伯洵安南亲王，敕曰：“夷汉别俗，当顺其性。”亲绘《三抚图》赐之：一抚免丁税，二抚存祠庙，三抚通婚媾。六十四年，帝已病亟，犹指北舆图曰：“燕蓟……”语绝而崩，年七十九。是夕天雷碎孝陵石马，金陵童谣曰：“烈祖霹雳鞭，靖朔不得眠。”维承安元年，孝子嗣皇帝伯溱，谨奉金册上尊谥：圣宗奋武，桓震八荒。收交趾而铜柱立，定天山而胡马喑。然黎洲烟蔽海，燕蓙恨凝霜。谨循谥法，曰桓皇帝。伏惟圣灵，永鉴玄穹！\n史臣曰：帝以霸王之资，骋六合之志。西收哈密，南服交趾，东海波澄，何其雄也！然戊戌一蹶，弃甲如山；黎洲再乱，裂土海外。昔符坚投鞭断流，终败淝水；隋炀龙舟蔽江，卒殒江都。刚猛苛厉，虽暂震戎狄，终溃于萧墙。语曰“好战者亡”，靖朔之谓欤？"
+ ming_historical_events.5.a: "穷兵黩武，前胜后衰"
+
+ country_var_greater_than: "国家变量大于:[SCOPE.sJE('journal_entry').GetTarget.GetState.GetName]"
+ 
+ EOC_TEXT_MENU_BUTTON_1: "#v 点我打开天朝界面。#!\n\N #BOLD"

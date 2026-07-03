@@ -1,0 +1,177 @@
+pdxmesh = {
+	name = "beiyangjunmao_shibing_mesh"
+	file = "daiyanmao_wuhui.mesh"
+
+	meshsettings = {
+		name = "daiyanmao_wuhui"
+		index = 0
+		texture_diffuse = "beiyangjunmao_shibing.dds"
+		texture_normal = "gemingjunmao_n.dds"
+		texture_specular = "gemingjunmao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyangjunmao_shibing_entity"
+	pdxmesh = "beiyangjunmao_shibing_mesh"
+
+
+}
+
+pdxmesh = {
+	name = "beiyangjunmao_shibing_nv_mesh"
+	file = "daiyanmao_wuhui_nv.mesh"
+
+	meshsettings = {
+		name = "daiyanmao"
+		index = 0
+		texture_diffuse = "beiyangjunmao_shibing.dds"
+		texture_normal = "gemingjunmao_n.dds"
+		texture_specular = "gemingjunmao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyangjunmao_shibing_nv_entity"
+	pdxmesh = "beiyangjunmao_shibing_nv_mesh"
+
+
+}
+
+pdxmesh = {
+	name = "beiyangjunmao_junguan_mesh"
+	file = "daiyanmao_wuhui.mesh"
+
+	meshsettings = {
+		name = "daiyanmao_wuhui"
+		index = 0
+		texture_diffuse = "beiyangjunmao_junguan.dds"
+		texture_normal = "gemingjunmao_n.dds"
+		texture_specular = "gemingjunmao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyangjunmao_junguan_entity"
+	pdxmesh = "beiyangjunmao_junguan_mesh"
+
+
+}
+
+pdxmesh = {
+	name = "beiyangjunmao_junguan_nv_mesh"
+	file = "daiyanmao_wuhui_nv.mesh"
+
+	meshsettings = {
+		name = "daiyanmao"
+		index = 0
+		texture_diffuse = "beiyangjunmao_junguan.dds"
+		texture_normal = "gemingjunmao_n.dds"
+		texture_specular = "gemingjunmao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyangjunmao_junguan_nv_entity"
+	pdxmesh = "beiyangjunmao_junguan_nv_mesh"
+
+
+}
+
+
+pdxmesh = {
+	name = "beiyangjunmao_jiangjun_mesh"
+	file = "daiyanmao_wuhui.mesh"
+
+	meshsettings = {
+		name = "daiyanmao_wuhui"
+		index = 0
+		texture_diffuse = "beiyangjunmao_jiangjun.dds"
+		texture_normal = "gemingjunmao_n.dds"
+		texture_specular = "gemingjunmao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyangjunmao_jiangjun_entity"
+	pdxmesh = "beiyangjunmao_jiangjun_mesh"
+
+
+}
+
+pdxmesh = {
+	name = "beiyangjunmao_jiangjun_nv_mesh"
+	file = "daiyanmao_wuhui_nv.mesh"
+
+	meshsettings = {
+		name = "daiyanmao"
+		index = 0
+		texture_diffuse = "beiyangjunmao_junguan.dds"
+		texture_normal = "gemingjunmao_n.dds"
+		texture_specular = "gemingjunmao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyangjunmao_jiangjun_nv_entity"
+	pdxmesh = "beiyangjunmao_jiangjun_nv_mesh"
+
+
+}
+
+
+pdxmesh = {
+	name = "beiyangjunmao_haijun_mesh"
+	file = "daiyanmao_wuhui.mesh"
+
+	meshsettings = {
+		name = "daiyanmao_wuhui"
+		index = 0
+		texture_diffuse = "beiyangjunmao_haijun.dds"
+		texture_normal = "gemingjunmao_n.dds"
+		texture_specular = "gemingjunmao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyangjunmao_haijun_entity"
+	pdxmesh = "beiyangjunmao_haijun_mesh"
+
+
+}
+
+pdxmesh = {
+	name = "beiyangjunmao_haijun_nv_mesh"
+	file = "daiyanmao_wuhui_nv.mesh"
+
+	meshsettings = {
+		name = "daiyanmao"
+		index = 0
+		texture_diffuse = "beiyangjunmao_haijun.dds"
+		texture_normal = "gemingjunmao_n.dds"
+		texture_specular = "gemingjunmao_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "beiyangjunmao_haijun_nv_entity"
+	pdxmesh = "beiyangjunmao_haijun_nv_mesh"
+
+
+}

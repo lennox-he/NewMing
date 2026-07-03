@@ -1,0 +1,183 @@
+pdxmesh = {
+name = "aoqun_mesh"
+file = "aoqun.mesh"
+	blend_shape = { id = "aoqun_breast_max2"		type = "aoqun_breast_max2.mesh" }
+	blend_shape = { id = "aoqun_breast_max"		type = "aoqun_breast_max.mesh" }
+	blend_shape = { id = "aoqun_muscular"		type = "aoqun_muscular.mesh" }
+	blend_shape = { id = "aoqun_old"			type = "aoqun_old.mesh" }
+	blend_shape = { id = "aoqun_pregnant"		type = "aoqun_pregnant.mesh" }
+	blend_shape = { id = "aoqun_dwarf"			type = "aoqun_dwarf.mesh" }
+	blend_shape = { id = "aoqun_fat"			type = "aoqun_fat.mesh" }
+	blend_shape = { id = "aoqun_infant"			type = "aoqun_infant.mesh" }
+meshsettings = {
+name = "aoqun"
+index = 0
+texture_diffuse = "aoqun.dds"
+texture_normal = "aoqun_n.dds"
+texture_specular = "aoqun_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "aoqun_entity"
+pdxmesh = "aoqun_mesh"
+	attribute = { name = "body_bs_bustsizemax"		blend_shape = "aoqun_breast_max" }
+	attribute = { name = "body_bs_thick"			blend_shape = "aoqun_muscular" }
+	attribute = { name = "body_bs_old"				blend_shape = "aoqun_old" }
+	attribute = { name = "body_bs_fat"				blend_shape = "aoqun_fat" }
+	attribute = { name = "body_bs_infant"			blend_shape = "aoqun_infant" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/hanfu/aoqun/aoqun_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "aoqun2_mesh"
+file = "aoqun.mesh"
+	blend_shape = { id = "aoqun_breast_max2"		type = "aoqun_breast_max2.mesh" }
+	blend_shape = { id = "aoqun_breast_max"		type = "aoqun_breast_max.mesh" }
+	blend_shape = { id = "aoqun_muscular"		type = "aoqun_muscular.mesh" }
+	blend_shape = { id = "aoqun_old"			type = "aoqun_old.mesh" }
+	blend_shape = { id = "aoqun_pregnant"		type = "aoqun_pregnant.mesh" }
+	blend_shape = { id = "aoqun_dwarf"			type = "aoqun_dwarf.mesh" }
+	blend_shape = { id = "aoqun_fat"			type = "aoqun_fat.mesh" }
+	blend_shape = { id = "aoqun_infant"			type = "aoqun_infant.mesh" }
+meshsettings = {
+name = "aoqun"
+index = 0
+texture_diffuse = "aoqun2.dds"
+texture_normal = "aoqun_n.dds"
+texture_specular = "aoqun_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "aoqun2_entity"
+pdxmesh = "aoqun2_mesh"
+	attribute = { name = "body_bs_bustsizemax"		blend_shape = "aoqun_breast_max" }
+	attribute = { name = "body_bs_thick"			blend_shape = "aoqun_muscular" }
+	attribute = { name = "body_bs_old"				blend_shape = "aoqun_old" }
+	attribute = { name = "body_bs_fat"				blend_shape = "aoqun_fat" }
+	attribute = { name = "body_bs_infant"			blend_shape = "aoqun_infant" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/hanfu/aoqun/aoqun_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "aoqun_pingmin_mesh"
+file = "aoqun.mesh"
+	blend_shape = { id = "aoqun_breast_max2"		type = "aoqun_breast_max2.mesh" }
+	blend_shape = { id = "aoqun_breast_max"		type = "aoqun_breast_max.mesh" }
+	blend_shape = { id = "aoqun_muscular"		type = "aoqun_muscular.mesh" }
+	blend_shape = { id = "aoqun_old"			type = "aoqun_old.mesh" }
+	blend_shape = { id = "aoqun_pregnant"		type = "aoqun_pregnant.mesh" }
+	blend_shape = { id = "aoqun_dwarf"			type = "aoqun_dwarf.mesh" }
+	blend_shape = { id = "aoqun_fat"			type = "aoqun_fat.mesh" }
+	blend_shape = { id = "aoqun_infant"			type = "aoqun_infant.mesh" }
+meshsettings = {
+name = "aoqun"
+index = 0
+texture_diffuse = "aoqun_pingmin.dds"
+texture_normal = "aoqun_pingmin_n.dds"
+texture_specular = "aoqun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "aoqun_pingmin_entity"
+pdxmesh = "aoqun_pingmin_mesh"
+	attribute = { name = "body_bs_bustsizemax"		blend_shape = "aoqun_breast_max" }
+	attribute = { name = "body_bs_thick"			blend_shape = "aoqun_muscular" }
+	attribute = { name = "body_bs_old"				blend_shape = "aoqun_old" }
+	attribute = { name = "body_bs_fat"				blend_shape = "aoqun_fat" }
+	attribute = { name = "body_bs_infant"			blend_shape = "aoqun_infant" }
+}
+
+pdxmesh = {
+name = "aoqun_pingmin2_mesh"
+file = "aoqun.mesh"
+	blend_shape = { id = "aoqun_breast_max2"		type = "aoqun_breast_max2.mesh" }
+	blend_shape = { id = "aoqun_breast_max"		type = "aoqun_breast_max.mesh" }
+	blend_shape = { id = "aoqun_muscular"		type = "aoqun_muscular.mesh" }
+	blend_shape = { id = "aoqun_old"			type = "aoqun_old.mesh" }
+	blend_shape = { id = "aoqun_pregnant"		type = "aoqun_pregnant.mesh" }
+	blend_shape = { id = "aoqun_dwarf"			type = "aoqun_dwarf.mesh" }
+	blend_shape = { id = "aoqun_fat"			type = "aoqun_fat.mesh" }
+	blend_shape = { id = "aoqun_infant"			type = "aoqun_infant.mesh" }
+meshsettings = {
+name = "aoqun"
+index = 0
+texture_diffuse = "aoqun_pingmin2.dds"
+texture_normal = "aoqun_pingmin_n.dds"
+texture_specular = "aoqun_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "aoqun_pingmin2_entity"
+pdxmesh = "aoqun_pingmin2_mesh"
+	attribute = { name = "body_bs_bustsizemax"		blend_shape = "aoqun_breast_max" }
+	attribute = { name = "body_bs_thick"			blend_shape = "aoqun_muscular" }
+	attribute = { name = "body_bs_old"				blend_shape = "aoqun_old" }
+	attribute = { name = "body_bs_fat"				blend_shape = "aoqun_fat" }
+	attribute = { name = "body_bs_infant"			blend_shape = "aoqun_infant" }
+}
+
+pdxmesh = {
+name = "aoqun_pingmin3_mesh"
+file = "aoqun.mesh"
+	blend_shape = { id = "aoqun_breast_max2"		type = "aoqun_breast_max2.mesh" }
+	blend_shape = { id = "aoqun_breast_max"		type = "aoqun_breast_max.mesh" }
+	blend_shape = { id = "aoqun_muscular"		type = "aoqun_muscular.mesh" }
+	blend_shape = { id = "aoqun_old"			type = "aoqun_old.mesh" }
+	blend_shape = { id = "aoqun_pregnant"		type = "aoqun_pregnant.mesh" }
+	blend_shape = { id = "aoqun_dwarf"			type = "aoqun_dwarf.mesh" }
+	blend_shape = { id = "aoqun_fat"			type = "aoqun_fat.mesh" }
+	blend_shape = { id = "aoqun_infant"			type = "aoqun_infant.mesh" }
+meshsettings = {
+name = "aoqun"
+index = 0
+texture_diffuse = "aoqun_pingmin3.dds"
+texture_normal = "aoqun_pingmin_n.dds"
+texture_specular = "aoqun_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+
+entity = {
+name = "aoqun_pingmin3_entity"
+pdxmesh = "aoqun_pingmin3_mesh"
+	attribute = { name = "body_bs_bustsizemax"		blend_shape = "aoqun_breast_max" }
+	attribute = { name = "body_bs_thick"			blend_shape = "aoqun_muscular" }
+	attribute = { name = "body_bs_old"				blend_shape = "aoqun_old" }
+	attribute = { name = "body_bs_fat"				blend_shape = "aoqun_fat" }
+	attribute = { name = "body_bs_infant"			blend_shape = "aoqun_infant" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/hanfu/aoqun/aoqun_pingmin_masks.dds"
+variation = "buwenli"
+}
+}
+}
+}

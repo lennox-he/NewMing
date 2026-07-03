@@ -1,0 +1,458 @@
+# 大明
+CNM = {
+	color = { 179 128 104 }
+	
+	country_type = recognized
+	
+	tier = hegemony
+	
+	cultures = { han }
+	capital = STATE_NANJING
+}
+
+DZU = {
+ 	color = { 104 23 28 }
+	
+	country_type = unrecognized
+	tier = empire
+	
+	cultures = { mongol }
+	capital = STATE_DZUNGARIA 
+}
+
+CNL = {
+ 	color = { 68 161 193 }
+	
+	country_type = recognized
+	tier = kingdom
+	
+	cultures = { han min yue }
+	capital = STATE_CALIFORNIA
+}
+
+CNP = {
+ 	color = { 228 99 139 }
+	
+	country_type = recognized
+	tier = kingdom
+	
+	cultures = { min nanyang }
+	capital = STATE_LUZON
+}
+
+CNN = {
+ 	color = { 248 133 29 }
+	
+	country_type = recognized
+	tier = kingdom
+	
+	cultures = { yue }
+	capital = STATE_TONKIN
+}
+
+CNY = {
+ 	color = { 191 138 157 }
+	
+	country_type = colonial
+	tier = kingdom
+	
+	cultures = { yue hakka }
+	capital = STATE_QUEENSLAND
+}
+
+RYU = {
+ 	color = { 98 98 206 }
+	
+	country_type = unrecognized
+	tier = principality
+	
+	cultures = { ryukyuan min }
+	capital = STATE_RYUKYU_ISLANDS
+}
+
+REPLACE_OR_CREATE:CHI = {
+	color = { 252 185 61 }
+	
+	country_type = recognized
+	
+	tier = hegemony
+	
+	cultures = { manchu han } 
+	capital = STATE_SHENGJING
+}
+
+HMI = {
+	color = { 118 193 177 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { mongol }
+	capital = STATE_HAMI
+}
+
+ZHY = {
+	color = { 27 193 27 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { yi }
+	capital = STATE_MENGYANG
+}
+
+MMK = {
+	color = { 27 109 107 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { yi }
+	capital = STATE_YUNNAN
+}
+
+CHS = {
+	color = { 34 31 68 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { thai }
+	capital = STATE_MENGYANG
+}
+
+CEL = {
+	color = { 175 193 16 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { thai }
+	capital = STATE_CHELI
+}
+
+GSD = { 
+	color = { 1 109 225 }
+
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { han }
+	capital = STATE_XIAN
+}
+
+GXD = { 
+	color = { 87 155 77 }
+
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { han }
+	capital = STATE_SICHUAN
+}
+
+ZHD = { 
+	color = { 252 72 41 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { han min }
+	capital = STATE_FORMOSA
+}
+
+XDY = { 
+	color = { 53 151 183 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_SHANXI
+}
+
+YYY = { 
+	color = { 255 200 24 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { han }
+	capital = STATE_SHANDONG
+}
+
+#宣慰司
+XJB = {   #北辰宣慰司
+	color = { 225 210 227 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { mongol han manzu }
+	capital = STATE_KAMCHATKA
+}
+
+XXF = {   #爔枫宣慰司
+	color = { 188 73 43 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han manzu qinqiu }
+	capital = STATE_ONTARIO
+}
+
+XYA = {   #殷安宣慰司
+	color = { 232 239 0 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han yinan }
+	capital = STATE_MEXICO
+}
+
+XYS = {   #阳山宣慰司
+	color = { 132 229 145 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han yangshan }
+	capital = STATE_LIMA
+}
+
+XHY = {   #煌原宣慰司
+	color = { 192 192 192 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han yangshan }
+	capital = STATE_SANTIAGO
+}
+
+XTZ = {   #天竺宣慰司
+	color = { 13 29 145 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han tianzhu }
+	capital = STATE_CENTRAL_INDIA
+}
+
+XHZ = {   #河中宣慰司
+	color = { 153 204 51 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han huizu }
+	capital = STATE_UZBEKIA
+}
+
+XHL = {   #红林宣慰司
+	color = { 67 106 13 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han yangshan }
+	capital = STATE_RIO_DE_JANEIRO
+}
+
+
+XMD = {   #缅甸宣慰司
+	color = { 119 168 127 }
+
+	country_type = colonial
+
+	tier = kingdom
+
+	cultures = { han burmese }
+	capital = STATE_BURMA
+}
+
+XXL = {   #暹罗宣慰司
+	color = { 98 137 172 }
+
+	country_type = colonial
+
+	tier = kingdom
+
+	cultures = { han thai }
+	capital = STATE_BANGKOK
+}
+
+YUA = {   #元朝
+	color = { 188 18 18 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { mongol han }
+	capital = STATE_BEIJING
+}
+
+MGE = {   #蒙古帝国
+	color = { 130 180 240 }
+
+	country_type = recognized
+
+	tier = hegemony
+
+	cultures = { mongol huizu }
+	capital = STATE_ULIASTAI
+}
+
+IJA = {
+	color = { 200 53 60 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { japanese }
+	capital = STATE_CHUGOKU
+}
+
+IJN = {
+	color = { 199 23 23 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { japanese }
+	capital = STATE_KYUSHU
+}
+
+SGG = {
+	color = { 255 200 24 }
+
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { min }
+	capital = STATE_TENASSERIM
+}
+
+CNT = {
+	color = { 15 69 223 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { taixi }
+	capital = STATE_LAZIO
+}
+
+CNF = {
+	color = { 155 29 58 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { fulin }
+	capital = STATE_EASTERN_THRACE
+}
+
+CNB = {
+	color = { 68 137 207 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { bosi }
+	capital = STATE_KHORASAN
+}
+
+CNS = {
+	color = { 86 93 173 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { nuosi }
+	capital = STATE_HOME_COUNTIES
+}
+
+CNR = {
+	color = { 97 126 3 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { luosha }
+	capital = STATE_MOSCOW
+}
+
+CNA = {
+	color = { 143 222 169 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { tianfang }
+	capital = STATE_PALESTINE
+}
+
+CNI = {
+	color = { 249 120 3 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { tianzhu }
+	capital = STATE_DELHI
+}
+
+CNX = {
+	color = { 123 90 90 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { xiematai }
+	capital = STATE_BRANDENBURG
+}
+
+CNJ = {
+	color = { 178 34 52 }
+
+	country_type = colonial
+
+	tier = kingdom
+	
+	cultures = { han japanese }
+	capital = STATE_KANTO
+}

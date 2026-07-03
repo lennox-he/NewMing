@@ -1,0 +1,7 @@
+colors = {
+	communist_ming_red =	rgb { 195 60 83 } #原中国颜色微调
+	communist_mingchina_red =	rgb { 222 41 21 } #红色共和国颜色
+	fxs_ming_red =	rgb { 225 56 16 }
+	tianchao_red =	rgb { 255 0 4 } #天朝配色
+	gongnong_red =	rgb { 216 28 28 } #工农红军配色
+}

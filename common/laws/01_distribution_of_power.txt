@@ -1,0 +1,59 @@
+INJECT_OR_CREATE:law_technocracy = {
+	can_enact = {
+		trigger_if = {
+			limit = {
+				c:CNM ?= ROOT
+				NOT = { has_law = scope:law }
+			}
+			NOT = { has_modifier = ming_landlord }
+		}
+	}
+}
+
+INJECT_OR_CREATE:law_wealth_voting = {
+	can_enact = {
+		trigger_if = {
+			limit = {
+				c:CNM ?= ROOT
+				NOT = { has_law = scope:law }
+			}
+			NOT = { has_modifier = ming_landlord }
+		}
+	}
+}
+
+INJECT_OR_CREATE:law_census_voting = {
+	can_enact = {
+		trigger_if = {
+			limit = {
+				c:CNM ?= ROOT
+				NOT = { has_law = scope:law }
+			}
+			NOT = { has_modifier = ming_landlord }
+		}
+	}
+}
+
+INJECT_OR_CREATE:law_universal_suffrage = {
+	can_enact = {
+		trigger_if = {
+			limit = {
+				c:CNM ?= ROOT
+				NOT = { has_law = scope:law }
+			}
+			NOT = { has_modifier = ming_landlord }
+		}
+	}
+}
+
+INJECT_OR_CREATE:law_anarchy = {
+	can_enact = {
+		trigger_if = {
+			limit = {
+				c:CNM ?= ROOT
+				NOT = { has_law = scope:law }
+			}
+			NOT = { has_modifier = ming_landlord }
+		}
+	}
+}

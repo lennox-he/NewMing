@@ -1,0 +1,21 @@
+INTERESTS = {
+	c:CHI = {	
+		add_declared_interest = region_japan
+		add_declared_interest = region_south_china
+		add_declared_interest = region_himalayas
+		add_declared_interest = region_central_asia
+	}
+	c:CNM = {	
+		add_declared_interest = region_manchuria
+		add_declared_interest = region_japan
+		add_declared_interest = region_pacific_coast
+		add_declared_interest = region_bengal
+		add_declared_interest = region_east_siberia
+		add_declared_interest = region_west_siberia
+		add_declared_interest = region_persia
+	}
+}	
+
+
+
+

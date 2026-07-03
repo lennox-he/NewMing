@@ -1,0 +1,33 @@
+pdxmesh = {
+	name = "jiaoling_mesh"
+	file = "jiaoling.mesh"
+
+	blend_shape = { id = "jiaoling_infant"		type = "jiaoling_infant.mesh" }
+	blend_shape = { id = "jiaoling_muscular"	type = "jiaoling_muscular.mesh" }
+	blend_shape = { id = "jiaoling_old"		type = "jiaoling_old.mesh" }	
+	blend_shape = { id = "jiaoling_dwarf"		type = "jiaoling_dwarf.mesh" }
+	blend_shape = { id = "jiaoling_fat"		type = "jiaoling_fat.mesh" }
+
+	meshsettings = {
+		name = "jiaoling"
+		index = 0
+		texture_diffuse = "jiaoling.dds"
+		texture_normal = "jiaoling_n.dds"
+		texture_specular = "jiaoling_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "jiaoling_entity"
+	pdxmesh = "jiaoling_mesh"
+
+	attribute = { name = "body_bs_infant"			blend_shape = "jiaoling_infant" }
+	attribute = { name = "body_bs_fat"				blend_shape = "jiaoling_fat" }
+	attribute = { name = "body_bs_thick"			blend_shape = "jiaoling_muscular" }	
+	attribute = { name = "body_bs_old"				blend_shape = "jiaoling_old" }
+
+game_data = { portrait_entity_user_data = { portrait_accessory = { pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/jiaolingpao/jiaoling_masks.dds" variation = "buwenli" } } }
+}
+

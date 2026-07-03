@@ -1,0 +1,38 @@
+taolism_chinese = {
+	type = heritage
+	trait_group = heritage_group_eastern
+}
+
+heritage_qingqiu_indian = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_yinan_indian = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+heritage_yangshan_indian = {
+	type = heritage
+	trait_group = heritage_group_indigenous_american
+}
+
+tradition_north_india = {
+	type = tradition
+}
+
+tradition_central_india = {
+	type = tradition
+}
+
+tradition_south_india = {
+	type = tradition
+}
+
+heritage_nanyang = { #南洋人
+	type = heritage
+	trait_group = heritage_group_southeast_asian
+}
+
+min_language = { }

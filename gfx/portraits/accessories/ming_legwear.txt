@@ -1,0 +1,78 @@
+﻿junku = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_entity }
+}
+
+junku_nv = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_nv_entity }
+}
+
+junku_haijun = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_haijun_entity }
+}
+
+junku_haijun_nv = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_haijun_nv_entity }
+}
+
+junku_xinjun = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_xinjun_entity }
+}
+
+junku_xinjun_nv = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_xinjun_nv_entity }
+}
+
+junku_guojun = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_guojun_entity }
+}
+
+junku_guojun_nv = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_guojun_nv_entity }
+}
+
+junku_jiefangjun = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_jiefangjun_entity }
+}
+
+junku_jiefangjun_nv = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_jiefangjun_nv_entity }
+}
+
+junku_pla_micai = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_pla_micai_entity }
+}
+
+junku_pla_micai_nv = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junku_pla_micai_nv_entity }
+}
+
+zhongshanku = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = zhongshanku_entity }
+}
+
+zhongshanku_nv = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = zhongshanku_nv_entity }
+}
+
+
+
+
+
+junxueku = {
+set_tags = "ming_xie"
+	entity = { required_tags = ""		shared_pose_entity = torso		entity = junxueku_entity }
+}

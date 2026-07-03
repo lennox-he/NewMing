@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ building_coal_mine_discovered_resource: 0 "煤矿"
+ building_iron_mine_discovered_resource: 0 "铁矿"
+ building_lead_mine_discovered_resource: 0 "铅矿"
+ building_sulfur_mine_discovered_resource: 0 "硫矿"
+ building_logging_camp_discovered_resource: 0 "林业资源"
+ building_whaling_station_discovered_resource: 0 "鲸鱼资源"
+ building_fishing_wharf_discovered_resource: 0 "鱼业资源"

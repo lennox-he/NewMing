@@ -1,0 +1,900 @@
+﻿###########################################################   明 ↓↓↓↓↓↓   ######################################################
+ming_yi = {
+    usage = game
+    selection_behavior = weighted_random
+    #fallback = default_clothes
+
+    ming_imperial_clothes = { #明皇帝
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi  template = ming_longpao_clothes range = { 0 1 } }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { add = 3000 AND = { chinese_han_imperial_clothes_trigger = yes oversea_han_monarchy_clothes_trigger = no } }
+        }
+    }
+
+    ming_heir_clothes = { #明太子
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi template = ming_jichengren_clothes range = { 0 1 } }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { add = 2800 OR = { chinese_heir_clothes_trigger = yes liuqiu_clothes_trigger = yes oversea_han_monarchy_clothes_trigger = yes } chinese_manchu_queue_hairstyle_pops_trigger = no
+                chinese_manchu_queue_hairstyle_character_trigger = no }
+        }
+    }
+
+    ming_court_clothes = { #明官员
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi template = ming_guanyuan_clothes range = { 0 1 } }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { 
+                add = 2600
+                OR = { chinese_han_court_clothes_trigger = yes }
+                chinese_manchu_queue_hairstyle_pops_trigger = no
+                chinese_manchu_queue_hairstyle_character_trigger = no
+            }
+        }
+    }
+
+    ming_wujiang_court_jyw_clothes = { #明武将
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi template = ming_feiyu_clothes range = { 0 1 } }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { add = 1 chinese_han_army_jyw_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+            chinese_manchu_queue_hairstyle_character_trigger = no }
+        }
+    }
+
+    ming_wujiang_court_1_clothes = { #明武将
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi template = ming_wujiang_5_clothes range = { 0 1 } }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { add = 2601 chinese_han_army_1_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+            chinese_manchu_queue_hairstyle_character_trigger = no }
+        }
+    }
+
+    ming_wujiang_court_2_clothes = { #明武将
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi template = ming_wujiang_4_clothes range = { 0 1 } }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { add = 2601 chinese_manchu_queue_hairstyle_pops_trigger = no chinese_han_army_2_clothes_trigger = yes
+            chinese_manchu_queue_hairstyle_character_trigger = no }
+        }
+    }
+
+    ming_wujiang_court_3_clothes = { #明武将
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi template = ming_wujiang_3_clothes range = { 0 1 } }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { add = 2601 chinese_han_army_3_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+            chinese_manchu_queue_hairstyle_character_trigger = no }
+        }
+    }
+
+    ming_wujiang_court_4_clothes = { #明武将
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi template = ming_wujiang_2_clothes range = { 0 1 } }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { add = 2601 chinese_han_army_4_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+            chinese_manchu_queue_hairstyle_character_trigger = no }
+        }
+    }
+
+ming_wujiang_court_5_clothes = { #明武将
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = ming_wujiang_1_clothes range = { 0 1 } }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2601 chinese_han_army_5_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+    ming_general_clothes = { #明陆军将领
+        dna_modifiers = {
+            accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.7 }
+            accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+            accessory = { mode = add gene = ming_xie template = junku_legwear value = 0.4 }
+            accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = { add = 2502 chinese_han_general_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+            chinese_manchu_queue_hairstyle_character_trigger = no }
+        }
+    }
+
+ming_admiral_clothes = { #明海军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = haijunfu_clothes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2502 chinese_han_admiral_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+ming_army_clothes = { #明军官人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.7 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2500 han_officers_clothes_pop_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+ming_soldier_clothes = { #明士兵人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.1 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0.4 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2500 han_soldier_clothes_pop_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no qing_soldier_clothes_pop_trigger = no }
+}
+}
+
+ming_ig_army_clothes = { #明军队集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.7 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0.4 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2501 chinese_han_ig_army_clothes_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no }
+}
+}
+
+ming_poor_clothes = { #明贫穷人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = ming_wuchanjieji_clothes range = { 0 1 } }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { add = 2500 AND = { han_poor_clothes_pop_trigger = yes 
+	chinese_manchu_queue_hairstyle_pops_trigger = no
+	chinese_manchu_queue_hairstyle_character_trigger = no } }
+}
+}
+
+ming_middle_clothes = { #明中产人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_waitao template = idmod_han_court_outfits range = { 0 1 } }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { add = 2500 AND = { han_middle_clothes_pop_trigger = yes chinese_manchu_queue_hairstyle_pops_trigger = no chinese_manchu_queue_hairstyle_character_trigger = no} }
+}
+}
+
+ming_upper_clothes = { #明富裕人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = ming_fuyujieji_clothes range = { 0 1 } }  
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { add = 2500 
+	OR = {
+		AND = { han_upper_clothes_pop_trigger = yes 
+			chinese_manchu_queue_hairstyle_pops_trigger = no
+			chinese_manchu_queue_hairstyle_character_trigger = no
+		} 
+	oversea_han_public_clothes_trigger = yes 
+		} 
+	}
+}
+}
+
+###########################################################   清 ↓↓↓↓↓↓   ######################################################
+qing_huangdi_clothes = { #清皇帝
+    dna_modifiers = {
+        accessory = { mode = add gene = necklaces template = chinese_necklaces range = { 0 1 } }
+        accessory = { mode = add gene = outfits  template = chinese_imperial_outfits range = { 0 0.5 } }
+    }
+    weight = {
+        base = 0
+        modifier = { add = 1000 chinese_imperial_clothes_trigger = yes }
+    }
+}
+
+qing_guanyuan_clothes = { #清官员
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = qing_guanyuan_clothes range = { 0 1 } }
+accessory = { mode = add gene = necklaces template = chinese_necklaces range = { 0 1 } }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1000 chinese_imperial_clothes_trigger = no OR = { chinese_court_clothes_trigger = yes tibet_court_clothes_trigger = yes tibet_armypop_clothes_trigger = yes } }
+}
+}
+
+qing_general_clothes = { #清陆军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = xinjun_clothes value = 1 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_xinjun_legwear value = 0 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1002 qing_general_clothes_trigger = yes }
+}
+}
+
+qing_admiral_clothes = { #清海军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = haijunfu_clothes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 1002 qing_admiral_clothes_trigger = yes }
+}
+}
+
+qing_officer_clothes = { #清军官人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = xinjun_clothes value = 0.5 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+accessory = {
+                mode = add
+                gene = legwear
+                template = european_legwear_colors
+                accessory = male_legwear_european_01_black
+            }
+}
+weight = {
+base = 0
+modifier = { add = 1000 qing_officers_clothes_pop_trigger = yes }
+modifier = { add = 3002 junfa_officers_clothes_pop_trigger = yes }
+}
+}
+
+qing_soldier_clothes = { #清军士兵群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = xinjun_clothes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+accessory = {
+                mode = add
+                gene = legwear
+                template = european_legwear_colors
+                accessory = male_legwear_european_01_black
+            }
+}
+weight = {
+base = 0
+modifier = { add = 1000 qing_soldier_clothes_pop_trigger = yes }
+modifier = { add = 3000 junfa_officers_clothes_pop_trigger = yes }
+}
+}
+
+qing_ig_army_clothes = { #清军队集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = xinjun_clothes value = 1 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_xinjun_legwear value = 0 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+accessory = {
+                mode = add
+                gene = legwear
+                template = european_legwear_colors
+                accessory = male_legwear_european_01_black
+            }
+}
+weight = {
+base = 0
+modifier = { add = 1001 qing_ig_army_clothes_trigger = yes }
+modifier = { add = 3001 junfa_officers_clothes_pop_trigger = yes }
+}
+}
+
+###########################################################   苏维埃 ↓↓↓↓↓↓   ######################################################
+SRC_chairman_clothes = { #苏区主席
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.7 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3003 SRC_chairman_clothes_trigger = yes }
+}
+}
+
+SRC_general_clothes = { #苏区陆军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.5 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0.4 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3002 SRC_general_clothes_trigger = yes }
+}
+}
+
+SRC_admiral_clothes = { #苏区海军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = haijunfu_clothes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3002 SRC_admiral_clothes_trigger = yes }
+}
+}
+
+SRC_army_clothes = { #苏区军官人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.5 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0.4 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 SRC_officers_clothes_pop_trigger = yes }
+}
+}
+
+SRC_soldier_clothes = { #苏区士兵人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.1 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0.4 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 SRC_soldier_clothes_pop_trigger = yes }
+}
+}
+
+SRC_ig_army_clothes = { #苏区军队集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = gemingjun_clothes value = 0.7 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3001 SRC_ig_army_clothes_trigger = yes }
+}
+}
+
+###########################################################   党国 ↓↓↓↓↓↓   ######################################################
+KMT_chairman_clothes = { #国军委员长
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 0.5 }
+#accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 0.7 }
+#accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3003 KMT_chairman_clothes_trigger = yes }
+}
+}
+
+KMT_general_clothes = { #国军陆军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = guojun_clothes value = 1 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_guojun_legwear value = 0 }
+#accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3002 KMT_general_clothes_trigger = yes }
+}
+}
+
+KMT_admiral_clothes = { #国军海军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = haijunfu_clothes value = 0.6 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+#accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.3 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3002 KMT_admiral_clothes_trigger = yes }
+}
+}
+
+KMT_army_clothes = { #国军军官人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = guojun_clothes value = 0.5 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+#accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.5 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 KMT_officers_clothes_pop_trigger = yes }
+}
+}
+
+KMT_soldier_clothes = { #国军士兵人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = guojun_clothes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 KMT_soldier_clothes_pop_trigger = yes }
+}
+}
+
+KMT_bureaucrats_clothes = { #国军官僚人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 0 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 KMT_bureaucrats_clothes_pop_trigger = yes }
+}
+}
+
+KMT_ig_intelligentsia_clothes = { #国军知识分子集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 0.5 }
+accessory = { mode = add gene = ming_xie template = SRC_zhonggaochanjieji_legwear value = 0 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 KMT_ig_intelligentsia_clothes_trigger = yes }
+}
+}
+
+
+
+
+
+###########################################################  民国 ↓↓↓↓↓↓   ######################################################
+BYN_chairman_clothes = { #北洋总统/总理
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = minguo_fuyujieji_clothes range = { 0 1 } }  
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+accessory = { mode = add gene = ming_xie template = SRC_zhonggaochanjieji_legwear range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2003 OR = { BYN_chairman_clothes_trigger = yes } }
+}
+}
+
+BYN_general_clothes = { #北洋陆军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = beiyang_clothes value = 1 }
+accessory = { mode = add gene = aiguillettes template = all_aiguillettes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_beiyang_legwear value = 0 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.7 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2002 BYN_general_clothes_trigger = yes }
+}
+}
+
+BYN_admiral_clothes = { #北洋海军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = haijunfu_clothes value = 0.4 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.7 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2002 BYN_admiral_clothes_trigger = yes }
+}
+}
+
+BYN_army_clothes = { #北洋军官人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = beiyang_clothes value = 0.5 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.9 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2000 OR = { BYN_officers_clothes_pop_trigger = yes oversea_han_officers_clothes_trigger = yes } }
+}
+}
+
+BYN_soldier_clothes = { #北洋士兵人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = beiyang_clothes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2000 BYN_soldier_clothes_pop_trigger = yes }
+}
+}
+
+BYN_ig_army_clothes = { #北洋军队集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = beiyang_clothes value = 1 }
+accessory = { mode = add gene = aiguillettes template = all_aiguillettes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_beiyang_legwear value = 0 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.5 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 2001 BYN_ig_army_clothes_trigger = yes }
+}
+}
+
+BYN_poor_clothes = { #民国贫穷人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = ming_wuchanjieji_clothes range = { 0 1 } }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { 
+add = 2000 
+OR = { 
+BYN_poor_clothes_pop_trigger = yes 
+BYN_ig_rural_folk_clothes_trigger = yes
+
+}
+}
+}
+}
+
+BYN_middle_clothes = { #民国中产人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = minguo_zhongchanjieji_clothes range = { 0 1 } }
+accessory = { mode = add gene = ming_waitao template = minguo_zhongchanjieji_coats range = { 0 1 } }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+accessory = { mode = add gene = ming_xie template = SRC_zhonggaochanjieji_legwear range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { 
+add = 2000 
+OR = { 
+BYN_middle_clothes_pop_trigger = yes 
+BYN_ig_gonghui_clothes_trigger = yes 
+BYN_ig_petty_bourgeoisie_clothes_trigger = yes 
+BYN_ig_intelligentsia_clothes_trigger = yes 
+BYN_ig_devout_clothes_trigger = yes 
+} 
+}
+}
+}
+
+BYN_upper_clothes = { #民国富裕人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = minguo_fuyujieji_clothes range = { 0 1 } }  
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+accessory = { mode = add gene = ming_xie template = SRC_zhonggaochanjieji_legwear range = { 0 1 } }
+} 
+weight = {
+base = 0
+modifier = { 
+add = 2000 
+OR = { 
+BYN_upper_clothes_pop_trigger = yes 
+BYN_ig_industry_clothes_trigger = yes 
+BYN_ig_landowners_clothes_trigger = yes 
+
+} 
+}
+}
+}
+
+
+
+
+
+
+
+###########################################################   共和国 ↓↓↓↓↓↓   ######################################################
+PRC_chairman_clothes = { #共和国主席
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_jiefangjun_legwear value = 0 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3003 PRC_chairman_clothes_trigger = yes }
+}
+}
+
+PRC_general_clothes = { #共和国陆军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = jiefangjun_clothes value = 1 }
+#accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_jiefangjun_legwear value = 0 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.5 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3002 PRC_general_clothes_trigger = yes }
+}
+}
+
+PRC_admiral_clothes = { #共和国海军将领
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = haijunfu_clothes value = 1 }
+#accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = epaulettes template = all_epaulettes value = 0.5 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3002 PRC_admiral_clothes_trigger = yes }
+}
+}
+
+PRC_army_clothes = { #共和国军官人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = jiefangjun_clothes value = 0.5 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_officers_clothes_pop_trigger = yes }
+}
+}
+
+PRC_soldier_clothes = { #共和国士兵人群
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = jiefangjun_clothes value = 0 }
+accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_soldier_clothes_pop_trigger = yes }
+}
+}
+
+PRC_ig_army_clothes = { #共和国军队集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = jiefangjun_clothes value = 1 }
+#accessory = { mode = add gene = ming_yaodai template = gemingjun_yaodai_belt value = 1 }
+accessory = { mode = add gene = ming_xie template = junku_jiefangjun_legwear value = 0 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3001 PRC_ig_army_clothes_trigger = yes }
+}
+}
+
+PRC_ig_intelligentsia_clothes = { #共和国知识分子集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 0 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_ig_intelligentsia_clothes_trigger = yes }
+}
+}
+
+PRC_ig_devout_clothes = { #共和国宗教集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 0 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_ig_devout_clothes_trigger = yes }
+}
+}
+
+PRC_ig_industrialists_clothes = { #共和国实业家集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = minguo_fuyujieji_clothes range = { 0 1 } }  
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_ig_industrialists_clothes_trigger = yes }
+}
+}
+
+PRC_ig_landowners_clothes = { #共和国地主集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = minguo_fuyujieji_clothes range = { 0 1 } }  
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_ig_landowners_clothes_trigger = yes }
+}
+}
+
+PRC_ig_petty_bourgeoisie_clothes = { #共和国小市民集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 0 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_ig_petty_bourgeoisie_clothes_trigger = yes }
+}
+}
+
+PRC_ig_rural_folk_clothes = { #共和国农民集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 0 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_ig_rural_folk_clothes_trigger = yes }
+}
+}
+
+PRC_ig_trade_unions_clothes = { #共和国工会集团
+dna_modifiers = {
+accessory = { mode = add gene = ming_yi template = zhongshan_clothes value = 0 }
+accessory = { mode = add gene = ming_xie template = junku_legwear value = 1 }
+accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+}
+weight = {
+base = 0
+modifier = { add = 3000 PRC_ig_trade_unions_clothes_trigger = yes }
+}
+}
+
+id_han_imperial_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = ming_waitao
+                template = idmod_han_imperial_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 3000
+                id_han_imperial_clothes_trigger = yes
+            }
+        }
+}
+
+aom_mongol_imperial_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = ming_waitao
+                template = aom_mongol_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 3001
+                aom_mongol_imperial_clothes_trigger = yes
+            }
+        }
+}
+
+asian_ruler_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = ming_waitao
+                template = idmod_han_court_outfits
+                range = { 0 1 } # For the randomness to work correctly
+            }
+            accessory = { mode = add gene = outfits  template = no_outfit range = { 0 1 } }
+        }
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+				AND = {
+					asian_court_clothes_trigger = yes
+					chinese_court_clothes_trigger = no
+				}
+           }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

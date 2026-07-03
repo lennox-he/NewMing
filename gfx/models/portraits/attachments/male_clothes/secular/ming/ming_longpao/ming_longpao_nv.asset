@@ -1,0 +1,773 @@
+pdxmesh = {
+name = "ming_longpao_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"		type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"		type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_longpao.dds"
+texture_normal = "PDXmat_ming_longpao_n.dds"
+texture_specular = "PDXmat_ming_longpao_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_longpao.dds"
+texture_normal = "ming_longpao_n.dds"
+texture_specular = "ming_longpao_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_longpao_nv_entity"
+pdxmesh = "ming_longpao_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+
+pdxmesh = {
+name = "ming_1pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_1pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_1pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_1pinwen_nv_entity"
+pdxmesh = "ming_1pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_2pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_2pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_2pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_2pinwen_nv_entity"
+pdxmesh = "ming_2pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_3pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_3pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_3pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_3pinwen_nv_entity"
+pdxmesh = "ming_3pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_4pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_4pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_4pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_4pinwen_nv_entity"
+pdxmesh = "ming_4pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_5pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_5pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_5pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_5pinwen_nv_entity"
+pdxmesh = "ming_5pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_6pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_6pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_6pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_6pinwen_nv_entity"
+pdxmesh = "ming_6pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_7pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_7pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_7pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_7pinwen_nv_entity"
+pdxmesh = "ming_7pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_8pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_8pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_8pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_8pinwen_nv_entity"
+pdxmesh = "ming_8pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_9pinwen_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_9pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_9pinwen.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_9pinwen_nv_entity"
+pdxmesh = "ming_9pinwen_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_12pinwu_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_12pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_12pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_12pinwu_nv_entity"
+pdxmesh = "ming_12pinwu_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_34pinwu_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_34pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_34pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_34pinwu_nv_entity"
+pdxmesh = "ming_34pinwu_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_5pinwu_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_5pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_5pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_5pinwu_nv_entity"
+pdxmesh = "ming_5pinwu_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_67pinwu_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_67pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_67pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_67pinwu_nv_entity"
+pdxmesh = "ming_67pinwu_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_8pinwu_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_8pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_8pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_8pinwu_nv_entity"
+pdxmesh = "ming_8pinwu_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+pdxmesh = {
+name = "ming_9pinwu_nv_mesh"
+file = "ming_longpao_nv.mesh"
+blend_shape = { id = "ming_longpao_nv_bs_breast_max"		type = "ming_longpao_nv_breast_max.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_breast_max2"	type = "ming_longpao_nv_breast_max2.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_dwarf"		type = "ming_longpao_nv_dwarf.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_fat"		type = "ming_longpao_nv_fat.mesh" }	
+blend_shape = { id = "ming_longpao_nv_bs_infant"	type = "ming_longpao_nv_infant.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_muscular"	type = "ming_longpao_nv_muscular.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_old"		type = "ming_longpao_nv_old.mesh" }
+blend_shape = { id = "ming_longpao_nv_bs_pregnant"		type = "ming_longpao_nv_pregnant.mesh" }
+meshsettings = {
+name = "ming_longpao_nv"
+index = 0
+texture_diffuse = "ming_9pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment_pattern"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+meshsettings = {
+name = "ming_longpao_yaodai_nv"
+index = 0
+texture_diffuse = "ming_9pinwu.dds"
+texture_normal = "ming_guanyuan_n.dds"
+texture_specular = "ming_guanyuan_p.dds"
+shader = "portrait_attachment"
+shader_file = "gfx/FX/jomini/portrait.shader"
+}
+}
+entity = {
+name = "ming_9pinwu_nv_entity"
+pdxmesh = "ming_9pinwu_nv_mesh"
+attribute = { name = "body_bs_bustsizemax"	blend_shape = "ming_longpao_nv_bs_breast_max" }
+attribute = { name = "body_bs_fat"		blend_shape = "ming_longpao_nv_bs_fat" }
+attribute = { name = "body_bs_infant"	blend_shape = "ming_longpao_nv_bs_infant" }
+attribute = { name = "body_bs_thick"	blend_shape = "ming_longpao_nv_bs_muscular" }
+attribute = { name = "body_bs_old"		blend_shape = "ming_longpao_nv_bs_old" }
+game_data = {
+portrait_entity_user_data = {
+portrait_accessory = {
+pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/ming_longpao/ming_longpao_masks.dds"
+variation = "wuwenli"
+}
+}
+}
+}
+
+
+
+
+

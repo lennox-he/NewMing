@@ -1,0 +1,181 @@
+#
+# Note: the triggers are checked at certain key points in the code, not all the time
+# color_key = {
+#    color = "black"      # the map color
+#    possible = { ... }   # the trigger to enable this color
+# }
+#
+
+# Example
+#dynamic_map_color_swedish_junta = {
+#    color = "black"
+#
+#	possible = {
+#		exists = c:SWE # you /must/ check that a tag exists before doing anything else
+#		this = c:SWE
+#
+#        exists = ig:ig_armed_forces
+#        ig:ig_armed_forces = {
+#            is_in_government = yes
+#        }
+#	}
+#}
+
+REPLACE_OR_CREATE:communist_china = {
+	color = "communist_china_red"
+	possible = {
+		OR = {
+			AND = {
+				exists = c:CHI
+				THIS = c:CHI
+			}
+			AND = {
+				exists = c:BEI
+				THIS = c:BEI
+			}
+		}
+		has_law = law_type:law_council_republic
+	}
+}
+
+REPLACE_OR_CREATE:republican_china = { # Beiyang Government stays yellow
+	color = "azure"
+
+	possible = {
+		OR = {
+			AND = {
+				exists = c:CHI
+				THIS = c:CHI
+			}
+			AND = {
+				exists = c:CNM
+				THIS = c:CNM
+				has_variable = called_china
+			}
+		}
+		OR = {
+			has_law = law_type:law_parliamentary_republic
+			has_law = law_type:law_presidential_republic
+		}
+	}
+}
+
+REPLACE_OR_CREATE:han_imperial_china = {
+	color = "red_china"
+
+	possible = {
+		OR = {
+			AND = {
+				exists = c:CHI
+				THIS = c:CHI
+			}
+			AND = {
+				exists = c:BEI
+				THIS = c:BEI
+			}
+			AND = {
+				exists = c:CNM
+				THIS = c:CNM
+				has_variable = called_china
+			}
+		}
+		NOT = { country_has_primary_culture = cu:manchu }
+		has_law = law_type:law_monarchy
+	}
+}
+
+REPLACE_OR_CREATE:communist_ming_red = {
+	color = "communist_ming_red"
+
+	possible = {
+		AND = {
+			exists = c:CNM
+			THIS = c:CNM
+			has_law = law_type:law_council_republic
+			NOT = { has_variable = no_zhu_dynasty }
+			NOT = { has_variable = called_china }
+		}
+	}
+}
+REPLACE_OR_CREATE:huaxia_red = {
+	color = "tianchao_red"
+
+	possible = {
+		exists = c:CNM
+		THIS = c:CNM
+		has_variable = no_zhu_dynasty
+	}
+}
+REPLACE_OR_CREATE:communist_mingchina_red = {
+	color = "communist_mingchina_red"
+
+	possible = {
+		exists = c:CNM
+		THIS = c:CNM
+		OR = {
+			has_variable = no_zhu_dynasty
+			has_variable = called_china
+		}
+		has_law = law_type:law_council_republic
+	}
+}
+REPLACE_OR_CREATE:fxs_ming_red = {
+	color = "fxs_ming_red"
+
+	possible = {
+		exists = c:CNM
+		THIS = c:CNM
+		OR = {
+			AND = {
+				OR = {
+					has_law_or_variant = law_type:law_autocracy
+					has_law_or_variant = law_type:law_single_party_state
+				}
+				OR = {
+					has_law_or_variant = law_type:law_corporate_state
+					has_law_or_variant = law_type:law_presidential_republic
+					has_law_or_variant = law_type:law_parliamentary_republic
+					has_law_or_variant = law_type:law_council_republic
+				}
+			}
+		 	AND = {
+				OR = {
+					AND = {
+						OR = {
+							has_law_or_variant = law_type:law_corporate_state
+							has_law_or_variant = law_type:law_presidential_republic
+							has_law_or_variant = law_type:law_parliamentary_republic
+							has_law_or_variant = law_type:law_council_republic
+						}
+						has_law_or_variant = law_type:law_oligarchy
+					}
+					AND = {
+						OR = {
+							has_law_or_variant = law_type:law_autocracy
+							has_law_or_variant = law_type:law_single_party_state
+						}
+						OR = {
+							has_law_or_variant = law_type:law_corporate_state
+							has_law_or_variant = law_type:law_presidential_republic
+							has_law_or_variant = law_type:law_parliamentary_republic
+							has_law_or_variant = law_type:law_council_republic
+						}
+					}
+				}
+				OR = {
+					has_law_or_variant = law_type:law_corporate_state
+					ruler ?= {
+						OR = {
+							has_ideology = ideology:ideology_fascist
+							has_ideology = ideology:ideology_integralist
+						}
+					}
+				}
+			}
+			OR = {
+				has_government_type = gov_military_dictatorship
+				has_government_type = gov_junta
+			}
+		}
+	}
+}

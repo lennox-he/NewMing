@@ -1,0 +1,22 @@
+AI = {
+	c:CHI = {
+		random_list = {	
+			75 = { set_strategy = ai_strategy_industrial_expansion }
+			25 = { set_strategy = ai_strategy_resource_expansion }
+		}			
+		set_strategy = ai_strategy_territorial_expansion
+		set_strategy = ai_strategy_maintain_mandate_of_heaven
+	}
+	c:CNM = {
+		set_strategy = ai_strategy_industrial_expansion
+		random_list = {	
+			50= { set_strategy = ai_strategy_unify_china }
+			50= { set_strategy = ai_strategy_territorial_expansion }
+		}
+		set_strategy = ai_strategy_reform_mandate_of_heaven
+	}
+}	
+
+
+
+

@@ -1,0 +1,111 @@
+id_han_imperial_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		is_ruler = yes
+     	owner = {
+     		has_law = law_type:law_monarchy
+     	}
+		culture = {
+			has_discrimination_trait = language_mongolian
+		}
+	}
+}
+
+aom_mongol_imperial_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		is_ruler = yes
+     	owner = {
+     		has_law = law_type:law_monarchy
+     	}
+		culture = {
+			has_discrimination_trait = language_mongolian
+			has_discrimination_trait = heritage_han
+		}
+	}
+}
+
+id_mod_han_clothes_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+	}
+}
+
+id_mod_han_clothes_court_trigger = {
+	exists = scope:character
+	scope:character = {
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+	}
+}
+id_mod_han_clothes_court_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+	}
+}
+id_manchu_qng_imperial_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		is_ruler = yes
+		culture = cu:manchu
+     	owner = {
+     		has_law = law_type:law_monarchy
+     	}
+		OR = {
+			AND = {
+				exists = c:CHI
+				OWNER = c:CHI
+			}
+		}
+	}
+}
+
+asian_court_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		NOT = {
+			AND = {
+				is_ruler = yes
+				culture = {
+					has_discrimination_trait = language_siamese
+					has_discrimination_trait = heritage_tai
+				}
+		     	owner = {
+		     		OR = {
+			     		has_law = law_type:law_monarchy
+			     		has_law = law_type:law_theocracy
+			     	}
+		     	}			
+			}
+		}
+		culture = {
+			NOT = { this = cu:kalmyk }
+			OR = {
+				has_discrimination_trait = heritage_tibetan
+				has_discrimination_trait = heritage_mongolian
+				has_discrimination_trait = heritage_tai
+				has_discrimination_trait = language_hmong
+				has_discrimination_trait = language_yi
+			}
+		}
+	}	
+}

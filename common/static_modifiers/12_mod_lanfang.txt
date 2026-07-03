@@ -1,0 +1,83 @@
+lanfang_bu = { # 扩建厂房
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_construction_mult = 0.25
+	country_construction_add = 10
+}
+
+lanfang_pe = { # 招募员工
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_migration_pull_mult = 0.5
+	country_tech_spread_add = 10
+}
+
+lanfang_re = { # 注重研发
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_production_tech_research_speed_mult = 0.25
+}
+
+lanfang_ma = { # 扩大生产
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	building_group_bg_manufacturing_throughput_add = 0.25
+	
+}
+
+lanfang_pl = { # 经济作物
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	building_group_bg_plantations_throughput_add = 0.25
+	
+}
+
+lanfang_po = { # 招商引资
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_farmers_investment_pool_contribution_add = 0.05
+	state_shopkeepers_investment_pool_contribution_add = 0.05
+	state_aristocrats_investment_pool_contribution_add = 0.10
+	state_capitalists_investment_pool_contribution_add = 0.20
+}
+
+lanfang_go = { # 优化制度
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_law_enactment_time_mult = -0.5
+	country_legitimacy_base_add = 20
+	country_authority_mult = -0.25
+}
+
+lanfang_1 = { # 信誉：优秀
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_loan_interest_rate_add = -0.18
+	state_capitalists_investment_pool_efficiency_mult = 0.25
+	building_group_bg_mining_throughput_add = 0.05
+}
+
+lanfang_2 = { # 信誉：良好
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_loan_interest_rate_add = -0.10
+	state_capitalists_investment_pool_efficiency_mult = 0.1
+	building_group_bg_mining_throughput_add = 0.01
+}
+
+lanfang_3 = { # 信誉：一般
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_loan_interest_rate_add = -0.05
+	state_capitalists_investment_pool_efficiency_mult = 0.05
+}
+
+lanfang_4 = { # 信誉：关注
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_capitalists_investment_pool_efficiency_mult = -0.05
+}
+
+lanfang_5 = { # 信誉：风险
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_loan_interest_rate_add = 0.05
+	state_capitalists_investment_pool_efficiency_mult = -0.1
+}
+
+lanfang_helan = { # 击败荷兰
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_loan_interest_rate_add = -0.5
+	state_capitalists_investment_pool_efficiency_mult = 0.1
+	state_capitalists_investment_pool_contribution_add = 0.20
+	country_legitimacy_base_add = 20
+	state_migration_pull_mult = 0.8
+}

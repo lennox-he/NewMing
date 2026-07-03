@@ -1,0 +1,41 @@
+pdxmesh = {
+	name = "qing_guanyuan_mesh"
+	file = "qing_guanyuan.mesh"
+	
+	blend_shape = { id = "qing_guanyuan_bs_fat"					type = "qing_guanyuan_bs_fat.mesh" }
+	blend_shape = { id = "qing_guanyuan_bs_gaunt"				type = "qing_guanyuan_bs_gaunt.mesh" }
+	blend_shape = { id = "qing_guanyuan_bs_old"					type = "qing_guanyuan_bs_old.mesh" }
+	blend_shape = { id = "qing_guanyuan_bs_infant"				type = "qing_guanyuan_bs_infant.mesh" }
+	blend_shape = { id = "qing_guanyuan_bs_dwarf"					type = "qing_guanyuan_bs_dwarf.mesh" }
+	blend_shape = { id = "qing_guanyuan_bs_muscular"					type = "qing_guanyuan_bs_muscular.mesh" }
+	
+	meshsettings = {
+		name = "male_outfit_chinese_court_01Shape"
+		index = 0
+		texture_diffuse = "qing_guanyuan.dds"
+		texture_normal = "qing_guanyuan_n.dds"
+		texture_specular = "qing_guanyuan_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "qing_guanyuan_entity"
+	pdxmesh = "qing_guanyuan_mesh"
+	
+		attribute = { name = "body_bs_fat"					blend_shape = "qing_guanyuan_bs_fat" }
+		attribute = { name = "body_bs_gaunt"				blend_shape = "qing_guanyuan_bs_gaunt" }
+		attribute = { name = "body_bs_old"					blend_shape = "qing_guanyuan_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "qing_guanyuan_bs_infant" }
+		attribute = { name = "body_bs_thick"					blend_shape = "qing_guanyuan_bs_muscular" }
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/male_clothes/secular/ming/qing_guanyuan/qing_guanyuan_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+			variation = "wuwenli"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}

@@ -1,0 +1,35 @@
+﻿ming_daoju = {
+usage = none
+
+ak47 = {
+dna_modifiers = {
+accessory = { mode = add gene = ming_daoju  template = "ak47_daoju" value = 1 }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

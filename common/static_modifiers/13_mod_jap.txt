@@ -1,0 +1,152 @@
+native_conscription_n = { #阿伊努战团
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_conscription_rate_add = 0.50
+	building_training_rate_add = 2000
+	battle_defense_owned_province_mult = 4.5
+	battle_offense_owned_province_mult = 1.0
+	battle_casualties_mult = -0.9
+	unit_morale_loss_mult = -0.5
+	unit_morale_damage_mult = -0.2
+	unit_kill_rate_add = 0.5
+	unit_recovery_rate_add = 0.8
+}
+
+ani_def = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	state_assimilation_mult = -0.8
+	state_turmoil_effects_mult = 0.5
+	state_non_homeland_colony_growth_speed_mult = -0.8
+	country_tension_decay_mult = -1
+}
+
+jap_antijapan = { #反日活动
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	state_radicals_and_loyalists_from_sol_change_mult = 0.5
+	country_radicalism_increases_violent_hostility_mult = 0.8
+	country_radicalism_increases_cultural_erasure_mult = 0.5
+	country_radicalism_increases_open_prejudice_mult = 0.3
+	country_radicalism_increases_second_rate_citizen_mult = 0.25
+	state_assimilation_mult = -0.8
+	state_turmoil_effects_mult = 0.5
+}
+
+jap_taiwan = { #模范殖民地
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicals_and_loyalists_from_sol_change_mult = 0.1
+	country_radicalism_increases_violent_hostility_mult = 0.5
+	country_radicalism_increases_cultural_erasure_mult = 0.5
+	country_radicalism_increases_open_prejudice_mult = 0.2
+	country_radicalism_increases_second_rate_citizen_mult = 0.1
+	state_assimilation_mult = 0.5
+	state_turmoil_effects_mult = -0.2
+	state_birth_rate_mult = 0.05
+	state_tax_collection_mult = 0.1
+	
+		building_group_bg_manufacturing_throughput_add = -0.1
+		building_group_bg_plantations_throughput_add = 0.2
+		building_group_bg_rubber_throughput_add = 0.2
+		building_group_bg_logging_throughput_add = 0.2
+		building_group_bg_mining_throughput_add = 0.2
+		state_starting_wages_mult = -0.10
+		building_subsistence_output_mult = -0.10
+		state_construction_mult = 0.1
+}
+
+jap_modifier_tonghua = { #同化虾夷
+	icon = gfx/interface/icons/event_icons/warrior_traditions_idea.dds
+	state_mortality_turmoil_mult = 0.05
+	state_assimilation_mult = 0.5
+	state_turmoil_effects_mult = 0.5
+	country_radicalism_increases_violent_hostility_mult = 0.5
+	country_radicalism_increases_cultural_erasure_mult = 0.25
+}
+
+jap_modifier_conquer = { #殖民扩张
+	icon = gfx/interface/icons/event_icons/warrior_traditions_idea.dds
+	state_radicals_and_loyalists_from_sol_change_mult = -0.25
+	country_radicalism_increases_violent_hostility_mult = 0.5
+	country_radicalism_increases_cultural_erasure_mult = 0.25
+	state_colony_growth_speed_mult = 0.2
+}
+
+jap_modifier_junguo = { #军国主义
+	icon = gfx/interface/icons/event_icons/warrior_traditions_idea.dds
+	interest_group_ig_armed_forces_pol_str_mult = 0.25
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.4
+	interest_group_ig_intelligentsia_pol_str_mult = -0.25
+	interest_group_ig_trade_unions_pol_str_mult = -0.25
+	country_radicalism_increases_violent_hostility_mult = 0.1
+	country_radicalism_increases_cultural_erasure_mult = 0.1
+	country_radicalism_increases_open_prejudice_mult = 0.1
+	country_radicalism_increases_second_rate_citizen_mult = 0.1
+	country_legitimacy_base_add = 10
+	unit_army_defense_mult = 0.15
+	unit_army_offense_mult = 0.15
+}
+
+jap_modifier_minzhu = { #民主主义
+	icon = gfx/interface/icons/event_icons/warrior_traditions_idea.dds
+	interest_group_ig_armed_forces_pol_str_mult = -0.2
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = -0.2
+	interest_group_ig_intelligentsia_pol_str_mult = 0.25
+	interest_group_ig_trade_unions_pol_str_mult = 0.25
+	country_legitimacy_base_add = 10
+	
+}
+
+jap_modifier_wushi = { #武士道
+	icon = gfx/interface/icons/event_icons/focus_JAP_carrier_samurai.dds
+	unit_kill_rate_add = 0.05
+	unit_morale_damage_mult = 0.15
+	unit_morale_protection_mult = -0.1
+	unit_morale_recovery_mult = 0.05
+	unit_recovery_rate_add = -0.05
+	building_training_rate_add = 500
+}
+
+jap_modifier_zanyi = { #大政赞翼
+	icon = gfx/interface/icons/event_icons/warrior_traditions_idea.dds
+	country_authority_add = 150
+	country_legitimacy_base_add = 15
+	political_movement_radicalism_add = 0.2
+	interest_group_ig_intelligentsia_approval_add = -2
+}
+
+jap_modifier_haw = { #太平洋霸权
+	icon = gfx/interface/icons/event_icons/warrior_traditions_idea.dds
+	country_influence_add = 100
+	state_trade_quantity_mult = 0.25
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+	state_colony_growth_speed_mult = 0.1
+}
+
+jap_modifier_tgk = { #特高课扫荡
+	icon = gfx/interface/icons/event_icons/warrior_traditions_idea.dds
+	state_mortality_turmoil_mult = 0.2
+	state_radicals_and_loyalists_from_sol_change_mult = -0.2
+	country_radicalism_increases_violent_hostility_mult = 0.1
+	country_radicalism_increases_cultural_erasure_mult = 0.1
+	country_radicalism_increases_open_prejudice_mult = 0.1
+	country_radicalism_increases_second_rate_citizen_mult = 0.1
+	state_turmoil_effects_mult = -0.5
+}
+
+jap_modifier_dabeny = { #大本营
+	icon = gfx/interface/icons/event_icons/focus_JAP_carrier_samurai.dds
+	interest_group_ig_armed_forces_pol_str_mult = 0.1
+}
+
+jap_modifier_dabeny_lujun = { #大本营陆军
+	icon = gfx/interface/icons/event_icons/focus_JAP_carrier_samurai.dds
+	unit_army_defense_mult = 0.1
+	unit_army_offense_mult = 0.1
+	building_barrack_throughput_add = 0.15
+}
+
+jap_modifier_dabeny_haijun = { #大本营海军
+	icon = gfx/interface/icons/event_icons/focus_JAP_carrier_samurai.dds
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+	building_naval_administration_throughput_add = 0.15
+}

@@ -1,0 +1,111 @@
+
+SRC_clothes_pop_trigger = {  #中华苏维埃通用
+	exists = scope:pop
+	scope:pop = {
+		exists = c:SRC owner = c:SRC
+	}
+}
+
+SRC_chairman_clothes_trigger = { #中华苏维埃主席
+	exists = scope:character
+	scope:character = {
+		is_ruler = yes
+		owner = {
+			has_law = law_type:law_council_republic
+			ND = { exists = c:SRC owner = c:SRC }
+		}
+	}
+}
+
+SRC_general_clothes_trigger = { #中华苏维埃陆军将领通用
+	exists = scope:character
+	scope:character = {
+		exists = c:SRC
+		owner = c:SRC
+		has_role = general
+		commander_rank >= 0
+	} 
+}
+
+SRC_admiral_clothes_trigger = { #中华苏维埃海军将领通用
+	exists = scope:character
+	scope:character = {
+		exists = c:SRC
+		owner = c:SRC
+		has_role = admiral
+		commander_rank >= 0
+	} 
+}
+
+SRC_officers_clothes_pop_trigger = { #中华苏维埃军官通用
+	exists = scope:pop
+	scope:pop = { 
+		exists = c:SRC
+		owner = c:SRC
+		is_pop_type = officers 
+	} 
+}
+
+SRC_soldier_clothes_pop_trigger = { #中华苏维埃士兵通用
+	exists = scope:pop
+	scope:pop = { 
+		exists = c:SRC
+		owner = c:SRC
+		is_pop_type = soldiers
+	}
+}
+
+SRC_ig_army_clothes_trigger = { #中华苏维埃军队集团
+	exists = scope:character
+	scope:character = {
+		is_ruler = no
+		exists = c:SRC
+		owner = c:SRC
+		interest_group = {
+			is_interest_group_type = ig_armed_forces
+		}
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "chunyangjin_mesh"
+	file = "chunyangjin.mesh"
+
+	meshsettings = {
+		name = "cyj"
+		index = 0
+		texture_diffuse = "chunyangjin.dds"
+		texture_normal = "chunyangjin_n.dds"
+		texture_specular = "chunyangjin_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "chunyangjin_entity"
+	pdxmesh = "chunyangjin_mesh"
+}
+

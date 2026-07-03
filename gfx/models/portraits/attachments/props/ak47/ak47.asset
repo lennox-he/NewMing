@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "ak47_mesh"
+	file = "ak47.mesh"
+
+	meshsettings = {
+		name = "ak47"
+		index = 0
+		texture_diffuse = "ak47.dds"
+		texture_normal = "ak47_n.dds"
+		texture_specular = "ak47_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "ak47_entity"
+	pdxmesh = "ak47_mesh"
+}

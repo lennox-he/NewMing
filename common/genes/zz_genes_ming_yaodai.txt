@@ -1,0 +1,41 @@
+
+
+special_genes = {
+accessory_genes = {
+ming_yaodai = {
+
+gemingjun_yaodai_belt = {
+index = 0
+male = { 1 = gemingjun_yaodai }
+female = {  }
+boy = male
+girl = female
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+}	
+}
+}

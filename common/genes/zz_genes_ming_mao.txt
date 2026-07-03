@@ -1,0 +1,151 @@
+
+
+special_genes = {
+accessory_genes = {
+ming_mao = {
+
+ming_wushamao_headgear = {
+index = 0
+male = { 1 = ming_wushamao }
+female = {  }
+boy = male
+girl = female
+}
+
+ming_yishanguan_headgear = {
+index = 1
+male = { 1 = ming_yishanguan }
+female = {  }
+boy = male
+girl = female
+}
+
+ming_wushayishanguan_headgear = {
+index = 2
+male = { 1 = ming_wushayishanguan }
+female = {  }
+boy = male
+girl = female
+}
+
+
+ming_chunyangjin_headgear = {
+index = 3
+male = { 1 = ming_chunyangjin }
+female = {  }
+boy = male
+girl = female
+}
+
+qing_guanmao_headgear = {
+index = 4
+male = { 1 = qing_guanmao 1 = qingguanmao_789pin }
+female = {  }
+boy = male
+girl = female
+}
+
+minguo_fuyujieji_headgear = {
+index = 5
+male = { 1 = male_headgear_european_common_01  }
+female = {  }
+boy = male
+girl = female
+}
+
+minguo_zhongchanjieji_headgear = {
+index = 6
+male = { 1 = male_headgear_european_common_03 }
+female = {  }
+boy = male
+girl = female
+}
+
+
+
+gemingjunmao_headgear = {
+index = 7
+male = { 1 = gemingjunmao 1 = gemingjunmao_wuhui 1 = shandimao }
+female = { 1 = gemingjunmao_nv 1 = gemingjunmao_wuhui_nv 1 = shandimao_nv }
+boy = male
+girl = female
+}
+
+xinjunmao_headgear = {
+index = 8
+male = { 1 = xinjunmao_shibing 1 = xinjunmao_junguan 1 = xinjunmao_jiangjun }
+female = { 1 = xinjunmao_shibing_nv 1 = xinjunmao_junguan_nv 1 = xinjunmao_jiangjun_nv }
+boy = male
+girl = female
+}
+
+beiyangjunmao_headgear = {
+index = 9
+male = { 1 = beiyangjunmao_shibing 1 = beiyangjunmao_junguan 1 = beiyangjunmao_jiangjun }
+female = { 1 = beiyangjunmao_shibing_nv 1 = beiyangjunmao_junguan_nv 1 = beiyangjunmao_jiangjun_nv }
+boy = male
+girl = female
+}
+
+guojunmao_headgear = {
+index = 10
+male = { 1 = gangkui 1 = guojunmao_junguan 1 = dayanmao_kmt_jiangjun }
+female = { 1 = gangkui_nv 2 = guojunmao_junguan_nv }
+boy = male
+girl = female
+}
+
+jiefangjunmao_headgear = {
+index = 11
+male = { 1 = gangkui_pla_micai 1 = dayanmao_pla87_junguan 1 = dayanmao_pla87_jiangjun }
+female = { 1 = gangkui_pla_micai_nv 1 = dayanmao_pla87_junguan_nv 1 = dayanmao_pla87_jiangjun_nv }
+boy = male
+girl = female
+}
+
+haijunmao_headgear = {
+index = 12
+male = { 1 = xinjunmao_haijun 1 = beiyangjunmao_haijun 1 = guojunmao_haijun 1 = dayanmao_pla_haijiang  }
+female = { 1 = xinjunmao_haijun_nv 1 = beiyangjunmao_haijun_nv 1 = guojunmao_haijun_nv 1 = dayanmao_pla_haijiang_nv }
+boy = male
+girl = female
+}
+
+
+
+dayanmao_headgear = {
+index = 13
+male = { 
+1 = dayanmao_byn_haijiang 
+1 = dayanmao_byn_jiangjun 
+1 = dayanmao_byn_junguan 
+1 = dayanmao_byn_shibing 
+1 = dayanmao_kmt_haijiang 
+1 = dayanmao_kmt_jiangjun 
+1 = dayanmao_kmt_junguan 
+1 = dayanmao_pla_haijiang 
+1 = dayanmao_pla_jiangjun 
+1 = dayanmao_pla_junguan 
+}
+female = { 1 = shandimao_nv }
+boy = male
+girl = female
+}
+
+bicorne_headgear = {
+index = 14
+male = { 1 = bicorne_haijun }
+female = { 1 = shandimao_nv }
+boy = male
+girl = female
+}
+
+
+
+
+
+
+				
+		}	
+	}
+}

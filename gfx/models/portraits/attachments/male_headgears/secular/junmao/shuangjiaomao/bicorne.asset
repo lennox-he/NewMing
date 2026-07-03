@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "bicorne_haijun_mesh"
+	file = "bicorne.mesh"
+
+	meshsettings = {
+		name = "male_headgear_european_military_05Shape"
+		index = 0
+		texture_diffuse = "bicorne_haijun.dds"
+		texture_normal = "bicorne_haijun_n.dds"
+		texture_specular = "bicorne_haijun_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "bicorne_haijun_entity"
+	pdxmesh = "bicorne_haijun_mesh"
+
+
+}

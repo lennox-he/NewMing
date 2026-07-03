@@ -1,0 +1,28 @@
+
+army_nohair_trigger = { #军人角色光头
+exists = scope:character
+scope:character = {
+	is_female = no
+	is_ruler = no
+	owner = {
+		OR = {
+			AND = { exists = c:CHI owner = c:CHI }
+		}
+		NOT = {
+			AND = {
+				country_has_primary_culture = cu:manchu
+				NOT = { has_variable = jianbian }
+			}
+		}
+	}
+	OR = {
+		interest_group = { is_interest_group_type = ig_armed_forces }
+		has_role = general
+		has_role = admiral
+	}
+}
+}
+
+
+
+

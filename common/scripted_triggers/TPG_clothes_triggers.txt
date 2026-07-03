@@ -1,0 +1,101 @@
+
+TPG_clothes_pop_trigger = {  #太平天国通用
+exists = scope:pop
+scope:pop = {
+exists = c:TPG owner = c:TPG
+}
+}
+
+TPG_chairman_clothes_trigger = { #太平天国主席
+exists = scope:character
+scope:character = {
+is_ruler = yes
+owner = { has_law = law_type:law_council_republic AND = { exists = c:TPG owner = c:TPG } }
+}
+}
+
+TPG_general_clothes_trigger = { #太平天国陆军将领通用
+exists = scope:character
+scope:character = { 
+exists = c:TPG owner = c:TPG
+has_role = general
+commander_rank >= 0
+} 
+}
+
+TPG_admiral_clothes_trigger = { #太平天国海军将领通用
+exists = scope:character
+scope:character = { 
+exists = c:TPG owner = c:TPG
+has_role = admiral
+commander_rank >= 0
+} 
+}
+
+TPG_officers_clothes_pop_trigger = { #太平天国军官通用
+exists = scope:pop
+scope:pop = { 
+exists = c:TPG owner = c:TPG
+is_pop_type = officers 
+} 
+}
+
+TPG_soldier_clothes_pop_trigger = { #太平天国士兵通用
+exists = scope:pop
+scope:pop = { 
+exists = c:TPG owner = c:TPG
+is_pop_type = soldiers
+}
+}
+
+TPG_ig_army_clothes_trigger = { #太平天国军队集团
+exists = scope:character
+scope:character = {
+is_ruler = no
+exists = c:TPG owner = c:TPG
+interest_group = { is_interest_group_type = ig_armed_forces }
+}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

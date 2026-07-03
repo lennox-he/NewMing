@@ -1,0 +1,18 @@
+CHARACTERS = {
+	c:CNN = {
+		create_character = {
+			first_name = "Bojin"
+			last_name = "Zhu"
+			ruler = yes
+			birth_date = 1806.6.18
+			dna = dna_emper_boqin
+			culture = cu:han
+			interest_group = ig_intelligentsia
+			ideology = ideology_radical
+			traits = {
+				reserved
+				basic_diplomat
+			}
+		}
+	}
+}

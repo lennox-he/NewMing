@@ -1,0 +1,478 @@
+﻿###################
+#	Texture sets	#
+##################
+
+
+pattern_textures = {
+	name = "generic_wool_standard_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "royal_velvet_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_velvet_standard_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_velvet_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_velvet_standard_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "generic_wool_standard_fine_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_fine_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_fine_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_fine_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "generic_cotton_standard_fine_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_cotton_standard_fine_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_cotton_standard_fine_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_cotton_standard_fine_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "generic_silk_standard_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_standard_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_standard_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "generic_silk_sash_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_sash_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_sash_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_sash_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "generic_silk_hat_plain_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_hat_plain_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_hat_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_hat_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "generic_gold_trim_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_gold_trim_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_gold_trim_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_gold_trim_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "generic_polished_wood_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_polished_wood_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_polished_wood_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_polished_wood_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_01_properties.dds"
+}
+pattern_textures = {
+	name = "asian_pattern_01_silk"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_fine_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_fine_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "asian_pattern_02_silk"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_fine_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_fine_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "asian_pattern_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_02_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_03"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_03_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_03_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_03_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_04"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_04_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_04_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_04_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_05"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_05_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_05_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_05_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_06"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_06_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_06_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_06_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_07"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_07_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_07_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_07_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_08"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_08_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_08_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_08_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_09"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_09_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_09_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_09_properties.dds"
+}
+
+pattern_textures = {
+	name = "asian_pattern_10"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_10_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_10_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_10_properties.dds"
+}
+pattern_textures = {
+	name = "asian_pattern_11"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_11_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_11_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_11_properties.dds"
+}
+pattern_textures = {
+	name = "asian_pattern_12"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_12_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_12_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_12_properties.dds"
+}
+pattern_textures = {
+	name = "asian_pattern_12_wool"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_12_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_12_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "asian_trim_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_01_properties.dds"
+}
+pattern_textures = {
+	name = "asian_trim_01_silk"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_fine_plain_01_properties.dds"
+}
+pattern_textures = {
+	name = "asian_trim_02"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_02_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_02_properties.dds"
+}
+pattern_textures = {
+	name = "asian_trim_02_wool"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_trim_02_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_wool_standard_plain_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "gold_siamese_royal_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/gold_siamese_royal_01_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/asian/gold_siamese_royal_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/gold_siamese_royal_01_properties.dds"
+}
+
+pattern_textures = {
+	name = "korean_imperial_01"
+	colormask	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_08_masks.dds"
+	normal		= "gfx/portraits/accessory_variations/textures/patterns/generic/generic_silk_fine_plain_01_normal.dds"
+	properties	= "gfx/portraits/accessory_variations/textures/patterns/asian/asian_pattern_08_properties.dds"
+}
+
+##################
+#	Layouts		#
+##################
+
+pattern_layout = {
+	name = "plain_fabric_layout"	
+	scale 		= { min = 0.25	max = 0.25 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+pattern_layout = {
+	name = "plain_fabric_layout_05"	
+	scale 		= { min = 0.14	max = 0.14 }
+	rotation 	= { min = 45	max = 45 }	
+	offset 		= { x = { min = -0.75	max = -0.75 }    y = { min = -0.75	max = -0.75 } } 
+}
+
+pattern_layout = {
+	name = "trim_fabric_layout"	
+	scale 		= { min = 0.25	max = 0.25 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+
+pattern_layout = {
+	name = "plain_imperial_chinese_01"	
+	scale 		= { min = 0.25	max = 0.25 }
+	rotation 	= { min = -90	max = -90 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+
+pattern_layout = {
+	name = "plain_fabric_female_outfits_japanese_layout"	
+	scale 		= { min = 0.5	max = 0.5 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+pattern_layout = {
+	name = "trim_female_outfits_japanese_layout"	
+	scale 		= { min = 0.25	max = 0.25 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.5	max = -0.5 } } 
+}
+
+pattern_layout = {
+	name = "plain_fabric_female_chinese_layout"	
+	scale 		= { min = 0.5	max = 0.5 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+
+pattern_layout = {
+	name = "plain_fabric_female_chinese_layout_02"	
+	scale 		= { min = 0.3	max = 0.3 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.2	max = 0.2 } } 
+}
+
+pattern_layout = {
+	name = "plain_fabric_female_chinese_layout_03"	
+	scale 		= { min = 0.25	max = 0.25 }
+	rotation 	= { min = -10	max = -10 }	
+	offset 		= { x = { min = -0.02 max = -0.02 }    y = { min = 0.45	max = 0.45 } } 
+}
+
+pattern_layout = {
+	name = "plain_fabric_female_chinese_layout_04"	
+	scale 		= { min = 0.35	max = 0.35 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.45	max = 0.45 } } 
+}
+
+pattern_layout = {
+	name = "trim_female_outfits_chinese_layout"	
+	scale 		= { min = 0.125	max = 0.125 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = -0.25	max = -0.25 } } 
+}
+
+pattern_layout = {
+	name = "trim_imperial_chinese_01"	
+	scale 		= { min = 0.5	max = 0.5 }
+	rotation 	= { min = 90	max = 90 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = -0.25	max = -0.25 } } 
+}
+
+pattern_layout = {
+	name = "trim_female_outfits_chinese_layout_02"	
+	scale 		= { min = 0.125	max = 0.125 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = -0.75	max = -0.75 } } 
+}
+
+pattern_layout = {
+	name = "trim_female_outfits_chinese_layout_03"	
+	scale 		= { min = 0.125	max = 0.125 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+pattern_layout = {
+	name = "trim_female_outfits_chinese_layout_04"	
+	scale 		= { min = 0.125	max = 0.125 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = -0.5	max = -0.5 } } 
+}
+
+
+pattern_layout = {
+	name = "siamese_01_trim_fabric_layout_01"	
+	scale 		= { min = 0.25	max = 0.25 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.12	max = 0.12 } } 
+}
+
+pattern_layout = {
+	name = "siamese_01_trim_fabric_layout_02"	
+	scale 		= { min = 0.34	max = 0.34 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = -0.04	max = -0.04 } } 
+}
+
+pattern_layout = {
+	name = "siamese_01_plain_fabric_layout_01"	
+	scale 		= { min = 0.15	max = 0.15 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+pattern_layout = {
+	name = "trim_central_asian_layout_01"	
+	scale 		= { min = 0.5	max = 0.5 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+pattern_layout = {
+	name = "trim_central_asian_layout_02"	
+	scale 		= { min = 0.5	max = 0.5 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.25	max = 0.25} } 
+}
+
+pattern_layout = {
+	name = "trim_central_asian_layout_03"	
+	scale 		= { min = 0.5	max = 0.5 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.5	max = 0.5} } 
+}
+pattern_layout = {
+	name = "trim_central_asian_layout_04"	
+	scale 		= { min = 0.5	max = 0.5 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.75	max = 0.75} } 
+}
+
+pattern_layout = {
+	name = "trim_central_asian_layout_05"	
+	scale 		= { min = 0.8	max = 0.8 }
+	rotation 	= { min = 180	max = 180 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.73	max = 0.73} } 
+}
+
+pattern_layout = {
+	name = "trim_central_asian_layout_06"	
+	scale 		= { min = 1.1	max = 1.1 }
+	rotation 	= { min = 180	max = 180 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.7	max = 0.7} } 
+}
+
+pattern_layout = {
+	name = "gold_seamise_layout"	
+	scale 		= { min = 0.1	max = 0.1 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0	max = 0 } } 
+}
+
+pattern_layout = {
+	name = "trim_japanese_layout_09"	
+	scale 		= { min = 0.15	max = 0.15 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.7	max = 0.7} } 
+}
+
+pattern_layout = {
+	name = "trim_japanese_layout_10"	
+	scale 		= { min = 1.5	max = 1.5 }
+	rotation 	= { min = 180	max = 180 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.7	max = 0.7} } 
+}
+
+pattern_layout = {
+	name = "trim_japanese_layout_11"	
+	scale 		= { min = 1.5	max = 1.5 }
+	rotation 	= { min = 0	max = 0 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.6	max = 0.6} } 
+}
+
+pattern_layout = {
+	name = "trim_japanese_headgear"	
+	scale 		= { min = 1.1	max = 1.1 }
+	rotation 	= { min = 25	max = 25 }	
+	offset 		= { x = { min = 0	max = 0 }    y = { min = 0.6	max = 0.6} } 
+}
+
+
+
+###################
+#	Variations		#
+##################
+
+
+variation = {
+	name = "wuwenli"
+	pattern = { 
+		weight = 1
+		r = { textures = "generic_silk_standard_plain_01" layout = "plain_fabric_layout_01" }
+		g = { textures = "generic_silk_standard_plain_01" layout = "plain_fabric_layout_01" }
+		b = { textures = "generic_silk_standard_plain_01" layout = "plain_fabric_layout_01" }
+		a = { textures = "generic_silk_standard_plain_01"	layout = "plain_fabric_layout_01" }
+	}			
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_chinese_clothing_01.dds" }	
+}
+
+variation = {
+	name = "buwenli"
+	pattern = { 
+		weight = 1
+		r = { textures = "generic_cotton_standard_fine_01" layout = "plain_fabric_layout_01" }
+		g = { textures = "generic_cotton_standard_fine_01" layout = "plain_fabric_layout_01" }
+		b = { textures = "generic_cotton_standard_fine_01" layout = "plain_fabric_layout_01" }
+		a = { textures = "generic_cotton_standard_fine_01"	layout = "plain_fabric_layout_01" }
+	}			
+	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_chinese_clothing_01.dds" }	
+}
+
+female_outfit_id_han_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_outfit_central_asian_01_low_entity" }	
+}
+
+female_outfit_id_han_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_outfit_central_asian_01_high_entity" }	
+}
+
+male_outfit_id_han_01_low = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_low_entity" }	
+}
+
+male_outfit_id_han_01_high = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_high_entity" }	
+}
+
+male_outfit_id_han_01_imperial = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_imperial_entity" }	
+}
+
+male_outfit_mongol_imperial = {
+	set_tags = "shrink_arms,shrink_chest,shrink_belly"
+	entity = { required_tags = ""					shared_pose_entity = torso		entity = "f_clothes_sec_mpo_mongol_imp_01_entity" }	
+}
+
+
+

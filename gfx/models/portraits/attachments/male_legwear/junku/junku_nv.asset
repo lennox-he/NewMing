@@ -1,0 +1,220 @@
+pdxmesh = {
+	name = "junku_nv_mesh"
+	file = "junku_nv.mesh"
+
+	blend_shape = { id = "junku_nv_bs_fat"			type = "junku_nv_bs_fat.mesh" }
+	blend_shape = { id = "junku_nv_bs_old"			type = "junku_nv_bs_old.mesh" }
+	blend_shape = { id = "junku_nv_bs_infant"		type = "junku_nv_bs_infant.mesh" }
+	blend_shape = { id = "junku_nv_bs_thick"		type = "junku_nv_bs_thick.mesh" }
+	
+	meshsettings = {
+		name = "junku_nv"
+		index = 0
+		texture_diffuse = "junku.dds"
+		texture_normal = "junku_n.dds"
+		texture_specular = "junku_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "junku_nv_entity"
+	pdxmesh = "junku_nv_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "junku_nv_bs_fat" }
+		attribute = { name = "body_bs_old"					blend_shape = "junku_nv_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "junku_nv_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "junku_nv_bs_thick" }
+		
+
+}
+
+pdxmesh = {
+	name = "junku_haijun_nv_mesh"
+	file = "junku_nv.mesh"
+
+	blend_shape = { id = "junku_nv_bs_fat"			type = "junku_nv_bs_fat.mesh" }
+	blend_shape = { id = "junku_nv_bs_old"			type = "junku_nv_bs_old.mesh" }
+	blend_shape = { id = "junku_nv_bs_infant"		type = "junku_nv_bs_infant.mesh" }
+	blend_shape = { id = "junku_nv_bs_thick"		type = "junku_nv_bs_thick.mesh" }
+	
+	meshsettings = {
+		name = "junku_nv"
+		index = 0
+		texture_diffuse = "junku_haijun.dds"
+		texture_normal = "junku_n.dds"
+		texture_specular = "junku_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "junku_haijun_nv_entity"
+	pdxmesh = "junku_haijun_nv_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "junku_nv_bs_fat" }
+		attribute = { name = "body_bs_old"					blend_shape = "junku_nv_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "junku_nv_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "junku_nv_bs_thick" }
+		
+
+}
+
+pdxmesh = {
+	name = "junku_xinjun_nv_mesh"
+	file = "junku_nv.mesh"
+
+	blend_shape = { id = "junku_nv_bs_fat"			type = "junku_nv_bs_fat.mesh" }
+	blend_shape = { id = "junku_nv_bs_old"			type = "junku_nv_bs_old.mesh" }
+	blend_shape = { id = "junku_nv_bs_infant"		type = "junku_nv_bs_infant.mesh" }
+	blend_shape = { id = "junku_nv_bs_thick"		type = "junku_nv_bs_thick.mesh" }
+	
+	meshsettings = {
+		name = "junku_nv"
+		index = 0
+		texture_diffuse = "junku_xinjun.dds"
+		texture_normal = "junku_n.dds"
+		texture_specular = "junku_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "junku_xinjun_nv_entity"
+	pdxmesh = "junku_xinjun_nv_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "junku_nv_bs_fat" }
+		attribute = { name = "body_bs_old"					blend_shape = "junku_nv_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "junku_nv_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "junku_nv_bs_thick" }
+		
+}
+
+pdxmesh = {
+	name = "junku_guojun_nv_mesh"
+	file = "junku_nv.mesh"
+
+	blend_shape = { id = "junku_nv_bs_fat"			type = "junku_nv_bs_fat.mesh" }
+	blend_shape = { id = "junku_nv_bs_old"			type = "junku_nv_bs_old.mesh" }
+	blend_shape = { id = "junku_nv_bs_infant"		type = "junku_nv_bs_infant.mesh" }
+	blend_shape = { id = "junku_nv_bs_thick"		type = "junku_nv_bs_thick.mesh" }
+	
+	meshsettings = {
+		name = "junku_nv"
+		index = 0
+		texture_diffuse = "junku_guojun.dds"
+		texture_normal = "junku_n.dds"
+		texture_specular = "junku_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "junku_guojun_nv_entity"
+	pdxmesh = "junku_guojun_nv_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "junku_nv_bs_fat" }
+		attribute = { name = "body_bs_old"					blend_shape = "junku_nv_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "junku_nv_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "junku_nv_bs_thick" }
+		
+}
+
+pdxmesh = {
+	name = "junku_jiefangjun_nv_mesh"
+	file = "junku_nv.mesh"
+
+	blend_shape = { id = "junku_nv_bs_fat"			type = "junku_nv_bs_fat.mesh" }
+	blend_shape = { id = "junku_nv_bs_old"			type = "junku_nv_bs_old.mesh" }
+	blend_shape = { id = "junku_nv_bs_infant"		type = "junku_nv_bs_infant.mesh" }
+	blend_shape = { id = "junku_nv_bs_thick"		type = "junku_nv_bs_thick.mesh" }
+	
+	meshsettings = {
+		name = "junku_nv"
+		index = 0
+		texture_diffuse = "junku_jiefangjun.dds"
+		texture_normal = "junku_n.dds"
+		texture_specular = "junku_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "junku_jiefangjun_nv_entity"
+	pdxmesh = "junku_jiefangjun_nv_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "junku_nv_bs_fat" }
+		attribute = { name = "body_bs_old"					blend_shape = "junku_nv_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "junku_nv_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "junku_nv_bs_thick" }
+		
+}
+
+pdxmesh = {
+	name = "junku_pla_micai_nv_mesh"
+	file = "junku_nv.mesh"
+
+	blend_shape = { id = "junku_nv_bs_fat"			type = "junku_nv_bs_fat.mesh" }
+	blend_shape = { id = "junku_nv_bs_old"			type = "junku_nv_bs_old.mesh" }
+	blend_shape = { id = "junku_nv_bs_infant"		type = "junku_nv_bs_infant.mesh" }
+	blend_shape = { id = "junku_nv_bs_thick"		type = "junku_nv_bs_thick.mesh" }
+	
+	meshsettings = {
+		name = "junku_nv"
+		index = 0
+		texture_diffuse = "junku_pla_micai.dds"
+		texture_normal = "junku_n.dds"
+		texture_specular = "junku_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "junku_pla_micai_nv_entity"
+	pdxmesh = "junku_pla_micai_nv_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "junku_nv_bs_fat" }
+		attribute = { name = "body_bs_old"					blend_shape = "junku_nv_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "junku_nv_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "junku_nv_bs_thick" }
+		
+}
+
+pdxmesh = {
+	name = "zhongshanku_nv_mesh"
+	file = "junku_nv.mesh"
+
+	blend_shape = { id = "junku_nv_bs_fat"			type = "junku_nv_bs_fat.mesh" }
+	blend_shape = { id = "junku_nv_bs_old"			type = "junku_nv_bs_old.mesh" }
+	blend_shape = { id = "junku_nv_bs_infant"		type = "junku_nv_bs_infant.mesh" }
+	blend_shape = { id = "junku_nv_bs_thick"		type = "junku_nv_bs_thick.mesh" }
+	
+	meshsettings = {
+		name = "junku_nv"
+		index = 0
+		texture_diffuse = "zhongshanku.dds"
+		texture_normal = "junku_n.dds"
+		texture_specular = "junku_p.dds"
+		shader = "portrait_attachment"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "zhongshanku_nv_entity"
+	pdxmesh = "zhongshanku_nv_mesh"
+
+		attribute = { name = "body_bs_fat"					blend_shape = "junku_nv_bs_fat" }
+		attribute = { name = "body_bs_old"					blend_shape = "junku_nv_bs_old" }
+		attribute = { name = "body_bs_infant"				blend_shape = "junku_nv_bs_infant" }
+		attribute = { name = "body_bs_thick"				blend_shape = "junku_nv_bs_thick" }
+		
+}
+
+

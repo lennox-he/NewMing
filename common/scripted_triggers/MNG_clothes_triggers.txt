@@ -1,0 +1,379 @@
+chinese_han_clothes_trigger = { #明角色
+	exists = scope:character
+	scope:character = {
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+	}
+}
+
+chinese_han_clothes_pop_trigger = { #明人群
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+	}
+}
+
+chinese_han_imperial_clothes_trigger = { #明皇帝
+	exists = scope:character
+	scope:character = {
+		is_ruler = yes
+		OR = {
+			AND = {
+				owner = {
+					OR = {
+						has_law = law_type:law_monarchy
+						has_law = law_type:law_theocracy
+					}
+				}
+				OR = {
+					culture = {
+						has_discrimination_trait = tradition_sinosphere
+						has_discrimination_trait = language_mandarin
+					}
+					culture = { has_discrimination_trait = heritage_han }
+				}
+			}
+			AND = {
+				exists = c:CHI
+				owner = c:CHI
+				owner = {
+					OR = {
+						has_variable = jianbian
+						NOT = { has_variable = is_qng_state }
+					}
+					has_law = law_type:law_monarchy
+				}
+			}
+		}
+	}
+}
+
+chinese_heir_clothes_trigger = { #明太子
+	exists = scope:character
+	scope:character = {
+		is_heir = yes
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		owner = {
+			OR = {
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_theocracy
+			}
+			ruler = {
+				OR = {
+					culture = {
+						has_discrimination_trait = tradition_sinosphere
+						has_discrimination_trait = language_mandarin
+					}
+					culture = { has_discrimination_trait = heritage_han }
+				}
+			}
+		}
+	}
+}
+
+liuqiu_clothes_trigger = { #琉球
+exists = scope:character
+scope:character = {
+OR = {
+	is_heir = yes
+	is_ruler = yes
+	}
+	culture = cu:ryukyuan
+	owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy } ruler = { culture = cu:ryukyuan } }
+}
+}
+
+chinese_han_court_clothes_trigger = { #明官员
+	exists = scope:character
+	scope:character = {
+		is_ruler = no
+		is_heir = no
+		owner = {
+			OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy }
+		}	
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		NOT = {
+			OR = {
+			has_role = general
+			has_role = admiral
+			}
+		}
+	}	
+}
+
+chinese_han_army_jyw_clothes_trigger = { #锦衣卫
+	exists = scope:character
+	scope:character = {
+		is_ruler = no is_heir = no
+		owner = {
+			OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy }
+		}	
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		OR = {
+			has_role = general
+			has_role = admiral
+		}
+		interest_group = { is_interest_group_type = ig_petty_bourgeoisie }
+		commander_rank >= 0
+		commander_rank < 2
+	}
+}
+
+chinese_han_army_1_clothes_trigger = { #明1级武官
+	exists = scope:character
+	scope:character = {
+		is_ruler = no is_heir = no
+		owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy } }	
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+	OR = {
+		has_role = general
+		has_role = admiral
+	}
+	commander_rank >= 0
+	commander_rank < 2
+	}
+}
+
+chinese_han_army_2_clothes_trigger = { #明2级武官
+	exists = scope:character
+	scope:character = {
+		is_ruler = no is_heir = no
+		owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy } }	
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+	OR = {
+		has_role = general
+		has_role = admiral
+	}
+	commander_rank > 1
+	commander_rank < 3
+	}
+}
+
+chinese_han_army_3_clothes_trigger = { #明3级武官
+	exists = scope:character
+	scope:character = {
+		is_ruler = no is_heir = no
+		owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy } }	
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		OR = {
+			has_role = general
+			has_role = admiral
+		}
+		commander_rank > 2
+		commander_rank < 4
+	}
+}
+
+chinese_han_army_4_clothes_trigger = { #明4级武官
+	exists = scope:character
+	scope:character = {
+		is_ruler = no is_heir = no
+		owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy } }	
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		OR = {
+			has_role = general
+			has_role = admiral
+		}
+		commander_rank >= 3
+		commander_rank < 5
+	}
+}
+
+chinese_han_army_5_clothes_trigger = { #明5级武官
+	exists = scope:character
+	scope:character = {
+		is_ruler = no is_heir = no
+		owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy } }	
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		OR = {
+			has_role = general
+			has_role = admiral
+		}
+		commander_rank >= 5
+	}
+}
+
+oversea_han_monarchy_clothes_trigger = { #海外君主制汉人领袖
+	exists = scope:character
+	scope:character = {
+		OR = { is_ruler = yes is_heir = yes }
+		NOT = { owner = c:CHI }
+		NOT = { owner = c:CNM }
+		owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy }  }	
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+	}	
+}
+
+chinese_han_general_clothes_trigger = { #明陆军将领通用
+	exists = scope:character
+	scope:character = { 
+	owner = { 
+		owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy } }	
+		AND = { exists = c:CNM owner = c:CNM } 
+	}
+	has_role = general
+	commander_rank >= 0
+	} 
+}
+
+chinese_han_admiral_clothes_trigger = { #明海军将领通用
+	exists = scope:character
+	scope:character = { 
+		owner = { 
+			owner = { OR = { has_law = law_type:law_monarchy has_law = law_type:law_theocracy } }	
+			AND = { exists = c:CNM owner = c:CNM } 
+		}
+		has_role = admiral
+		commander_rank >= 0
+	} 
+}
+
+chinese_han_ig_army_clothes_trigger = { #明军队集团
+	exists = scope:character
+	scope:character = {
+		is_ruler = no
+		owner = {  }	
+		interest_group = { is_interest_group_type = ig_armed_forces }
+		AND = { exists = c:CNM owner = c:CNM } 
+	}	
+}
+
+
+
+
+han_poor_clothes_pop_trigger = { #明贫穷人群
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		OR = { is_pop_type = farmers is_pop_type = peasants is_pop_type = laborers is_pop_type = machinists }
+	}   
+}
+
+han_middle_clothes_pop_trigger = { #明中产人群
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		OR = { is_pop_type = clerks is_pop_type = engineers is_pop_type = bureaucrats is_pop_type = shopkeepers is_pop_type = clergymen }
+	}  
+}
+
+han_upper_clothes_pop_trigger = { #明富裕人群
+	exists = scope:pop
+	scope:pop = {
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		OR = { is_pop_type = aristocrats is_pop_type = capitalists is_pop_type = academics }
+	}  
+}
+
+han_soldier_clothes_pop_trigger = { #明士兵人群
+	exists = scope:pop
+	scope:pop = { 
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		owner = {  }	
+		is_pop_type = soldiers
+	}
+}
+
+han_officers_clothes_pop_trigger = { #明军官人群
+	exists = scope:pop
+	scope:pop = { 
+		OR = {
+			culture = {
+				has_discrimination_trait = tradition_sinosphere
+				has_discrimination_trait = language_mandarin
+			}
+			culture = { has_discrimination_trait = heritage_han }
+		}
+		owner = { }	
+		is_pop_type = officers
+	}
+}

@@ -1,0 +1,29 @@
+DAY = {
+	# use_culture_states = no
+	# is_major_formation = yes
+    states = {
+		STATE_WESTERN_AUSTRALIA STATE_NORTHERN_TERRITORY STATE_SOUTH_AUSTRALIA STATE_QUEENSLAND STATE_NEW_SOUTH_WALES STATE_VICTORIA STATE_TASMANIA STATE_NORTH_ISLAND STATE_SOUTH_ISLAND
+	}
+	
+	# unification_play = dp_unify_DAYANG
+	# leadership_play = dp_leadership_DAYANG
+
+	required_states_fraction = 0.80
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+ 		NOT = { exists = c:DAY }
+		c:CNY ?= THIS
+		owns_entire_state_region = STATE_QUEENSLAND
+	   	any_country = {
+			has_technology_researched = nationalism
+			country_rank >= rank_value:great_power
+			OR = {
+				country_has_primary_culture = cu:yue
+				country_has_primary_culture = cu:min
+            	country_has_primary_culture = cu:hakka
+			}			
+		}
+   	}
+}

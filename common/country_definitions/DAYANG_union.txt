@@ -1,0 +1,11 @@
+DAY = {
+	color = { 50 150 255 }##color = { 114 165 203 }
+
+	country_type = recognized
+
+	tier = empire
+
+	cultures = { yue hakka han nanyang }
+	religion = taolism
+	capital = STATE_QUEENSLAND
+}

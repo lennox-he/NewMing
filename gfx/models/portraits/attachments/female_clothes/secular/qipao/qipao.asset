@@ -1,0 +1,75 @@
+pdxmesh = {
+	name = "qipao_mesh"
+	file = "qipao.mesh"
+
+	blend_shape = { id = "qipao_bs_infant"			type = "qipao_bs_infant.mesh" }
+	blend_shape = { id = "qipao_bs_fat"				type = "qipao_bs_fat.mesh" }
+	blend_shape = { id = "qipao_bs_gaunt"			type = "qipao_bs_gaunt.mesh" }
+	blend_shape = { id = "qipao_bs_muscular"			type = "qipao_bs_muscular.mesh" }	
+	blend_shape = { id = "qipao_bs_old"				type = "qipao_bs_old.mesh" }
+	blend_shape = { id = "qipao_bs_breast_size_max"		type = "qipao_bs_breast_size_max.mesh" }
+
+
+	meshsettings = {
+		name = "qipao"
+		index = 0
+		texture_diffuse = "qipao.dds"
+		texture_normal = "qipao_n.dds"
+		texture_specular = "qipao_p.dds"
+		shader = "portrait_attachment_pattern"
+		shader_file = "gfx/FX/jomini/portrait.shader"
+	}
+}
+
+entity = {
+	name = "qipao_entity"
+	pdxmesh = "qipao_mesh"
+	attribute = { name = "body_bs_infant"			blend_shape = "qipao_bs_infant" }
+	attribute = { name = "body_bs_fat"				blend_shape = "qipao_bs_fat" }
+	attribute = { name = "body_bs_gaunt"			blend_shape = "qipao_bs_gaunt" }
+	attribute = { name = "body_bs_thick"			blend_shape = "qipao_bs_muscular" }	
+	attribute = { name = "body_bs_old"				blend_shape = "qipao_bs_old" }
+	attribute = { name = "body_bs_bustsizemax"		blend_shape = "qipao_bs_breast_size_max" }
+
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/qipao/qipao_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "female_outfit_chinese_01_high"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+entity = {
+	name = "qipao2_entity"
+	pdxmesh = "qipao_mesh"
+	attribute = { name = "body_bs_infant"			blend_shape = "qipao_bs_infant" }
+	attribute = { name = "body_bs_fat"				blend_shape = "qipao_bs_fat" }
+	attribute = { name = "body_bs_gaunt"			blend_shape = "qipao_bs_gaunt" }
+	attribute = { name = "body_bs_thick"			blend_shape = "qipao_bs_muscular" }	
+	attribute = { name = "body_bs_old"				blend_shape = "qipao_bs_old" }
+	attribute = { name = "body_bs_bustsizemax"		blend_shape = "qipao_bs_breast_size_max" }
+
+
+	game_data = {
+        portrait_entity_user_data = {
+			portrait_accessory = {
+				pattern_mask = "gfx/models/portraits/attachments/female_clothes/secular/qipao/qipao_masks.dds"	#Any 4-channel texture. Each channel will be used to mask a pattern from the variation object
+				variation = "buwenli"	#A "variation" object in gfx/portraits/accessory_variations/
+			}
+        }
+	}
+}
+
+
+
+
+
+
+
+
+
+

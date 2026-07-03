@@ -1,0 +1,12 @@
+#新加的
+prestige_good_hanyang_rife = {
+	base_good = small_arms
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/hanyang_rife.dds"
+}
+
+prestige_good_qingdao_beer = {
+	base_good = liquor
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/qingdao.dds"
+}

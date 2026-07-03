@@ -1,0 +1,1003 @@
+ming_tax_head = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	tax_per_capita_add = 0.2
+	tax_land_add = 0.2
+	state_birth_rate_mult = -0.1
+	state_radicals_and_loyalists_from_sol_change_mult = 0.3
+}
+
+ming_zheng_navy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_prestige_from_navy_power_projection_mult = 0.1
+	interest_group_ig_armed_forces_pol_str_mult = 0.2
+	unit_navy_experience_gain_mult = 0.25
+}
+
+ming_warlord = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_military_tech_research_speed_mult = -0.1
+	country_legitimacy_base_add = -10
+}
+
+ming_landlord = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	state_tax_waste_add = 0.1
+	interest_group_ig_landowners_pol_str_mult = 0.2
+	interest_group_ig_devout_pol_str_mult = 0.1
+	interest_group_ig_armed_forces_pol_str_mult = 0.1
+	state_education_access_wealth_add = 0.005
+	interest_group_ig_landowners_approval_add = 2
+	interest_group_ig_devout_approval_add = 2
+	building_group_bg_government_employee_mult = -0.25
+}
+
+ming_landlord2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	interest_group_ig_landowners_approval_add = -5
+	interest_group_ig_devout_approval_add = -5
+	interest_group_ig_intelligentsia_approval_add = -2
+	country_legitimacy_base_add = -20
+}
+
+ming_daya = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	interest_group_ig_landowners_pop_attraction_mult = -0.4
+	interest_group_ig_landowners_pol_str_mult = -0.2
+	interest_group_ig_devout_pop_attraction_mult = -0.05
+	country_authority_mult = -0.1
+}
+
+ming_measuring1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 1
+}
+
+ming_under_measuring = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_radicals_and_loyalists_from_sol_change_mult = 0.1
+	state_radicals_from_political_movements_mult = 0.2
+	state_tax_waste_add = 0.1
+	state_minimum_incorporated_subsistence_arable_land_add = 0.5
+	building_minimum_incorporated_subsistence_employment_add = 0.5
+}
+
+ming_under_measuring1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicals_and_loyalists_from_sol_change_mult = 0.1
+	state_radicals_from_political_movements_mult = 0.2
+	state_tax_waste_add = 0.1
+	state_minimum_incorporated_subsistence_arable_land_add = 0.25
+	building_minimum_incorporated_subsistence_employment_add = 0.25
+}
+
+ming_under_measuring2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	state_radicals_and_loyalists_from_sol_change_mult = 0.5
+	state_radicals_from_political_movements_mult = 0.5
+	state_tax_waste_add = 0.05
+}
+
+ming_shangren = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	state_tax_collection_mult = 0.5
+}
+
+ming_fubai = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 1
+}
+
+ming_xiying = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_tax_waste_add = 0.1
+	state_conscription_rate_mult = 0.4
+	country_officers_pol_str_mult = 0.5
+	battle_defense_owned_province_mult = 0.25
+	battle_offense_owned_province_mult = 0.25
+}
+
+ming_shunying = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_tax_waste_add = 0.1
+	state_conscription_rate_mult = 0.4
+	country_officers_pol_str_mult = 0.5
+	battle_defense_owned_province_mult = 0.25
+	battle_offense_owned_province_mult = 0.25
+}
+
+ming_zhengjun = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_tax_waste_add = 0.1
+	state_conscription_rate_mult = 0.4
+	country_officers_pol_str_mult = 0.5
+	battle_defense_owned_province_mult = 0.25
+	battle_offense_owned_province_mult = 0.25
+}
+
+ming_xuanda = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_tax_waste_add = 0.1
+	state_conscription_rate_mult = 0.4
+	country_officers_pol_str_mult = 0.5
+	battle_defense_owned_province_mult = 0.25
+	battle_offense_owned_province_mult = 0.25
+}
+
+ming_yuyuan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_tax_waste_add = 0.1
+	state_conscription_rate_mult = 0.4
+	country_officers_pol_str_mult = 0.5
+	battle_defense_owned_province_mult = 0.25
+	battle_offense_owned_province_mult = 0.25
+}
+
+ming_langjun = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_tax_waste_add = 0.1
+	state_conscription_rate_mult = 0.4
+	country_officers_pol_str_mult = 0.5
+	battle_defense_owned_province_mult = 0.25
+	battle_offense_owned_province_mult = 0.25
+}
+
+ming_tianmin = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_radicals_and_loyalists_from_sol_change_mult = 1
+	state_radicals_from_political_movements_mult = 0.2
+	country_legitimacy_base_add = -25
+	state_tax_waste_add = 0.1
+	unit_morale_recovery_mult = -0.5
+}
+
+ming_yanyun = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_loyalists_from_political_movements_mult = 0.2
+	country_legitimacy_base_add = 10
+	country_authority_mult = 0.25
+	interest_group_approval_add = 2
+}
+
+ming_xixue = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_tech_spread_add = 50
+	country_military_tech_research_speed_mult = 0.2
+	interest_group_ig_intelligentsia_pol_str_mult = 0.2
+}
+
+ming_anfu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 1
+}
+
+ming_qishi = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_manchu_standard_of_living_add = -3
+	state_radicalism_increases_violent_hostility_mult = 0.20
+	state_radicalism_increases_cultural_erasure_mult = 0.15
+	state_radicalism_increases_open_prejudice_mult = 0.10
+}
+
+ming_junfei = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_military_wages_mult = 0.1
+}
+
+ming_caigou = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_military_goods_cost_mult = 0.2
+}
+
+ming_shiqi = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	unit_morale_recovery_mult = -0.1
+}
+
+ming_langarmy_up = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = 0.25
+	unit_defense_mult = 0.25
+	state_conscription_rate_mult = 0.5
+	building_training_rate_add = 500
+}
+
+ming_dongyuan_up = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_conscription_rate_mult = 0.4
+}
+
+ming_congjun = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_conscription_rate_mult = 0.25
+	interest_group_ig_armed_forces_pop_attraction_mult = 0.1
+	building_training_rate_add = 500
+}
+
+ming_junshi_up = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_military_tech_research_speed_mult = 0.4
+	country_military_goods_cost_mult = 0.2
+}
+
+ming_daya_army_up = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	interest_group_ig_armed_forces_pop_attraction_mult = -0.2
+}
+
+ming_jili_army_up = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = 0.1
+	unit_defense_mult = 0.1
+	interest_group_ig_armed_forces_pop_attraction_mult = 0.1
+	country_military_wages_mult = 0.05
+}
+
+ming_jili_navy_up = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+}
+
+ming_army_wenguan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	unit_offense_mult = -0.1
+	unit_defense_mult = -0.1
+	unit_morale_recovery_mult = -0.1
+}
+
+ming_wenguan_daya = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	interest_group_ig_intelligentsia_pop_attraction_mult = -0.1
+}
+
+ming_rongyao = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_mult = 0.05
+}
+
+ming_diuren = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	character_popularity_add = -50
+}
+
+ming_zhengzhi = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = -0.1
+}
+
+ming_army_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = -0.25
+	unit_defense_mult = -0.25
+	unit_morale_recovery_mult = -0.25
+	country_military_wages_mult = -0.05
+	interest_group_ig_armed_forces_approval_add = -5
+	unit_army_experience_gain_mult = -0.5
+}
+
+ming_army_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = -0.15
+	unit_defense_mult = -0.15
+	unit_morale_recovery_mult = -0.15
+	interest_group_ig_armed_forces_approval_add = -3
+	unit_army_experience_gain_mult = -0.25
+}
+
+ming_army_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = -0.05
+	unit_defense_mult = -0.05
+	unit_morale_recovery_mult = -0.05
+	country_military_wages_mult = 0.05
+	interest_group_ig_armed_forces_pol_str_mult = 0.1
+	interest_group_ig_armed_forces_approval_add = -2
+}
+
+ming_army_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = 0.03
+	unit_defense_mult = 0.03
+	unit_morale_recovery_mult = 0.1
+	country_military_wages_mult = 0.1
+	interest_group_ig_armed_forces_pol_str_mult = 0.25
+	interest_group_ig_armed_forces_approval_add = -1
+	unit_army_experience_gain_mult = 0.05
+}
+
+ming_army_5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = 0.06
+	unit_defense_mult = 0.06
+	unit_morale_recovery_mult = 0.15
+	country_military_wages_mult = 0.15
+	interest_group_ig_armed_forces_pol_str_mult = 0.5
+	unit_army_experience_gain_mult = 0.1
+}
+
+ming_army_6 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = 0.1
+	unit_defense_mult = 0.1
+	unit_morale_recovery_mult = 0.2
+	country_military_wages_mult = 0.25
+	interest_group_ig_armed_forces_pol_str_mult = 0.75
+	unit_army_experience_gain_mult = 0.15
+}
+
+ming_army_7 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = 0.15
+	unit_defense_mult = 0.15
+	unit_morale_recovery_mult = 0.25
+	country_military_wages_mult = 0.5
+	interest_group_ig_armed_forces_pol_str_mult = 1.0
+	unit_army_experience_gain_mult = 0.2
+}
+
+monglia_army_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	unit_offense_mult = 0.5
+	unit_defense_mult = 0.1
+	unit_morale_recovery_mult = 0.25
+}
+
+ming_new_tax = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	state_loyalists_from_political_movements_mult = 0.2
+	state_loyalism_increases_second_rate_citizen_mult = 0.1
+state_loyalism_increases_full_acceptance_mult = 0.1
+	state_tax_waste_add = -0.1
+	country_authority_mult = 0.1
+}
+
+ming_gfb_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_military_tech_research_speed_mult = 0.2
+	country_military_goods_cost_mult = 0.1
+}
+
+ming_gfb_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+}
+
+ming_gfb_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	unit_army_defense_mult = 0.1
+	unit_army_offense_mult = 0.1
+}
+
+ming_gfb_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	state_conscription_rate_mult = 0.4
+	country_military_goods_cost_mult = 0.05
+}
+
+ming_gfb_5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_authority_mult = -0.05
+}
+
+ming_gfb_6 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_authority_mult = -0.05
+}
+
+ming_tib_rub = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_non_homeland_mortality_mult = 0.1
+	state_radicals_from_political_movements_mult = 0.25
+	state_radicalism_increases_violent_hostility_mult = 0.25
+	state_radicalism_increases_cultural_erasure_mult = 0.2
+	state_radicalism_increases_open_prejudice_mult = 0.15
+	state_disallow_incorporation = yes
+}
+
+ming_tib_tuoxie = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	state_radicals_and_loyalists_from_sol_change_mult = 0.1
+	state_gelugpa_standard_of_living_add = 1
+	country_clergymen_pol_str_mult = 0.2
+}
+
+wuzu_gonghe = {
+	icon = gfx/interface/icons/event_icons/wuxing.dds
+	state_loyalists_from_political_movements_mult = 0.1
+	state_loyalism_increases_second_rate_citizen_mult = 0.1
+	state_loyalism_increases_full_acceptance_mult = 0.1
+	country_radicals_from_conquest_mult = -0.2
+	state_assimilation_mult = 0.25
+}
+
+ming_tib_exp = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_expenses_add = 1
+}
+
+ming_tib_glory = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_prestige_mult = 0.05
+}
+
+jiaoyu_xixue = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_education_access_add = 0.1
+}
+
+xixue_xuezhe = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_education_access_add = 0.1
+}
+
+xixue_chuanjiao = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_education_access_add = 0.25
+	state_radicals_from_political_movements_mult = 0.2
+	state_radicalism_increases_violent_hostility_mult = 0.10
+	state_radicalism_increases_cultural_erasure_mult = 0.10
+	state_radicalism_increases_open_prejudice_mult = 0.10
+	tax_heathen_add = 0.5
+}
+
+paixizhichi = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 1
+}
+
+ming_zhengya = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_ig_armed_forces_approval_add = -10
+	interest_group_ig_armed_forces_pol_str_mult = -0.5
+}
+
+paixizhichi2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	interest_group_approval_add = 1
+	interest_group_pol_str_mult = 0.1
+}
+
+ming_chizhe = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_popularity_add = -100
+}
+
+ming_jishu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_tech_spread_add = 25
+}
+
+ming_ruxue = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicals_from_political_movements_mult = -0.2
+	state_assimilation_mult = 0.1
+	country_tech_spread_add = -25
+}
+
+ming_huanghan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicalism_increases_violent_hostility_mult = 0.50
+	state_radicalism_increases_cultural_erasure_mult = 0.40
+	state_radicalism_increases_open_prejudice_mult = 0.30
+	state_radicalism_increases_second_rate_citizen_mult = 0.20
+	state_assimilation_mult = -0.8
+	state_radicals_from_political_movements_mult = 0.5
+	country_radicals_from_conquest_mult = -0.25
+	state_han_standard_of_living_add = 2
+	interest_group_ig_intelligentsia_pol_str_mult = -0.25
+	interest_group_ig_trade_unions_pol_str_mult = -0.25
+	interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.25
+}
+
+ming_luquan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	unit_army_defense_mult = 0.1
+	unit_army_offense_mult = 0.1
+	unit_recovery_rate_add = 0.1
+	country_military_goods_cost_mult = -0.25
+	country_military_tech_research_speed_mult = 0.1
+}
+
+ming_haiquan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	unit_navy_defense_mult = 0.1
+	unit_navy_offense_mult = 0.1
+	state_colony_growth_speed_mult = 0.2
+	country_influence_add = 500
+	state_trade_quantity_mult = 0.2
+}
+
+ming_huanghan_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicalism_increases_full_acceptance_mult = 0.5
+	state_turmoil_effects_mult = -0.1
+	state_conscription_rate_mult = -0.25
+	unit_army_defense_mult = -0.2
+	unit_army_offense_mult = -0.2
+	country_authority_add = -500
+	country_legitimacy_base_add = -100
+}
+
+ming_huanghan_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicalism_increases_full_acceptance_mult = 0.25
+	state_radicals_from_political_movements_mult = -0.05
+	state_conscription_rate_mult = -0.25
+	unit_army_defense_mult = -0.1
+	unit_army_offense_mult = -0.1
+	country_authority_add = -200
+	country_legitimacy_base_add = -50
+}
+
+ming_huanghan_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicalism_increases_full_acceptance_mult = 0.1
+	state_radicals_from_political_movements_mult = -0.1
+	state_turmoil_effects_mult = 0.05
+	country_radicals_from_conquest_mult = -0.25
+	unit_army_defense_mult = -0.05
+	unit_army_offense_mult = -0.05
+	country_authority_add = -100
+	country_legitimacy_base_add = -10
+}
+
+ming_huanghan_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_radicals_from_political_movements_mult = -0.1
+	state_turmoil_effects_mult = 0.05
+	country_radicals_from_conquest_mult = -0.15
+	state_conscription_rate_mult = 0.1
+	country_authority_add = -50
+}
+
+ming_huanghan_5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_loyalists_from_political_movements_mult = 0.1
+	state_turmoil_effects_mult = 0.1
+	state_conscription_rate_mult = 0.25
+	unit_army_defense_mult = 0.05
+	unit_army_offense_mult = 0.05
+	country_authority_add = 50
+}
+
+ming_huanghan_6 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_loyalists_from_political_movements_mult = 0.2
+	state_radicals_from_political_movements_mult = 0.2
+	state_turmoil_effects_mult = 0.2
+	country_radicals_from_conquest_mult = 0.1
+	state_conscription_rate_mult = 0.4
+	unit_army_defense_mult = 0.1
+	unit_army_offense_mult = 0.1
+	country_infamy_generation_mult = 0.2
+	country_authority_add = 100
+}
+
+ming_huanghan_7 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_loyalists_from_political_movements_mult = 0.4
+	state_radicals_from_political_movements_mult = 0.4
+	state_turmoil_effects_mult = 0.25
+	country_radicals_from_conquest_mult = 0.25
+	state_conscription_rate_mult = 0.8
+	unit_army_defense_mult = 0.15
+	unit_army_offense_mult = 0.15
+	country_infamy_generation_mult = 0.4
+	country_authority_add = 150
+}
+
+ming_huanghan_8 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_loyalists_from_political_movements_mult = 0.8
+	state_radicals_from_political_movements_mult = 0.8
+	state_turmoil_effects_mult = 0.5
+	country_radicals_from_conquest_mult = 0.5
+	state_conscription_rate_mult = 1.0
+	unit_army_defense_mult = 0.2
+	unit_army_offense_mult = 0.2
+	country_infamy_generation_mult = 0.6
+	country_authority_add = 200
+	country_legitimacy_base_add = 10
+}
+
+ming_huanghan_9 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_loyalists_from_political_movements_mult = 1.0
+	state_radicals_from_political_movements_mult = 1.0
+	state_turmoil_effects_mult = 1.0
+	country_radicals_from_conquest_mult = 1.0
+	state_conscription_rate_mult = 1.0
+	unit_army_defense_mult = 0.25
+	unit_army_offense_mult = 0.25
+	country_infamy_generation_mult = 0.8
+	country_authority_add = 250
+	country_legitimacy_base_add = 20
+}
+
+ming_huanghan_0 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_loyalists_from_political_movements_mult = 1.0
+	state_radicals_from_political_movements_mult = 1.0
+	state_turmoil_effects_mult = 1.2
+	country_radicals_from_conquest_mult = 1.0
+	state_conscription_rate_mult = 1.2
+	unit_army_defense_mult = 0.3
+	unit_army_offense_mult = 0.3
+	country_infamy_generation_mult = 1.0
+	country_authority_add = 300
+	country_legitimacy_base_add = 50
+}
+
+
+ming_bengkui = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_turmoil_effects_mult = 0.1
+	state_conscription_rate_mult = 0.2
+	unit_army_defense_mult = -0.1
+	unit_army_offense_mult = -0.5
+	country_legitimacy_base_add = -10
+}
+
+tusi_xinan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_conscription_rate_add = 1
+	state_conscription_rate_mult = 0.5
+	battle_defense_owned_province_mult = 1.0
+	battle_offense_owned_province_mult = 0.5
+	battle_casualties_mult = -0.9
+	building_training_rate_add = 5000
+}
+
+war_xinan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	unit_morale_loss_mult = 0.2
+	unit_morale_damage_mult = -0.8
+	unit_kill_rate_add = -0.8
+	unit_recovery_rate_add = 0.8
+	battle_casualties_mult = -0.9
+	unit_supply_consumption_mult = 0.25
+	battle_combat_width_mult = -1.5
+}
+
+anfu_xinan = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_construction_mult = 0.2
+	state_radicals_and_loyalists_from_sol_change_mult = -0.2
+	state_radicals_from_political_movements_mult = -0.2
+	state_radicalism_increases_violent_hostility_mult = -0.10
+	state_radicalism_increases_cultural_erasure_mult = -0.10
+	state_radicalism_increases_open_prejudice_mult = -0.10
+	state_radicalism_increases_second_rate_citizen_mult = -0.10
+	state_radicalism_increases_full_acceptance_mult = -0.10
+	state_turmoil_effects_mult = -0.05
+}
+
+ming_dezheng = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_add = 200
+	country_legitimacy_base_add = 20
+	state_assimilation_mult = 1
+	state_han_standard_of_living_add = 10
+	state_standard_of_living_add = -10
+}
+
+ming_pantu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_mortality_turmoil_mult = 0.05
+	state_radicalism_increases_full_acceptance_mult = -0.2
+	state_radicals_from_political_movements_mult = -0.2
+	state_turmoil_effects_mult = -0.05
+}
+
+factory_wuhan = {
+	icon = gfx/interface/icons/event_icons/event_fire.dds
+	building_arms_industry_throughput_add = 0.10
+	building_munition_plant_throughput_add = 0.15
+	country_military_tech_research_speed_mult = 0.15
+	state_conscription_rate_mult = 0.2
+}
+
+factory_jiangning = {
+	icon = gfx/interface/icons/event_icons/event_fire.dds
+	building_arms_industry_throughput_add = 0.1
+	building_munition_plant_throughput_add = 0.1
+	state_construction_mult = 0.2
+	state_migration_pull_mult = 0.2
+}
+
+factory_taiyuan = {
+	icon = gfx/interface/icons/event_icons/event_fire.dds
+	building_arms_industry_throughput_add = 0.10
+	building_munition_plant_throughput_add = 0.10
+	country_military_tech_research_speed_mult = 0.25
+}
+
+tib_ter = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_mortality_turmoil_mult = 2
+	state_turmoil_effects_mult = 2
+}
+
+tib_sel = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_mortality_turmoil_mult = 2
+	state_turmoil_effects_mult = 2
+}
+
+tib_sec = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	country_secession_progress_add = 0.1
+	state_unincorporated_starting_wages_mult = 0.5
+	state_radicals_from_political_movements_mult = 0.5
+}
+
+tib_con = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	country_authority_mult = 0.1
+}
+
+ming_tib_gaitu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	interest_group_ig_devout_pol_str_mult = -0.5
+	interest_group_ig_landowners_pol_str_mult = -0.5
+	political_movement_radicalism_add = 0.5
+	state_tibetan_standard_of_living_add = 2
+	state_loyalists_from_political_movements_mult = 0.25
+}
+
+reb_army = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	state_conscription_rate_add = 0.5
+	state_conscription_rate_mult = 0.5
+	battle_defense_owned_province_mult = 0.2
+	battle_offense_owned_province_mult = 0.2
+	battle_casualties_mult = -0.1
+	building_training_rate_add = 5000
+}
+
+ming_jinyiwei = {
+	icon = gfx/interface/icons/event_icons/china_jinyiwei.dds
+	country_authority_mult = 0.05
+	state_radicals_and_loyalists_from_sol_change_mult = -0.01
+	state_tax_waste_add = -0.01
+	political_movement_radicalism_add = -0.1
+	interest_group_ig_intelligentsia_approval_add = -2
+}
+
+ming_jinyiwei_feichu = {
+	icon = gfx/interface/icons/event_icons/china_jinyiwei.dds
+	country_authority_mult = -0.1
+	state_tax_waste_add = 0.1
+	political_movement_radicalism_add = 0.2
+	interest_group_ig_armed_forces_approval_add = -5
+	interest_group_ig_petty_bourgeoisie_approval_add = -5
+}
+
+challenge_world_rule = {
+	icon = gfx/interface/icons/event_icons/modifier_flag_negative.dds
+	country_authority_mult = -0.1
+	country_legitimacy_base_add = -10
+	political_movement_radicalism_add = 0.2
+	country_prestige_mult = -0.5
+}
+
+ming_mogol = {
+	icon = gfx/interface/icons/event_icons/modifier_rifle_positive.dds
+	unit_combat_unit_type_hussars_offense_mult = 0.1
+	unit_combat_unit_type_dragoons_offense_mult = 0.1
+	unit_combat_unit_type_cuirassiers_offense_mult = 0.1
+	unit_combat_unit_type_lancers_offense_mult = 0.1
+}
+
+ming_industry = {
+	icon = gfx/interface/icons/event_icons/modifier_rifle_positive.dds
+	state_conscription_rate_mult = 0.2
+	interest_group_ig_industrialists_approval_add = 5
+	interest_group_ig_industrialists_pol_str_mult = 0.2
+}
+
+tianchao_reform = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	power_bloc_cohesion_add = -50
+	country_authority_mult = -0.1
+	political_movement_radicalism_add = 0.2
+	country_legitimacy_base_add = -20
+}
+
+jujue_qingqiu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_prestige_mult = -0.15
+	country_legitimacy_base_add = -15
+}
+
+ming_banner = {
+	icon = gfx/interface/icons/event_icons/china_banners.dds
+	unit_combat_unit_type_hussars_offense_mult = 0.2
+	unit_combat_unit_type_dragoons_offense_mult = 0.2
+	unit_combat_unit_type_cuirassiers_offense_mult = 0.2
+	unit_combat_unit_type_lancers_offense_mult = 0.2
+}
+
+last_khan = {
+	icon = gfx/interface/icons/event_icons/china_banners.dds
+	country_prestige_add = 150
+	country_legitimacy_base_add = 20
+}
+
+china_soviet_1 = {
+	icon = gfx/interface/icons/event_icons/mng_social.png
+	country_prestige_add = 10
+	country_legitimacy_base_add = 5
+	country_infamy_generation_mult = -0.2
+	country_influence_add = 200
+}
+
+je_china_jihua = {
+	icon = gfx/interface/icons/event_icons/event_portrait.dds
+	country_institution_cost_institution_health_system_mult = -0.1
+}
+
+jihua_1 = { # 独生子女政策
+	icon = gfx/interface/icons/event_icons/event_portrait.dds
+	state_birth_rate_mult = -0.25
+	country_authority_add = -200
+	state_bureaucracy_population_base_cost_factor_mult = 0.1
+	state_education_access_add = 0.10
+	state_pop_qualifications_mult = 0.10
+}
+
+jihua_2 = { # 鼓励生育政策
+	icon = gfx/interface/icons/event_icons/event_portrait.dds
+	state_birth_rate_mult = 0.1
+	country_authority_add = -150
+	state_welfare_payments_add = 0.1
+	state_bureaucracy_population_base_cost_factor_mult = 0.1
+}
+
+jihua_3 = { # 晚生优生政策
+	icon = gfx/interface/icons/event_icons/event_portrait.dds
+	state_birth_rate_mult = -0.1
+	country_authority_add = -150
+	state_bureaucracy_population_base_cost_factor_mult = 0.1
+	state_pop_qualifications_mult = 0.05
+}
+
+gc_nongye = { # 农村合作社
+	icon = gfx/interface/icons/goods_icons/grain.dds
+	building_group_bg_agriculture_throughput_add = 0.05
+	building_group_bg_plantations_throughput_add = 0.05
+	state_farmers_investment_pool_efficiency_mult = 0.25
+}
+
+gk_nongye = { # 农业现代化
+	icon = gfx/interface/icons/goods_icons/grain.dds
+	building_group_bg_agriculture_throughput_add = 0.05
+	building_group_bg_plantations_throughput_add = 0.1
+	state_farmers_investment_pool_efficiency_mult = 0.5
+	state_aristocrats_investment_pool_efficiency_mult = 0.5
+	interest_group_ig_landowners_approval_add = 1
+	interest_group_ig_landowners_pol_str_mult = 0.2
+	interest_group_ig_rural_folk_pol_str_mult = 0.2
+}
+
+gc_gongye = { # 工业突破
+	icon = gfx/interface/icons/goods_icons/steel.dds
+	country_production_tech_research_speed_mult = 0.1
+	state_construction_mult = 0.05
+}
+
+gk_gongye = { #市场化
+	icon = gfx/interface/icons/event_icons/event_trade.dds
+	building_group_bg_light_industry_throughput_add = 0.05
+	interest_group_ig_industrialists_approval_add = 1
+	interest_group_ig_trade_unions_pol_str_mult = -0.2
+	interest_group_ig_industrialists_pol_str_mult = 0.25
+	state_capitalists_investment_pool_efficiency_mult = 0.15
+	state_shopkeepers_investment_pool_efficiency_mult = 0.15
+}
+
+gk_gongren = { #放宽限制
+	icon = gfx/interface/icons/event_icons/event_trade.dds
+	country_machinists_pol_str_mult = -0.25
+	country_farmers_pol_str_mult = -0.25
+	state_capitalists_investment_pool_efficiency_mult = 0.1
+	state_shopkeepers_investment_pool_efficiency_mult = 0.1
+	interest_group_ig_industrialists_approval_add = 1
+}
+
+gc_zhengfu = { # 为人民服务
+	icon = gfx/interface/icons/event_icons/fuwu.png
+	country_law_enactment_success_add = 0.05
+	country_bureaucracy_investment_cost_factor_mult = -0.2
+}
+
+gk_touzi = { #放宽限制
+	icon = gfx/interface/icons/event_icons/event_trade.dds
+	building_group_bg_manufacturing_tax_mult = 0.1
+	state_capitalists_investment_pool_efficiency_mult = 0.1
+	state_construction_mult = 0.05
+}
+
+gk_zuzhi = { #扩张势力
+	icon = gfx/interface/icons/event_icons/event_trade.dds
+	country_influence_add = 500
+	state_trade_quantity_mult = 0.25
+	state_market_access_price_impact = 0.05
+	country_diplomatic_play_maneuvers_add = 20
+}
+
+datong_china = { # 大同
+	icon = gfx/interface/icons/event_icons/mng_social.png
+	state_loyalists_from_political_movements_mult = 0.25
+	state_construction_mult = 0.25
+	country_production_tech_research_speed_mult = 0.2
+	country_infamy_generation_mult = -0.2
+	country_influence_add = 500
+	unit_morale_recovery_mult = 0.15
+	country_legitimacy_base_add = 10
+	country_diplomatic_play_maneuvers_add = 20
+}
+
+xiaokang_china = { # 小康
+	icon = gfx/interface/icons/event_icons/event_portrait.dds
+	state_construction_mult = 0.2
+	state_capitalists_investment_pool_efficiency_mult = 0.1
+	state_shopkeepers_investment_pool_efficiency_mult = 0.1
+	country_loan_interest_rate_add = -0.18
+	state_migration_pull_mult = 0.2
+	country_tech_spread_add = 20
+	country_max_companies_add = 2
+	state_trade_quantity_mult = 0.2
+}
+
+defeat_ref = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	interest_group_approval_add = -5
+	country_legitimacy_base_add = -20
+	state_radicals_from_political_movements_mult = 0.3
+}
+
+shangci_chaoting = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_minting_add = 3000
+}
+
+duhufu_junguan = {
+	icon = gfx/interface/icons/event_icons/duhufu.png
+	unit_army_defense_mult = 0.1
+	unit_army_offense_mult = 0.1
+	unit_kill_rate_add = 0.05
+	country_officers_pol_str_mult = 0.05
+	country_expenses_add = 1000
+}
+
+annan_guizu = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_minting_add = 1000
+	state_tax_waste_add = -0.15
+	country_law_enactment_stall_mult = -0.2
+	country_law_enactment_time_mult = -0.2
+}
+
+annan_keju = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_tech_spread_add = 25
+	country_tech_research_speed_mult = 0.2
+	interest_group_ig_intelligentsia_pol_str_mult = 0.25
+	interest_group_ig_devout_approval_add = 2
+	interest_group_ig_intelligentsia_approval_add = 2
+}
+
+annan_army = {
+	icon = gfx/interface/icons/event_icons/junshi.png
+	unit_army_defense_mult = 0.15
+	unit_army_offense_mult = 0.15
+	unit_kill_rate_add = 0.05
+}
+
+duhufutonghua = {
+	icon = gfx/interface/icons/event_icons/duhufutonghua.png
+	state_assimilation_mult = 1
+	state_conversion_mult = 1
+}
