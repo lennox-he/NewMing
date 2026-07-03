@@ -19,10 +19,6 @@ COUNTRIES = {
 		set_government_wage_level = high
 		set_tax_level = low
 
-		trigger_event = {
-			id = monglia_events.1
-		}
-		
 		add_modifier = {
 			name = last_khan
 			years = 20

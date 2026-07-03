@@ -52,18 +52,10 @@ COUNTRIES = {
 			add_ideology = ideology_confucian
 		}
 		
-		trigger_event = {
-			id = cnl_events.1
-		}
-		trigger_event = {
-			id = ming_events.19
-		}
-		add_journal_entry = { type = je_lizhou_gold }
 		set_variable = {
 			name = lizhou_huiyi_power
 			value = 0
 		}
-		add_journal_entry = { type = je_lizhou_huiyi }
 		set_variable = lizhou_0
 		
 		set_variable = ronghe_dacheng

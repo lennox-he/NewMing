@@ -434,7 +434,7 @@ STATES = {
 	
 	s:STATE_SICHUAN = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x7D0C5B x129329 xCE5914 x97F6FB x5C0A38 xC54CCD x901080 xB52752 x690CD4 x901000 
 				x108674 xF9B015 x939CA3 xE88BF8 x6C2938 xFBD426 x4A9929 x92D298 x192C0F x0CEE46 
@@ -452,7 +452,7 @@ STATES = {
 	
 	s:STATE_YUNNAN = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x006A4F x0441DB x0DD716 x1030E0 x145038 x15778F x171D65 x192036 x1A9B06 x1CB687 
 				x1F78D6 x20105C x201A85 x208960 x21761F x258B0E x2C11A0 x30B020 x324DBC x361595 
@@ -487,7 +487,7 @@ STATES = {
 	
 	s:STATE_GUIZHOU = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x0398DE x053F4B x096C00 x109000 x12DE54 x14F092 x2145E4 x21B519 x24BC36 x269610 
 				x2DB649 x3254BE x392877 x3DD0C5 x4526DC x4D64C0 x581D64 x6B9BF6 x70CB39 x735753 
@@ -503,7 +503,7 @@ STATES = {
 	
 	s:STATE_SHAOZHOU = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x07C8D6 x12DF0F x12F28E x242A48 x31B061 x40D43A x4CF229 x845B19 x8D6A1E x9C3F91 
 				xA0C90D xA613C9 xAADB15 xACD8B5 xB03161 xCD4039 xD2A4C7 xDFB220 xE6F815 xEA597E 
@@ -560,7 +560,7 @@ STATES = {
 	
 	s:STATE_GUANGXI = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x0422AC x05C2CD x09D527 x0F948D x116561 x1380FF x1E5C7E x201F22 x25EA31 x37E3AC 
 				x3B542C x4269D4 x48D397 x5100A2 x53ABCA x58D3A8 x686CE7 x6D1ACD x702462 x84BD66 
@@ -586,7 +586,7 @@ STATES = {
 		}
 		add_homeland = cu:han
 		add_homeland = cu:manchu
-		add_claim = C:CNM
+		add_claim = c:CNM
 	}
 	
 	s:STATE_AMUR = {
@@ -676,7 +676,7 @@ STATES = {
 	
 	s:STATE_SHANXI = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x04647B x092D9A x0F7841 x102702 x149A35 x1A2B77 x21C69F x2BAB5F x2E1AF5 x2E331F 
 				x352689 x406C38 x41D423 x554E31 x5DD6C0 x62F096 x6A2320 x703060 x71F0A0 x771E37 
@@ -691,7 +691,7 @@ STATES = {
 	
 	s:STATE_NINGXIA = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x059BB6 x074BCB x09BCF6 x18598F x19B590 x1D97FA x1E4AB9 x2030E0 x23D056 x2EE787 
 				x2FC489 x2FF3B4 x357B9C x358CED x3C0326 x3FC5F7 x48175A x4CCC0E x4DAD29 x5023A8 
@@ -708,7 +708,7 @@ STATES = {
 	
 	s:STATE_GANSU = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x1628E7 x1A96D6 x1CBDEB x1E2B5B x1E766C x200F1E x20B9B8 x26CFB7 x2FB9C1 x35E5A6 
 				x46C752 x5F68D6 x619172 x64D221 x677428 x8C62C2 x935523 x989A23 xA2D436 xA4641B 
@@ -732,7 +732,7 @@ STATES = {
 	
 	s:STATE_XIAN = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x08880B x09BD45 x11F985 x1A1A09 x1FCA38 x2B47B0 x2D169B x32EDB3 x38D512 x3A0F5D 
 				x3CE218 x434092 x4A615F x5003FE x509080 x5E3640 x609C66 x63CB81 x6A2E0D x6BE3E0 
@@ -780,7 +780,7 @@ STATES = {
 	
 	s:STATE_CHONGQING = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				xD5B480 x98D5B2 x98EF3E x509000 x243438 x5C003D xDBFEDF x645EEC xAF5569 xBD8F39 
 				x6CAE25 xDBB445 xD09000 xC64D28 xBE05F5 xC8F378 x7B51C8 xC35036 x283D57 xE0F0E0 
@@ -792,7 +792,7 @@ STATES = {
 	
 	s:STATE_GUANGDONG = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x156AC0 x19FD82 x260389 x2BDE7B x2C4C48 x30B0E0 x3131E0 x475968 x477755 x489AB0 
 				x4E581C x62BF42 x85E0D4 x8C9358 x9A21B1 xA92B88 xB0B061 xC77200 xCB457A xDC137A 
@@ -815,7 +815,7 @@ STATES = {
 	
 	s:STATE_FUJIAN = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x13C257 x1B6AE2 x1FFEE2 x2028A1 x229CC3 x28B132 x2D35A0 x4BB46A x50C5FA x5469D3 
 				x553A28 x67D814 x70F060 x77145A x813C9B x85A9B1 x876F90 x8D2979 x999320 xA0F0E0 
@@ -831,7 +831,7 @@ STATES = {
 	
 	s:STATE_ZHEJIANG = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x217027 x2238D3 x241F94 x301080 x309000 x309080 x38108E x3F8010 x41AD59 x477C0E 
 				x5ABF0A x5BE9C6 x6CDE24 x6F9804 x6F9BC4 x7E7930 x88E7E8 x8B7CC2 x9C0372 xAB5BE9 
@@ -844,7 +844,7 @@ STATES = {
 	
 	s:STATE_JIANGSU = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x11D080 x21F0E0 x2C1D6B x474A7C x51D0C0 x51DED8 x57F598 x6B1559 xCEA76B xD39CAD 
 				xDB13A1 xEF14F8 xF5F230 xFAE3BB xCFAB73 x9381DD xC6A460 
@@ -856,7 +856,7 @@ STATES = {
 	
 	s:STATE_NANJING = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x0A91BF x11A5D0 x8111D0 
 			}
@@ -867,7 +867,7 @@ STATES = {
 	
 	s:STATE_HENAN = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x1111C0 x112F90 x1190C0 x22554F x284C0E x3702A8 x390A81 x3EE5FD x42D2BF x4D05FD 
 				x4D6017 x4D738D x55EA06 x5C5657 x5DB808 x6CC08C x783F2A x909041 x90D080 x97B78C 
@@ -882,7 +882,7 @@ STATES = {
 	
 	s:STATE_ZHILI = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x0970D9 x0FEECE x115101 x1AB7C6 x1F637F x215101 x43043A x480190 x4E770A x5CFC15 
 				x5DA25B x5E5C94 x680507 x6850DA x76B0CC x81A01A x83E0CF x905101 xA08982 xAD4A5C 
@@ -895,7 +895,7 @@ STATES = {
 	
 	s:STATE_JIANGXI = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x079CCD x0C0AE5 x101080 x1186AE x172021 x176746 x2D7544 x37F6F7 x3DE539 x451612 
 				x50D000 x50D080 x50EE81 x5279EB x535CB8 x607060 x6070E0 x60F0E0 x64A1E9 x66C698 
@@ -910,7 +910,7 @@ STATES = {
 	
 	s:STATE_SOUTHERN_ANHUI = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x02C8C0 x109080 x329B9F x36029B x467DE2 x49873B x549051 x61A7A8 x6ECE83 x7030A0 
 				x905157 x905180 xA5D78B xD5C59C xE585CC xFF11E6 xFF7C49 x515790 xF14A5E 
@@ -922,7 +922,7 @@ STATES = {
 	
 	s:STATE_NORTHERN_ANHUI = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x055124 x23849F x467DAC x515101 x6895C0 x87DFF6 x942097 x9DE44A xC44EE7 xD05101 
 				xF5E291 xFD70D3 xCFABF8 xE07161 xADEC31 xCFABFB 
@@ -934,7 +934,7 @@ STATES = {
 	
 	s:STATE_WESTERN_HUBEI = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x0E1020 x0FEACA x11842D x221AD2 x23C577 x31BFBF x5010C0 x5090C0 x55BE82 x5D79E9 
 				x696991 x69DE2D x7A1E2B x7AE005 x7BBC58 x7C235D x801938 x9010C0 xA4108C xA5038F 
@@ -947,7 +947,7 @@ STATES = {
 	
 	s:STATE_EASTERN_HUBEI = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x101040 x2B8AD9 x3B0DA8 x509040 x7957D8 x802B45 x901040 x948269 x9A9CE3 xA6A054 
 				xB84488 xC62E6F xD0D080 xD14310 xE122C5 xFE78B5 
@@ -959,7 +959,7 @@ STATES = {
 	
 	s:STATE_HUNAN = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x0BC9A5 x0C3FAC x0E9E2E x0EE8CC x105040 x133EB5 x186F43 x232F8B x252DF2 x2FA4D2 
 				x313A55 x337511 x3E0895 x425FDF x4BD086 x4F1960 x61F84E x6823EC x6CD43B x72AB61 
@@ -975,7 +975,7 @@ STATES = {
 	
 	s:STATE_FORMOSA = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x44797F x6645CF x6DAB21 x7070E0 x9A5066 xAEA2D8 xBB27F6 xE73B31 
 			}
@@ -987,7 +987,7 @@ STATES = {
 	
 	s:STATE_SHANDONG = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x115180 x16E6F3 x175EC6 x1ABD79 x1D4C25 x2EF696 x32CFB2 x33490F x38A73B x39F708 
 				x41FB70 x4724A9 x483CDB x498F0D x50D040 x55944E x599BC4 x6B8F67 x6BFF52 x6DA6F9 
@@ -1001,7 +1001,7 @@ STATES = {
 	
 	s:STATE_SUZHOU = {
 		create_state = {
-			country = C:CNM
+			country = c:CNM
 			owned_provinces = {
 				x301000 x61F061 x6E575B x86FF7E xB01101 xD0D0C0 xE9E92E 
 			}
@@ -1346,7 +1346,7 @@ STATES = {
 		}
 		add_homeland = cu:han
 		add_homeland = cu:manchu
-		add_claim = C:CNM
+		add_claim = c:CNM
 	}
 	
 	s:STATE_JETISY = {

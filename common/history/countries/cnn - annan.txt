@@ -42,18 +42,6 @@ COUNTRIES = {
 			add_ideology = ideology_confucian
 		}
 
-		add_journal_entry = {
-			type = je_annan_wending
-		}
-		add_journal_entry = {
-			type = je_annan_xuexiao
-		}
-		add_journal_entry = {
-			type = je_annan_jundui
-		}
-		add_journal_entry = {
-			type = je_annan_wenhua
-		}
 		set_variable = ronghe_dacheng
 		set_variable = ronghe_taolism
 		add_to_variable_list = { name = accepted_religion target = rel:mahayana }

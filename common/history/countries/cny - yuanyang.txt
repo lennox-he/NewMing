@@ -45,10 +45,6 @@ COUNTRIES = {
 			add_ideology = ideology_confucian
 		}
 
-		trigger_event = {
-			id = ming_events.18
-		}
-		
 		set_variable = ronghe_dacheng
 		set_variable = ronghe_taolism
 		add_to_variable_list = { name = accepted_religion target = rel:mahayana }

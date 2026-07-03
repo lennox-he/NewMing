@@ -36,6 +36,42 @@ function Get-FileCount {
     return (Get-ChildItem -Recurse -File -LiteralPath $path | Measure-Object).Count
 }
 
+function Get-RelativePath {
+    param([string]$FullName)
+    return $FullName.Substring($ModRoot.Length).TrimStart('\')
+}
+
+function Test-NoPatternInFiles {
+    param(
+        [string]$RelativePath,
+        [string]$Filter,
+        [string]$Pattern,
+        [string]$FailurePrefix
+    )
+
+    $path = Join-Path $ModRoot $RelativePath
+    if (-not (Test-Path -LiteralPath $path)) {
+        return
+    }
+
+    $matches = Get-ChildItem -Recurse -File -Filter $Filter -LiteralPath $path |
+        Select-String -Pattern $Pattern -CaseSensitive
+
+    foreach ($match in $matches) {
+        $relative = Get-RelativePath $match.Path
+        Add-Failure "${FailurePrefix}: ${relative}:$($match.LineNumber)"
+    }
+}
+
+function Get-GitTrackedFiles {
+    $gitOutput = & git -C $ModRoot ls-files 2>&1
+    if ($LASTEXITCODE -ne 0) {
+        Add-Failure "Unable to list Git tracked files: $gitOutput"
+        return @()
+    }
+    return @($gitOutput | Where-Object { $_ -ne "" })
+}
+
 $descriptor = Join-Path $ModRoot "descriptor.mod"
 Test-RequiredPath "descriptor.mod"
 if (Test-Path -LiteralPath $descriptor) {
@@ -105,6 +141,39 @@ $forbiddenPaths = @(
 
 foreach ($relativePath in $forbiddenPaths) {
     Test-ForbiddenPath $relativePath
+}
+
+Test-NoPatternInFiles `
+    -RelativePath "common\history\countries" `
+    -Filter "*.txt" `
+    -Pattern '\b(add_journal_entry|trigger_event)\b' `
+    -FailurePrefix "Forbidden first-stage startup trigger in history countries"
+
+Test-NoPatternInFiles `
+    -RelativePath "common\history\states" `
+    -Filter "*.txt" `
+    -Pattern '\bC:[A-Za-z0-9_]+\b' `
+    -FailurePrefix "Uppercase country scope in history states"
+
+$trackedFiles = Get-GitTrackedFiles
+$maxTrackedFileBytes = 100MB
+foreach ($relativePath in $trackedFiles) {
+    $localRelativePath = $relativePath -replace '/', [System.IO.Path]::DirectorySeparatorChar
+    $path = [System.IO.Path]::Combine($ModRoot, $localRelativePath)
+    if (-not (Test-Path -LiteralPath $path -PathType Leaf)) {
+        continue
+    }
+    $file = Get-Item -LiteralPath $path
+    if ($file.Length -gt $maxTrackedFileBytes) {
+        Add-Failure "Git tracked file exceeds 100MB: $relativePath ($($file.Length) bytes)"
+    }
+}
+
+$trackedDocs = @($trackedFiles | Where-Object { $_ -eq "docs" -or $_ -like "docs/*" })
+if ($trackedDocs.Count -gt 0) {
+    foreach ($relativePath in $trackedDocs) {
+        Add-Failure "docs/ must not be Git tracked: $relativePath"
+    }
 }
 
 $scriptExtensions = @(".txt", ".mod", ".asset")

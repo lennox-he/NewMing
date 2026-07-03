@@ -21,7 +21,6 @@ COUNTRIES = {
 			add_ruling_interest_group = yes
 		}
 		set_variable = { name = lanfang_comp_PRO value = 0 }
-		add_journal_entry = { type = je_zhimin_lanfang }
 		change_variable = { name = lanfang_comp_PRO add = 50 }
 		set_country_type = recognized
 

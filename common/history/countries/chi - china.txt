@@ -51,15 +51,6 @@ COUNTRIES = {
 			value = 0
 		}
 		set_variable = is_qng_state
-		add_journal_entry = { type = je_annex_han }
-
-		add_journal_entry = { type = je_annex_monglia }
-		
-		add_journal_entry = { type = je_destory_banner }
-		
-		add_journal_entry = { type = je_destory_canquerkor }
-		
-		add_journal_entry = { type = je_destory_norchi }
 	}
 	c:ZHY = {
 		add_modifier = {

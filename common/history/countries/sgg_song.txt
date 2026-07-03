@@ -37,7 +37,5 @@ COUNTRIES = {
 			remove_ideology = ideology_moralist
 			add_ideology = ideology_confucian
 		}
-		
-		add_journal_entry = { type = je_sogg_free }
 	}
 }

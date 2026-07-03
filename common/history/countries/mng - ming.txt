@@ -50,9 +50,6 @@ COUNTRIES = {
 			add_ruling_interest_group = yes
 		}
 
-		add_journal_entry = { type = je_ming_xixue }
-		add_journal_entry = { type = je_land_or_sea}
-
 		add_modifier = {
 			name = ming_tax_head
 			years = -1
@@ -65,19 +62,6 @@ COUNTRIES = {
 			is_decaying = no
 		}
 
-		trigger_event = {
-			id = ming_events.1
-		}
-		trigger_event = {
-			id = ming_events.3
-		}
-		trigger_event = {
-			id = ming_events.9
-		}
-		trigger_event = {
-			id = xinan_events.1
-			days = 1000
-		}
 		set_variable = ming_wujun 
 		set_variable = {
 			name = ming_warlord_power
@@ -87,8 +71,6 @@ COUNTRIES = {
 			name = ming_warlord_like
 			value = 0
 		}
-		add_journal_entry = { type = je_ming_warlord }
-		add_journal_entry = { type = je_wuzu_china }
 		set_variable = ronghe_dacheng
 		set_variable = ronghe_taolism
 		add_to_variable_list = { name = accepted_religion target = rel:mahayana }
