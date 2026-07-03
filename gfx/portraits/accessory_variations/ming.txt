@@ -444,35 +444,5 @@ variation = {
 	color_palette = { weight = 1		texture = "gfx/portraits/accessory_variations/textures/color_palette_chinese_clothing_01.dds" }	
 }
 
-female_outfit_id_han_01_low = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_outfit_central_asian_01_low_entity" }	
-}
-
-female_outfit_id_han_01_high = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "female_outfit_central_asian_01_high_entity" }	
-}
-
-male_outfit_id_han_01_low = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_low_entity" }	
-}
-
-male_outfit_id_han_01_high = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_high_entity" }	
-}
-
-male_outfit_id_han_01_imperial = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "male_outfit_id_han_01_imperial_entity" }	
-}
-
-male_outfit_mongol_imperial = {
-	set_tags = "shrink_arms,shrink_chest,shrink_belly"
-	entity = { required_tags = ""					shared_pose_entity = torso		entity = "f_clothes_sec_mpo_mongol_imp_01_entity" }	
-}
-
 
 

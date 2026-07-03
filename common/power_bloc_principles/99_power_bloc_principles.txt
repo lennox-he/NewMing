@@ -6,10 +6,6 @@ principle_tianchao_neisheng_1 = {
 	icon = "gfx/interface/icons/principles_icons/construction.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
-	on_enact = {
-		add_modifier = tianchao_reform	
-	}
-
 	visible = {
 		has_dlc_feature = power_bloc_features
 	}
@@ -35,9 +31,6 @@ principle_tianchao_neisheng_1 = {
 		
 		interest_group_ig_landowners_pol_str_mult = 0.1
 
-		on_enact = {
-			add_modifier = tianchao_reform	
-		}
 	}
 	
 	non_leader_modifier = {
@@ -70,10 +63,6 @@ principle_tianchao_neisheng_2 = {
 	icon = "gfx/interface/icons/principles_icons/construction.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 	
-	on_enact = {
-		add_modifier = tianchao_reform	
-	}
-
 	power_bloc_modifier = {
 		power_bloc_leader_can_force_state_religion_bool = yes
 	}
@@ -85,16 +74,6 @@ principle_tianchao_neisheng_2 = {
 			OR = {
 				NOT = { has_principle_group = principle_group:principle_group_tianchao_waiwang }
 				NOT = { has_principle_group = principle_group:principle_group_tianchao_neisheng }
-			}
-		}
-	}
-	
-	immediate = {
-		c:CNM = {
-			add_modifier = {
-				name = tianchao_reform
-				years = 5
-				is_decaying = yes
 			}
 		}
 	}
@@ -118,9 +97,6 @@ principle_tianchao_neisheng_2 = {
 		
 		interest_group_ig_landowners_pol_str_mult = 0.2
 		
-		on_enact = {
-			add_modifier = tianchao_reform	
-		}
 	}
 	
 	non_leader_modifier = {

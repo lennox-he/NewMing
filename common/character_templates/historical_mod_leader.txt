@@ -262,14 +262,16 @@ REPLACE_OR_CREATE:chi_general_zuo_zongtang = {
 		master_bureaucrat
 	}
 	commander_usage = {
-		OR = {
-			AND = {
-				exists = c:CHI
-				this = c:CHI
-			}
-			AND = {
-				exists = c:CNM
-				this = c:CNM
+		country_trigger = {
+			OR = {
+				AND = {
+					exists = c:CHI
+					this = c:CHI
+				}
+				AND = {
+					exists = c:CNM
+					this = c:CNM
+				}
 			}
 		}
 		role = general

@@ -520,10 +520,9 @@ ig_armed_forces = {
 		}		
 	}
 
-	# The chance that a commander belonging to this IG takes over leadership when it changes
-	# scope:character is the most popular commander in the IG
-	commander_leader_chance = {
+	# 指挥官成为利益集团领袖时的权重系数
+	# scope:character 是该利益集团中声望最高的指挥官
+	commander_leader_weight = {
 		value = 0.75
-		multiply = ig_commander_leader_chance_mult
 	}
 }

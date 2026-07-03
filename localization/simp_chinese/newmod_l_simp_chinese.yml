@@ -1330,11 +1330,10 @@ CNJ_ADJ:0 "瀛洲宣慰司"
  
  je_zhimin_cny:0 "[SCOPE.GetRootScope.GetCountry.GetName]对大明的依赖程度"
  je_zhimin_cny_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]和大明保持着若隐若现的联系，这里体现了大明对我们的控制力度，依赖度每月增加0.5。"
- je_zhimin_cny_goal:0 "足够高的控制力度可以让大明直接干涉[SCOPE.GetRootScope.GetCountry.GetName]。"
- je_zhimin_cny_tt:0 ""
- je_not_high_cny:0 "对大明依赖程度低于20"
- uo
- je_zhimin_MNG:0 "帝国理藩院"
+  je_zhimin_cny_goal:0 "足够高的控制力度可以让大明直接干涉[SCOPE.GetRootScope.GetCountry.GetName]。"
+  je_zhimin_cny_tt:0 ""
+  je_not_high_cny:0 "对大明依赖程度低于20"
+  je_zhimin_MNG:0 "帝国理藩院"
  je_zhimin_MNG_reason:0 "[SCOPE.GetRootScope.GetCountry.GetName]和藩属国保持着密切的联系，并通过理藩院相互沟通。在这里你可以查看我国在外设置的布政司的情况。"
  je_zhimin_MNG_goal:0 "海外宣慰司 \n[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('jibei_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('xifeng_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('yingan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('yangshan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('huangyuan_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('tianzhu_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('tianzhu_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('hezhong_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('miandian_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('xianluo_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue] \n[GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.GetName]对[GetPlayer.MakeScope.Var('ming_fushu').GetCountry.GetName]的依赖程度：[GetPlayer.MakeScope.Var('honglin_fushu').GetCountry.MakeScope.Var('ming_cny_tracker').GetValue]"
  
@@ -3336,7 +3335,6 @@ CNJ_ADJ:0 "瀛洲宣慰司"
  
  je_china_shehuizhuyi_1: "改革开放！"
  je_china_shehuizhuyi_1_reason: "不管黑猫还是白猫，能抓老鼠就是好猫。过于纠结阶级斗争的问题造成了我们前期工作中对经济建设工作的漠视，人民群众的生活水平没有得到很好的保障和提升。但是现在不一样了，拥抱世界市场会给我们新的选择。我们相信，庞大的海外资金可以为我们这篇古老的国度注入新的生机！"
-investment_pool_efficiency 
  je_china_shehuizhuyi_2: "改革开放:家庭联产承包责任制"
  je_china_shehuizhuyi_2_reason: "事实证明，将土地交还给农民比吃大锅饭的集体农庄更能激发农民的生产积极性。我们应该立刻推广家庭联产承包责任制，结算所有的人民公社，让市场成为农民生产力的推手！"
  je_sh2_tt: "完成#Bold 家庭联产承包责任制#!日志"

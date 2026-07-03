@@ -1104,14 +1104,12 @@ STATES = {
 			owned_provinces = {
 				xA01EF1 xB070A0 xC08B17 xC46194 xEDBFB1 xEF3060 xFAB663 
 			}
-			add_claim = c:CNN
 		}
 		create_state = {
 			country = c:CNN
 			owned_provinces = {
 				x0BE805 x2A870A x307020 x3070A0 x5109BC x7A5ACC x9E5CF8 xE63DDE xEEB5DD xF22C8B 
 			}
-			add_claim = c:DAI
 		}
 		add_claim = c:CNN
 		add_claim = c:DAI

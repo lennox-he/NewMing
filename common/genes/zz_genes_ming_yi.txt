@@ -2,20 +2,19 @@
 
 special_genes = {
 	accessory_genes = {
-		aom_mongol_outfits = {
-			index = 103
-			male = {
-				1 = male_outfit_mongol_imperial									
-			}
-
-			female = {
-				1 = male_outfit_mongol_imperial
-			}
-			boy = male
-			girl = female
-		}
-
 		ming_yi = {
+			aom_mongol_outfits = {
+				index = 103
+				male = {
+					1 = male_outfit_mongol_imperial
+				}
+				female = {
+					1 = male_outfit_mongol_imperial
+				}
+				boy = male
+				girl = female
+			}
+
 			ming_longpao_clothes = {
 				index = 0
 				male = { 3 = ming_longpao 2 = ming_longpao_red }
