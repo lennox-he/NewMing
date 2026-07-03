@@ -1,6 +1,7 @@
 param(
     [string]$ModRoot = (Split-Path -Parent $PSScriptRoot),
-    [string]$GameVersion = "1.13.9"
+    [string]$GameVersion = "1.13.9",
+    [string]$GameRoot = "C:\Program Files (x86)\Steam\steamapps\common\Victoria 3\game"
 )
 
 $ErrorActionPreference = "Stop"
@@ -237,6 +238,139 @@ function Test-RequiredBuildingGroups {
     }
 }
 
+function Get-ProvinceImageColorSet {
+    $provinceMap = Join-Path $ModRoot "map_data\provinces.png"
+    if (-not (Test-Path -LiteralPath $provinceMap -PathType Leaf)) {
+        return $null
+    }
+
+    try {
+        [ProvinceMapColorReader] | Out-Null
+    }
+    catch {
+        Add-Type -ReferencedAssemblies "System.Drawing" -TypeDefinition @"
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.Runtime.InteropServices;
+
+public static class ProvinceMapColorReader
+{
+    public static HashSet<string> ReadColors(string path)
+    {
+        var colors = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        using (var source = (Bitmap)Image.FromFile(path))
+        using (var bitmap = source.Clone(new Rectangle(0, 0, source.Width, source.Height), PixelFormat.Format24bppRgb))
+        {
+            var rectangle = new Rectangle(0, 0, bitmap.Width, bitmap.Height);
+            BitmapData data = null;
+            try
+            {
+                data = bitmap.LockBits(rectangle, ImageLockMode.ReadOnly, PixelFormat.Format24bppRgb);
+                var rowSize = Math.Abs(data.Stride);
+                var bytes = new byte[rowSize * bitmap.Height];
+                Marshal.Copy(data.Scan0, bytes, 0, bytes.Length);
+
+                for (var y = 0; y < bitmap.Height; y++)
+                {
+                    var rowStart = data.Stride > 0 ? y * data.Stride : (bitmap.Height - 1 - y) * rowSize;
+                    for (var x = 0; x < bitmap.Width; x++)
+                    {
+                        var offset = rowStart + x * 3;
+                        var blue = bytes[offset];
+                        var green = bytes[offset + 1];
+                        var red = bytes[offset + 2];
+                        colors.Add("X" + red.ToString("X2") + green.ToString("X2") + blue.ToString("X2"));
+                    }
+                }
+            }
+            finally
+            {
+                if (data != null)
+                {
+                    bitmap.UnlockBits(data);
+                }
+            }
+        }
+
+        return colors;
+    }
+}
+"@
+    }
+
+    return [ProvinceMapColorReader]::ReadColors($provinceMap)
+}
+
+function Resolve-MapMetadataFile {
+    param([string]$RelativePath)
+
+    $modPath = Join-Path $ModRoot $RelativePath
+    if (Test-Path -LiteralPath $modPath -PathType Leaf) {
+        return $modPath
+    }
+
+    $gamePath = Join-Path $GameRoot $RelativePath
+    if (Test-Path -LiteralPath $gamePath -PathType Leaf) {
+        return $gamePath
+    }
+
+    Add-Failure "Missing map metadata file for province validation: $RelativePath"
+    return $null
+}
+
+function Test-ProvinceReferencesExistInImage {
+    $colors = Get-ProvinceImageColorSet
+    if ($null -eq $colors) {
+        return
+    }
+
+    $files = New-Object "System.Collections.Generic.List[string]"
+
+    foreach ($relativePath in @(
+        "map_data\default.map",
+        "map_data\province_terrains.txt",
+        "map_data\state_regions\99_seas.txt"
+    )) {
+        $path = Resolve-MapMetadataFile $relativePath
+        if ($null -ne $path) {
+            $files.Add($path) | Out-Null
+        }
+    }
+
+    foreach ($relativePath in @("map_data\state_regions", "common\history\states")) {
+        $path = Join-Path $ModRoot $relativePath
+        if (Test-Path -LiteralPath $path) {
+            Get-ChildItem -Recurse -File -LiteralPath $path |
+                Where-Object { $_.Extension -in @(".txt", ".map") } |
+                ForEach-Object { $files.Add($_.FullName) | Out-Null }
+        }
+    }
+
+    foreach ($file in $files) {
+        $lineNumber = 0
+        foreach ($line in Get-Content -LiteralPath $file) {
+            $lineNumber++
+            foreach ($match in [regex]::Matches($line, '\bx[0-9A-Fa-f]{6}\b')) {
+                $provinceId = $match.Value.ToUpperInvariant()
+                if (-not $colors.Contains($provinceId)) {
+                    if ($file.StartsWith($ModRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+                        $relative = Get-RelativePath $file
+                    }
+                    elseif ($file.StartsWith($GameRoot, [System.StringComparison]::OrdinalIgnoreCase)) {
+                        $relative = "game\" + $file.Substring($GameRoot.Length).TrimStart('\')
+                    }
+                    else {
+                        $relative = $file
+                    }
+                    Add-Failure "Province ID referenced but missing from map_data\provinces.png: ${relative}:$lineNumber -> $provinceId"
+                }
+            }
+        }
+    }
+}
+
 function Get-GitTrackedFiles {
     $gitOutput = & git -C $ModRoot ls-files 2>&1
     if ($LASTEXITCODE -ne 0) {
@@ -336,6 +470,7 @@ Test-PortraitPatternMaskPaths
 Test-NoDirectCommanderUsageTrigger
 Test-NoAddClaimInsideCreateState
 Test-RequiredBuildingGroups
+Test-ProvinceReferencesExistInImage
 
 Test-NoPatternInFiles `
     -RelativePath "common\interest_groups" `
