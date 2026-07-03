@@ -1,6 +1,6 @@
 {
   "name": "NewMing",
-  "id": "",
+  "id": "com.lennox-he.NewMing",
   "version": "0.1.0",
   "supported_game_version": "1.13.9",
   "short_description": "Standalone NewMing base mod for Victoria 3 1.13.9.",
@@ -14,4 +14,3 @@
     "multiplayer_synchronized": true
   }
 }
-
