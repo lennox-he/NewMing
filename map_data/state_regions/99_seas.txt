@@ -650,3 +650,303 @@ STATE_EASTERN_INDIAN_OCEAN = {
     provinces = { "xB6CECE" }
     diorama_radius_multiplier = 2.5
 }
+
+STATE_NEWMING_SEA_001 = {
+    id = 9001
+    provinces = { "x0DFEE0" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_002 = {
+    id = 9002
+    provinces = { "x13CCFE" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_003 = {
+    id = 9003
+    provinces = { "x19C9C9" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_004 = {
+    id = 9004
+    provinces = { "x21C9C9" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_005 = {
+    id = 9005
+    provinces = { "x22CBFD" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_006 = {
+    id = 9006
+    provinces = { "x2897CB" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_007 = {
+    id = 9007
+    provinces = { "x2CFAFA" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_008 = {
+    id = 9008
+    provinces = { "x340EEC" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_009 = {
+    id = 9009
+    provinces = { "x405B94" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_010 = {
+    id = 9010
+    provinces = { "x405D92" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_011 = {
+    id = 9011
+    provinces = { "x445572" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_012 = {
+    id = 9012
+    provinces = { "x561AA0" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_013 = {
+    id = 9013
+    provinces = { "x5684CF" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_014 = {
+    id = 9014
+    provinces = { "x6147C1" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_015 = {
+    id = 9015
+    provinces = { "x65CBFC" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_016 = {
+    id = 9016
+    provinces = { "x6643E1" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_017 = {
+    id = 9017
+    provinces = { "x66C8FA" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_018 = {
+    id = 9018
+    provinces = { "x6AC3EC" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_019 = {
+    id = 9019
+    provinces = { "x6BDCFA" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_020 = {
+    id = 9020
+    provinces = { "x6C8AB3" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_021 = {
+    id = 9021
+    provinces = { "x6CFBFB" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_022 = {
+    id = 9022
+    provinces = { "x6EDBDB" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_023 = {
+    id = 9023
+    provinces = { "x6F4CE0" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_024 = {
+    id = 9024
+    provinces = { "x6FB3DE" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_025 = {
+    id = 9025
+    provinces = { "x721B9A" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_026 = {
+    id = 9026
+    provinces = { "x72CBFD" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_027 = {
+    id = 9027
+    provinces = { "x74FAFA" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_028 = {
+    id = 9028
+    provinces = { "x75C8C8" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_029 = {
+    id = 9029
+    provinces = { "x79CBFD" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_030 = {
+    id = 9030
+    provinces = { "x7EC8FA" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_031 = {
+    id = 9031
+    provinces = { "x80C3E0" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_032 = {
+    id = 9032
+    provinces = { "x80C3E1" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_033 = {
+    id = 9033
+    provinces = { "x85A2D7" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_034 = {
+    id = 9034
+    provinces = { "x91FFFF" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_035 = {
+    id = 9035
+    provinces = { "x924CE0" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_036 = {
+    id = 9036
+    provinces = { "x982455" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_037 = {
+    id = 9037
+    provinces = { "x9A1B99" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_038 = {
+    id = 9038
+    provinces = { "x9F5CAE" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_039 = {
+    id = 9039
+    provinces = { "xA05EB0" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_040 = {
+    id = 9040
+    provinces = { "xA63565" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_041 = {
+    id = 9041
+    provinces = { "xA685CF" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_042 = {
+    id = 9042
+    provinces = { "xA729A6" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_043 = {
+    id = 9043
+    provinces = { "xB14DEF" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_044 = {
+    id = 9044
+    provinces = { "xBD2C99" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_045 = {
+    id = 9045
+    provinces = { "xC25EAE" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_046 = {
+    id = 9046
+    provinces = { "xD26392" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_047 = {
+    id = 9047
+    provinces = { "xDB38A3" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_048 = {
+    id = 9048
+    provinces = { "xDB3C7F" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_049 = {
+    id = 9049
+    provinces = { "xDB3CA3" }
+    diorama_radius_multiplier = 2.5
+}
+
+STATE_NEWMING_SEA_050 = {
+    id = 9050
+    provinces = { "xE10DAD" }
+    diorama_radius_multiplier = 2.5
+}

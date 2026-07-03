@@ -320,6 +320,115 @@ function Resolve-MapMetadataFile {
     return $null
 }
 
+function Get-EffectiveMetadataDirectoryFiles {
+    param(
+        [string]$RelativePath,
+        [string]$Filter = "*.txt"
+    )
+
+    $filesByName = @{}
+    foreach ($root in @($GameRoot, $ModRoot)) {
+        $path = Join-Path $root $RelativePath
+        if (-not (Test-Path -LiteralPath $path -PathType Container)) {
+            continue
+        }
+
+        foreach ($file in Get-ChildItem -File -Filter $Filter -LiteralPath $path) {
+            $filesByName[$file.Name] = $file.FullName
+        }
+    }
+
+    return @($filesByName.Values | Sort-Object)
+}
+
+function Get-ProvinceTerrainMap {
+    $terrainFile = Resolve-MapMetadataFile "map_data\province_terrains.txt"
+    if ($null -eq $terrainFile) {
+        return $null
+    }
+
+    $terrainByProvince = @{}
+    foreach ($line in Get-Content -LiteralPath $terrainFile) {
+        $match = [regex]::Match($line, '^\s*(x[0-9A-Fa-f]{6})\s*=\s*"([^"]+)"')
+        if ($match.Success) {
+            $terrainByProvince[$match.Groups[1].Value.ToUpperInvariant()] = $match.Groups[2].Value.ToLowerInvariant()
+        }
+    }
+
+    return $terrainByProvince
+}
+
+function Get-DefaultMapProvinceSet {
+    param([string]$BlockName)
+
+    $defaultMap = Resolve-MapMetadataFile "map_data\default.map"
+    if ($null -eq $defaultMap) {
+        return $null
+    }
+
+    $provinceIds = New-Object "System.Collections.Generic.HashSet[string]" ([System.StringComparer]::OrdinalIgnoreCase)
+    $text = Get-Content -Raw -LiteralPath $defaultMap
+    $match = [regex]::Match($text, "(?s)\b$([regex]::Escape($BlockName))\s*=\s*\{(?<body>.*?)\}")
+    if (-not $match.Success) {
+        Add-Failure "Missing default.map province block: $BlockName"
+        Write-Output -NoEnumerate $provinceIds
+        return
+    }
+
+    foreach ($provinceMatch in [regex]::Matches($match.Groups["body"].Value, '\bx[0-9A-Fa-f]{6}\b')) {
+        $provinceIds.Add($provinceMatch.Value.ToUpperInvariant()) | Out-Null
+    }
+
+    Write-Output -NoEnumerate $provinceIds
+}
+
+function Get-EffectiveStateRegionProvinceMap {
+    $stateRegionsByName = @{}
+    foreach ($file in Get-EffectiveMetadataDirectoryFiles -RelativePath "map_data\state_regions") {
+        $currentState = $null
+        $depth = 0
+        foreach ($line in Get-Content -LiteralPath $file) {
+            if (($null -eq $currentState) -and ($depth -eq 0)) {
+                $match = [regex]::Match($line, '^\s*(STATE_[A-Za-z0-9_]+)\s*=\s*\{')
+                if ($match.Success) {
+                    $currentState = $match.Groups[1].Value
+                    if (-not $stateRegionsByName.ContainsKey($currentState)) {
+                        $stateRegionsByName[$currentState] = New-Object "System.Collections.Generic.HashSet[string]" ([System.StringComparer]::OrdinalIgnoreCase)
+                    }
+                }
+            }
+
+            if ($null -ne $currentState) {
+                foreach ($provinceMatch in [regex]::Matches($line, '\bx[0-9A-Fa-f]{6}\b')) {
+                    $stateRegionsByName[$currentState].Add($provinceMatch.Value.ToUpperInvariant()) | Out-Null
+                }
+            }
+
+            $depth += ([regex]::Matches($line, '\{')).Count
+            $depth -= ([regex]::Matches($line, '\}')).Count
+            if (($null -ne $currentState) -and ($depth -le 0)) {
+                $currentState = $null
+                $depth = 0
+            }
+        }
+    }
+
+    return $stateRegionsByName
+}
+
+function Get-EffectiveStrategicRegionStateSet {
+    $stateIds = New-Object "System.Collections.Generic.HashSet[string]" ([System.StringComparer]::OrdinalIgnoreCase)
+    foreach ($file in Get-EffectiveMetadataDirectoryFiles -RelativePath "common\strategic_regions") {
+        foreach ($line in Get-Content -LiteralPath $file) {
+            foreach ($match in [regex]::Matches($line, '\bSTATE_[A-Za-z0-9_]+\b')) {
+                $stateIds.Add($match.Value) | Out-Null
+            }
+        }
+    }
+
+    Write-Output -NoEnumerate $stateIds
+}
+
 function Test-ProvinceReferencesExistInImage {
     $colors = Get-ProvinceImageColorSet
     if ($null -eq $colors) {
@@ -367,6 +476,110 @@ function Test-ProvinceReferencesExistInImage {
                     Add-Failure "Province ID referenced but missing from map_data\provinces.png: ${relative}:$lineNumber -> $provinceId"
                 }
             }
+        }
+    }
+}
+
+function Test-ProvinceImageColorsHaveTerrain {
+    $colors = Get-ProvinceImageColorSet
+    if ($null -eq $colors) {
+        return
+    }
+
+    $terrainByProvince = Get-ProvinceTerrainMap
+    if ($null -eq $terrainByProvince) {
+        return
+    }
+
+    foreach ($provinceId in ($colors | Sort-Object)) {
+        if (-not $terrainByProvince.ContainsKey($provinceId)) {
+            Add-Failure "Province ID exists in map_data\provinces.png but has no terrain definition: $provinceId"
+        }
+    }
+}
+
+function Test-WaterProvincesMatchDefaultMap {
+    $colors = Get-ProvinceImageColorSet
+    if ($null -eq $colors) {
+        return
+    }
+
+    $terrainByProvince = Get-ProvinceTerrainMap
+    $seaStarts = Get-DefaultMapProvinceSet "sea_starts"
+    $lakes = Get-DefaultMapProvinceSet "lakes"
+    if (($null -eq $terrainByProvince) -or ($null -eq $seaStarts) -or ($null -eq $lakes)) {
+        return
+    }
+
+    foreach ($provinceId in ($colors | Sort-Object)) {
+        if (-not $terrainByProvince.ContainsKey($provinceId)) {
+            continue
+        }
+
+        $terrain = $terrainByProvince[$provinceId]
+        if (($terrain -eq "ocean") -and (-not $seaStarts.Contains($provinceId))) {
+            Add-Failure "Ocean province exists in map_data\provinces.png but is missing from default.map sea_starts: $provinceId"
+        }
+        elseif (($terrain -eq "lakes") -and (-not $lakes.Contains($provinceId))) {
+            Add-Failure "Lake province exists in map_data\provinces.png but is missing from default.map lakes: $provinceId"
+        }
+    }
+}
+
+function Test-OceanProvincesHaveStateRegion {
+    $colors = Get-ProvinceImageColorSet
+    if ($null -eq $colors) {
+        return
+    }
+
+    $terrainByProvince = Get-ProvinceTerrainMap
+    if ($null -eq $terrainByProvince) {
+        return
+    }
+
+    $stateRegionsByName = Get-EffectiveStateRegionProvinceMap
+    $stateRegionProvinces = New-Object "System.Collections.Generic.HashSet[string]" ([System.StringComparer]::OrdinalIgnoreCase)
+    foreach ($provinceSet in $stateRegionsByName.Values) {
+        foreach ($provinceId in $provinceSet) {
+            $stateRegionProvinces.Add($provinceId) | Out-Null
+        }
+    }
+
+    foreach ($provinceId in ($colors | Sort-Object)) {
+        if ((-not $terrainByProvince.ContainsKey($provinceId)) -or ($terrainByProvince[$provinceId] -ne "ocean")) {
+            continue
+        }
+
+        if (-not $stateRegionProvinces.Contains($provinceId)) {
+            Add-Failure "Ocean province exists in map_data\provinces.png but has no state region: $provinceId"
+        }
+    }
+}
+
+function Test-OceanStateRegionsHaveStrategicRegion {
+    $colors = Get-ProvinceImageColorSet
+    if ($null -eq $colors) {
+        return
+    }
+
+    $terrainByProvince = Get-ProvinceTerrainMap
+    if ($null -eq $terrainByProvince) {
+        return
+    }
+
+    $stateRegionsByName = Get-EffectiveStateRegionProvinceMap
+    $strategicRegionStates = Get-EffectiveStrategicRegionStateSet
+    foreach ($stateName in ($stateRegionsByName.Keys | Sort-Object)) {
+        $hasOceanProvince = $false
+        foreach ($provinceId in $stateRegionsByName[$stateName]) {
+            if ($colors.Contains($provinceId) -and $terrainByProvince.ContainsKey($provinceId) -and ($terrainByProvince[$provinceId] -eq "ocean")) {
+                $hasOceanProvince = $true
+                break
+            }
+        }
+
+        if ($hasOceanProvince -and (-not $strategicRegionStates.Contains($stateName))) {
+            Add-Failure "Ocean state region is not assigned to a strategic region: $stateName"
         }
     }
 }
@@ -471,6 +684,10 @@ Test-NoDirectCommanderUsageTrigger
 Test-NoAddClaimInsideCreateState
 Test-RequiredBuildingGroups
 Test-ProvinceReferencesExistInImage
+Test-ProvinceImageColorsHaveTerrain
+Test-WaterProvincesMatchDefaultMap
+Test-OceanProvincesHaveStateRegion
+Test-OceanStateRegionsHaveStrategicRegion
 
 Test-NoPatternInFiles `
     -RelativePath "common\interest_groups" `
